@@ -1,0 +1,21 @@
+{
+  "name": "sidebar-peek",
+  "label": "Sidebar Peek",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.21.0",
+  "author": "ywu223",
+  "description": "Automatically expands the current view's sidebar for a few seconds when the view changes, then collapses it.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasSettingPage": true
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 1,
+    "height": 1
+  }
+}
