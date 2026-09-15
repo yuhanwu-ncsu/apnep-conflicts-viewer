@@ -1346,9 +1346,54 @@
           "canOverviewMap": false,
           "canLayers": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_1",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -8480775.11563107,
+              "y": 4184388.8067827555
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -8678288.396719955,
+            "ymin": 4107034.534158161,
+            "xmax": -8283261.834542184,
+            "ymax": 4261743.07940735
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null,
         "popupDockPosition": "top-left",
@@ -2586,7 +2631,7 @@
       "version": "1.21.0",
       "label": "Filter",
       "config": {
-        "logicalOperator": "OR",
+        "logicalOperator": "AND",
         "filterItems": [
           {
             "type": "SINGLE",
@@ -4911,79 +4956,6 @@
     }
   },
   "messageConfigs": {
-    "messageConfig_1": {
-      "id": "messageConfig_1",
-      "messageType": "DATA_SOURCE_FILTER_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_2-zoomToFeature-1789136213756",
-          "widgetId": "widget_2",
-          "dataSourceId": null,
-          "sectionId": null,
-          "messageWidgetId": "widget_69",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "mainDataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-1a05933200e-layer-2",
-                "mainDataSourceId": "dataSource_1-1a05933200e-layer-2",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ],
-            "goToInitialMapExtentWhenSelectionCleared": false,
-            "useAnyTriggerData": true
-          },
-          "version": "1.21.0",
-          "useDataSources": [
-            {
-              "dataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "mainDataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "rootDataSourceId": "dataSource_1"
-            }
-          ]
-        },
-        {
-          "actionId": "widget_2-panTo-1789136218398",
-          "widgetId": "widget_2",
-          "dataSourceId": null,
-          "sectionId": null,
-          "messageWidgetId": "widget_69",
-          "actionName": "panTo",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "mainDataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-1a05933200e-layer-2",
-                "mainDataSourceId": "dataSource_1-1a05933200e-layer-2",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ],
-            "goToInitialMapExtentWhenSelectionCleared": false,
-            "useAnyTriggerData": true
-          },
-          "version": "1.21.0",
-          "useDataSources": [
-            {
-              "dataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "mainDataSourceId": "dataSource_1-1a05933200e-layer-2",
-              "rootDataSourceId": "dataSource_1"
-            }
-          ]
-        }
-      ],
-      "widgetId": "widget_69"
-    },
     "messageConfig_2": {
       "id": "messageConfig_2",
       "messageType": "DATA_SOURCE_FILTER_CHANGE",
@@ -5433,7 +5405,7 @@
     "type": "Web Experience",
     "thumbnail": null
   },
-  "timestamp": 1789136238558,
+  "timestamp": 1789396103774,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
