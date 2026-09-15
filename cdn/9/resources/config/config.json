@@ -1367,8 +1367,8 @@
                 "zTolerance": 0.001,
                 "zUnits": 10000
               },
-              "x": -8480775.11563107,
-              "y": 4184388.8067827555
+              "x": -8477666.670260347,
+              "y": 4192373.294472598
             }
           },
           "extent": {
@@ -1386,10 +1386,10 @@
               "zTolerance": 0.001,
               "zUnits": 10000
             },
-            "xmin": -8678288.396719955,
-            "ymin": 4107034.534158161,
-            "xmax": -8283261.834542184,
-            "ymax": 4261743.07940735
+            "xmin": -8635279.822584374,
+            "ymin": 4115019.0218480034,
+            "xmax": -8320053.517936322,
+            "ymax": 4269727.567097193
           },
           "rotation": 0,
           "viewType": "2d"
@@ -1537,9 +1537,54 @@
           "canOverviewMap": false,
           "canLayers": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_8",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -8477666.670260347,
+              "y": 4192373.294472598
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -8635279.822584374,
+            "ymin": 4115019.0218480034,
+            "xmax": -8320053.517936322,
+            "ymax": 4269727.567097193
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null,
         "popupDockPosition": "top-left",
@@ -1709,9 +1754,54 @@
           "canOverviewMap": false,
           "canLayers": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_2",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -8490610.02882159,
+              "y": 4173365.935555232
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -8648223.181145616,
+            "ymin": 4095858.7888740674,
+            "xmax": -8332996.876497564,
+            "ymax": 4250873.082236397
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null,
         "popupDockPosition": "top-left",
@@ -1855,9 +1945,54 @@
           "canOverviewMap": false,
           "canLayers": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_4",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -8509719.304554237,
+              "y": 4177155.9459832874
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -8667332.456878264,
+            "ymin": 4099648.7993021226,
+            "xmax": -8352106.1522302115,
+            "ymax": 4254663.092664452
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null,
         "popupDockPosition": "top-left",
@@ -2001,9 +2136,54 @@
           "canOverviewMap": false,
           "canLayers": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_6",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -8477666.670260347,
+              "y": 4192373.294472598
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -8635279.822584374,
+            "ymin": 4115019.0218480034,
+            "xmax": -8320053.517936322,
+            "ymax": 4269727.567097193
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null,
         "popupDockPosition": "top-left",
@@ -2147,9 +2327,54 @@
           "canOverviewMap": false,
           "canLayers": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_7",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -8510687.541125048,
+              "y": 4182665.808209131
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -8668300.693449074,
+            "ymin": 4105158.661527966,
+            "xmax": -8353074.388801022,
+            "ymax": 4260172.954890296
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null,
         "popupDockPosition": "top-left",
@@ -2293,9 +2518,54 @@
           "canOverviewMap": false,
           "canLayers": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_3",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -8463602.23372914,
+              "y": 4179285.8303725496
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -8621215.386053167,
+            "ymin": 4101931.557747955,
+            "xmax": -8305989.081405115,
+            "ymax": 4256640.102997144
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null,
         "popupDockPosition": "top-left",
@@ -3734,7 +4004,7 @@
       "version": "1.21.0",
       "label": "Text 4",
       "config": {
-        "text": "<p>Conflict pairs map the spatial overlap between human-use pressures and ecological or community resources across the Albemarle-Pamlico region, on a ~5 km² hex grid with a 3×3 bivariate classification.</p><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure</strong>: </p><p>Human use or stressors: vessel traffic, fishing, tourism, agriculture, roads and ferries, shoreline erosion, community vulnerability.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource</strong>: </p><p>Habitat, community value, or supply: submerged aquatic vegetation, nursery areas, wetlands, conservation areas.</p><p><br></p><p><strong>How to use</strong>: </p><p>Pick a category, then a pressure–resource pairing. Each side panel shows that pair's profile and how to read it. Use the filter buttons (High Pressure / High Resources / High Conflict Zones) to keep only those cells.</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p><p><br></p><p><strong>Pair comparison</strong>: </p><ul><li>Community Vulnerability x Conservation — data 94.3% · conflict 5.4% (the hottest pair)</li><li>Community Vulnerability x Tourism — data 93.6% · conflict 0.1%</li><li>Agriculture x Salinity — data 83.8% · conflict 0.2%</li><li>Shoreline Erosion x Wetland Potential — data 73.8% · conflict 0.8%</li><li>Vessel Count x Submerged Aquatic Vegetation — data 14.0% · conflict 0.1%</li><li>Fishing x Nursery Areas — data 13.7% · conflict 0.2%</li><li>Sea Level Rise x Ferry Route — data 3.5% · conflict 0.0%</li></ul><p><br></p><p><strong>Method notes</strong>: </p><p>Layers are aggregated per hex in EPSG:32119, classified into Low / Medium / High terciles on non-zero cells, and exported in WGS84. Data are provided without warranty; users are responsible for using the data in a manner consistent with the limitations of geospatial data.</p>",
+        "text": "<p>Conflict pairs map the spatial overlap between human-use pressures and ecological or community resources across the Albemarle-Pamlico region, on a ~5 km² hex grid with a 3×3 bivariate classification.</p><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure</strong>: </p><p>Human use or stressors: vessel traffic, fishing, tourism, agriculture, roads and ferries, shoreline erosion, community vulnerability.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource</strong>: </p><p>Habitat, community value, or supply: submerged aquatic vegetation, nursery areas, wetlands, conservation areas.</p><p><br></p><p><strong>How to use</strong>: </p><p>Pick a category, then a pressure–resource pairing. Each side panel shows that pair's profile and how to read it. Use the filter buttons (High Pressure / High Resources / High Conflict Zones) to keep only those cells.</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p><p><br></p><p><strong>Pair comparison</strong>: </p><ul><li>Community Vulnerability x Conservation — conflict 5.4% (the hottest pair)</li><li>Shoreline Erosion x Wetland Potential — conflict 0.7%</li><li>Fishing x Nursery Areas — conflict 0.2%</li><li>Agriculture x Salinity — conflict 0.2%</li><li>Vessel Count x Submerged Aquatic Vegetation — conflict 0.1%</li><li>Community Vulnerability x Tourism — conflict 0.1%</li><li>Sea Level Rise x Ferry Route — conflict 0.0%</li></ul><p><br></p><p><strong>Method notes</strong>: </p><p>Layers are aggregated per hex in EPSG:32119, classified into Low / Medium / High terciles on non-zero cells, and exported in WGS84. Data are provided without warranty; users are responsible for using the data in a manner consistent with the limitations of geospatial data.</p>",
         "placeholder": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -4302,7 +4572,7 @@
       "version": "1.21.0",
       "label": "Text",
       "config": {
-        "text": "<h4><strong>Fishing x Nursery Areas</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Commercial Fishing</strong>: </p><p>VMS (Vessel Monitoring System — satellite tracking of commercial fishing vessels) density 2015–2019 (Northeast Ocean Data), mean density class per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Nursery Areas</strong>: </p><p>NC Fishery Nursery Areas designation (NC Division of Marine Fisheries), % cell area covered.</p><p><br></p><p><strong>Reading it</strong>: only a few cells combine high activity with nursery coverage — the closure system is largely working. Watch the band of activity pressed against nursery boundaries.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 13.7% of cells</p><p>High pressure — 27.9% of data cells</p><p>High resource — 8.2% of data cells</p><p>Conflict (both High) — 0.2% of data cells</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p><p><br></p>",
+        "text": "<h4><strong>Fishing x Nursery Areas</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Commercial Fishing</strong>: </p><p>VMS (Vessel Monitoring System — satellite tracking of commercial fishing vessels) density 2015–2019 (Northeast Ocean Data), mean density class per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Nursery Areas</strong>: </p><p>NC Fishery Nursery Areas designation (NC Division of Marine Fisheries), % cell area covered.</p><p><br></p><p><strong>Reading it</strong>: only a few cells combine high activity with nursery coverage — the closure system is largely working. Watch the band of activity pressed against nursery boundaries.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 13.7% of region cells</p><p>High pressure — 27.9% of mapped cells</p><p>High resource — 8.2% of mapped cells</p><p>Conflict (both High) — 0.2% of mapped cells</p><p><br></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
@@ -4315,7 +4585,7 @@
       "version": "1.21.0",
       "label": "Text",
       "config": {
-        "text": "<h4><strong>Vessel Count x Submerged Aquatic Vegetation</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Vessel Count</strong>: </p><p>AIS (Automatic Identification System — transponder tracking of vessels) transit counts 2025 (Northeast Ocean Data Portal), summed per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Submerged Aquatic Vegetation (SAV)</strong>: </p><p>SAV (submerged aquatic vegetation — underwater grass beds) mapping 2019–2020 (NC Dept. of Environmental Quality), % cell area covered.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells mark shipping lanes and ferry corridors crossing SAV beds — priority zones for speed restrictions, signage, or channel review.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 14.0% of cells</p><p>High pressure — 39.8% of data cells</p><p>High resource — 5.6% of data cells</p><p>Conflict (both High) — 0.1% of data cells</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p>",
+        "text": "<h4><strong>Vessel Count x Submerged Aquatic Vegetation</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Vessel Count</strong>: </p><p>AIS (Automatic Identification System — transponder tracking of vessels) transit counts 2025 (Northeast Ocean Data Portal), summed per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Submerged Aquatic Vegetation (SAV)</strong>: </p><p>SAV (submerged aquatic vegetation — underwater grass beds) mapping 2019–2020 (NC Dept. of Environmental Quality), % cell area covered.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells mark shipping lanes and ferry corridors crossing SAV beds — priority zones for speed restrictions, signage, or channel review.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 17.7% of region cells</p><p>High pressure — 31.5% of mapped cells</p><p>High resource — 4.5% of mapped cells</p><p>Conflict (both High) — 0.1% of mapped cells</p><p><br></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
@@ -4328,7 +4598,7 @@
       "version": "1.21.0",
       "label": "Text",
       "config": {
-        "text": "<h4><strong>Community Vulnerability x Conservation</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Community Vulnerability</strong>: </p><p>CDC/ATSDR Social Vulnerability Index (SVI) 2022 — higher score means a more vulnerable community; mean percentile per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Conservation</strong>: </p><p>PAD-US (Protected Areas Database of the U.S.) 4.1 protected lands (GAP 1–3), % cell area covered.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are protected lands overlapping high-vulnerability communities — the engagement priority list for access agreements, stewardship, and Tribal / local consultation.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 94.3% of cells</p><p>High pressure — 33.3% of data cells</p><p>High resource — 13.9% of data cells</p><p>Conflict (both High) — 5.4% of data cells</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p>",
+        "text": "<h4><strong>Community Vulnerability x Conservation</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Community Vulnerability</strong>: </p><p>CDC/ATSDR Social Vulnerability Index (SVI) 2022 — higher score means a more vulnerable community; mean percentile per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Conservation</strong>: </p><p>PAD-US (Protected Areas Database of the U.S.) 4.1 protected lands (GAP 1–3), % cell area covered.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are protected lands overlapping high-vulnerability communities — the engagement priority list for access agreements, stewardship, and Tribal / local consultation.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 94.1% of region cells</p><p>High pressure — 33.4% of mapped cells</p><p>High resource — 13.8% of mapped cells</p><p>Conflict (both High) — 5.4% of mapped cells</p><p><br></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
@@ -4341,7 +4611,7 @@
       "version": "1.21.0",
       "label": "Text",
       "config": {
-        "text": "<h4><strong>Community Vulnerability x Tourism</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Community Vulnerability</strong>: </p><p>CDC/ATSDR Social Vulnerability Index (SVI) 2022, mean percentile per cell — the demand side.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Tourism</strong>: </p><p>NC beach and waterfront public access points, count per cell — the supply side.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are vulnerable communities with heavy tourist access — congestion and displacement hotspots. High vulnerability with few access points marks the resident-access gap.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 93.6% of cells</p><p>High pressure — 33.6% of data cells</p><p>High resource — 0.5% of data cells</p><p>Conflict (both High) — 0.1% of data cells</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p>",
+        "text": "<h4><strong>Community Vulnerability x Tourism</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Community Vulnerability</strong>: </p><p>CDC/ATSDR Social Vulnerability Index (SVI) 2022, mean percentile per cell — the demand side.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Tourism</strong>: </p><p>NC beach and waterfront public access points, count per cell — the supply side.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are vulnerable communities with heavy tourist access — congestion and displacement hotspots. High vulnerability with few access points marks the resident-access gap.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 93.6% of region cells</p><p>High pressure — 33.6% of mapped cells</p><p>High resource — 0.5% of mapped cells</p><p>Conflict (both High) — 0.1% of mapped cells</p><p><br></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
@@ -4354,7 +4624,7 @@
       "version": "1.21.0",
       "label": "Text",
       "config": {
-        "text": "<h4><strong>Shoreline Erosion x Wetland Potential</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Shoreline Erosion</strong>: </p><p>NC oceanfront erosion rates 2020 (NC Division of Coastal Management), eroding shoreline km per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Wetland Potential</strong>: </p><p>NOAA C-CAP (Coastal Change Analysis Program) wetland potential layer, land wetness likelihood 1–9 (open water excluded).</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are eroding shorefront backed by high wetland-migration potential — priority candidates for living shorelines and shoreline-hardening policy review.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 73.8% of cells</p><p>High pressure — 0.9% of data cells</p><p>High resource — 33.2% of data cells</p><p>Conflict (both High) — 0.8% of data cells</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p>",
+        "text": "<h4><strong>Shoreline Erosion x Wetland Potential</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Shoreline Erosion</strong>: </p><p>NC oceanfront erosion rates 2020 (NC Division of Coastal Management), eroding shoreline km per cell.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Wetland Potential</strong>: </p><p>NOAA C-CAP (Coastal Change Analysis Program) wetland potential layer, land wetness likelihood 1–9 (open water excluded).</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are eroding shorefront backed by high wetland-migration potential — priority candidates for living shorelines and shoreline-hardening policy review.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 73.7% of region cells</p><p>High pressure — 0.8% of mapped cells</p><p>High resource — 33.2% of mapped cells</p><p>Conflict (both High) — 0.7% of mapped cells</p><p><br></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
@@ -4367,7 +4637,7 @@
       "version": "1.21.0",
       "label": "Text",
       "config": {
-        "text": "<h4><strong>Agriculture x Salinity</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Salinity</strong>: </p><p>Estuarine shoreline length per cell (NC DCM 2012), used as a proxy for the saltwater front.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Agriculture</strong>: </p><p>NLCD (National Land Cover Database) 2025 cropland — pasture + cultivated crops, % cell area.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are the salt front pressing against farmland — where intrusion risk to agriculture is highest.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 83.8% of cells</p><p>High pressure — 6.0% of data cells</p><p>High resource — 30.6% of data cells</p><p>Conflict (both High) — 0.2% of data cells</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p>",
+        "text": "<h4><strong>Agriculture x Salinity</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Salinity</strong>: </p><p>Estuarine shoreline length per cell (NC DCM 2012), used as a proxy for the saltwater front.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Agriculture</strong>: </p><p>NLCD (National Land Cover Database) 2025 cropland — pasture + cultivated crops, % cell area.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells are the salt front pressing against farmland — where intrusion risk to agriculture is highest.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 83.8% of region cells</p><p>High pressure — 6.0% of mapped cells</p><p>High resource — 30.6% of mapped cells</p><p>Conflict (both High) — 0.2% of mapped cells</p><p><br></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
@@ -4380,7 +4650,7 @@
       "version": "1.21.0",
       "label": "Text",
       "config": {
-        "text": "<h4><strong>Sea Level Rise x Ferry Route</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Sea Level Rise</strong>: </p><p>NOAA sea level rise inundation footprint (Northern + Middle 2 NC), % cell area covered.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Ferry Route</strong>: </p><p>U.S. DOT ferry routes + terminals, route length (km) and terminal count per cell.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells mark ferry corridors crossing inundation footprints — priorities for terminal elevation, docking retrofit, and service contingency planning.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 3.5% of cells</p><p>High pressure — 26.2% of data cells</p><p>High resource — 8.0% of data cells</p><p>Conflict (both High) — 0.0% of data cells</p><p><br></p><p><strong>Colors</strong>: </p><p><span style=\"background-color:#5064a1;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Dark indigo cells — conflict hotspots (both axes High).</p><p><span style=\"background-color:#7b72ab;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#ad9e92;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <span style=\"background-color:#7d916d;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> Muddy / mixed colors — both axes at least Medium.</p><p>Cells with no data on either side are not shown.</p>",
+        "text": "<h4><strong>Sea Level Rise x Ferry Route</strong></h4><p><br></p><p><span style=\"background-color:#c57ade;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Pressure — Sea Level Rise</strong>: </p><p>NOAA sea level rise inundation footprint (Northern + Middle 2 NC), % cell area covered.</p><p><br></p><p><span style=\"background-color:#a9bf39;border:1px solid #999;border-radius:3px;display:inline-block;height:12px;width:12px;\"></span> <strong>Resource — Ferry Route</strong>: </p><p>U.S. DOT ferry routes + terminals, route length (km) and terminal count per cell.</p><p><br></p><p><strong>Reading it</strong>: the darkest cells mark ferry corridors crossing inundation footprints — priorities for terminal elevation, docking retrofit, and service contingency planning.</p><p><br></p><p><strong>Pair profile</strong>: </p><p>Data coverage — 5.5% of region cells</p><p>High pressure — 28.4% of mapped cells</p><p>High resource — 5.2% of mapped cells</p><p>Conflict (both High) — 0.0% of mapped cells</p><p><br></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
@@ -5396,16 +5666,9 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://NCSU.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "yq1cUb319pjTB3no",
-    "express": false,
-    "title": "Exp_APENP_Phase2_Conflicts_Viewer Copy 1",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://NCSU.maps.arcgis.com"
   },
-  "timestamp": 1789396103774,
+  "timestamp": 1789484316773,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
