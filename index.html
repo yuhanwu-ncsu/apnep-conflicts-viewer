@@ -1,4 +1,4 @@
-<!doctype html><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/><meta http-equiv="X-UA-Compatible" content="IE=EDGE"/><meta name="google-site-verification" content="Gl928UcZRBt8t7njrpXivrsVrbVcc7sLybtCMZ6Dzlg"/><title>Exp_APENP_Phase2_Conflicts_Viewer Copy 1</title><link rel="shortcut icon" href="assets/exb.ico"><base href="./cdn/11/"/><style>* {
+<!doctype html><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/><meta http-equiv="X-UA-Compatible" content="IE=EDGE"/><meta name="google-site-verification" content="Gl928UcZRBt8t7njrpXivrsVrbVcc7sLybtCMZ6Dzlg"/><title>Exp_APENP_Phase2_Conflicts_Viewer Copy 1</title><link rel="shortcut icon" href="assets/exb.ico"><base href="./cdn/15/"/><style>* {
 				scrollbar-color: var(--light-600) transparent;
 			}
 			html, body{
@@ -80,7 +80,7 @@
 				"arcgisJsApiUrl": "https://js.arcgis.com/5.1/",
 				"calciteComponentsUrl": "https://js.arcgis.com/calcite-components/5.1.1/",
 				"isDevEdition": true,
-				"buildNumber": "11",
+				"buildNumber": "15",
 				"isBuilder": false,
 				"isSite": false,
 				"isInPortal": false
@@ -117,4 +117,30 @@
 
 		"esri/": "https://API_URL/esri/"
 	}
-}</script><script src="./jimu-core/init.js"></script></body></html>
+}</script><script src="./jimu-core/init.js"></script><script>
+(function () {
+  // jimu's chunk loader never retries: one flaky fetch and the app hangs on the
+  // loading screen forever. Auto-reload once on chunk/module load failures,
+  // budgeted at 2 reloads per 30s so a truly broken deploy can't loop forever.
+  var KEY = 'exb-auto-reload'
+  var budget = 0
+  try {
+    var st = JSON.parse(sessionStorage.getItem(KEY) || 'null')
+    if (st && Date.now() - st.t < 30000) { budget = st.n }
+  } catch (e) {}
+  function reload () {
+    if (budget >= 2) { return }
+    budget++
+    try { sessionStorage.setItem(KEY, JSON.stringify({ n: budget, t: Date.now() })) } catch (e) {}
+    setTimeout(function () { location.reload() }, 800)
+  }
+  window.addEventListener('unhandledrejection', function (e) {
+    var msg = (e && e.reason && (e.reason.message || String(e.reason))) || ''
+    if (/chunk|failed to fetch|networkerror|import|syntaxerror/i.test(msg)) { reload() }
+  })
+  window.addEventListener('error', function (e) {
+    var t = e && e.target
+    if (t !== window && t && t.tagName === 'SCRIPT' && /\.js($|\?)/.test(t.src || '')) { reload() }
+  }, true)
+})()
+</script></body></html>
