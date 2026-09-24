@@ -1,33 +1,24 @@
 # APNEP Data Inventory Conflicts Viewer
 
-Spatial conflict explorer for the Albemarle-Pamlico National Estuary Partnership (APNEP) Phase 2 data inventory. Overlays human-use pressures against ecological and community resources on a ~5 km² hex grid with a 3×3 bivariate classification, across seven pressure × resource pairs.
+An interactive map viewer for the Albemarle-Pamlico National Estuary Partnership (APNEP) Phase 2 data inventory. It overlays human-use pressures (such as commercial fishing) with ecological and community resources (such as nursery areas) on a ~5 km² hex grid, classifies each cell on a 3×3 pressure-vs-resource scale, and highlights the cells where the two overlap most.
 
 **Live site:** https://yuhanwu-ncsu.github.io/apnep-conflicts-viewer/
 
-Built with ArcGIS Experience Builder 1.21 (Developer Edition). Data is served from an NCSU ArcGIS Online feature layer (`all_pairs`, filtered per view by the `pair` field).
+Built with ArcGIS Experience Builder 1.21 (Developer Edition). The underlying data comes from an NCSU ArcGIS Online feature layer (`all_pairs`), with each map view filtered to one pressure–resource pair.
 
-## Repository layout
+Developer reference: [Experience Builder guide](https://developers.arcgis.com/experience-builder/guide/) — intro, install, and developer docs.
 
-```
-index.html          App entry — the ExB export's index.html, copied verbatim
-                    (buildNumber must match cdn/N/), plus a reload-retry
-                    script appended before </body> that recovers from flaky
-                    chunk loads.
-cdn/N/              ONE exported build (N = buildNumber). ExB's own build
-                    assets; never hand-edited.
-```
+## What's in this repo
 
-The Pages site serves the repo root, so `index.html` and `cdn/` must stay at the top level. Previous `cdn/N` folders are removed on each deploy (`git rm`), not archived here.
+- `index.html` — the app entry point. It is the file Experience Builder exports, kept as-is except for a small script at the end that reloads the page if a chunk file fails to load during startup.
+- `cdn/15/` — the exported app itself (compiled widgets and assets). The number changes with each deploy; older folders are deleted once the new build is confirmed.
+- `.github/workflows/deploy.yml` — publishes the site to GitHub Pages whenever `cdn/` or `index.html` changes. Commits that only touch docs (like this README) do not trigger a new deploy.
 
-Files intentionally absent from root: `service-worker.js` and `web.config` are ExB export leftovers for self-hosting — the service worker is unregistered on Pages (and would only serve stale assets) and `web.config` is IIS-only.
+The site is served straight from the repo root, so `index.html` and `cdn/` stay at the top level.
 
-## Deploy workflow
+## Deploying a new build
 
-1. Test in ExB Dev Edition (server on `localhost:3001`, app `0`; both `server/public/apps/0/config.json` and `resources/config/config.json` are kept in sync).
-2. Export the app: `GET /download/0?token=devtoken&clientId=yq1cUb319pjTB3no`, poll status, download the zip.
-3. Unzip build assets into `cdn/<N>`, discard the zip's root `index.html` (it replaces the repo root one verbatim after appending the retry script), and discard its `service-worker.js`/`web.config`.
-4. `git rm -r cdn/<old>`, commit, push to `main`. GitHub Pages picks it up automatically.
-
-## Sign-in (OAuth)
-
-The app signs in to NCSU ArcGIS Online via registered OAuth client ID `yq1cUb319pjTB3no`. Redirect URIs are registered as bare origins (`https://yuhanwu-ncsu.github.io`, `https://localhost:3001`); AGOL matches subpaths under a registered origin, so new paths under the same origin need no change. The client secret is never used in the exported app and must never be committed.
+1. Test the changes in Experience Builder Developer Edition (`localhost:3001`, app `0`). Note: both `server/public/apps/0/config.json` and `server/public/apps/0/resources/config/config.json` hold the app config and must stay in sync.
+2. Export the app from the Dev Edition server (`/download/0`), unzip it, and move the build into `cdn/<N>`.
+3. Replace the repo's `index.html` with the export's copy, then paste in the reload script from the bottom of the old file. (The export also ships `service-worker.js` and `web.config` for self-hosting; those are skipped here because GitHub Pages doesn't use them.)
+4. Delete the old `cdn/` folder, commit, and push to `main`. The deploy workflow publishes the site automatically.
