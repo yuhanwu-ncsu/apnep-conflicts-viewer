@@ -1,0 +1,16 @@
+{
+  "point": "Warstwa punktowa",
+  "line": "Warstwa liniowa",
+  "polygon": "Warstwa poligonowa",
+  "multipatch": "Warstwa wielopłatowa",
+  "multipoint": "Warstwa wielopunktowa",
+  "table": "Tabela",
+  "annotation": "Warstwa opisów",
+  "catalog": "Warstwa katalogu",
+  "dimension": "Warstwa wymiarów",
+  "oriented imagery": "Warstwa zobrazowań zorientowanych",
+  "parcel": "Warstwa struktury działek",
+  "utility network": "Warstwa sieci infrastruktury",
+  "topology": "Warstwa topologiczna",
+  "trace network": "Warstwa trasowania sieci"
+}

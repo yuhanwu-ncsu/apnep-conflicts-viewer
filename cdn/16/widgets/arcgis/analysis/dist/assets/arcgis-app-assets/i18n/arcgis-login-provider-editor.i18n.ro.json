@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Modificați tipul de autentificare",
+  "chooseLoginType": "Alegeți tipul de autentificare",
+  "selectMembers": "Selectați membri",
+  "userDetails": "Detalii utilizator",
+  "reauth": "Reautentificați-vă",
+  "confirmComplete": "Confirmare și efectuare",
+  "next": "Următorul",
+  "back": "Înapoi",
+  "cancel": "Anulare",
+  "close": "Închidere",
+  "changeLogins": "Modificați autentificările",
+  "acknowledgeImpact": "Confirm și înțeleg impactul acestei modificări.",
+  "propertiesHeading": "Specificați detaliile noii autentificări pentru următorii membri",
+  "chooseFile": "Alegeți un fișier diferit",
+  "mustAcknowledge": "Trebuie să confirmați impactul aceste modificări înainte de a continua.",
+  "confirmLeave": {
+    "title": "Anulare modificări",
+    "message1": "Aveţi modificări nesalvate.",
+    "message2": "Sigur doriți să anulați modificările?",
+    "remain": "Continuați editarea",
+    "leave": "Ieșire fără salvare"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Autentificare ArcGIS",
+    "chooseLoginModify": "Alegeți cum să modificați autentificările",
+    "changeType": "Modificați tipul de autentificare",
+    "selectType": "Selectați tipul de autentificare curent cu care veți lucra",
+    "changeTypeDescription": "Modificați ID-urile specifice organizației între autentificări cu OpenID Connect, SAML sau ArcGIS.",
+    "keepType": "Păstrați tipul de autentificare",
+    "keepTypeDescription": "Actualizați un ID OpenID Connect sau SAML și adresa de e-mail fără a modifica tipul de autentificare.",
+    "currentType": "Tip de autentificare curent",
+    "newType": "Tip de autentificare nou",
+    "select": "Selectare",
+    "samlLogin": "{name} (Autentificare SAML)",
+    "oidcLogin": "{name} (Autentificare OpenID Connect)",
+    "oldSaml": "Autentificare SAML anterioară",
+    "oldOidc": "Autentificare OIDC anterioară",
+    "enterpriseOverwrite": "În funcție de setările furnizorului dvs. de autentificare de organizație, adresa de e-mail poate fi suprascrisă cu valoarea de la furnizorul dvs. de identitate.",
+    "generateMissingPasswords": "Atunci când treceți la autentificarea ArcGIS, parolele temporare vor fi generate automat dacă nu au fost specificate. Acestea vor fi afișate la pasul cu detalii despre utilizator.",
+    "errors": {
+      "loginTypes": "Trebuie selectate atât tipurile de autentificare curente, cât și cele noi.",
+      "currentLoginType": "Tipul de autentificare curent este obligatoriu și trebuie selectat.",
+      "sameLoginType": "Noul tip de autentificare trebuie să fie diferit de tipul curent de autentificare."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metodă de selecție a membrilor",
+    "howToSelect": "Cum doriți să selectați membrii?",
+    "bulkUpload": "Încărcare în masă (CSV)",
+    "chooseAFile": "Alegeți un fișier pentru încărcare la următorul pas.",
+    "manualSelection": "Selectare manuală",
+    "selectMembers": "Selectați membrii dintr-o listă la următorul pas.",
+    "selectFromFile": "Selectați membrii dintr-un fișier CSV",
+    "dragDrop": "Glisați și fixați fișierul sau alegeți de pe dispozitiv.",
+    "headerInstructions": "Antetul (primul rând) ar trebui să conțină nume de câmpuri exact așa cum apar mai jos.",
+    "fieldOrder": "Ordinea câmpurilor poate varia.",
+    "yourDevice": "Dispozitivul dvs.",
+    "downloadTemplate": "Descărcare șablon CSV",
+    "requiredFields": "Câmpuri obligatorii",
+    "optionalFields": "Câmpuri opționale",
+    "passwordTooltip": "Va fi generată automat o parolă temporară dacă nu este furnizată una.",
+    "excessTitleCsv": "CSV depășește limita de 5.000 de membri",
+    "excessBatchLimit": "Puteți să actualizați tipurile de autentificare pentru până la 5.000 de membri per lot.",
+    "excessBodyCsv": "Pentru a procesa mai mult de 5.000 de membri, divizați CSV în mai multe fișiere mai mici și încărcați-le separat.",
+    "learnMore": "Aflați mai multe",
+    "errors": {
+      "fileType": "Tip de fișier nevalid. Vă rugăm să încărcați un fișier CSV.",
+      "fileSize": "Dimensiunea fișierului depășește 500 KB și nu poate fi prelucrat eficient.",
+      "noMembers": "Nu au fost selectați membri. Selectați membri sau încărcați un fișier CSV pentru a continua.",
+      "tooManyMembers": "Selecția depășește limita de 5.000 de membri."
+    }
+  },
+  "fieldNames": {
+    "email": "E-mail",
+    "username": "Nume de utilizator ArcGIS",
+    "password": "Parolă temporară",
+    "samlId": "ID SAML",
+    "oidcId": "ID OIDC",
+    "oldSamlId": "ID SAML anterior",
+    "oldOidcId": "ID OIDC anterior",
+    "success": "Succes",
+    "error": "Eroare",
+    "fromLoginType": "Tip de autentificare inițial",
+    "toLoginType": "Tip de autentificare nou"
+  },
+  "authentication": {
+    "header": "Reautentificarea este obligatorie",
+    "reauthSteps": "Pași pentru reautentificare",
+    "step1_label": "Pasul 1: Autentificați-vă (fereastră nouă)",
+    "step1_desc": "Va apărea o fereastră nouă pentru a vă autentifica.",
+    "step2_label": "Pasul 2: Copiați cheia de autentificare",
+    "step2_desc": "Vi se va furniza o cheie de autentificare pentru a o copia.",
+    "step3_label": "Pasul 3: Lipiți cheia de autentificare",
+    "step3_desc": "Introduceți cheia de autentificare pentru a continua.",
+    "openWindow": "Deschideți o fereastră nouă pentru a vă reautentifica.",
+    "authKey": "Cheie de autentificare",
+    "paste": "Lipire",
+    "getNewKey": "Generare cheie nouă",
+    "hide": "Ascundere",
+    "show": "Afişare",
+    "errors": {
+      "clipboard": "Nu s-a putut citi din clipboard",
+      "authKey": "Este necesară o cheie de autentificare validă"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabetic",
+    "desc": "Inversare alfabetică",
+    "sortBy": "Sortare după",
+    "sortDirection": "Direcție de sortare",
+    "searchMembers": "Căutați membri în această listă",
+    "memberDetails": "Detalii membri pentru operația de modificare a furnizorului de autentificare",
+    "optional": "(opțional)",
+    "fieldErrors": "Erori în teren",
+    "noErrors": "Nu există erori",
+    "noData": "Nu există date disponibile",
+    "noMembersMatch": "Nu există membri care să corespundă criteriilor dvs. de căutare",
+    "togglePassword": "Comutați vizibilitatea parolei",
+    "memberCount": "{start} - {end} din {total}",
+    "errors": {
+      "email": "E-mailul este obligatoriu",
+      "username": "Numele de utilizator ArcGIS este obligatoriu",
+      "password": "Parola temporară este obligatorie",
+      "samlId": "ID-ul SAML este obligatoriu",
+      "oidcId": "ID-ul OIDC este obligatoriu"
+    }
+  },
+  "review": {
+    "heading": "Revizuiți modificările",
+    "loginsWillChange": "Următoarele conturi se vor modifica din {fromLogin} în {toLogin}",
+    "downloadCsv": "Descărcare CSV cu modificări",
+    "providerTypes": {
+      "saml": "Autentificări SAML",
+      "oidc": "Autentificări OpenID Connect",
+      "arcgis": "Autentificări în contul ArcGIS"
+    },
+    "missingRequired": "Informațiile necesare lipsesc. Completați informațiile lipsă înainte de a continua."
+  },
+  "progress": {
+    "processing": "În curs de procesare... {current} din {total} utilizatori.",
+    "percentComplete": "Procent finalizat",
+    "doNotClose": "Nu închideți browserul.",
+    "extendedTime": "Poate dura până la 10 minute, vă rugăm să aveți răbdare.",
+    "extendedTime10": "Poate dura mai mult de 10 minute, vă rugăm să aveți răbdare.",
+    "extendedTime15": "Poate dura mai mult de 15 minute, vă rugăm să aveți răbdare.",
+    "label": "Indicator de progres pentru schimbarea tipurilor de autentificare",
+    "errors": {
+      "authkey": {
+        "title": "Cheie de autentificare nevalidă",
+        "body1": "Cheia de autentificare pe care ați introdus-o este nevalidă.",
+        "body2": "Reintroduceți o cheie de autentificare validă.",
+        "action": "Reintroduceți cheia de autentificare",
+        "cancel": "Anulare"
+      },
+      "unknown": "A intervenit o eroare în timpul procesului de schimbare a furnizorului. Încercați din nou sau contactați asistența dacă problema persistă.",
+      "userNotFound": "Numele de utilizator nu a fost găsit",
+      "idpUsernameNotMatching": "Numele de utilizator nu corespunde",
+      "providerNotMatching": "Nu se poate schimba autentificarea"
+    }
+  }
+}

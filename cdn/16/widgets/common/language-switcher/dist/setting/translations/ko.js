@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({dropdown:"\ub4dc\ub86d\ub2e4\uc6b4",button:"\ubc84\ud2bc",configTip:"\uc774 \uc704\uc82f\uc744 \uc0ac\uc6a9\ud558\uae30 \uc804\uc5d0 \ube4c\ub354\uc758 <bold>\uc77c\ubc18</bold> \ud0ed\uc5d0\uc11c \uc5b8\uc5b4 \uc124\uc815\uc744 \uad6c\uc131\ud558\uc138\uc694."})}}});

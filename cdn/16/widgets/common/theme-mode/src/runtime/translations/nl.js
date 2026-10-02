@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Themamoduswisselaar",notSupportTip:"Het huidige thema biedt geen ondersteuning voor het overschakelen tussen themamodussen.",lightModeLabel:"Lichte modus Druk hier om op de donkere modus over te schakelen",darkModeLabel:"Donkere modus Druk hier om op de lichte modus over te schakelen"})}}});

@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Dimulai pada",
+  "repeatTypeLabel": "Jenis pengulangan",
+  "endingOnTypeLabel": "Berakhir dalam",
+  "endingOnDateLabel": "Tanggal akhir",
+  "endingOnCountLabel": "Count",
+  "endingOnCountPlaceholder": "misalnya: 1, 10, 30",
+  "repeatIntervalLabel": "Ulangi interval",
+  "timeLabel": "Waktu",
+  "hourlyOnMinuteLabel": "Berdasarkan menit",
+  "betweenHoursLabel": "Rentang jam",
+  "weeklyDaysOfWeekLabel": "Hari dalam minggu",
+  "monthlyDayOfMonthLabel": "Hari dalam bulan",
+  "monthlyDayOfMonthPlaceholder": "misalnya 1 - 31",
+  "allDayLabel": "Sepanjang hari",
+  "allWeekLabel": "Sepanjang minggu",
+  "repeatTypeOptions": {
+    "minute": "Menit",
+    "hour": "Jam",
+    "day": "Hari",
+    "week": "Minggu",
+    "month": "Bulan"
+  },
+  "endingOnType": {
+    "never": "Jangan pernah",
+    "date": "Tanggal",
+    "count": "Jumlah"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Setiap menit",
+    "everyTwoMinutes": "Setiap dua menit",
+    "everyThreeMinutes": "Setiap tiga menit",
+    "everyFiveMinutes": "Setiap lima menit",
+    "everyTenMinutes": "Setiap sepuluh menit",
+    "everyFifteenMinutes": "Setiap lima belas menit",
+    "everyThirtyMinutes": "Setiap tiga puluh menit"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Setiap jam",
+    "everyTwoHours": "Setiap dua jam",
+    "everyThreeHours": "Setiap tiga jam",
+    "everyFourHours": "Setiap empat jam",
+    "everySixHours": "Setiap enam jam",
+    "everyTwelveHours": "Setiap dua belas jam"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Setiap hari",
+    "everyOtherDay": "Setiap hari lainnya",
+    "everyThreeDays": "Setiap tiga hari",
+    "everyFourDays": "Setiap empat hari",
+    "everyFiveDays": "Setiap lima hari",
+    "everySixDays": "Setiap enam hari",
+    "everySevenDays": "Setiap tujuh hari",
+    "everyFourteenDays": "Setiap empat belas hari"
+  },
+  "weekDays": {
+    "allWeekdays": "Semua hari kerja",
+    "sunday": "Minggu",
+    "monday": "Senin",
+    "tuesday": "Selasa",
+    "wednesday": "Rabu",
+    "thursday": "Kamis",
+    "friday": "Jumat",
+    "saturday": "Sabtu"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Setiap bulan",
+    "everyTwoMonths": "Setiap dua bulan",
+    "everyThreeMonths": "Setiap tiga bulan",
+    "everyFourMonths": "Setiap empat bulan",
+    "everyFiveMonths": "Setiap lima bulan",
+    "everySixMonths": "Setiap enam bulan"
+  }
+}

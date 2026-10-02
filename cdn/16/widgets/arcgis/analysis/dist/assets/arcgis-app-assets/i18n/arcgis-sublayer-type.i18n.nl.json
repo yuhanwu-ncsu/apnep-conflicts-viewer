@@ -1,0 +1,16 @@
+{
+  "point": "Puntlaag",
+  "line": "Lijnlaag",
+  "polygon": "Polygoonlaag",
+  "multipatch": "Multipatchlaag",
+  "multipoint": "Multipuntlaag",
+  "table": "Tabel",
+  "annotation": "Annotatielaag",
+  "catalog": "Cataloguslaag",
+  "dimension": "Afmetingenlaag",
+  "oriented imagery": "Georiënteerde afbeeldingen-laag",
+  "parcel": "Parcel fabric-laag",
+  "utility network": "Nutsvoorzieningenlaag",
+  "topology": "Topologielaag",
+  "trace network": "Traceringsnetwerklaag"
+}

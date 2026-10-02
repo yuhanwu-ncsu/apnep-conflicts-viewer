@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Vaizdo keitimo aptikimas",_widgetDescription:"Valdiklis, skirtas laikui b\u0117gant vykdomiems vaizd\u0173 sluoksni\u0173 poky\u010diams nustatyti."})}}});

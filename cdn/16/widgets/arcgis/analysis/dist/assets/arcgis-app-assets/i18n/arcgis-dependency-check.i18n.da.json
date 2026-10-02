@@ -1,0 +1,29 @@
+{
+  "updateSharing": "Gennemgå deling",
+  "moreInfo": "Flere oplysninger",
+  "learnMore": "Få mere at vide",
+  "noItemToShare": "Ingen delingsproblemer registreret",
+  "loadingInfo": "Indlæser delingsoplysninger...",
+  "updatingSharing": "Opdaterer deling...",
+  "updateItemsCount": "Element(er), du har tilladelse til at opdatere: {num}",
+  "updateItemsCountText": "Disse afhængige elementer er muligvis ikke synlige for andre, da de deles på en anden måde. Klik på Opdatér deling for at synkronisere delingen af de afhængige elementer, du har tilladelse til at opdatere.",
+  "uneditableItemsCount": "Element(er), du ikke har tilladelse til at opdatere: {num}",
+  "uneditableMessage": "Disse afhængige elementer er muligvis ikke synlige for andre, da de deles på en anden måde.",
+  "nonPublicItems": "Element(er) der ikke kan deles offentligt:",
+  "premiumItemsWebMap": "Dette webkort indeholder premium- eller abonnentindhold.",
+  "premiumMessage": "Disse afhængige elementer er muligvis ikke synlige for andre, fordi de kræver et abonnement.",
+  "premiumTextMap": "Lær mere om deling af kort med abonnent- eller premium-indhold.",
+  "notice": "Følgende elementer er muligvis ikke synlige for andre, da de deles på en anden måde, eller kræver abonnement for at blive vist. Klik på <b>Opdatér deling</b> for at synkronisere deling af de elementer, du har tilladelse til at opdatere.",
+  "noticeEnterprise": "Følgende elementer er muligvis ikke synlige for andre, da de deles på en anden måde. Klik på <b>Opdatér deling</b> for at synkronisere deling af de elementer, du har tilladelse til at opdatere.",
+  "canBeUpdated": "Elementer, der kan opdateres: ${count}",
+  "cantBeUpdated": "Elementer, der ikke kan opdateres: ${count}",
+  "update": "Opdatér deling",
+  "cancel": "Opdatér ikke deling",
+  "ok": "OK",
+  "unableToGetItem": "Kan ikke hente elementoplysninger.",
+  "postShareDialog": {
+    "title": "Deling af elementer er blevet opdateret",
+    "description": "Det eller de delte elementer henviser til andre elementer, der muligvis ikke er synlige, fordi de deles anderledes. Gennemgå deling af disse elementer.",
+    "confirm": "Gennemgå deling"
+  }
+}

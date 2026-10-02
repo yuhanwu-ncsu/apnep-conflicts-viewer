@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Convalida topologia Utility Network",_widgetDescription:"Questo widget consente di convalidare le aree sporche nella topologia di rete di una utility network dopo aver effettuato le modifiche."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Pengalih Mode Tema",notSupportTip:"Tema saat ini tidak mendukung beralih antar mode tema.",lightModeLabel:"Mode terang. Tekan untuk beralih ke mode gelap.",darkModeLabel:"Mode gelap. Tekan untuk beralih ke mode terang."})}}});

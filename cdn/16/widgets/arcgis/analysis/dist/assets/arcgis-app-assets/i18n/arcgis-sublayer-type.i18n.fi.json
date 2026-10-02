@@ -1,0 +1,16 @@
+{
+  "point": "Pistekarttataso",
+  "line": "Viivakarttataso",
+  "polygon": "Aluekarttataso",
+  "multipatch": "MultiPatch-karttataso",
+  "multipoint": "Monipistekarttataso",
+  "table": "Taulu",
+  "annotation": "Annotaatiokarttataso",
+  "catalog": "Luettelokarttataso",
+  "dimension": "Ulottuvuuskarttataso",
+  "oriented imagery": "Suunnattu kuva-aineistokarttataso",
+  "parcel": "Kiinteistörajakarttataso",
+  "utility network": "Johtoverkon karttataso",
+  "topology": "Topologiakarttataso",
+  "trace network": "Jäljitysverkon karttataso"
+}

@@ -1,0 +1,1 @@
+System.register([],function(o){return{execute:function(){o({dropdown:"Rozbalovac\xed seznam",button:"Tla\u010d\xedtko",configTip:"P\u0159ed pou\u017eit\xedm tohoto widgetu nakonfigurujte nastaven\xed jazyka na kart\u011b <bold>Obecn\xe9</bold> v n\xe1stroji pro tvorbu."})}}});

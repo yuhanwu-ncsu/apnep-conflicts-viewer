@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({_widgetLabel:"Tr\xecnh chuy\u1ec3n \u0111\u1ed5i Ng\xf4n ng\u1eef",previewTip:"Ch\u1ec9 ho\u1ea1t \u0111\u1ed9ng trong Xem tr\u01b0\u1edbc ho\u1eb7c \u1ee9ng d\u1ee5ng \u0111\xe3 xu\u1ea5t b\u1ea3n."})}}});

@@ -1,0 +1,24 @@
+{
+  "expandAll": "Amplia-ho tot",
+  "collapseAll": "Redueix-ho tot",
+  "categoryItem": {
+    "expand": "Amplia",
+    "collapse": "Redueix",
+    "editCategory": "Edita la categoria",
+    "deleteCategory": "Suprimeix la categoria",
+    "addSubcategory": "Afegeix una subcategoria",
+    "addCategory": "Afegeix una categoria",
+    "save": "Desa",
+    "cancel": "Cancel·la",
+    "missingTitleMessage": "El títol de la categoria és obligatori.",
+    "errors": {
+      "generic": "Hi ha hagut algun problema. Torneu-ho a provar més tard.",
+      "maxDepthExceeded": "No podeu niar categories amb més de dos nivells de profunditat.",
+      "destinationHasSameName": "Ja existeix una categoria amb el mateix nom a la categoria de destinació.",
+      "emptyTitle": "El títol de la categoria no pot estar buit.",
+      "noSchema": "No s'ha trobat l'esquema d'elements de l'usuari.",
+      "maxCharacter": "El nom de la categoria supera el límit de caràcters permès."
+    },
+    "dragHandleLabel": "Arrossegeu-ho per reordenar-ho."
+  }
+}

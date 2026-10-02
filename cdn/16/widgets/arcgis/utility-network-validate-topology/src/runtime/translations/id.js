@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Validasi Topologi Utility Network",_widgetDescription:"Widget ini memungkinkan Anda untuk memvalidasi area kotor pada topologi jaringan dari utility network setelah perubahan data dilakukan."})}}});

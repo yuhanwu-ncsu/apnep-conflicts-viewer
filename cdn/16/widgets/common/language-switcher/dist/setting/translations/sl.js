@@ -1,0 +1,1 @@
+System.register([],function(o){return{execute:function(){o({dropdown:"Spustni meni",button:"Gumb",configTip:"Pred uporabo tega pripomo\u010dka konfigurirajte jezikovne nastavitve na zavihku <bold>Splo\u0161no</bold> v graditelju."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Utility Network Validate Topology",_widgetDescription:"Dette miniprogrammet tillater validering av skitne omr\xe5der i nettverkstopologien i et Utility Network etter at redigeringer er foretatt."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({dropdown:"Padaju\u0107a lista",button:"Dugme",configTip:"Konfiguri\u0161ite postavke jezika na kartici <bold>Op\u0161te</bold> u alatci za izradu pre kori\u0161\u0107enja ovog vid\u017eeta."})}}});

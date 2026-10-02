@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({dropdown:"List\u0103 derulant\u0103",button:"Buton",configTip:"Mai \xeent\xe2i configura\u021bi set\u0103rile pentru limb\u0103 \xeen fila <bold>Generalit\u0103\u021bi</bold> a aplica\u021biei de creare \xeenainte de a utiliza acest widget."})}}});

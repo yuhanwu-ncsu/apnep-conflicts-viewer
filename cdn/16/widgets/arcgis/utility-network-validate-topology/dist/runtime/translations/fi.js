@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Jakeluverkon topologian vahvistus",_widgetDescription:"T\xe4m\xe4n pienoisohjelman avulla voit vahvistaa jakeluverkon verkon topologian ep\xe4selv\xe4t alueet muokkausten tekemisen j\xe4lkeen."})}}});

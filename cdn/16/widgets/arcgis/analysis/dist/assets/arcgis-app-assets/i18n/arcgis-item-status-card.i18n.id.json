@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Anda tidak memiliki izin untuk memperbarui pembagian item ini.",
+      "panel": "Anda tidak memiliki izin untuk memperbarui pembagian item ini. Item ini mungkin tidak terlihat oleh orang lain karena dibagikan secara berbeda."
+    },
+    "pdc": {
+      "notice": "Aktifkan Pengumpulan Data Publik sebelum membagikan layer ini secara publik.",
+      "panel": "Aktifkan Pengumpulan Data Publik sebelum membagikan layer ini secara publik. Untuk kinerja dan integritas data yang optimal, pertimbangkan untuk menonaktifkan pengeditan atau menggunakan layer tampilan yang tidak dapat diedit.",
+      "learnMore": "Pelajari selengkapnya tentang mengaktifkan pengeditan di layer publik."
+    },
+    "premium": {
+      "notice": "Konten premium dan konten pelanggan mungkin memerlukan masuk untuk melihatnya.",
+      "panel": "Konten premium dan konten pelanggan mungkin memerlukan masuk untuk melihatnya.",
+      "learnMore": "Pelajari selengkapnya tentang berbagi konten premium atau konten pelanggan."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Membagikan layer yang dapat diedit ini secara publik akan memungkinkan siapa saja untuk mengeditnya.",
+      "panel": "Membagikan layer yang dapat diedit ini secara publik akan memungkinkan siapa saja untuk mengeditnya. Untuk kinerja dan integritas data yang optimal, pertimbangkan untuk menonaktifkan pengeditan atau menggunakan layer tampilan yang tidak dapat diedit."
+    },
+    "needsAuthentication": {
+      "notice": "Diperlukan autentikasi.",
+      "panel": "Item ini mungkin tidak dapat diakses oleh orang lain karena berisi layanan lokasi yang memerlukan autentikasi dalam aplikasi yang menampilkan item."
+    }
+  },
+  "goToItem": "Lihat detail lengkap"
+}

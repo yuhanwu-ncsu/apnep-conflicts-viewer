@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Dropdown",button:"Schaltfl\xe4che",configTip:"Legen Sie vor der Verwendung dieses Widgets die Spracheinstellungen auf der Registerkarte <bold>Allgemein</bold> des Builders fest."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Temamodusveksler",notSupportTip:"Det gjeldende temaet st\xf8tter ikke veksling mellom temamoduser.",lightModeLabel:"Lys modus. Trykk for \xe5 bytte til m\xf8rk modus.",darkModeLabel:"M\xf8rk modus. Trykk for \xe5 bytte til lys modus."})}}});

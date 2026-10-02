@@ -1,0 +1,24 @@
+{
+  "expandAll": "Laienda kõik",
+  "collapseAll": "Ahenda kõik",
+  "categoryItem": {
+    "expand": "Laienda",
+    "collapse": "Ahenda",
+    "editCategory": "Muuda kategooriat",
+    "deleteCategory": "Kustuta kategooria",
+    "addSubcategory": "Lisa alamkategooria",
+    "addCategory": "Lisa kategooria",
+    "save": "Salvesta",
+    "cancel": "Loobu",
+    "missingTitleMessage": "Kategooria pealkiri on nõutav.",
+    "errors": {
+      "generic": "Midagi läks valesti. Proovige hiljem uuesti.",
+      "maxDepthExceeded": "Kategooriaid saate pesastada ainult kaks taset allapoole.",
+      "destinationHasSameName": "Sama nimega kategooria on sihtkategoorias juba olemas.",
+      "emptyTitle": "Kategooria pealkirjaväli ei tohi olla tühi.",
+      "noSchema": "Kasutaja jaoks ei leitud sisüksuse skeemi.",
+      "maxCharacter": "Kategooria nimi ületab tähemärkide lubatud arvu."
+    },
+    "dragHandleLabel": "Lohista ümberjärjestamiseks."
+  }
+}

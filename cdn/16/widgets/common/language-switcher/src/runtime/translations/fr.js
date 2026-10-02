@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"S\xe9lecteur de langue",previewTip:"Fonctionne uniquement en mode Aper\xe7u ou dans les applications publi\xe9es."})}}});

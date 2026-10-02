@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Registrering af billed\xe6ndring",_widgetDescription:"En widget til at registrere \xe6ndringer i billedlag over tid."})}}});

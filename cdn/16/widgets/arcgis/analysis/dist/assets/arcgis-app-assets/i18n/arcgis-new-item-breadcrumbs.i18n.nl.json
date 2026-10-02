@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Type verificatie-item: API-sleutel",
+  "oauthUserCredentialType": "Type verificatiegegevens: OAuth 2.0 (gebruikersauthenticatie)",
+  "oauthAppCredentialType": "Type verificatiegegevens: OAuth 2.0 (App-authenticatie)",
+  "publicEmbed": "Openbare applicatie",
+  "scriptSpecific": "Privé-applicatie",
+  "allPrivileges": "Privé-applicatie die u imiteert",
+  "itemAccess": "Itemtoegang",
+  "page": "Pagina: ${page}",
+  "currentPage": "Huidige pagina: ${page}",
+  "privileges": "Machtigingen",
+  "itemDetails": "Itemdetails",
+  "settings": "Instellingen",
+  "serviceScope": "Reikwijdte service",
+  "summary": "Samenvatting"
+}

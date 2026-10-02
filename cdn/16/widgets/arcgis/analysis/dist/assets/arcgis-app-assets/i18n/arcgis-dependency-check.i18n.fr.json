@@ -1,0 +1,29 @@
+{
+  "updateSharing": "Réexaminer le partage",
+  "moreInfo": "Plus d’informations",
+  "learnMore": "En savoir plus",
+  "noItemToShare": "Aucun problème de partage détecté",
+  "loadingInfo": "Chargement des informations sur le partage...",
+  "updatingSharing": "Mise à jour du partage...",
+  "updateItemsCount": "Élément(s) que vous êtes autorisé à mettre à jour : {num}",
+  "updateItemsCountText": "Ces éléments dépendants risquent de ne pas être visibles pour autrui car ils ne sont pas partagés de la même manière. Cliquez sur Mettre à jour pour synchroniser le partage des éléments dépendants que vous êtes autorisé à mettre à jour.",
+  "uneditableItemsCount": "Élément(s) que vous n’êtes pas autorisé à mettre à jour : {num}",
+  "uneditableMessage": "Ces éléments dépendants risquent de ne pas être visibles pour autrui car ils ne sont pas partagés de la même manière.",
+  "nonPublicItems": "Élément(s) qui ne peuvent pas être partagés publiquement :",
+  "premiumItemsWebMap": "Cette carte Web contient du contenu Premium ou Abonné.",
+  "premiumMessage": "Ces éléments dépendants risquent de ne pas être visibles pour autrui car ils nécessitent un abonnement.",
+  "premiumTextMap": "En savoir plus sur le partage de cartes comportant du contenu Abonné ou Premium",
+  "notice": "Les éléments suivants risquent de ne pas être visibles pour autrui car ils sont partagés différemment ou nécessitent un abonnement. Cliquez sur <b>Mettre à jour le partage</b> pour synchroniser le partage des éléments que vous êtes autorisé à mettre à jour.",
+  "noticeEnterprise": "Les éléments suivants risquent de ne pas être visibles pour les autres utilisateurs car ils sont partagés différemment. Cliquez sur <b>Mettre à jour le partage</b> pour synchroniser le partage des éléments que vous êtes autorisé à mettre à jour.",
+  "canBeUpdated": "Éléments pouvant être mis à jour : ${count}",
+  "cantBeUpdated": "Éléments ne pouvant pas être mis à jour : ${count}",
+  "update": "Mettre à jour le partage",
+  "cancel": "Ne pas mettre à jour le partage",
+  "ok": "OK",
+  "unableToGetItem": "Impossible d’obtenir les détails de l’élément.",
+  "postShareDialog": {
+    "title": "Le partage du ou des éléments a été mis à jour",
+    "description": "Le ou les éléments partagés font référence à d’autres éléments qui risquent de ne pas être visibles car ils sont partagés différemment. Réexaminez le partage de ces éléments.",
+    "confirm": "Réexaminer le partage"
+  }
+}

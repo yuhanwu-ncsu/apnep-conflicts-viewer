@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Rilevamento modifiche immagine",_widgetDescription:"Un widget per rilevare le modifiche nei layer immagini nel corso del tempo."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Rullemenu",button:"Knap",configTip:"Konfigur\xe9r sprogindstillingerne f\xf8rst p\xe5 fanen <bold>Generelt</bold> i opretteren, f\xf8r du bruger denne widget."})}}});

@@ -1,0 +1,24 @@
+{
+  "expandAll": "Alles uitvouwen",
+  "collapseAll": "Alles samenvouwen",
+  "categoryItem": {
+    "expand": "Uitvouwen",
+    "collapse": "Samenvouwen",
+    "editCategory": "Categorie bewerken",
+    "deleteCategory": "Categorie verwijderen",
+    "addSubcategory": "Subcategorie toevoegen",
+    "addCategory": "Categorie toevoegen",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "missingTitleMessage": "De categorietitel is vereist.",
+    "errors": {
+      "generic": "Er is iets fout gegaan. Probeer het later opnieuw.",
+      "maxDepthExceeded": "Het is niet mogelijk categorieën dieper dan 2 niveaus te nesten.",
+      "destinationHasSameName": "Er bestaat al een categorie met dezelfde naam in de doelcategorie.",
+      "emptyTitle": "Titel categorie mag niet leeg zijn.",
+      "noSchema": "Kan itemschema niet vinden voor gebruiker.",
+      "maxCharacter": "Naam categorie overschrijdt de toegestane tekenlimiet."
+    },
+    "dragHandleLabel": "Slepen om opnieuw te ordenen."
+  }
+}

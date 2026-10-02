@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Tip akreditiva: API ključ",
+  "oauthUserCredentialType": "Tip akreditiva: OAuth 2.0 (autentifikacija korisnika)",
+  "oauthAppCredentialType": "Tip akreditiva: OAuth 2.0 (autentifikacija aplikacije)",
+  "publicEmbed": "Javna aplikacija",
+  "scriptSpecific": "Privatna aplikacija",
+  "allPrivileges": "Privatna aplikacija koja vas predstavlja.",
+  "itemAccess": "Pristup stavci",
+  "page": "Stranica: ${page}",
+  "currentPage": "Trenutna stranica: ${page}",
+  "privileges": "Privilegije",
+  "itemDetails": "Detalji stavke",
+  "settings": "Podešavanja",
+  "serviceScope": "Opseg servisa",
+  "summary": "Rezime"
+}

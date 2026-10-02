@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Preklopnik jezika",previewTip:"To deluje samo v predogledu ali objavljenih aplikacijah."})}}});

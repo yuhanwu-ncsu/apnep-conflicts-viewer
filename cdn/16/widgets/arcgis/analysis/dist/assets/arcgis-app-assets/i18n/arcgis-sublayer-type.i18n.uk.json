@@ -1,0 +1,16 @@
+{
+  "point": "Шар точок",
+  "line": "Шар ліній",
+  "polygon": "Шар полігонів",
+  "multipatch": "Шар мультипатчів",
+  "multipoint": "Шар мультиточок",
+  "table": "Таблиця",
+  "annotation": "Шар анотацій",
+  "catalog": "Шар каталогу",
+  "dimension": "Шар розмірів",
+  "oriented imagery": "Шар орієнтованих зображень",
+  "parcel": "Шар Parcel Fabric",
+  "utility network": "Шар інженерної мережі",
+  "topology": "Шар топології",
+  "trace network": "Шар мережі трасування"
+}

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Keelevahetaja",previewTip:"See toimib ainult eelvaates v\xf5i avaldatud rakendustes."})}}});

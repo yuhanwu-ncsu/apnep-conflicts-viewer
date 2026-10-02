@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Seletor de idioma",previewTip:"Isso funciona somente em aplicativos de Visualiza\xe7\xe3o ou publicados."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Spr\xe5kveksler",previewTip:"Dette fungerer bare i forh\xe5ndsvisning eller publiserte apper."})}}});

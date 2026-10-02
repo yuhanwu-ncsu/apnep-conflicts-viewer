@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Validar topologia da rede de utilit\xe1rios",_widgetDescription:"Este widget permite validar \xe1reas com altera\xe7\xf5es na topologia da rede de utilit\xe1rios ap\xf3s a realiza\xe7\xe3o de edi\xe7\xf5es."})}}});

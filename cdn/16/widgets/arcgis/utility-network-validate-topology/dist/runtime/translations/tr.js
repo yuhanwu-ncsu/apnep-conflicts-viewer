@@ -1,0 +1,1 @@
+System.register([],function(a){return{execute:function(){a({_widgetLabel:"Utility Network Topoloji Do\u011frulama",_widgetDescription:"Bu ara\xe7, d\xfczenlemeler yap\u0131ld\u0131ktan sonra bir utility network'un a\u011f topolojisindeki hatal\u0131 alanlar\u0131 do\u011frulamaya olanak tan\u0131r."})}}});

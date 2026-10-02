@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Typ av autentiseringsuppgifter: API-nyckel",
+  "oauthUserCredentialType": "Typ av inloggningsuppgift: OAuth 2.0 (användarautentisering)",
+  "oauthAppCredentialType": "Typ av inloggningsuppgift: OAuth 2.0 (appautentisering)",
+  "publicEmbed": "Offentlig applikation",
+  "scriptSpecific": "Privat applikation",
+  "allPrivileges": "Privat applikation som imiterar dig",
+  "itemAccess": "Objektåtkomst",
+  "page": "Sida: ${page}",
+  "currentPage": "Aktuell sida: ${page}",
+  "privileges": "Behörighet",
+  "itemDetails": "Objektinformation",
+  "settings": "Inställningar",
+  "serviceScope": "Tjänstens omfång",
+  "summary": "Sammanfattning"
+}

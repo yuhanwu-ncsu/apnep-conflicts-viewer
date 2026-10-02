@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Não tem permissão para atualizar a partilha deste item.",
+      "panel": "Não tem permissão para atualizar a partilha deste item. Este item pode não ser visível para outras pessoas porque está partilhado de forma diferente."
+    },
+    "pdc": {
+      "notice": "Ative a Recolha de Dados Públicos antes de partilhar esta camada publicamente.",
+      "panel": "Ative a Recolha de Dados Públicos antes de partilhar esta camada publicamente. Para desempenho ideal e integridade dos dados, considere desativar a edição ou usar uma camada de visualização não editável.",
+      "learnMore": "Saiba mais sobre como ativar a edição em camadas públicas."
+    },
+    "premium": {
+      "notice": "Os conteúdos premium e para subscritores podem exigir o início de sessão para serem visualizados.",
+      "panel": "Os conteúdos premium e para subscritores podem exigir o início de sessão para serem visualizados.",
+      "learnMore": "Saiba mais sobre a partilha de conteúdos premium ou para subscritores."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Partilhar esta camada editável publicamente irá permitir que qualquer pessoa a edite.",
+      "panel": "Partilhar esta camada editável publicamente irá permitir que qualquer pessoa a edite. Para desempenho ideal e integridade dos dados, considere desativar a edição ou usar uma camada de visualização não editável."
+    },
+    "needsAuthentication": {
+      "notice": "Autenticação necessária.",
+      "panel": "Este item pode não estar acessível a outras pessoas porque contém serviços de localização que requerem autenticação em aplicações que exibem o item."
+    }
+  },
+  "goToItem": "Ver detalhes completos"
+}

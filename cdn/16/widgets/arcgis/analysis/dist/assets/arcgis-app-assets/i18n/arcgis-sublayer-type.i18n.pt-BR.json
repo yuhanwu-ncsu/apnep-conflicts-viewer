@@ -1,0 +1,16 @@
+{
+  "point": "Camada de ponto",
+  "line": "Camada de linha",
+  "polygon": "Camada de polígono",
+  "multipatch": "Camada Multipatch",
+  "multipoint": "Camada de múltiplos pontos",
+  "table": "Tabela",
+  "annotation": "Camada de anotação",
+  "catalog": "Camada de catálogo",
+  "dimension": "Camada de dimensão",
+  "oriented imagery": "Camada de imagens orientada",
+  "parcel": "Camada da estrutura de lotes",
+  "utility network": "Camada da rede de utilitário",
+  "topology": "Camada de topologia",
+  "trace network": "Camada da rede de traçado"
+}

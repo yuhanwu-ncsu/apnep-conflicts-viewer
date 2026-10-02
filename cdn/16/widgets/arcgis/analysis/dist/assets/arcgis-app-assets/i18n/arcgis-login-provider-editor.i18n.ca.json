@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Canvia el tipus d'inici de sessió",
+  "chooseLoginType": "Trieu el tipus d'inici de sessió",
+  "selectMembers": "Seleccioneu els membres",
+  "userDetails": "Detalls de l'usuari",
+  "reauth": "Torna a autenticar",
+  "confirmComplete": "Confirma i completa",
+  "next": "Següent",
+  "back": "Enrere",
+  "cancel": "Cancel·la",
+  "close": "Tanca",
+  "changeLogins": "Canvia els inicis de sessió",
+  "acknowledgeImpact": "Entenc i accepto l'impacte d'aquest canvi.",
+  "propertiesHeading": "Especifiqueu les noves dades d'inici de sessió dels membres següents",
+  "chooseFile": "Trieu un altre fitxer",
+  "mustAcknowledge": "Per continuar, heu d'acceptar l'impacte d'aquest canvi.",
+  "confirmLeave": {
+    "title": "Cancel·la els canvis",
+    "message1": "Teniu canvis sense desar.",
+    "message2": "Segur que voleu cancel·lar els canvis?",
+    "remain": "Continua amb l'edició",
+    "leave": "Surt sense desar"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Inici de sessió de l'ArcGIS",
+    "chooseLoginModify": "Trieu com voleu modificar els inicis de sessió",
+    "changeType": "Canvia el tipus d'inici de sessió",
+    "selectType": "Seleccioneu el tipus d'inici de sessió actual amb el qual voleu treballar",
+    "changeTypeDescription": "Canvieu els ID específics de l'organització entre ID d'OpenID Connect, SAML o inicis de sessió de l'ArcGIS.",
+    "keepType": "Conserva el tipus d'inici de sessió",
+    "keepTypeDescription": "Actualitzeu un ID d'OpenID Connect o SAML i una adreça electrònica sense canviar el tipus d'inici de sessió.",
+    "currentType": "Tipus d'inici de sessió actual",
+    "newType": "Tipus d'inici de sessió nou",
+    "select": "Selecciona",
+    "samlLogin": "{name} (inici de sessió de SAML)",
+    "oidcLogin": "{name} (inici de sessió de l'OpenID Connect)",
+    "oldSaml": "Inici de sessió de SAML anterior",
+    "oldOidc": "Inici de sessió d'OIDC anterior",
+    "enterpriseOverwrite": "Segons la configuració del vostre proveïdor d'inici de sessió empresarial, l'adreça de correu electrònic es pot sobreescriure amb el valor del vostre proveïdor d'identitat.",
+    "generateMissingPasswords": "En canviar a l'inici de sessió de l'ArcGIS, es generaran automàticament contrasenyes temporals si no s'han especificat. Es mostraran al pas de detalls de l'usuari.",
+    "errors": {
+      "loginTypes": "Cal seleccionar tant els tipus d'inici de sessió actuals com els nous.",
+      "currentLoginType": "El tipus d'inici de sessió actual és obligatori i s'ha de seleccionar.",
+      "sameLoginType": "El nou tipus d'inici de sessió ha de ser diferent del tipus d'inici de sessió actual."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Mètode de selecció dels membres",
+    "howToSelect": "Com voleu seleccionar els membres?",
+    "bulkUpload": "Pujada massiva (CSV)",
+    "chooseAFile": "Trieu un fitxer per pujar al pròxim pas.",
+    "manualSelection": "Selecció manual",
+    "selectMembers": "Seleccioneu els membres d'una llista al pas següent.",
+    "selectFromFile": "Seleccioneu els membres d'un fitxer CSV",
+    "dragDrop": "Arrossegueu i deixeu anar el fitxer o trieu-ne un del dispositiu.",
+    "headerInstructions": "La capçalera (primera fila) ha de contenir els noms de camp exactament com es mostren a continuació.",
+    "fieldOrder": "L'ordre dels camps pot variar.",
+    "yourDevice": "El vostre dispositiu",
+    "downloadTemplate": "Baixa la plantilla de CSV",
+    "requiredFields": "Camps necessaris",
+    "optionalFields": "Camps opcionals",
+    "passwordTooltip": "Si no s'indica cap contrasenya, se'n generarà automàticament una de temporal.",
+    "excessTitleCsv": "El CSV supera el límit de 5.000 membres",
+    "excessBatchLimit": "Podeu actualitzar els tipus d'inici de sessió de fins a 5.000 membres per lot.",
+    "excessBodyCsv": "Per processar més de 5.000 membres, dividiu els CSV en diversos fitxers més petits i pugeu-los per separat.",
+    "learnMore": "Més informació",
+    "errors": {
+      "fileType": "Tipus de fitxer no vàlid. Pugeu un fitxer CSV.",
+      "fileSize": "La mida del fitxer és superior a 500 kB i no es pot processar de manera eficient.",
+      "noMembers": "No s'ha seleccionat cap membre. Seleccioneu membres o pugeu un fitxer CSV per continuar.",
+      "tooManyMembers": "La selecció supera el límit de 5.000 membres."
+    }
+  },
+  "fieldNames": {
+    "email": "Adreça electrònica",
+    "username": "Nom d'usuari de l'ArcGIS",
+    "password": "Contrasenya temporal",
+    "samlId": "ID de SAML",
+    "oidcId": "ID d'OIDC",
+    "oldSamlId": "ID de SAML anterior",
+    "oldOidcId": "ID d'OICD anterior",
+    "success": "S'ha completat correctament",
+    "error": "Error",
+    "fromLoginType": "Tipus d'inici de sessió inicial",
+    "toLoginType": "Tipus d'inici de sessió nou"
+  },
+  "authentication": {
+    "header": "Cal tornar a autenticar",
+    "reauthSteps": "Passos per tornar a autenticar",
+    "step1_label": "Pas 1: inicieu la sessió (finestra nova)",
+    "step1_desc": "Apareixerà una finestra nova perquè inicieu la sessió.",
+    "step2_label": "Pas 2: copieu la clau d'autenticació",
+    "step2_desc": "Se us proporcionarà una clau d'autenticació perquè la copieu.",
+    "step3_label": "Pas 3: enganxeu la clau d'autenticació",
+    "step3_desc": "Per continuar, introduïu la clau d'autenticació.",
+    "openWindow": "Obriu una finestra nova per tornar a autenticar",
+    "authKey": "Clau d'autenticació",
+    "paste": "Enganxa",
+    "getNewKey": "Genera una clau nova",
+    "hide": "Amaga",
+    "show": "Mostra",
+    "errors": {
+      "clipboard": "No s'ha pogut llegir del porta-retalls",
+      "authKey": "Cal una clau d'autenticació vàlida"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabètic",
+    "desc": "Alfabètic invers",
+    "sortBy": "Ordena per",
+    "sortDirection": "Direcció de l'ordenació",
+    "searchMembers": "Cerca membres en aquesta llista",
+    "memberDetails": "Detalls dels membres per a l'operació de canvi de proveïdor d'inicis de sessió",
+    "optional": "(opcional)",
+    "fieldErrors": "Errors de camp",
+    "noErrors": "Cap error",
+    "noData": "No hi ha dades disponibles",
+    "noMembersMatch": "No hi ha cap membre que coincideixi amb els criteris de cerca",
+    "togglePassword": "Commuta la visibilitat de la contrasenya",
+    "memberCount": "{start} - {end} de {total}",
+    "errors": {
+      "email": "L'adreça electrònica és obligatòria",
+      "username": "El nom d'usuari de l'ArcGIS és obligatori",
+      "password": "La contrasenya temporal és obligatòria",
+      "samlId": "L'ID de SAML és obligatori",
+      "oidcId": "L'ID d'OIDC és obligatori"
+    }
+  },
+  "review": {
+    "heading": "Reviseu els canvis",
+    "loginsWillChange": "Els comptes següents canviaran d'{fromLogin} a {toLogin}",
+    "downloadCsv": "Baixa el CSV dels canvis",
+    "providerTypes": {
+      "saml": "inicis de sessió de SAML",
+      "oidc": "inicis de sessió d'OpenID Connect",
+      "arcgis": "inicis de sessió del compte de l'ArcGIS"
+    },
+    "missingRequired": "Falta informació que és necessària. Introduïu la informació que falta abans de continuar."
+  },
+  "progress": {
+    "processing": "S'està processant... {current} de {total} usuaris",
+    "percentComplete": "Percentatge completat",
+    "doNotClose": "No tanqueu el navegador.",
+    "extendedTime": "Això podria trigar fins a 10 minuts; tingueu paciència.",
+    "extendedTime10": "Això pot tardar més de 10 minuts; tingueu paciència.",
+    "extendedTime15": "Això pot tardar més de 15 minuts; tingueu paciència.",
+    "label": "Indicador de progrés per canviar el tipus d'inici de sessió",
+    "errors": {
+      "authkey": {
+        "title": "La clau d'autenticació no és vàlida",
+        "body1": "La clau d'autenticació que heu introduït no és vàlida",
+        "body2": "Torneu a introduir una clau d'autenticació que sigui vàlida.",
+        "action": "Torneu a introduir una clau d'autenticació",
+        "cancel": "Cancel·la"
+      },
+      "unknown": "Hi ha hagut un error duran el procés de canvi de proveïdor. Torneu-ho a provar o poseu-vos en contacte amb l'equip de suport si el problema continua.",
+      "userNotFound": "No s'ha trobat el nom d'usuari",
+      "idpUsernameNotMatching": "El nom d'usuari no coincideix",
+      "providerNotMatching": "No es pot canviar l'inici de sessió"
+    }
+  }
+}

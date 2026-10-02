@@ -1,0 +1,16 @@
+{
+  "point": "Capa de punts",
+  "line": "Capa de línies",
+  "polygon": "Capa de polígons",
+  "multipatch": "Capa multifaceta",
+  "multipoint": "Capa de multipunt",
+  "table": "Taula",
+  "annotation": "Capa d'anotacions",
+  "catalog": "Capa del catàleg",
+  "dimension": "Capa de dimensió",
+  "oriented imagery": "Capa d'imatges amb orientació",
+  "parcel": "Capa d'estructura de parcel·les",
+  "utility network": "Capa de xarxa de serveis",
+  "topology": "Capa de topologia",
+  "trace network": "Capa de xarxa de traçat"
+}

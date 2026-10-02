@@ -1,0 +1,24 @@
+{
+  "expandAll": "全部展開",
+  "collapseAll": "全部折疊",
+  "categoryItem": {
+    "expand": "展開",
+    "collapse": "摺疊",
+    "editCategory": "編輯類別",
+    "deleteCategory": "刪除類別",
+    "addSubcategory": "新增子類別",
+    "addCategory": "新增類別",
+    "save": "儲存",
+    "cancel": "取消",
+    "missingTitleMessage": "類別標題為必填項。",
+    "errors": {
+      "generic": "發生錯誤。 請稍候再試。",
+      "maxDepthExceeded": "類別的嵌入深度不能超過 2 層。",
+      "destinationHasSameName": "目的地類別中已存在同名類別。",
+      "emptyTitle": "類別標題不能為空。",
+      "noSchema": "找不到使用者的項目結構描述。",
+      "maxCharacter": "類別名稱超過了允許的字元限制。"
+    },
+    "dragHandleLabel": "拖曳以重新排序。"
+  }
+}

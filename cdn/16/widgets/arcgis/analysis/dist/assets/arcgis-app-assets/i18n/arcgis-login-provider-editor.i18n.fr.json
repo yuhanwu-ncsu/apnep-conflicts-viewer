@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Modifier le type de connexion",
+  "chooseLoginType": "Sélectionner un type de connexion",
+  "selectMembers": "Sélectionner des membres",
+  "userDetails": "Informations de l’utilisateur",
+  "reauth": "Réauthentification",
+  "confirmComplete": "Confirmer et terminer",
+  "next": "Suivant",
+  "back": "Retour",
+  "cancel": "Annuler",
+  "close": "Fermer",
+  "changeLogins": "Modifier le type de connexion",
+  "acknowledgeImpact": "J’atteste avoir compris et accepter les conséquences de cette modification.",
+  "propertiesHeading": "Définir de nouvelles informations de connexion pour les membres ci-après",
+  "chooseFile": "Sélectionner un autre fichier",
+  "mustAcknowledge": "Avant de poursuivre, vous devez attester avoir compris et accepter les conséquences de cette modification.",
+  "confirmLeave": {
+    "title": "Annuler les modifications",
+    "message1": "Certaines modifications n’ont pas été enregistrées.",
+    "message2": "Voulez-vous vraiment annuler les modifications ?",
+    "remain": "Poursuivre la modification",
+    "leave": "Quitter sans enregistrer"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Connexion ArcGIS",
+    "chooseLoginModify": "Sélectionner le mode de modification du type de connexion",
+    "changeType": "Modifier le type de connexion",
+    "selectType": "Sélectionner le type de connexion actuel à utiliser",
+    "changeTypeDescription": "Modifier les identifiants de connexion d’organisation afin de basculer entre des ID OpenID Connect, SAML et ArcGIS.",
+    "keepType": "Conserver le type de connexion",
+    "keepTypeDescription": "Mettre à jour les ID OpenID Connect ou SAML et l’adresse e-mail associée sans modifier le type de connexion.",
+    "currentType": "Type de connexion actuel",
+    "newType": "Nouveau type de connexion",
+    "select": "Sélectionner",
+    "samlLogin": "{name} (connexion SAML)",
+    "oidcLogin": "{name} (connexion OpenID Connect)",
+    "oldSaml": "Connexion SAML précédente",
+    "oldOidc": "Connexion OIDC précédente",
+    "enterpriseOverwrite": "En fonction des paramètres du fournisseur de connexion d’entreprise, il se peut que l’adresse e-mail soit remplacée par la valeur provenant du fournisseur d’identités.",
+    "generateMissingPasswords": "Lors du passage au type de connexion ArcGIS, des mots de passe temporaires sont automatiquement générés si aucun mot de passe n’a été indiqué. Ils sont affichés à l’étape relative aux informations de l’utilisateur.",
+    "errors": {
+      "loginTypes": "Le type de connexion actuel et le nouveau type de connexion doivent tous deux être sélectionnés.",
+      "currentLoginType": "Le type de connexion actuel est obligatoire et doit être sélectionné.",
+      "sameLoginType": "Le nouveau type de connexion doit être différent du type de connexion actuel."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Méthode de sélection des membres",
+    "howToSelect": "Comment voulez-vous sélectionner les membres ?",
+    "bulkUpload": "Chargement groupé (CSV)",
+    "chooseAFile": "Sélectionner un fichier à charger à l’étape suivante.",
+    "manualSelection": "Sélection manuelle",
+    "selectMembers": "Sélectionner des membres dans une liste à l’étape suivante.",
+    "selectFromFile": "Sélectionner des membres à l’aide d’un fichier CSV",
+    "dragDrop": "Faire glisser et déposer le fichier ou en sélectionner un sur l’appareil.",
+    "headerInstructions": "L’en-tête (première ligne) doit contenir précisément les noms de champ indiqués ci-après.",
+    "fieldOrder": "L’ordre des champs peut varier.",
+    "yourDevice": "Votre appareil",
+    "downloadTemplate": "Télécharger un modèle CSV",
+    "requiredFields": "Champs obligatoires",
+    "optionalFields": "Champs facultatifs",
+    "passwordTooltip": "Un mot de passe temporaire est généré automatiquement si aucun mot de passe n’est indiqué.",
+    "excessTitleCsv": "Le fichier CSV dépasse la limite maximale autorisée (5 000 membres)",
+    "excessBatchLimit": "Vous pouvez mettre à jour les types de connexion pour un maximum de 5 000 membres à la fois.",
+    "excessBodyCsv": "Pour traiter plus de 5 000 membres, fractionnez le fichier CSV en plusieurs fichiers plus petits et chargez-les séparément.",
+    "learnMore": "En savoir plus",
+    "errors": {
+      "fileType": "Le type de fichier n’est pas valide. Chargez un fichier CSV.",
+      "fileSize": "La taille du fichier dépasse 500 Ko et les performances de traitement ne seront peut-être pas optimales.",
+      "noMembers": "Aucun membre n’a été sélectionné. Sélectionnez des membres ou chargez un fichier CSV pour continuer.",
+      "tooManyMembers": "La sélection dépasse la limite maximale autorisée (5 000 membres)."
+    }
+  },
+  "fieldNames": {
+    "email": "Adresse e-mail",
+    "username": "Nom d’utilisateur ArcGIS",
+    "password": "Mot de passe temporaire",
+    "samlId": "ID SAML",
+    "oidcId": "ID OIDC",
+    "oldSamlId": "ID SAML précédent",
+    "oldOidcId": "ID OIDC précédent",
+    "success": "Réussite",
+    "error": "Erreur",
+    "fromLoginType": "Type de connexion initial",
+    "toLoginType": "Nouveau type de connexion"
+  },
+  "authentication": {
+    "header": "Réauthentification requise",
+    "reauthSteps": "Procédure de réauthentification",
+    "step1_label": "Étape 1 : se connecter (nouvelle fenêtre)",
+    "step1_desc": "Une nouvelle fenêtre de connexion s’ouvre.",
+    "step2_label": "Étape 2 : copier la clé d’authentification",
+    "step2_desc": "Une clé d’authentification à copier vous est fournie.",
+    "step3_label": "Étape 3 : coller la clé d’authentification",
+    "step3_desc": "Saisissez la clé d’authentification pour continuer.",
+    "openWindow": "Ouvrir une nouvelle fenêtre pour la réauthentification",
+    "authKey": "Clé d’authentification",
+    "paste": "Coller",
+    "getNewKey": "Générer une nouvelle clé",
+    "hide": "Masquer",
+    "show": "Afficher",
+    "errors": {
+      "clipboard": "Échec de la lecture à partir du Presse-papiers",
+      "authKey": "Une clé d’authentification valide est requise"
+    }
+  },
+  "usersTable": {
+    "asc": "Alphabétique",
+    "desc": "Alphabétique inverse",
+    "sortBy": "Trier par",
+    "sortDirection": "Sens de tri",
+    "searchMembers": "Rechercher des membres dans cette liste",
+    "memberDetails": "Informations sur les membres pour l’opération de modification du fournisseur de connexion",
+    "optional": "(facultatif)",
+    "fieldErrors": "Erreurs liées aux champs",
+    "noErrors": "Aucune erreur",
+    "noData": "Aucune donnée disponible",
+    "noMembersMatch": "Aucun membre ne correspond aux critères de recherche",
+    "togglePassword": "Activer/désactiver la visibilité du mot de passe",
+    "memberCount": "{start}-{end} sur {total}",
+    "errors": {
+      "email": "L’adresse e-mail est obligatoire",
+      "username": "Le nom d’utilisateur ArcGIS est obligatoire",
+      "password": "Le mot de passe temporaire est obligatoire",
+      "samlId": "L’ID SAML est obligatoire",
+      "oidcId": "L’ID OIDC est obligatoire"
+    }
+  },
+  "review": {
+    "heading": "Examiner les modifications",
+    "loginsWillChange": "Les comptes suivants passeront du type de connexion {fromLogin} au type de connexion {toLogin}",
+    "downloadCsv": "Télécharger un fichier CSV reprenant les modifications",
+    "providerTypes": {
+      "saml": "Connexion SAML",
+      "oidc": "Connexion OpenID Connect",
+      "arcgis": "Connexion via un compte ArcGIS"
+    },
+    "missingRequired": "Des informations requises sont manquantes. Renseignez les informations manquantes avant de poursuivre."
+  },
+  "progress": {
+    "processing": "Traitement... {current} utilisateur(s) sur {total}.",
+    "percentComplete": "Pourcentage d’achèvement",
+    "doNotClose": "Ne fermez pas le navigateur.",
+    "extendedTime": "Cette opération peut prendre jusqu’à 10 minutes. Merci de patienter.",
+    "extendedTime10": "Cette opération peut prendre plus de 10 minutes. Merci de patienter.",
+    "extendedTime15": "Cette opération peut prendre plus de 15 minutes. Merci de patienter.",
+    "label": "Indicateur de progression pour le changement de type de connexion",
+    "errors": {
+      "authkey": {
+        "title": "Clé d’authentification non valide",
+        "body1": "La clé d’authentification que vous avez saisie n’est pas valide.",
+        "body2": "Saisissez une clé d’authentification valide.",
+        "action": "Saisir à nouveau la clé d’authentification",
+        "cancel": "Annuler"
+      },
+      "unknown": "Une erreur s’est produite lors du processus de changement de fournisseur. Réessayez ou contactez le support technique si le problème persiste.",
+      "userNotFound": "Nom d’utilisateur introuvable",
+      "idpUsernameNotMatching": "Les noms d’utilisateur ne correspondent pas",
+      "providerNotMatching": "Impossible de changer le type de connexion"
+    }
+  }
+}

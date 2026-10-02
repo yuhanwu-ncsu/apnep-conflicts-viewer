@@ -1,0 +1,24 @@
+{
+  "expandAll": "Mindent kibont",
+  "collapseAll": "Összes összecsukása",
+  "categoryItem": {
+    "expand": "Kibontás",
+    "collapse": "Összecsukás",
+    "editCategory": "Kategória szerkesztése",
+    "deleteCategory": "Kategória törlése",
+    "addSubcategory": "Alkategória hozzáadása",
+    "addCategory": "Kategória hozzáadása",
+    "save": "Mentés",
+    "cancel": "Mégse",
+    "missingTitleMessage": "A kategóriacím megadása kötelező.",
+    "errors": {
+      "generic": "Hiba történt. Próbálja meg újra később.",
+      "maxDepthExceeded": "Nem ágyazhat egymásba kategóriákat 2 szintnél mélyebben.",
+      "destinationHasSameName": "Már létezik ilyen nevű kategória a célkategóriában.",
+      "emptyTitle": "A kategória címe nem lehet üres.",
+      "noSchema": "Az elemséma nem található a felhasználónál.",
+      "maxCharacter": "A kategórianév meghaladja az engedélyezett karakterkorlátot."
+    },
+    "dragHandleLabel": "Húzza az átrendezéshez."
+  }
+}

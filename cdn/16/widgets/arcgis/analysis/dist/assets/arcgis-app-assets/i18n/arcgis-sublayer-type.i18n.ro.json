@@ -1,0 +1,16 @@
+{
+  "point": "Strat tematic punct",
+  "line": "Strat tematic linie",
+  "polygon": "Strat tematic poligon",
+  "multipatch": "Strat tematic multipatch",
+  "multipoint": "Strat tematic multipunct",
+  "table": "Tabel",
+  "annotation": "Strat tematic de adnotare",
+  "catalog": "Strat tematic catalog",
+  "dimension": "Strat tematic de dimensiune",
+  "oriented imagery": "Strat tematic imagine orientată",
+  "parcel": "Strat tematic de material parcelă",
+  "utility network": "Strat tematic rețea de utilități",
+  "topology": "Strat tematic topologie",
+  "trace network": "Strat tematic rețea de urmărire"
+}

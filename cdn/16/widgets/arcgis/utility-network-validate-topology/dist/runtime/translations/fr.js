@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Valider la topologie du r\xe9seau de distribution",_widgetDescription:"Ce widget permet de valider les zones \xe0 valider dans la topologie de r\xe9seau d\u2019un r\xe9seau de distribution apr\xe8s que des modifications ont \xe9t\xe9 appliqu\xe9es."})}}});

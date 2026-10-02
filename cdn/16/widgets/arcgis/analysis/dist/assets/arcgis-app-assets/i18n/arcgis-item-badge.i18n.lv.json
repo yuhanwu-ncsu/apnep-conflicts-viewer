@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Autoritatīvs",
+    "tooltip": {
+      "org": "Iesaka jūsu organizācija",
+      "public": "Iesaka ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Šis vienības veids ir beta versijā."
+  },
+  "Deprecated": {
+    "title": "Novecojis",
+    "tooltip": "Lietošanai nav ieteicams. Lietotājs ${owner} ir atzīmējis šo vienību kā novecojušu."
+  },
+  "Has Replacement": {
+    "title": "Ir aizstājējs",
+    "tooltip": "Šai vienībai ir ieteicamais aizstājējs. Skatīt detalizētu vienības informāciju, lai atrastu un izmantotu aizstājēju.",
+    "itemPageTooltip": "Šai vienībai ir ieteicamais aizstājējs.",
+    "link": "Skatīt aizstājēju"
+  },
+  "DeprecatedItemType": {
+    "title": "Novecojis vienības veids",
+    "tooltip": {
+      "general": "Esri ir atzīmējis šo vienību kā novecojušu. Tā drīzumā tiks izņemta no lietošanas un nebūs pieejama.",
+      "webAppBuilder": "ArcGIS Web AppBuilder, kas tika izmantots šīs vienības izveidē ir novecojis. Tā drīzumā tiks izņemta no lietošanas un nebūs pieejama. Lai izveidotu jaunu lietotni, izmantojiet ArcGIS Experience Builder vai citu ArcGIS lietotni."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Esri pārvaldīts saturs"
+  },
+  "Subscriber": {
+    "title": "Abonents",
+    "tooltip": {
+      "org": "Ekskluzīvs saturs abonentiem",
+      "public": "Ekskluzīvs saturs abonentiem. Lai to izmantotu, pierakstieties, izmantojot ArcGIS Online abonementu."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Ekskluzīvs saturs abonentiem. Patērē servisa kredītus.",
+      "public": "Ekskluzīvs saturs abonentiem, kas patērē ArcGIS Online servisa kredītus. Lai to izmantotu, pierakstieties, izmantojot ArcGIS Online abonementu."
+    }
+  },
+  "Open Data": {
+    "title": "Atvērtie dati",
+    "tooltip": "Pieejams publiskai lietošanai"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Iekļauts sadaļā ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Dalītā sadarbība",
+    "tooltip": "Šī vienība tika saņemta no dalītās sadarbības"
+  },
+  "Retired": {
+    "title": "Novecojis vienības veids",
+    "tooltip": {
+      "general": "Esri vairs neizmanto šo vienības veidu. Tā lietošanai vairs nav pieejama.",
+      "classicStoryMap": "Klasiskā Esri Story Maps veidne (${template_name}), kas tika izmantota šīs vienības izveidei, ir novecojusi vairs netiek lietota. Šo vienību vairs nevar rediģēt vai skatīt. Lai novirzītu skatītājus, konfigurējiet aizstājējvienību, kas izveidota, izmantojot ArcGIS StoryMaps vai citu ArcGIS lietotni.",
+      "classicStoryMapGeneric": "Klasiskā Esri Story Maps veidne, kas tika izmantota šīs vienības izveidei, ir novecojusi un vairs netiek lietota. Šo vienību vairs nevar rediģēt vai skatīt. Lai novirzītu skatītājus, konfigurējiet aizstājējvienību, kas izveidota, izmantojot ArcGIS StoryMaps vai citu ArcGIS lietotni.",
+      "cityEngine": "CityEngine tīmekļa skatītājs un CityEngine tīmekļa ainas vairs netiek atbalstītas.",
+      "app": "Configurable Apps veidne, kas tiek izmantota šīs lietotnes izveidei, ir novecojusi un vairs netiek lietota. Šī vienība nedarbojas un var tikt izdzēsta. Lai izveidotu jaunu programmu, izmantojiet ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards vai ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder ir novecojis un vairs netiek izmantots ArcGIS Enterprise vidē. Šī vienība nedarbojas un var tikt izdzēsta. Lai izveidotu jaunu lietotni, lūdzu, izmantojiet lietotņu konstruktoru ArcGIS Experience Builder.",
+      "insights": "ArcGIS Insights ir novecojis un vairs netiek izmantots ArcGIS Enterprise vidē. Šī vienība nedarbojas un var tikt izdzēsta.",
+      "bdfs": "Big Data failu koplietošana programmatūrā ArcGIS Enterprise ir pārtraukta. Šī vienība nedarbojas un var tikt izdzēsta."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Publiska datu kolekcija",
+    "tooltip": "Apstiprināts publiskai datu kolekcijai."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Esri atbalstītais risinājums"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "Reģistrēta OAuth 2.0 lietotne. Var izmantot Premium vai abonenta saturu.",
+      "enterprise": "Reģistrēta OAuth 2.0 lietotne."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "API atslēgas akreditācijas dati",
+      "enterprise": "API atslēgas akreditācijas dati"
+    },
+    "tooltip": "Piešķir piekļuvi pakalpojumiem."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "API atslēgas akreditācijas dati - Privāta lietotne",
+    "tooltip": "Nodrošina piekļuves marķierus ar privilēģijām piekļūt paplašinātam pakalpojumu un vienību kopumam. Sargājiet šos marķierus tāpat kā savu lietotājvārdu un paroli. Neiegult lietotnē."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "OAuth 2.0 akreditācijas dati",
+      "enterprise": "OAuth 2.0 akreditācijas dati"
+    },
+    "tooltip": "Piešķir piekļuvi pakalpojumiem."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "OAuth 2.0 akreditācijas dati - Personificē vienības īpašnieku",
+    "tooltip": "Personificē šīs vienības īpašnieku. Drošības nolūkos jums ir jāaizsargā šie akreditācijas dati tāpat kā jūsu lietotājvārds un parole."
+  },
+  "Registered Application": {
+    "title": "Lietotne OAuth 2.0",
+    "tooltip": "Reģistrēta lietotne OAuth 2.0"
+  },
+  "Personal credential": {
+    "title": "Personīgs",
+    "tooltip": "Jūs piešķirat personīgu privilēģiju šiem akreditācijas datiem. Drošības nolūkos ar šiem akreditācijas datiem izveidotā piekļuves pilnvara jums ir jāaizsargā tāpat kā jūsu lietotājvārds/parole. Lūdzu, pārskatiet lietošanas noteikumus."
+  },
+  "loading": "Ielādē..."
+}

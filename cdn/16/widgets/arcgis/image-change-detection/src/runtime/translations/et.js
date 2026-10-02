@@ -1,0 +1,1 @@
+System.register([],function(t){return{execute:function(){t({_widgetLabel:"Pildi muutuste tuvastamine",_widgetDescription:"Vidin pildikihtide muutuste tuvastamiseks aja jooksul."})}}});

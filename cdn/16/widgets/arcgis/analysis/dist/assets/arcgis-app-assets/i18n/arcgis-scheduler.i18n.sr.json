@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Počinje",
+  "repeatTypeLabel": "Tip ponavljanja",
+  "endingOnTypeLabel": "Završava se",
+  "endingOnDateLabel": "Datum završetka",
+  "endingOnCountLabel": "Broj",
+  "endingOnCountPlaceholder": "na primer: 1, 10, 30",
+  "repeatIntervalLabel": "Interval ponavljanja",
+  "timeLabel": "Vreme",
+  "hourlyOnMinuteLabel": "Na minut",
+  "betweenHoursLabel": "Između časova",
+  "weeklyDaysOfWeekLabel": "Dan u nedelji",
+  "monthlyDayOfMonthLabel": "Dan u mesecu",
+  "monthlyDayOfMonthPlaceholder": "na primer, 1 - 31",
+  "allDayLabel": "Ceo dan",
+  "allWeekLabel": "Cele sedmice",
+  "repeatTypeOptions": {
+    "minute": "Minut",
+    "hour": "Čas",
+    "day": "Dan",
+    "week": "Sedmica",
+    "month": "Mesec"
+  },
+  "endingOnType": {
+    "never": "Nikada",
+    "date": "Datum",
+    "count": "Broj"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Svakog minuta",
+    "everyTwoMinutes": "Svaka dva minuta",
+    "everyThreeMinutes": "Svakih tri minuta",
+    "everyFiveMinutes": "Svakih pet minuta",
+    "everyTenMinutes": "Svakih deset minuta",
+    "everyFifteenMinutes": "Svakih petnaest minuta",
+    "everyThirtyMinutes": "Svakih trideset minuta"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Svakog sata",
+    "everyTwoHours": "Svaka dva sata",
+    "everyThreeHours": "Svaka tri sata",
+    "everyFourHours": "Svaka četiri sata",
+    "everySixHours": "Svakih šest sati",
+    "everyTwelveHours": "Svakih dvanaest sati"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Svakog dana",
+    "everyOtherDay": "Svakog drugog dana",
+    "everyThreeDays": "Svaka tri dana",
+    "everyFourDays": "Svaka četiri dana",
+    "everyFiveDays": "Svakih pet dana",
+    "everySixDays": "Svakih šest dana",
+    "everySevenDays": "Svakih sedam dana",
+    "everyFourteenDays": "Svakih četrnaest dana"
+  },
+  "weekDays": {
+    "allWeekdays": "Svim radnim danima",
+    "sunday": "Nedelja",
+    "monday": "Ponedeljak",
+    "tuesday": "Utorak",
+    "wednesday": "Sreda",
+    "thursday": "Četvrtak",
+    "friday": "Petak",
+    "saturday": "Subota"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Svakog meseca",
+    "everyTwoMonths": "Svaka dva meseca",
+    "everyThreeMonths": "Svaka tri meseca",
+    "everyFourMonths": "Svaka četiri meseca",
+    "everyFiveMonths": "Svakih pet meseci",
+    "everySixMonths": "Svakih šest meseci"
+  }
+}

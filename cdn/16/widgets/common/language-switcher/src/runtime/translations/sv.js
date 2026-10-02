@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Spr\xe5kbytare",previewTip:"Detta fungerar endast i f\xf6rhandsgranskning eller publicerade appar."})}}});

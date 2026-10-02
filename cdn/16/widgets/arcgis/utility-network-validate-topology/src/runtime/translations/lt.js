@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Utility Network topologijos patvirtinimas",_widgetDescription:"\u0160is valdiklis leid\u017eia patvirtinti ne\u0161varias komunalini\u0173 paslaug\u0173 tinklo topologijos sritis po atlikt\u0173 pakeitim\u0173."})}}});

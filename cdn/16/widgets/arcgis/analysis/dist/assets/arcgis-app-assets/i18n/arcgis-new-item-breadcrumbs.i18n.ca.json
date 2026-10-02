@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Tipus de credencial: clau d'API",
+  "oauthUserCredentialType": "Tipus de credencial: OAuth 2.0 (Autenticació d'usuari)",
+  "oauthAppCredentialType": "Tipus de credencial: OAuth 2.0 (Autenticació d'aplicació)",
+  "publicEmbed": "Aplicació pública",
+  "scriptSpecific": "Aplicació privada",
+  "allPrivileges": "Aplicació privada que suplanta la vostra identitat",
+  "itemAccess": "Accés a elements",
+  "page": "Pàgina: ${page}",
+  "currentPage": "Pàgina actual: ${page}",
+  "privileges": "Permisos",
+  "itemDetails": "Detalls de l'element",
+  "settings": "Configuració",
+  "serviceScope": "Àmbit del servei",
+  "summary": "Resum"
+}

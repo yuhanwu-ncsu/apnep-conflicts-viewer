@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Започва на",
+  "repeatTypeLabel": "Тип на повторение",
+  "endingOnTypeLabel": "Завършва на",
+  "endingOnDateLabel": "Крайна дата",
+  "endingOnCountLabel": "Брой",
+  "endingOnCountPlaceholder": "например: 1, 10, 30",
+  "repeatIntervalLabel": "Интервал на повторение",
+  "timeLabel": "Време",
+  "hourlyOnMinuteLabel": "На минутата",
+  "betweenHoursLabel": "Между часове",
+  "weeklyDaysOfWeekLabel": "Ден от седмицата",
+  "monthlyDayOfMonthLabel": "Ден от месеца",
+  "monthlyDayOfMonthPlaceholder": "например 1 - 31",
+  "allDayLabel": "Цял ден",
+  "allWeekLabel": "Цяла седмица",
+  "repeatTypeOptions": {
+    "minute": "Минута",
+    "hour": "Час",
+    "day": "Ден",
+    "week": "Седмица",
+    "month": "Месец"
+  },
+  "endingOnType": {
+    "never": "Никога",
+    "date": "Дата",
+    "count": "Брой"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "На всяка минута",
+    "everyTwoMinutes": "На всеки две минути",
+    "everyThreeMinutes": "На всеки три минути",
+    "everyFiveMinutes": "На всеки пет минути",
+    "everyTenMinutes": "На всеки десет минути",
+    "everyFifteenMinutes": "На всеки петнайсет минути",
+    "everyThirtyMinutes": "На всеки трийсет минути"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "На всеки час",
+    "everyTwoHours": "На всеки два часа",
+    "everyThreeHours": "На всеки три часа",
+    "everyFourHours": "На всеки четири часа",
+    "everySixHours": "На всеки шест часа",
+    "everyTwelveHours": "На всеки дванайсет часа"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Всеки ден",
+    "everyOtherDay": "През два дни",
+    "everyThreeDays": "На всеки три дни",
+    "everyFourDays": "На всеки четири дни",
+    "everyFiveDays": "На всеки пет дни",
+    "everySixDays": "На всеки шест дни",
+    "everySevenDays": "На всеки седем дни",
+    "everyFourteenDays": "На всеки четиринайсет дни"
+  },
+  "weekDays": {
+    "allWeekdays": "Всички дни от седмицата",
+    "sunday": "Неделя",
+    "monday": "Понеделник",
+    "tuesday": "Вторник",
+    "wednesday": "Сряда",
+    "thursday": "Четвъртък",
+    "friday": "Петък",
+    "saturday": "Събота"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Всеки месец",
+    "everyTwoMonths": "На всеки два месеца",
+    "everyThreeMonths": "На всеки три месеца",
+    "everyFourMonths": "На всеки четири месеца",
+    "everyFiveMonths": "На всеки пет месеца",
+    "everySixMonths": "На всеки шест месеца"
+  }
+}

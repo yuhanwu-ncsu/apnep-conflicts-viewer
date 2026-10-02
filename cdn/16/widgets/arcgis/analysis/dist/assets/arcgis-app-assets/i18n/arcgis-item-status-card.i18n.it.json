@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Non si ha il permesso di aggiornare la condivisione di questo elemento.",
+      "panel": "Non si ha il permesso di aggiornare la condivisione di questo elemento. Questo elemento potrebbe non essere visibile agli altri perché è condiviso in modo diverso."
+    },
+    "pdc": {
+      "notice": "Abilitare la raccolta di dati pubblici prima di condividere questo layer pubblicamente.",
+      "panel": "Abilitare la raccolta di dati pubblici prima di condividere questo layer pubblicamente. Per ottenere prestazioni ottimali e mantenere integrità dei dati si consiglia di disabilitare le modifiche o usare un layer di visualizzazione di sola lettura.",
+      "learnMore": "Maggiori informazioni sull'abilitazione della modifica dei layer pubblici."
+    },
+    "premium": {
+      "notice": "Il contenuto premium e quello per gli abbonati possono richiedere l'accesso per essere visualizzati.",
+      "panel": "Il contenuto premium e quello per gli abbonati possono richiedere l'accesso per essere visualizzati.",
+      "learnMore": "Maggiori informazioni sulla condivisione di contenuti premium o per abbonati."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Condividendo questo layer modificabile pubblicamente, chiunque potrà modificarlo.",
+      "panel": "Condividendo questo layer modificabile pubblicamente, chiunque potrà modificarlo. Per ottenere prestazioni ottimali e mantenere integrità dei dati si consiglia di disabilitare le modifiche o usare un layer di visualizzazione di sola lettura."
+    },
+    "needsAuthentication": {
+      "notice": "Autenticazione richiesta.",
+      "panel": "Questo elemento potrebbe non essere accessibile ad altri perché contiene servizi di localizzazione che richiedono l'autenticazione nelle applicazioni che visualizzano l'elemento."
+    }
+  },
+  "goToItem": "Visualizzare i dettagli completi"
+}

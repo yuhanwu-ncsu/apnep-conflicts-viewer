@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"D\xe9tection des changements dans les images",_widgetDescription:"Widget permettant de d\xe9tecter les changements dans les couches d\u2019imagerie au fil du temps."})}}});

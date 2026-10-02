@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({dropdown:"\u4e0b\u62c9\u5217\u8868",button:"\u6309\u94ae",configTip:"\u5728\u4f7f\u7528\u6b64\u5fae\u4ef6\u524d\uff0c\u8bf7\u5728\u6784\u5efa\u5668\u7684<bold>\u5e38\u89c4</bold>\u9009\u9879\u5361\u4e2d\u914d\u7f6e\u8bed\u8a00\u8bbe\u7f6e\u3002"})}}});

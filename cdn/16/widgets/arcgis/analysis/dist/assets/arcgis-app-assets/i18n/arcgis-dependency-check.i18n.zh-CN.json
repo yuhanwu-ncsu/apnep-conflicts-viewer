@@ -1,0 +1,29 @@
+{
+  "updateSharing": "查看共享",
+  "moreInfo": "更多信息",
+  "learnMore": "了解详细信息",
+  "noItemToShare": "未检测到共享问题",
+  "loadingInfo": "正在加载共享信息",
+  "updatingSharing": "正在更新共享",
+  "updateItemsCount": "您具有更新权限的项目：{num}",
+  "updateItemsCountText": "这些依赖项可能对其他人不可见，因为其共享方式不同。 请单击“更新”以同步共享您具有更新权限的依赖项。",
+  "uneditableItemsCount": "您没有更新权限的项目：{num}",
+  "uneditableMessage": "这些依赖项可能对其他人不可见，因为其共享方式不同。",
+  "nonPublicItems": "无法公开共享的项目：",
+  "premiumItemsWebMap": "该 web 地图包含高级或订阅者内容。",
+  "premiumMessage": "这些依赖项可能对其他人不可见，因为需要订阅。",
+  "premiumTextMap": "了解有关如何与订阅者或高级内容共享地图的详细信息",
+  "notice": "以下项目可能对其他人不可见，因为其共享方式不同或需要订阅才能查看。 单击<b>更新共享</b>以同步共享您有权更新的项目。",
+  "noticeEnterprise": "以下项目可能对其他人不可见，因为其共享方式不同。 单击<b>更新共享</b>以同步共享您有权更新的项目。",
+  "canBeUpdated": "可更新的项目：${count}",
+  "cantBeUpdated": "无法更新的项目：${count}",
+  "update": "更新共享",
+  "cancel": "无法更新共享",
+  "ok": "确定",
+  "unableToGetItem": "无法获取项目详细信息。",
+  "postShareDialog": {
+    "title": "项目共享已成功更新",
+    "description": "共享项目引用其他可能不可见的项目，因为它们的共享方式不同。 请查看这些项目的共享。",
+    "confirm": "查看共享"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "expandAll": "הרחב הכול",
+  "collapseAll": "כווץ הכול",
+  "categoryItem": {
+    "expand": "הרחב",
+    "collapse": "צמצם",
+    "editCategory": "ערוך קטגוריה",
+    "deleteCategory": "מחק קטגוריה",
+    "addSubcategory": "הוסף קטגוריית משנה",
+    "addCategory": "הוסף קטגוריה",
+    "save": "שמור",
+    "cancel": "ביטול",
+    "missingTitleMessage": "יש לציין כותרת קטגוריה.",
+    "errors": {
+      "generic": "משהו השתבש נסה שוב מאוחר יותר.",
+      "maxDepthExceeded": "לא ניתן לקנן קטגוריות לעומק של יותר מ-2 רמות.",
+      "destinationHasSameName": "קטגוריה באותו שם כבר קיימת בקטגוריית היעד.",
+      "emptyTitle": "קטגוריה לא יכולה להיות ריקה.",
+      "noSchema": "פריט סכמה לא נמצא עבור משתמש.",
+      "maxCharacter": "שם קטגוריה חורג ממגבלת מספר התווים המותר."
+    },
+    "dragHandleLabel": "גרור כדי לשנות את הסדר."
+  }
+}

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Dugme za promenu jezika",previewTip:"Ovo funkcioni\u0161e samo u pregledu ili objavljenim aplikacijama."})}}});

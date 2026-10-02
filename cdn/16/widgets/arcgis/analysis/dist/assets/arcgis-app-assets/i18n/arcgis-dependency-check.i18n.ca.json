@@ -1,0 +1,29 @@
+{
+  "updateSharing": "Reviseu l'ús compartit",
+  "moreInfo": "Més informació",
+  "learnMore": "Més informació",
+  "noItemToShare": "No s'ha detectat cap problema d'ús compartit",
+  "loadingInfo": "S'està carregant la informació d'ús compartit...",
+  "updatingSharing": "S'està actualitzant l'ús compartit...",
+  "updateItemsCount": "Elements que teniu permís per actualitzar: {num}",
+  "updateItemsCountText": "És possible que aquests elements dependents no siguin visibles per a altres usuaris perquè es comparteixen d'una altra manera. Feu clic a Actualitza per sincronitzar l'ús compartit d'elements dependents que teniu permís per actualitzar.",
+  "uneditableItemsCount": "Elements que no teniu permís per actualitzar: {num}",
+  "uneditableMessage": "És possible que aquests elements dependents no siguin visibles per a altres usuaris perquè es comparteixen d'una altra manera.",
+  "nonPublicItems": "Elements que no es poden compartir públicament:",
+  "premiumItemsWebMap": "Aquest mapa web inclou contingut prèmium o de subscriptor.",
+  "premiumMessage": "És possible que aquests elements dependents no siguin visibles per a altres usuaris perquè requereixen una subscripció.",
+  "premiumTextMap": "Més informació sobre l'ús compartit de mapes amb contingut prèmium o de subscriptor",
+  "notice": "És possible que els elements següents no siguin visibles per a altres usuaris perquè es comparteixen d'una altra manera o requereixen una subscripció per veure'ls. Feu clic a <b>Actualitza l'ús compartit</b> per sincronitzar l'ús compartit dels elements per als quals teniu permís d'actualització.",
+  "noticeEnterprise": "És possible que els elements següents no siguin visibles per a altres usuaris perquè es comparteixen d'una altra manera. Feu clic a <b>Actualitza l'ús compartit</b> per sincronitzar l'ús compartit dels elements per als quals teniu permís d'actualització.",
+  "canBeUpdated": "Elements que es poden actualitzar: ${count}",
+  "cantBeUpdated": "Elements que no es poden actualitzar: ${count}",
+  "update": "Actualitza l'ús compartit",
+  "cancel": "No actualitzis l'ús compartit",
+  "ok": "D'acord",
+  "unableToGetItem": "No es poden obtenir els detalls de l'element.",
+  "postShareDialog": {
+    "title": "L'ús compartit d'elements s'ha actualitzat correctament",
+    "description": "Els elements compartits fan referència a altres elements que pot ser que no siguin visibles perquè es comparteixen d'una altra manera. Reviseu l'ús compartit d'aquests elements.",
+    "confirm": "Reviseu l'ús compartit"
+  }
+}

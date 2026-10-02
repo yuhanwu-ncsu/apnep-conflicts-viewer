@@ -1,0 +1,16 @@
+{
+  "point": "Nokta katmanı",
+  "line": "Çizgi katmanı",
+  "polygon": "Çokgen katmanı",
+  "multipatch": "Çoklu yüzey katmanı",
+  "multipoint": "Çoklu nokta katmanı",
+  "table": "Tablo",
+  "annotation": "Ek açıklama katmanı",
+  "catalog": "Katalog katmanı",
+  "dimension": "Boyut katmanı",
+  "oriented imagery": "Yönelimli görüntü katmanı",
+  "parcel": "Parsel dokusu katmanı",
+  "utility network": "Utility network katmanı",
+  "topology": "Topoloji katmanı",
+  "trace network": "İzleme ağı katmanı"
+}

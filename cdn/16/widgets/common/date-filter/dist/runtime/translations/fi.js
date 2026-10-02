@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"P\xe4iv\xe4m\xe4\xe4r\xe4suodatin"})}}});

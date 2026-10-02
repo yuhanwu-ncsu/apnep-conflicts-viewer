@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Rippmen\xfc\xfc",button:"Nupp",configTip:"Enne selle vidina kasutamist seadistage keeleseaded koosturi vahekaardil <bold>\xdcldine</bold>."})}}});

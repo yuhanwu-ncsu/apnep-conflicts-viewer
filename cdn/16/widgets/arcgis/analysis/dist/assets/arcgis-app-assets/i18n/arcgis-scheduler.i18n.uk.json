@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Починаючи",
+  "repeatTypeLabel": "Тип повторювання",
+  "endingOnTypeLabel": "Закінчуючи",
+  "endingOnDateLabel": "Кінцева дата",
+  "endingOnCountLabel": "Лічильник",
+  "endingOnCountPlaceholder": "наприклад: 1, 10, 30",
+  "repeatIntervalLabel": "Інтервал повторювання",
+  "timeLabel": "Час",
+  "hourlyOnMinuteLabel": "На хвилину",
+  "betweenHoursLabel": "Між годинами",
+  "weeklyDaysOfWeekLabel": "День тижня",
+  "monthlyDayOfMonthLabel": "День місяця",
+  "monthlyDayOfMonthPlaceholder": "наприклад, 1 - 31",
+  "allDayLabel": "Весь день",
+  "allWeekLabel": "Увесь тиждень",
+  "repeatTypeOptions": {
+    "minute": "Хвилина",
+    "hour": "Година",
+    "day": "День",
+    "week": "Тиждень",
+    "month": "Місяць"
+  },
+  "endingOnType": {
+    "never": "Ніколи",
+    "date": "Дата",
+    "count": "Лічильник"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Кожну хвилину",
+    "everyTwoMinutes": "Кожні дві хвилини",
+    "everyThreeMinutes": "Кожні три хвилини",
+    "everyFiveMinutes": "Кожні п'ять хвилин",
+    "everyTenMinutes": "Кожні десять хвилин",
+    "everyFifteenMinutes": "Кожні п'ятнадцять хвилин",
+    "everyThirtyMinutes": "Кожні тридцять хвилин"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Кожну годину",
+    "everyTwoHours": "Кожні дві години",
+    "everyThreeHours": "Кожні три години",
+    "everyFourHours": "Кожні чотири години",
+    "everySixHours": "Кожні шість годин",
+    "everyTwelveHours": "Кожні дванадцять годин"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Кожного дня",
+    "everyOtherDay": "Кожного іншого дня",
+    "everyThreeDays": "Кожні три дні",
+    "everyFourDays": "Кожні чотири години",
+    "everyFiveDays": "Кожні п'ять днів",
+    "everySixDays": "Кожні шість днів",
+    "everySevenDays": "Кожні сім днів",
+    "everyFourteenDays": "Кожні чотирнадцять днів"
+  },
+  "weekDays": {
+    "allWeekdays": "Усі будні",
+    "sunday": "Неділя",
+    "monday": "Понеділок",
+    "tuesday": "Вівторок",
+    "wednesday": "Середа",
+    "thursday": "Четвер",
+    "friday": "П’ятниця",
+    "saturday": "Субота"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Кожного місяця",
+    "everyTwoMonths": "Кожні два місяці",
+    "everyThreeMonths": "Кожні три місяці",
+    "everyFourMonths": "Кожні чотири місяці",
+    "everyFiveMonths": "Кожні п'ять місяців",
+    "everySixMonths": "Кожні шість місяців"
+  }
+}

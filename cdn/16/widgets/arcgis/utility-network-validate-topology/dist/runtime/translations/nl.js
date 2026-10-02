@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Topologie nutsnetwerk valideren",_widgetDescription:"Deze widget maakt het mogelijk vuile gebieden in de netwerktopologie van een nutsnetwerk te valideren nadat bewerkingen zijn aangebracht."})}}});

@@ -1,0 +1,30 @@
+{
+  "hosted": "хоствани",
+  "hostedView": "хоствани, преглед",
+  "hostedPhotos": "хоствани, снимки",
+  "hostedCollection": "хоствани, колекция",
+  "hostedMultidimensional": "хоствани, многоизмерни",
+  "hostedCollectionMultidimensional": "хоствани, колекция, многоизмерни",
+  "collectionMultidimensional": "колекция, многоизмерни",
+  "multidimensional": "многоизмерни",
+  "query": "заявка",
+  "collection": "колекция",
+  "photoLocations": "снимки",
+  "locatorView": "изглед",
+  "utilityNetwork": "комунална мрежа",
+  "parcelFabric": "parcel fabric",
+  "parcelFabricHosted": "parcel fabric, хоствано",
+  "Integrated Mesh": "интегрирана мрежа",
+  "3D Object": "3D обект",
+  "Point": "точка",
+  "Point Cloud": "точков облак",
+  "Building Scene Layer": "слой за създаване на сцена",
+  "Voxel Scene Layer": "Voxel слой на сцена",
+  "dataStore": {
+    "bigdata": "споделяне на големи файлове данни",
+    "cloud": "облак",
+    "cloudStorage": "съхранение в облак",
+    "database": "база данни",
+    "folder": "папка"
+  }
+}

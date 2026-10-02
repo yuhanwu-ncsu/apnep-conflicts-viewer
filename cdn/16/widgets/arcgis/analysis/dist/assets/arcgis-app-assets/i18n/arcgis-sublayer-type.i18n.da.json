@@ -1,0 +1,16 @@
+{
+  "point": "Punktlag",
+  "line": "Linjelag",
+  "polygon": "Polygonlag",
+  "multipatch": "Multipatch-lag",
+  "multipoint": "Multipunktlag",
+  "table": "Tabel",
+  "annotation": "Annotationslag",
+  "catalog": "Kataloglag",
+  "dimension": "Dimensionslag",
+  "oriented imagery": "Retningsbestemt billedlag",
+  "parcel": "Parcel Fabric-lag",
+  "utility network": "Forsyningsnetværkslag",
+  "topology": "Topologi-lag",
+  "trace network": "Lag til sporing af netværk"
+}

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Detekov\xe1n\xed zm\u011bn sn\xedmku",_widgetDescription:"Widget k detekci zm\u011bn ve vrstv\xe1ch sn\xedmk\u016f v pr\u016fb\u011bhu \u010dasu."})}}});

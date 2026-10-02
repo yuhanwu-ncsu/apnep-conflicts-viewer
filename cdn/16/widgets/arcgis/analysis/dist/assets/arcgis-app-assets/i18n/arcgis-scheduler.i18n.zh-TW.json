@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "開始時間",
+  "repeatTypeLabel": "重複類型",
+  "endingOnTypeLabel": "結束時間",
+  "endingOnDateLabel": "結束日期",
+  "endingOnCountLabel": "計數",
+  "endingOnCountPlaceholder": "例如: 1, 10, 30",
+  "repeatIntervalLabel": "重複間隔",
+  "timeLabel": "時間",
+  "hourlyOnMinuteLabel": "準時",
+  "betweenHoursLabel": "小時之間",
+  "weeklyDaysOfWeekLabel": "星期",
+  "monthlyDayOfMonthLabel": "月份日期",
+  "monthlyDayOfMonthPlaceholder": "例如，1 - 31",
+  "allDayLabel": "全天",
+  "allWeekLabel": "整個星期",
+  "repeatTypeOptions": {
+    "minute": "分鐘",
+    "hour": "小時",
+    "day": "天",
+    "week": "週",
+    "month": "月"
+  },
+  "endingOnType": {
+    "never": "從不",
+    "date": "日期",
+    "count": "計數"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "每分鐘",
+    "everyTwoMinutes": "每兩分鐘",
+    "everyThreeMinutes": "每三分鐘",
+    "everyFiveMinutes": "每五分鐘",
+    "everyTenMinutes": "每十分鐘",
+    "everyFifteenMinutes": "每十五分鐘",
+    "everyThirtyMinutes": "每三十分鐘"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "每小時",
+    "everyTwoHours": "每兩小時",
+    "everyThreeHours": "每三小時",
+    "everyFourHours": "每四小時",
+    "everySixHours": "每六小時",
+    "everyTwelveHours": "每十二小時"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "每日",
+    "everyOtherDay": "每隔一天",
+    "everyThreeDays": "每三天",
+    "everyFourDays": "每四天",
+    "everyFiveDays": "每五天",
+    "everySixDays": "每六天",
+    "everySevenDays": "每七天",
+    "everyFourteenDays": "每十四天"
+  },
+  "weekDays": {
+    "allWeekdays": "所有工作日",
+    "sunday": "星期日",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "每個月",
+    "everyTwoMonths": "每兩個月",
+    "everyThreeMonths": "每三個月",
+    "everyFourMonths": "每四個月",
+    "everyFiveMonths": "每五個月",
+    "everySixMonths": "每六個月"
+  }
+}

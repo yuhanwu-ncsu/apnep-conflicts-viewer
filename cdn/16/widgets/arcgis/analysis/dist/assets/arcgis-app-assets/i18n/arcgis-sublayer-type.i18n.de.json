@@ -1,0 +1,16 @@
+{
+  "point": "Punkt-Layer",
+  "line": "Linien-Layer",
+  "polygon": "Polygon-Layer",
+  "multipatch": "Multipatch-Layer",
+  "multipoint": "Multipoint-Layer",
+  "table": "Tabelle",
+  "annotation": "Annotations-Layer",
+  "catalog": "Katalog-Layer",
+  "dimension": "Bemaßungs-Layer",
+  "oriented imagery": "Oriented Imagery-Layer",
+  "parcel": "Parcel-Fabric-Layer",
+  "utility network": "Versorgungsnetz-Layer",
+  "topology": "Topologie-Layer",
+  "trace network": "Verfolgungsnetzwerk-Layer"
+}

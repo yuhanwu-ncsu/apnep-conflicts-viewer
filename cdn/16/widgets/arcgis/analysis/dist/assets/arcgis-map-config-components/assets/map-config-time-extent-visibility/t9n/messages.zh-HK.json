@@ -1,0 +1,1 @@
+{"start":"出發","end":"結束","startDate":"開始日期","endDate":"結束日期","startTime":"開始時間","endTime":"結束時間","layerVisibilityPeriod":"圖層可見性期間","timeBasedLayerVisibility":"時間序列圖層可見性","info":"資訊","infoMessage":"啟用時間序列圖層可見性，以便只在特定的時段內顯示圖層。","startWarning":"開始日期和時間為必要欄位。","endWarning":"結束日期和時間為必要欄位。","rangeWarning":"開始日期和時間必須早於結束日期和時間。"}

@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Ändra inloggningstyp",
+  "chooseLoginType": "Välj inloggningstyp",
+  "selectMembers": "Välj medlemmar",
+  "userDetails": "Användarinformation",
+  "reauth": "Autentisera på nytt",
+  "confirmComplete": "Bekräfta och slutför",
+  "next": "Nästa",
+  "back": "Bakåt",
+  "cancel": "Avbryt",
+  "close": "Stäng",
+  "changeLogins": "Ändra inloggningar",
+  "acknowledgeImpact": "Jag godkänner och förstår konsekvenserna av den här ändringen.",
+  "propertiesHeading": "Ange ny inloggningsinformation för följande medlemmar",
+  "chooseFile": "Välj en annan fil",
+  "mustAcknowledge": "Du måste godkänna konsekvenserna av den här ändringen innan du fortsätter.",
+  "confirmLeave": {
+    "title": "Avbryt ändringar",
+    "message1": "Du har osparade ändringar.",
+    "message2": "Vill du avbryta ändringarna?",
+    "remain": "Fortsätt redigera",
+    "leave": "Avsluta utan att spara"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS-inloggning",
+    "chooseLoginModify": "Välj hur inloggningar ska modifieras",
+    "changeType": "Ändra inloggningstyp",
+    "selectType": "Välj aktuell inloggningstyp att arbeta med",
+    "changeTypeDescription": "Ändra organisationsspecifika ID:n mellan OpenID Connect-, SAML- eller ArcGIS-inloggningar.",
+    "keepType": "Behåll inloggningstyp",
+    "keepTypeDescription": "Uppdatera en OpenID Connect- eller SAML-ID och e-postadress utan att ändra inloggningstypen.",
+    "currentType": "Aktuell inloggningstyp",
+    "newType": "Ny inloggningstyp",
+    "select": "Välj",
+    "samlLogin": "{name} (SAML-inloggning)",
+    "oidcLogin": "{name} (OpenID Connect-inloggning)",
+    "oldSaml": "Föregående SAML-inloggning",
+    "oldOidc": "Föregående OIDC-inloggning",
+    "enterpriseOverwrite": "Beroende på inställningarna för företagets inloggningsleverantör kan e-postadressen skrivas över med värdet från din identititetsleverantör.",
+    "generateMissingPasswords": "Vid ändring till ArcGIS-inloggning genereras tillfälliga lösenord automatiskt om de inte har angivits. De visas i steget för användarinformation.",
+    "errors": {
+      "loginTypes": "Både nuvarande och nya inloggningstyper måste väljas.",
+      "currentLoginType": "Aktuell inloggningstyp krävs och måste väljas.",
+      "sameLoginType": "Den nya inloggningstypen måste vara en annan än den nuvarande inloggningstypen."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metod för medlemsurval",
+    "howToSelect": "Hur vill du välja medlemmar?",
+    "bulkUpload": "Massöverföring (CSV)",
+    "chooseAFile": "Välj en fil som ska överföras i nästa steg.",
+    "manualSelection": "Manuellt urval",
+    "selectMembers": "Välj medlemmar från en lista i nästa steg.",
+    "selectFromFile": "Välj medlemmar från en CSV-fil",
+    "dragDrop": "Dra och släpp din fil eller välj från din enhet.",
+    "headerInstructions": "Rubriken (första raden) bör innehålla fältnamnen exakt som de visas nedan.",
+    "fieldOrder": "Fältordningen kan variera.",
+    "yourDevice": "Din enhet",
+    "downloadTemplate": "Hämta CSV-mall",
+    "requiredFields": "Obligatoriska fält",
+    "optionalFields": "Valfria fält",
+    "passwordTooltip": "Ett tillfälligt lösenord genereras automatiskt om inget har angivits.",
+    "excessTitleCsv": "CSV överskrider gränsen på 5 000 medlemmar",
+    "excessBatchLimit": "Du kan uppdatera inloggningstyper för upp till 5 000 medlemmar per batch.",
+    "excessBodyCsv": "För att uppdatera fler än 5 000 medlemmar delar du upp din CSV-fil i flera mindre filer och överför dem separat.",
+    "learnMore": "Läs mer",
+    "errors": {
+      "fileType": "Ogiltig filtyp. Läs in en CSV-fil.",
+      "fileSize": "Filstorleken överskrider 500 kB och kanske inte kommer att bearbetas på ett effektivt sätt.",
+      "noMembers": "Inga medlemmar har valts. Välj medlemmar eller överför en CSV-fil för att fortsätta.",
+      "tooManyMembers": "Urvalet överskrider gränsen på 5 000 medlemmar."
+    }
+  },
+  "fieldNames": {
+    "email": "E-post",
+    "username": "ArcGIS-användarnamn",
+    "password": "Tillfälligt lösenord",
+    "samlId": "SAML-ID",
+    "oidcId": "OIDC-ID",
+    "oldSamlId": "Föregående SAML-ID",
+    "oldOidcId": "Föregående OIDC-ID",
+    "success": "Lyckades",
+    "error": "Fel",
+    "fromLoginType": "Initial inloggningstyp",
+    "toLoginType": "Ny inloggningstyp"
+  },
+  "authentication": {
+    "header": "Återautentisering krävs",
+    "reauthSteps": "Återautentiseringssteg",
+    "step1_label": "Steg 1: Logga in (nytt fönster)",
+    "step1_desc": "Ett nytt fönster visas där du kan logga in.",
+    "step2_label": "Steg 2: Kopiera autentiseringsnyckeln",
+    "step2_desc": "Du får en autentiseringsnyckel att kopiera.",
+    "step3_label": "Steg 3: Klistra in autentiseringsnyckeln",
+    "step3_desc": "Ange autentiseringsnyckeln för att fortsätta.",
+    "openWindow": "Öppna ett nytt fönster för att återautentisera",
+    "authKey": "Autentiseringsnyckel",
+    "paste": "Klistra in",
+    "getNewKey": "Generera ny nyckel",
+    "hide": "Dölj",
+    "show": "Visa",
+    "errors": {
+      "clipboard": "Det gick inte att läsa från Urklipp",
+      "authKey": "En giltig autentiseringsnyckel krävs"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabetisk",
+    "desc": "Omvänd alfabetisk",
+    "sortBy": "Sortera efter",
+    "sortDirection": "Sorteringsordning",
+    "searchMembers": "Sök efter medlemmar i den här listan",
+    "memberDetails": "Medlemsinformation för åtgärden ändra inloggningsleverantör",
+    "optional": "(valfritt)",
+    "fieldErrors": "Fältfel",
+    "noErrors": "Inga fel",
+    "noData": "Inga data tillgängliga",
+    "noMembersMatch": "Inga medlemmar matchar dina sökvillkor",
+    "togglePassword": "Växla lösenordets synlighet",
+    "memberCount": "{start} - {end} av {total}",
+    "errors": {
+      "email": "Du måste ange en e-postadress",
+      "username": "ArcGIS-användarnamn krävs",
+      "password": "Tillfälligt lösenord krävs",
+      "samlId": "SAML-ID krävs",
+      "oidcId": "OIDC-ID krävs"
+    }
+  },
+  "review": {
+    "heading": "Granska ändringarna",
+    "loginsWillChange": "Följande konton ändras från {fromLogin} till {toLogin}",
+    "downloadCsv": "Hämta CSV för ändringar",
+    "providerTypes": {
+      "saml": "SAML-inloggningar",
+      "oidc": "OpenID Connect-inloggningar",
+      "arcgis": "ArcGIS-kontoinloggningar"
+    },
+    "missingRequired": "Nödvändig information saknas. Fyll i informationen som saknas innan du fortsätter."
+  },
+  "progress": {
+    "processing": "Bearbetar... {current} av {total} användare.",
+    "percentComplete": "Procent slutfört",
+    "doNotClose": "Stäng inte webbläsaren.",
+    "extendedTime": "Detta kan ta upp till 10 minuter, ha lite tålamod.",
+    "extendedTime10": "Detta kan ta mer än 10 minuter, ha lite tålamod.",
+    "extendedTime15": "Detta kan ta mer än 15 minuter, ha lite tålamod.",
+    "label": "Förloppsindikator för ändring av inloggningstyper",
+    "errors": {
+      "authkey": {
+        "title": "Ogiltig autentiseringsnyckel",
+        "body1": "Autentiseringsnyckeln du har angivit är ogiltig.",
+        "body2": "Ange en giltig autentiseringsnyckel igen.",
+        "action": "Ange autentiseringsnyckel igen",
+        "cancel": "Avbryt"
+      },
+      "unknown": "Det uppstod ett fel under leverantörsändringsprocessen. Försök igen eller kontakta supporten om problemet kvarstår.",
+      "userNotFound": "Det gick inte att hitta användarnamnet",
+      "idpUsernameNotMatching": "Användarnamn matchar inte",
+      "providerNotMatching": "Det går inte att ändra inloggning"
+    }
+  }
+}

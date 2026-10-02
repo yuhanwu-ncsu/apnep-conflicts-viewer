@@ -1,0 +1,24 @@
+{
+  "expandAll": "Alle einblenden",
+  "collapseAll": "Alle ausblenden",
+  "categoryItem": {
+    "expand": "Einblenden",
+    "collapse": "Ausblenden",
+    "editCategory": "Kategorie bearbeiten",
+    "deleteCategory": "Kategorie löschen",
+    "addSubcategory": "Unterkategorie hinzufügen",
+    "addCategory": "Kategorie hinzufügen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "missingTitleMessage": "Der Kategorietitel ist erforderlich.",
+    "errors": {
+      "generic": "Ein Fehler ist aufgetreten. Versuchen Sie es später erneut.",
+      "maxDepthExceeded": "Sie können Kategorien nicht mehr als 2 Ebenen tief verschachteln.",
+      "destinationHasSameName": "Eine Kategorie mit diesem Namen ist in der Zielkategorie bereits vorhanden.",
+      "emptyTitle": "Kategorietitel darf nicht leer sein.",
+      "noSchema": "Elementschema für Benutzer nicht gefunden.",
+      "maxCharacter": "Der Name der Kategorie überschreitet die maximal zulässige Zeichenanzahl."
+    },
+    "dragHandleLabel": "Zum Neusortieren ziehen."
+  }
+}

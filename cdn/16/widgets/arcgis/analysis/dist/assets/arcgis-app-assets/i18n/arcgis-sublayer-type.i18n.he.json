@@ -1,0 +1,16 @@
+{
+  "point": "שכבת נקודות",
+  "line": "שכבת קווים",
+  "polygon": "שכבת פוליגון",
+  "multipatch": "שכבת MultiPatch",
+  "multipoint": "שכבת Multipoint",
+  "table": "טבלה",
+  "annotation": "שכבת אנוטציות",
+  "catalog": "‏שכבת קטלוג",
+  "dimension": "שכבת ממד",
+  "oriented imagery": "שכבת תצלומים מכוונים",
+  "parcel": "שכבת Parcel fabric",
+  "utility network": "שכבת Utility Network",
+  "topology": "שכבת טופולוגיה",
+  "trace network": "שכבת רשת מעקב"
+}

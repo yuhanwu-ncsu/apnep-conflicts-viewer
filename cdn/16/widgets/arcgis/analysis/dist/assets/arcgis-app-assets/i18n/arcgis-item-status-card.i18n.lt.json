@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Neturite leidimo atnaujinti šio elemento bendrinimą.",
+      "panel": "Neturite leidimo atnaujinti šio elemento bendrinimą. Šis elementas gali būti kitiems nematomas, nes jis bendrinamas kitaip."
+    },
+    "pdc": {
+      "notice": "Prieš viešai bendrindami šį sluoksnį, įgalinkite viešų duomenų rinkimą.",
+      "panel": "Prieš viešai bendrindami šį sluoksnį, įgalinkite viešų duomenų rinkimą. Optimalaus našumo ir duomenų vientisumo sumetimais apsvarstykite išjungti redagavimą arba naudoti neredaguojamą peržiūros sluoksnį.",
+      "learnMore": "Sužinokite daugiau apie viešų sluoksnių redagavimo įgalinimą."
+    },
+    "premium": {
+      "notice": "Norint peržiūrėti Premium ir prenumeruojamą turinį, gali reikėti prisijungti.",
+      "panel": "Norint peržiūrėti Premium ir prenumeruojamą turinį, gali reikėti prisijungti.",
+      "learnMore": "Sužinokite daugiau apie Premium arba prenumeruojamo turinio bendrinimą."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Jei šį redaguojamą sluoksnį bendrinsite viešai, jį visi galės redaguoti.",
+      "panel": "Jei šį redaguojamą sluoksnį bendrinsite viešai, jį visi galės redaguoti. Optimalaus našumo ir duomenų vientisumo sumetimais apsvarstykite išjungti redagavimą arba naudoti neredaguojamą peržiūros sluoksnį."
+    },
+    "needsAuthentication": {
+      "notice": "Reikalingas autentifikavimas.",
+      "panel": "Šis elementas kitiems gali būti nepasiekiamas, nes jame yra vietos nustatymo paslaugų, kurioms būtinas elementą atvaizduojančių programų autentifikavimas."
+    }
+  },
+  "goToItem": "Peržiūrėti išsamią informaciją"
+}

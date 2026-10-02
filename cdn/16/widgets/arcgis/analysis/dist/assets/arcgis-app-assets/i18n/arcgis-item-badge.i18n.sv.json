@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Tillförlitlig",
+    "tooltip": {
+      "org": "Rekommenderas av din organisation",
+      "public": "Rekommenderas av ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Betaversion",
+    "tooltip": "Den här objekttypen är i betaversion."
+  },
+  "Deprecated": {
+    "title": "Inaktuellt",
+    "tooltip": "Rekommenderas inte för användning. Ägaren, ${owner}, har ersatt det här objektet."
+  },
+  "Has Replacement": {
+    "title": "Har ersättning",
+    "tooltip": "Det här objektet har en rekommenderad ersättning. Visa objektinformation för att hitta och använda ersättningen.",
+    "itemPageTooltip": "Det här objektet har en rekommenderad ersättning.",
+    "link": "Visa ersättning"
+  },
+  "DeprecatedItemType": {
+    "title": "Inaktuell objekttyp",
+    "tooltip": {
+      "general": "Esri har ersatt den här objekttypen. Den kommer snart att sluta gälla och vara otillgänglig för användning.",
+      "webAppBuilder": "Esri har ersatt ArcGIS Web AppBuilder, som användes för att skapa det här objektet. Den kommer snart att sluta gälla och vara otillgänglig för användning. Använd ArcGIS Experience Builder eller en annan ArcGIS-app för att skapa en ny applikation."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Innehåll utvalt av Esri"
+  },
+  "Subscriber": {
+    "title": "Abonnent",
+    "tooltip": {
+      "org": "Exklusivt innehåll för abonnenter",
+      "public": "Exklusivt innehåll för abonnenter. Logga in med ett ArcGIS Online-abonnemang för att använda det."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Exklusivt innehåll för abonnenter. Förbrukar krediter.",
+      "public": "Exklusivt innehåll för abonnenter som förbrukar krediter. Logga in med ett ArcGIS Online-abonnemang för att använda det."
+    }
+  },
+  "Open Data": {
+    "title": "Open Data",
+    "tooltip": "Tillgänglig för offentligt bruk"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Visas på ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Distribuerat samarbete",
+    "tooltip": "Det här objektet har tagits emot från ett distribuerat samarbete"
+  },
+  "Retired": {
+    "title": "Utgången objekttyp",
+    "tooltip": {
+      "general": "Esri har dragit in den här objekttypen. Den är inte längre tillgänglig för användning.",
+      "classicStoryMap": "Mallen för klassiska Esri Story Maps (${template_name}) som använts för att skapa det här objektet är utgången. Det här objektet kan inte längre redigeras eller visas. Konfigurera ett ersättningsobjekt som skapats med ArcGIS StoryMaps eller en annan ArcGIS-app för att omdirigera åskådare.",
+      "classicStoryMapGeneric": "Mallen för klassiska Esri Story Maps som använts för att skapa det här objektet är utgången. Det här objektet kan inte längre redigeras eller visas. Konfigurera ett ersättningsobjekt som skapats med ArcGIS StoryMaps eller en annan ArcGIS-app för att omdirigera åskådare.",
+      "cityEngine": "CityEngine Web Viewer och CityEngine Web Scenes stöds inte längre.",
+      "app": "Mallen Konfigurerbara appar som användes för att skapa den här applikationen är utgången. Det här objektet är ej operationellt och kan tas bort. Använd ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards eller ArcGIS Experience Builder för att skapa en ny applikation.",
+      "webAppBuilder": "ArcGIS Web AppBuilder är utgången i ArcGIS Enterprise. Det här objektet är ej operationellt och kan tas bort. Använd ArcGIS Experience Builder för att skapa en ny applikation.",
+      "insights": "ArcGIS Insights är utgången i ArcGIS Enterprise. Det här objektet är ej operationellt och kan tas bort.",
+      "bdfs": "Big Data-fildelningar är utgångna i ArcGIS Enterprise. Det här objektet är ej operationellt och kan tas bort."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Publik datainsamling",
+    "tooltip": "Godkänd för publik datainsamling."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Lösning som stöds av Esri"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "En registrerad OAuth 2.0-applikation. Kan använda premium- eller abonnemangsinnehåll.",
+      "enterprise": "En registrerad OAuth 2.0-applikation."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Inloggningsuppgifter för API-nyckel",
+      "enterprise": "Inloggningsuppgifter för API-nyckel"
+    },
+    "tooltip": "Ger åtkomst till tjänster."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Inloggningsuppgifter för API-nyckel – privat applikation",
+    "tooltip": "Tillhandahåller åtkomsttokens med behörigheter för åtkomst till en expanderad uppsättning tjänster och objekt. Skydda dessa tokens på samma sätt som du skulle skydda användarnamn och lösenord. Bädda inte in i en applikation."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "Inloggninguppgifter för OAuth 2.0",
+      "enterprise": "Inloggninguppgifter för OAuth 2.0"
+    },
+    "tooltip": "Ger åtkomst till tjänster."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "OAuth 2.0-inloggningsuppgifter – imiterar objektets ägare",
+    "tooltip": "Imiterar ägaren av detta objekt. För säkerhetsändamål ska du skydda dessa inloggningsuppgifter på samma sätt som ditt användarnamn och lösenord."
+  },
+  "Registered Application": {
+    "title": "OAuth 2.0-applikation",
+    "tooltip": "En registrerad OAuth 2.0-applikation"
+  },
+  "Personal credential": {
+    "title": "Personlig",
+    "tooltip": "Du beviljar en personlig behörighet till de här autentiseringsuppgifterna. För säkerhetsändamål ska du skydda åtkomsttoken som skapats med dessa inloggningsuppgifter på samma sätt som ditt användarnamn och lösenord. Granska användarvillkoren."
+  },
+  "loading": "Läser in..."
+}

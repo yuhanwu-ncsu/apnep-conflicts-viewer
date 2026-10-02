@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Muuta kirjautumistyyppiä",
+  "chooseLoginType": "Valitse kirjautumistyyppi",
+  "selectMembers": "Valitse jäsenet",
+  "userDetails": "Käyttäjän tiedot",
+  "reauth": "Todenna uudelleen",
+  "confirmComplete": "Vahvista ja viimeistele",
+  "next": "Seuraava",
+  "back": "Takaisin",
+  "cancel": "Peruuta",
+  "close": "Sulje",
+  "changeLogins": "Muuta kirjautumisia",
+  "acknowledgeImpact": "Hyväksyn ja ymmärrän tämän muutoksen vaikutuksen.",
+  "propertiesHeading": "Määritä uudet kirjautumistiedot seuraaville jäsenille",
+  "chooseFile": "Valitse toinen tiedosto",
+  "mustAcknowledge": "Sinun on hyväksyttävä tämän muutoksen vaikutus ennen jatkamista.",
+  "confirmLeave": {
+    "title": "Peruuta muutokset",
+    "message1": "Sinulla on tallentamattomia muutoksia.",
+    "message2": "Haluatko varmasti peruuttaa muutokset?",
+    "remain": "Jatka muokkausta",
+    "leave": "Poistu tallentamatta"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS-kirjautuminen",
+    "chooseLoginModify": "Valitse, miten kirjautumisia muokataan",
+    "changeType": "Muuta kirjautumistyyppiä",
+    "selectType": "Valitse käytettävä nykyinen kirjautumistyyppi",
+    "changeTypeDescription": "Muuta organisaatiokohtaisia tunnuksia OpenID Connect-, SAML- tai ArcGIS-kirjautumisten välillä.",
+    "keepType": "Säilytä kirjautumistyyppi",
+    "keepTypeDescription": "Päivitä OpenID Connect- tai SAML-tunnus ja sähköpostiosoite muuttamatta kirjautumistyyppiä.",
+    "currentType": "Nykyinen kirjautumistyyppi",
+    "newType": "Uusi kirjautumistyyppi",
+    "select": "Valitse",
+    "samlLogin": "{name} (SAML-kirjautuminen)",
+    "oidcLogin": "{name} (OpenID Connect -kirjautuminen)",
+    "oldSaml": "Edellinen SAML-kirjautuminen",
+    "oldOidc": "Edellinen OIDC-kirjautuminen",
+    "enterpriseOverwrite": "Sähköpostiosoite voidaan korvata tunnistetietojen toimittajalta saadulla arvolla sen mukaan, mitkä ovat yrityksen kirjautumispalvelujen tarjoajan asetukset.",
+    "generateMissingPasswords": "Vaihdettaessa ArcGIS-kirjautumiseen tilapäiset salasanat luodaan automaattisesti, jos niitä ei ole määritetty. Ne näytetään käyttäjätietojen vaiheessa.",
+    "errors": {
+      "loginTypes": "Sekä nykyiset että uudet kirjautumistyypit on valittava.",
+      "currentLoginType": "Nykyinen kirjautumistyyppi on pakollinen, ja se pitää valita.",
+      "sameLoginType": "Uuden kirjautumistyypin on oltava eri kuin nykyinen kirjautumistyyppi."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Jäsenen valintamenetelmä",
+    "howToSelect": "Miten haluat valita jäsenet?",
+    "bulkUpload": "Joukkolataus (CSV)",
+    "chooseAFile": "Valitse palveluun ladattava tiedosto seuraavassa vaiheessa.",
+    "manualSelection": "Manuaalinen valinta",
+    "selectMembers": "Valitse jäsenet luettelosta seuraavassa vaiheessa.",
+    "selectFromFile": "Valitse jäsenet CSV-tiedostosta",
+    "dragDrop": "Vedä ja pudota tiedosto tai valitse se laitteelta.",
+    "headerInstructions": "Otsikkorivin (ensimmäinen rivi) tulisi sisältää kenttien nimet juuri sellaisina kuin ne näkyvät alla.",
+    "fieldOrder": "Kenttäjärjestys voi vaihdella.",
+    "yourDevice": "Laitteesi",
+    "downloadTemplate": "Lataa CSV-malli",
+    "requiredFields": "Pakolliset kentät",
+    "optionalFields": "Valinnaiset kentät",
+    "passwordTooltip": "Väliaikainen salasana luodaan automaattisesti, jos sitä ei anneta.",
+    "excessTitleCsv": "CSV ylittää 5 000 jäsenen rajan",
+    "excessBatchLimit": "Voit päivittää kerralla enintään 5 000 jäsenen kirjautumistyypit.",
+    "excessBodyCsv": "Jos haluat käsitellä kerralla yli 5 000 jäsentä, jaa CSV useisiin pienempiin tiedostoihin ja lataa ne palveluun erikseen.",
+    "learnMore": "Lisätietoja",
+    "errors": {
+      "fileType": "Virheellinen tiedostotyyppi. Lataa CSV-tiedosto uudelleen.",
+      "fileSize": "Tiedoston koko ylittää 500 kt, eikä sitä voida käsitellä tehokkaasti.",
+      "noMembers": "Jäseniä ei ole valittu. Valitse jäsenet tai lataa CSV-tiedosto palveluun, jotta voit jatkaa.",
+      "tooManyMembers": "Valinta ylittää 5 000 jäsenen rajan."
+    }
+  },
+  "fieldNames": {
+    "email": "Sähköpostiosoite",
+    "username": "ArcGIS-käyttäjänimi",
+    "password": "Tilapäinen salasana",
+    "samlId": "SAML-tunnus",
+    "oidcId": "OIDC-tunnus",
+    "oldSamlId": "Edellinen SAML-tunnus",
+    "oldOidcId": "Edellinen OIDC-tunnus",
+    "success": "Onnistui",
+    "error": "Virhe",
+    "fromLoginType": "Alkuperäinen kirjautumistyyppi",
+    "toLoginType": "Uusi kirjautumistyyppi"
+  },
+  "authentication": {
+    "header": "Uudelleentodennus vaaditaan",
+    "reauthSteps": "Uudelleentodennuksen vaiheet",
+    "step1_label": "Vaihe 1: kirjautuminen (uusi ikkuna)",
+    "step1_desc": "Uusi ikkuna avautuu, jotta voit kirjautua sisään.",
+    "step2_label": "Vaihe 2: todennusavaimen kopioiminen",
+    "step2_desc": "Saat todennusavaimen, joka sinun tulee kopioida.",
+    "step3_label": "Vaihe 3: todennusavaimen liittäminen",
+    "step3_desc": "Anna todennusavain, jotta voit jatkaa.",
+    "openWindow": "Avaa uusi ikkuna, jotta voit todentaa uudelleen.",
+    "authKey": "Todennusavain",
+    "paste": "Liitä",
+    "getNewKey": "Luo uusi avain",
+    "hide": "Piilota",
+    "show": "Näytä",
+    "errors": {
+      "clipboard": "Leikepöydältä lukeminen epäonnistui",
+      "authKey": "Kelvollinen todennusavain vaaditaan"
+    }
+  },
+  "usersTable": {
+    "asc": "Aakkosjärjestys",
+    "desc": "Käänteinen aakkosjärjestys",
+    "sortBy": "Lajitteluperuste",
+    "sortDirection": "Lajittelun suunta",
+    "searchMembers": "Hae jäseniä luettelosta",
+    "memberDetails": "Jäsentiedot kirjautumisen tarjoajan muutostoiminnolle",
+    "optional": "(valinnainen)",
+    "fieldErrors": "Kenttävirheet",
+    "noErrors": "Ei virheitä",
+    "noData": "Ei tietoja saatavilla",
+    "noMembersMatch": "Ei hakuehtoja vastaavia jäseniä",
+    "togglePassword": "Vaihda salasanan näkyvyys",
+    "memberCount": "{start} – {end}/{total}",
+    "errors": {
+      "email": "Sähköpostiosoite on pakollinen",
+      "username": "ArcGIS-käyttäjätunnus on pakollinen",
+      "password": "Tilapäinen salasana on pakollinen",
+      "samlId": "SAML-tunnus on pakollinen",
+      "oidcId": "OIDC-tunnus on pakollinen"
+    }
+  },
+  "review": {
+    "heading": "Tarkista muutokset",
+    "loginsWillChange": "Seuraavien tilien kirjautuminen {fromLogin} vaihtuu kirjautumiseksi {toLogin}",
+    "downloadCsv": "Lataa muutosten CSV",
+    "providerTypes": {
+      "saml": "SAML-kirjautumiset",
+      "oidc": "OpenID Connect -kirjautumiset",
+      "arcgis": "ArcGIS-tilikirjautumiset"
+    },
+    "missingRequired": "Vaadittuja tietoja puuttuu. Täytä vaaditut tiedot, jotta voit jatkaa."
+  },
+  "progress": {
+    "processing": "Käsitellään... {current}/{total} käyttäjää.",
+    "percentComplete": "Prosenttia valmiina",
+    "doNotClose": "Älä sulje selainta.",
+    "extendedTime": "Tässä voi kestää 10 minuuttia. Maltathan odottaa.",
+    "extendedTime10": "Tässä voi kestää yli 10 minuuttia. Maltathan odottaa.",
+    "extendedTime15": "Tässä voi kestää yli 15 minuuttia. Maltathan odottaa.",
+    "label": "Kirjautumistyyppien vaihtamisen edistymisilmaisin",
+    "errors": {
+      "authkey": {
+        "title": "Virheellinen todennusavain",
+        "body1": "Antamasi todennusavain on virheellinen.",
+        "body2": "Anna kelvollinen todennusavain uudelleen.",
+        "action": "Anna todennusavain uudelleen",
+        "cancel": "Peruuta"
+      },
+      "unknown": "Toimittajan vaihtamisprosessin aikana tapahtui virhe. Yritä uudelleen tai ota yhteyttä tukeen, jos ongelma toistuu.",
+      "userNotFound": "Käyttäjänimeä ei löydy",
+      "idpUsernameNotMatching": "Käyttäjänimi ei täsmää",
+      "providerNotMatching": "Ei voi vaihtaa kirjautumista"
+    }
+  }
+}

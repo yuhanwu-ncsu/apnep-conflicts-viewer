@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Alternador de idioma",previewTip:"Isto s\xf3 funciona em aplica\xe7\xf5es em pr\xe9-visualiza\xe7\xe3o ou publicadas."})}}});

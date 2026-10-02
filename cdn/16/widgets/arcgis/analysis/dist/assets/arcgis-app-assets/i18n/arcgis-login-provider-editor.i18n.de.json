@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Anmeldetyp ändern",
+  "chooseLoginType": "Anmeldetyp auswählen",
+  "selectMembers": "Mitglieder auswählen",
+  "userDetails": "Benutzerdetails",
+  "reauth": "Erneut authentifizieren",
+  "confirmComplete": "Bestätigen und abschließen",
+  "next": "Weiter",
+  "back": "Zurück",
+  "cancel": "Abbrechen",
+  "close": "Schließen",
+  "changeLogins": "Anmeldedaten ändern",
+  "acknowledgeImpact": "Ich bestätige, dass mir die Auswirkungen dieser Änderung bekannt sind.",
+  "propertiesHeading": "Neue Anmeldeinformationen für die folgenden Mitglieder angeben",
+  "chooseFile": "Andere Datei auswählen",
+  "mustAcknowledge": "Sie müssen die Auswirkungen dieser Änderung bestätigen, bevor Sie fortfahren.",
+  "confirmLeave": {
+    "title": "Änderungen verwerfen",
+    "message1": "Nicht gespeicherte Änderungen.",
+    "message2": "Möchten Sie die Änderungen wirklich verwerfen?",
+    "remain": "Bearbeitung fortsetzen",
+    "leave": "Ohne Speichern beenden"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS-Anmeldung",
+    "chooseLoginModify": "Auswählen, wie Anmeldungen geändert werden",
+    "changeType": "Anmeldetyp ändern",
+    "selectType": "Aktuellen zu verwendenden Anmeldetyp auswählen",
+    "changeTypeDescription": "Organisationsspezifische IDs in OpenID Connect-ID-, SAML- oder ArcGIS-Anmeldungen ändern.",
+    "keepType": "Anmeldetyp beibehalten",
+    "keepTypeDescription": "OpenID Connect- oder SAML-ID und E-Mail-Adresse aktualisieren, ohne den Anmeldetyp zu ändern.",
+    "currentType": "Aktueller Anmeldetyp",
+    "newType": "Neuer Anmeldetyp",
+    "select": "Auswählen",
+    "samlLogin": "{name} (SAML-Anmeldung)",
+    "oidcLogin": "{name} (OpenID Connect-Anmeldung)",
+    "oldSaml": "Vorherige SAML-Anmeldung",
+    "oldOidc": "Vorherige OIDC-Anmeldung",
+    "enterpriseOverwrite": "Je nach den Einstellungen des Enterprise-Anmelde-Provider wird die E-Mail-Adresse möglicherweise durch den Wert Ihres Identity-Provider überschrieben.",
+    "generateMissingPasswords": "Beim Wechsel zur ArcGIS-Anmeldung werden automatisch temporäre Kennwörter generiert, sofern keine angegeben wurden. Sie werden im Schritt 'Benutzerdetails' angezeigt.",
+    "errors": {
+      "loginTypes": "Sowohl aktuelle als auch neue Anmeldetypen müssen ausgewählt werden.",
+      "currentLoginType": "Der aktuelle Anmeldetyp ist erforderlich und muss ausgewählt werden.",
+      "sameLoginType": "Der neue Anmeldetyp muss sich vom aktuellen Anmeldetyp unterscheiden."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Methode für Mitgliederauswahl",
+    "howToSelect": "Wie möchten Sie die Mitglieder auswählen?",
+    "bulkUpload": "Batch-Upload (CSV)",
+    "chooseAFile": "Im nächsten Schritt eine Datei zum Hochladen auswählen.",
+    "manualSelection": "Manuelle Auswahl",
+    "selectMembers": "Im nächsten Schritt Mitglieder aus einer Liste auswählen.",
+    "selectFromFile": "Mitglieder aus einer CSV-Datei auswählen",
+    "dragDrop": "Datei per Drag & Drop verschieben oder auf dem Gerät auswählen.",
+    "headerInstructions": "Die Kopfzeile (erste Zeile) sollte die Feldnamen genau wie unten angezeigt enthalten.",
+    "fieldOrder": "Die Feldreihenfolge kann variieren.",
+    "yourDevice": "Ihr Gerät",
+    "downloadTemplate": "CSV-Vorlage herunterladen",
+    "requiredFields": "Erforderliche Felder",
+    "optionalFields": "Optionale Felder",
+    "passwordTooltip": "Wird kein Kennwort angegeben, wird automatisch ein temporäres Kennwort generiert.",
+    "excessTitleCsv": "Die CSV-Datei überschreitet den Grenzwert von 5.000 Mitgliedern.",
+    "excessBatchLimit": "Sie können die Anmeldetypen für bis zu 5.000 Mitglieder pro Batch aktualisieren.",
+    "excessBodyCsv": "Um mehr als 5.000 Mitglieder zu verarbeiten, teilen Sie Ihre CSV-Datei in mehrere kleinere Dateien auf, und laden Sie diese separat hoch.",
+    "learnMore": "Weitere Informationen",
+    "errors": {
+      "fileType": "Ungültiger Dateityp. Laden Sie eine CSV-Datei hoch.",
+      "fileSize": "Die Dateigröße überschreitet 500 KB und kann möglicherweise nicht effizient verarbeitet werden.",
+      "noMembers": "Keine Mitglieder ausgewählt. Wählen Sie Mitglieder aus oder laden Sie eine CSV-Datei hoch, um fortzufahren.",
+      "tooManyMembers": "Die Auswahl überschreitet den Grenzwert von 5.000 Mitgliedern."
+    }
+  },
+  "fieldNames": {
+    "email": "E-Mail",
+    "username": "ArcGIS-Benutzername",
+    "password": "Temporäres Kennwort",
+    "samlId": "SAML-ID",
+    "oidcId": "OIDC-ID",
+    "oldSamlId": "Vorherige SAML-ID",
+    "oldOidcId": "Vorherige OIDC-ID",
+    "success": "Erfolgreich",
+    "error": "Fehler",
+    "fromLoginType": "Ursprünglicher Anmeldetyp",
+    "toLoginType": "Neuer Anmeldetyp"
+  },
+  "authentication": {
+    "header": "Neuauthentifizierung erforderlich",
+    "reauthSteps": "Schritte zur Neuauthentifizierung",
+    "step1_label": "Schritt 1: Anmelden (neues Fenster)",
+    "step1_desc": "Es wird ein neues Fenster angezeigt, in dem Sie sich anmelden können.",
+    "step2_label": "Schritt 2: Authentifizierungsschlüssel kopieren",
+    "step2_desc": "Sie erhalten einen Authentifizierungsschlüssel, den Sie kopieren müssen.",
+    "step3_label": "Schritt 3: Authentifizierungsschlüssel einfügen",
+    "step3_desc": "Geben Sie den Authentifizierungsschlüssel ein, um fortzufahren.",
+    "openWindow": "Ein neues Fenster für die Neuauthentifizierung öffnen",
+    "authKey": "Authentifizierungsschlüssel",
+    "paste": "Einfügen",
+    "getNewKey": "Neuen Schlüssel erstellen",
+    "hide": "Ausblenden",
+    "show": "Anzeigen",
+    "errors": {
+      "clipboard": "Fehler beim Lesen aus der Zwischenablage",
+      "authKey": "Es ist ein gültiger Authentifizierungsschlüssel erforderlich."
+    }
+  },
+  "usersTable": {
+    "asc": "Alphabetisch",
+    "desc": "In umgekehrter alphabetischer Reihenfolge",
+    "sortBy": "Sortieren nach",
+    "sortDirection": "Sortierrichtung",
+    "searchMembers": "In dieser Liste nach Mitgliedern suchen",
+    "memberDetails": "Mitgliederdetails für die Änderung des Anmelde-Providers",
+    "optional": "(optional)",
+    "fieldErrors": "Feldfehler",
+    "noErrors": "Keine Fehler",
+    "noData": "Keine Daten verfügbar",
+    "noMembersMatch": "Es gibt keine Mitglieder, die Ihren Suchkriterien entsprechen.",
+    "togglePassword": "Kennwortsichtbarkeit umschalten",
+    "memberCount": "{start}–{end} von {total}",
+    "errors": {
+      "email": "E-Mail ist erforderlich",
+      "username": "ArcGIS-Benutzername erforderlich",
+      "password": "Temporäres Kennwort erforderlich",
+      "samlId": "SAML-ID erforderlich",
+      "oidcId": "OIDC-ID erforderlich"
+    }
+  },
+  "review": {
+    "heading": "Änderungen überprüfen",
+    "loginsWillChange": "Die folgenden Konten werden von {fromLogin} in {toLogin} geändert.",
+    "downloadCsv": "CSV-Datei der Änderungen herunterladen",
+    "providerTypes": {
+      "saml": "SAML-Anmeldungen",
+      "oidc": "OpenID Connect-Anmeldungen",
+      "arcgis": "ArcGIS-Konto-Anmeldungen"
+    },
+    "missingRequired": "Erforderliche Informationen fehlen. Geben Sie die fehlenden Informationen ein, bevor Sie fortfahren."
+  },
+  "progress": {
+    "processing": "Wird verarbeitet... {current} von {total} Benutzern.",
+    "percentComplete": "Prozent abgeschlossen",
+    "doNotClose": "Schließen Sie den Browser nicht.",
+    "extendedTime": "Dies kann bis zu 10 Minuten dauern. Bitte haben Sie etwas Geduld.",
+    "extendedTime10": "Dies kann länger als 10 Minuten dauern. Bitte haben Sie etwas Geduld.",
+    "extendedTime15": "Dies kann länger als 15 Minuten dauern. Bitte haben Sie etwas Geduld.",
+    "label": "Statusanzeige beim Wechseln der Anmeldetypen",
+    "errors": {
+      "authkey": {
+        "title": "Ungültiger Authentifizierungsschlüssel",
+        "body1": "Der eingegebene Authentifizierungsschlüssel ist ungültig.",
+        "body2": "Geben Sie einen gültigen Authentifizierungsschlüssel ein.",
+        "action": "Authentifizierungsschlüssel erneut eingeben",
+        "cancel": "Abbrechen"
+      },
+      "unknown": "Beim Provider-Wechsel ist ein Fehler aufgetreten. Versuchen Sie es erneut, oder wenden Sie sich an den Support, wenn das Problem weiterhin besteht.",
+      "userNotFound": "Benutzername nicht gefunden",
+      "idpUsernameNotMatching": "Benutzername stimmt nicht überein",
+      "providerNotMatching": "Anmeldung kann nicht geändert werden"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "بداية في",
+  "repeatTypeLabel": "نوع التكرار",
+  "endingOnTypeLabel": "انتهاء في",
+  "endingOnDateLabel": "تاريخ الانتهاء",
+  "endingOnCountLabel": "عدد",
+  "endingOnCountPlaceholder": "على سبيل المثال: 1، 10، 30",
+  "repeatIntervalLabel": "الفاصل الزمني للتكرار",
+  "timeLabel": "الوقت",
+  "hourlyOnMinuteLabel": "في الدقيقة",
+  "betweenHoursLabel": "بين الساعات",
+  "weeklyDaysOfWeekLabel": "اليوم من الأسبوع",
+  "monthlyDayOfMonthLabel": "اليوم من الشهر",
+  "monthlyDayOfMonthPlaceholder": "على سبيل المثال، 1 - 31",
+  "allDayLabel": "طوال اليوم",
+  "allWeekLabel": "طوال الأسبوع",
+  "repeatTypeOptions": {
+    "minute": "دقيقة",
+    "hour": "ساعة",
+    "day": "يوم",
+    "week": "أسبوع",
+    "month": "شهر"
+  },
+  "endingOnType": {
+    "never": "أبدًا",
+    "date": "تاريخ",
+    "count": "عدد"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "كل دقيقة",
+    "everyTwoMinutes": "كل دقيقتين",
+    "everyThreeMinutes": "كل ثلاث دقائق",
+    "everyFiveMinutes": "كل خمس دقائق",
+    "everyTenMinutes": "كل عشرة دقائق",
+    "everyFifteenMinutes": "كل خمس عشرة دقيقة",
+    "everyThirtyMinutes": "كل ثلاثين دقيقة"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "كل ساعة",
+    "everyTwoHours": "كل ساعتين",
+    "everyThreeHours": "كل ثلاث ساعات",
+    "everyFourHours": "كل أربع ساعات",
+    "everySixHours": "كل ست ساعات",
+    "everyTwelveHours": "كل اثنتي عشرة ساعة"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "كل يوم",
+    "everyOtherDay": "كل يومين",
+    "everyThreeDays": "كل ثلاثة أيام",
+    "everyFourDays": "كل أربعة أيام",
+    "everyFiveDays": "كل خمسة أيام",
+    "everySixDays": "كل ستة أيام",
+    "everySevenDays": "كل سبعة أيام",
+    "everyFourteenDays": "كل أربعة عشر يومًا"
+  },
+  "weekDays": {
+    "allWeekdays": "جميع أيام الأسبوع",
+    "sunday": "الأحد",
+    "monday": "الاثنين",
+    "tuesday": "الثلاثاء",
+    "wednesday": "الأربعاء",
+    "thursday": "الخميس",
+    "friday": "الجمعة",
+    "saturday": "السبت"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "كل شهر",
+    "everyTwoMonths": "كل شهرين",
+    "everyThreeMonths": "كل ثلاثة أشهر",
+    "everyFourMonths": "كل أربعة أشهر",
+    "everyFiveMonths": "كل خمسة أشهر",
+    "everySixMonths": "كل ستة أشهر"
+  }
+}

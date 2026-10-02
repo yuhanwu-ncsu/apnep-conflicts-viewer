@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Nu aveți permisiuni să actualizați partajarea acestui element.",
+      "panel": "Nu aveți permisiuni să actualizați partajarea acestui element. Este posibil ca acest element să nu fie vizibil pentru alții, deoarece este partajat diferit."
+    },
+    "pdc": {
+      "notice": "Activați Colectarea datelor publice înainte de a partaja public acest strat tematic.",
+      "panel": "Activați Colectarea datelor publice înainte de a partaja public acest strat tematic. Pentru performanțe optime și integritate a datelor, vă rugăm să luați în considerare dezactivarea editării sau utilizarea unui strat tematic needitabil.",
+      "learnMore": "Aflați mai multe despre activarea editării pe straturile tematice publice."
+    },
+    "premium": {
+      "notice": "Conținutul premium și pe bază de abonament poate necesita conectarea pentru vizualizare.",
+      "panel": "Conținutul premium și pe bază de abonament poate necesita conectarea pentru vizualizare.",
+      "learnMore": "Aflați mai multe despre partajarea conținutului premium sau cu abonament."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Partajarea publică a acestui strat tematic care poate fi partajat va permite oricui să îl editeze.",
+      "panel": "Partajarea publică a acestui strat tematic care poate fi partajat va permite oricui să îl editeze. Pentru performanțe optime și integritate a datelor, vă rugăm să luați în considerare dezactivarea editării sau utilizarea unui strat tematic needitabil."
+    },
+    "needsAuthentication": {
+      "notice": "Autentificare necesară.",
+      "panel": "Este posibil ca acest element să nu fie accesibil pentru alte persoane deoarece conține servicii de locație care necesită autentificare în aplicații care afișează elementul."
+    }
+  },
+  "goToItem": "Vizualizați toate detaliile"
+}

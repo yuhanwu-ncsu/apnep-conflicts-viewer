@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Начиная с",
+  "repeatTypeLabel": "Тип повтора",
+  "endingOnTypeLabel": "Заканчивая на",
+  "endingOnDateLabel": "Дата окончания",
+  "endingOnCountLabel": "Количество",
+  "endingOnCountPlaceholder": "например: 1, 10, 30",
+  "repeatIntervalLabel": "Интервал повтора",
+  "timeLabel": "Время",
+  "hourlyOnMinuteLabel": "Каждую минуту",
+  "betweenHoursLabel": "Каждые несколько часов",
+  "weeklyDaysOfWeekLabel": "День недели",
+  "monthlyDayOfMonthLabel": "День месяца",
+  "monthlyDayOfMonthPlaceholder": "например, 1-31",
+  "allDayLabel": "Весь день",
+  "allWeekLabel": "Всю неделю",
+  "repeatTypeOptions": {
+    "minute": "Минута",
+    "hour": "Час",
+    "day": "День",
+    "week": "Неделя",
+    "month": "Месяц"
+  },
+  "endingOnType": {
+    "never": "Никогда",
+    "date": "Дата",
+    "count": "Количество"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Каждую минуту",
+    "everyTwoMinutes": "Каждые две минуты",
+    "everyThreeMinutes": "Каждые три минуты",
+    "everyFiveMinutes": "Каждые пять минут",
+    "everyTenMinutes": "Каждые десять минут",
+    "everyFifteenMinutes": "Каждые пятнадцать минут",
+    "everyThirtyMinutes": "Каждые тридцать минут"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Каждый час",
+    "everyTwoHours": "Каждые два часа",
+    "everyThreeHours": "Каждые три часа",
+    "everyFourHours": "Каждые четыре часа",
+    "everySixHours": "Каждые шесть часов",
+    "everyTwelveHours": "Каждые двенадцать часов"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Каждый день",
+    "everyOtherDay": "Через день",
+    "everyThreeDays": "Каждые три дня",
+    "everyFourDays": "Каждые четыре дня",
+    "everyFiveDays": "Каждые пять дней",
+    "everySixDays": "Каждые шесть дней",
+    "everySevenDays": "Каждые семь дней",
+    "everyFourteenDays": "Каждые четырнадцать дней"
+  },
+  "weekDays": {
+    "allWeekdays": "Все будние дни",
+    "sunday": "Воскресенье",
+    "monday": "Понедельник",
+    "tuesday": "Вторник",
+    "wednesday": "Среда",
+    "thursday": "Четверг",
+    "friday": "Пятница",
+    "saturday": "Суббота"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Каждый месяц",
+    "everyTwoMonths": "Каждые два месяца",
+    "everyThreeMonths": "Каждые три месяца",
+    "everyFourMonths": "Каждые четыре месяца",
+    "everyFiveMonths": "Каждые пять месяцев",
+    "everySixMonths": "Каждые шесть месяцев"
+  }
+}

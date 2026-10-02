@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Začína o",
+  "repeatTypeLabel": "Typ opakovania",
+  "endingOnTypeLabel": "Končí o",
+  "endingOnDateLabel": "Dátum ukončenia",
+  "endingOnCountLabel": "Počet",
+  "endingOnCountPlaceholder": "napríklad: 1, 10, 30",
+  "repeatIntervalLabel": "Interval opakovania",
+  "timeLabel": "Čas",
+  "hourlyOnMinuteLabel": "O minútu",
+  "betweenHoursLabel": "Medzi hodinami",
+  "weeklyDaysOfWeekLabel": "Deň v týždni",
+  "monthlyDayOfMonthLabel": "Deň v mesiaci",
+  "monthlyDayOfMonthPlaceholder": "napríklad 1 - 31",
+  "allDayLabel": "Celý deň",
+  "allWeekLabel": "Celý týždeň",
+  "repeatTypeOptions": {
+    "minute": "Minúta",
+    "hour": "Hodina",
+    "day": "Deň",
+    "week": "Týždeň",
+    "month": "Mesiac"
+  },
+  "endingOnType": {
+    "never": "Nikdy",
+    "date": "Dátum",
+    "count": "Počet"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Každú minútu",
+    "everyTwoMinutes": "Každé dve minúty",
+    "everyThreeMinutes": "Každé tri minúty",
+    "everyFiveMinutes": "Každých päť minút",
+    "everyTenMinutes": "Každých desať minút",
+    "everyFifteenMinutes": "Každých pätnásť minút",
+    "everyThirtyMinutes": "Každých tridsať minút"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Každú hodinu",
+    "everyTwoHours": "Každé dve hodiny",
+    "everyThreeHours": "Každé tri hodiny",
+    "everyFourHours": "Každé štyri hodiny",
+    "everySixHours": "Každých šesť hodín",
+    "everyTwelveHours": "Každých dvanásť hodín"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Každý deň",
+    "everyOtherDay": "Každý druhý deň",
+    "everyThreeDays": "Každé tri dni",
+    "everyFourDays": "Každé štyri dni",
+    "everyFiveDays": "Každých päť dní",
+    "everySixDays": "Každých šesť dní",
+    "everySevenDays": "Každých sedem dní",
+    "everyFourteenDays": "Každých štrnásť dní"
+  },
+  "weekDays": {
+    "allWeekdays": "Všetky pracovné dni",
+    "sunday": "Nedeľa",
+    "monday": "Pondelok",
+    "tuesday": "Utorok",
+    "wednesday": "Streda",
+    "thursday": "Štvrtok",
+    "friday": "Piatok",
+    "saturday": "Sobota"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Každý mesiac",
+    "everyTwoMonths": "Každé dva mesiace",
+    "everyThreeMonths": "Každé tri mesiace",
+    "everyFourMonths": "Každé štyri mesiace",
+    "everyFiveMonths": "Každých päť mesiacov",
+    "everySixMonths": "Každých šesť mesiacov"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Spremeni vrsto prijave",
+  "chooseLoginType": "Izberi vrsto prijave",
+  "selectMembers": "Izberi uporabnike",
+  "userDetails": "Podrobnosti o uporabniku",
+  "reauth": "Ponovno izvedi avtentikacijo",
+  "confirmComplete": "Potrdi in zaključi",
+  "next": "Naprej",
+  "back": "Nazaj",
+  "cancel": "Prekliči",
+  "close": "Zapri",
+  "changeLogins": "Spremeni prijave",
+  "acknowledgeImpact": "Potrjujem in razumem vpliv te spremembe.",
+  "propertiesHeading": "Določi nove podatke za prijavo za naslednje uporabnike",
+  "chooseFile": "Izberi drugo datoteko",
+  "mustAcknowledge": "Pred nadaljevanjem morate potrditi vpliv te spremembe.",
+  "confirmLeave": {
+    "title": "Prekliči spremembe",
+    "message1": "Imate neshranjene spremembe.",
+    "message2": "Ste prepričani, da želite preklicati spremembe?",
+    "remain": "Nadaljuj z urejanjem",
+    "leave": "Izhod brez shranjevanja"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Prijava v ArcGIS",
+    "chooseLoginModify": "Izberite, kako spremeniti prijave",
+    "changeType": "Spremeni vrsto prijave",
+    "selectType": "Izberite trenutno vrsto prijave, s katero želite delati",
+    "changeTypeDescription": "Spremenite ID-je, specifične za organizacijo, med prijavami v OpenID Connect, SAML, ali ArcGIS.",
+    "keepType": "Ohrani vrsto prijave",
+    "keepTypeDescription": "Posodobite OpenID Connect ali SAML in e-poštni naslov brez spreminjanja vrste prijave.",
+    "currentType": "Trenutna vrsta prijave",
+    "newType": "Nova vrsta prijave",
+    "select": "Izberi",
+    "samlLogin": "{name} (Prijava s SAML)",
+    "oidcLogin": "{name} (Prijava z OpenID Connect)",
+    "oldSaml": "Prejšnja prijava s SAML",
+    "oldOidc": "Prejšnja prijava z OIDC",
+    "enterpriseOverwrite": "Glede na nastavitve ponudnika prijave za podjetja, se lahko e-poštni naslov prepiše z vrednostjo vašega ponudnika identitete.",
+    "generateMissingPasswords": "Pri spremembi prijave v ArcGIS se bodo začasna gesla samodejno ustvarila, če niso bila določena. Prikazana bodo v koraku s podatki o uporabniku.",
+    "errors": {
+      "loginTypes": "Izbrati je treba tako trenutne kot nove vrste prijave.",
+      "currentLoginType": "Trenutna vrsta prijave je obvezna in jo je treba izbrati.",
+      "sameLoginType": "Nova vrsta prijave se mora razlikovati od trenutne vrste prijave."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metoda izbire uporabnika",
+    "howToSelect": "Kako želite izbrati uporabnike?",
+    "bulkUpload": "Množično nalaganje (CSV)",
+    "chooseAFile": "V naslednjem koraku izberite datoteko za nalaganje.",
+    "manualSelection": "Ročna izbira",
+    "selectMembers": "V naslednjem koraku izberite uporabnike s seznama.",
+    "selectFromFile": "Izberite uporabnike iz datoteke CSV",
+    "dragDrop": "Povlecite in spustite vašo datoteko ali izberite iz vaše naprave.",
+    "headerInstructions": "Glava (prva vrstica) mora vsebovati točno takšna imena polja, kot se pojavijo spodaj.",
+    "fieldOrder": "Vrstni red polj se lahko razlikuje.",
+    "yourDevice": "Vaša naprava",
+    "downloadTemplate": "Prenesi predlogo CSV",
+    "requiredFields": "Obvezna polja",
+    "optionalFields": "Izbirna polja",
+    "passwordTooltip": "Začasno geslo bo samodejno ustvarjeno, če ga ne vnesete.",
+    "excessTitleCsv": "CSV presega omejitev 5000 članov",
+    "excessBatchLimit": "Vrste prijav lahko posodobite za do 5000 članov na paket.",
+    "excessBodyCsv": "Če želite obdelati več kot 5000 članov, razdelite datoteko CSV na več manjših datotek in jih naložite ločeno.",
+    "learnMore": "Več",
+    "errors": {
+      "fileType": "Neveljaven tip datoteke. Naložite datoteko CSV.",
+      "fileSize": "Velikost datoteke presega 500 KB in je morda ne bo mogoče učinkovito obdelati.",
+      "noMembers": "Ni izbranih uporabnikov. Za nadaljevanje izberite uporabnike ali datoteko CSV.",
+      "tooManyMembers": "Izbor presega omejitev 5000 članov."
+    }
+  },
+  "fieldNames": {
+    "email": "E-pošta",
+    "username": "Uporabniško ime ArcGIS",
+    "password": "Začasno geslo",
+    "samlId": "ID za SAML",
+    "oidcId": "ID za OIDC",
+    "oldSamlId": "Prejšnji ID za SAML",
+    "oldOidcId": "Prejšnji ID za OIDC",
+    "success": "Uspešno",
+    "error": "Napaka",
+    "fromLoginType": "Tip začetne prijave",
+    "toLoginType": "Nova vrsta prijave"
+  },
+  "authentication": {
+    "header": "Zahtevana je ponovna avtentikacija",
+    "reauthSteps": "Koraki ponovne avtentikacije",
+    "step1_label": "1. korak: Prijava (novo okno)",
+    "step1_desc": "Odprlo se bo novo okno za prijavo.",
+    "step2_label": "2 korak: Kopiraj ključ avtentikacije",
+    "step2_desc": "Prejeli boste ključ avtentikacije, ki ga morate kopirati.",
+    "step3_label": "3. korak: Prilepi ključ avtentikacije",
+    "step3_desc": "Za nadaljevanje vnesite ključ avtentikacije.",
+    "openWindow": "Odprite novo okno za ponovno izvedbo avtentikacije",
+    "authKey": "Ključ avtentikacije",
+    "paste": "Prilepi",
+    "getNewKey": "Ustvari nov ključ",
+    "hide": "Skrij",
+    "show": "Pokaži",
+    "errors": {
+      "clipboard": "Branje iz odložišča ni uspelo",
+      "authKey": "Zahtevan je veljaven ključ avtentikacije"
+    }
+  },
+  "usersTable": {
+    "asc": "Po abecednem vrstnem redu",
+    "desc": "Po obratnem abecednem vrstnem redu",
+    "sortBy": "Razvrsti po",
+    "sortDirection": "Smer sortiranja",
+    "searchMembers": "Išči uporabnike v tem seznamu",
+    "memberDetails": "Podrobnosti o uporabniku za operacijo spremembe ponudnika prijave",
+    "optional": "(izbirno)",
+    "fieldErrors": "Napake polja",
+    "noErrors": "Brez napak",
+    "noData": "Ni razpoložljivih podatkov",
+    "noMembersMatch": "Noben uporabnik ne izpolnjuje vaših kriterijev iskanja",
+    "togglePassword": "Preklopi vidnost gesla",
+    "memberCount": "{start} - {end} od {total}",
+    "errors": {
+      "email": "E-naslov je zahtevan",
+      "username": "Zahtevano je uporabniško ime ArcGIS",
+      "password": "Zahtevano je začasno geslo",
+      "samlId": "Zahtevan je ID SAML",
+      "oidcId": "Zahtevan je ID OIDC"
+    }
+  },
+  "review": {
+    "heading": "Preglejte spremembe",
+    "loginsWillChange": "Naslednji računi se bodo spremenili iz {fromLogin} v {toLogin}",
+    "downloadCsv": "Prenesi CSV s spremembami",
+    "providerTypes": {
+      "saml": "Prijave SAML",
+      "oidc": "Prijave OpenID Connect",
+      "arcgis": "Prijave računa ArcGIS"
+    },
+    "missingRequired": "Manjkajo zahtevane informacije. Pred nadaljevanjem izpolnite manjkajoče informacije."
+  },
+  "progress": {
+    "processing": "Obdelava ... {current} od {total} uporabnikov.",
+    "percentComplete": "Odstotek dokončanih",
+    "doNotClose": "Ne zapirajte brskalnika.",
+    "extendedTime": "To lahko traja do 10 minut, bodite potrpežljivi.",
+    "extendedTime10": "To lahko traja več kot 10 minut, bodite potrpežljivi.",
+    "extendedTime15": "To lahko traja več kot 15 minut, bodite potrpežljivi.",
+    "label": "Indikator napredka za spremembo vrste prijave",
+    "errors": {
+      "authkey": {
+        "title": "Neveljavna informacija ključa avtentikacije",
+        "body1": "Ključ avtentikacije, ki ste ga vnesli, ni veljaven.",
+        "body2": "Ponovno vnesite veljaven ključ avtentikacije.",
+        "action": "Ponovno vnesite ključ avtentikacije",
+        "cancel": "Prekliči"
+      },
+      "unknown": "Med postopkom spremembe ponudnika je prišlo do napake. Če težava ni odpravljena, poskusite znova ali se obrnite na podporo.",
+      "userNotFound": "Uporabniško ime ni najdeno",
+      "idpUsernameNotMatching": "Uporabniško ime se ne ujema",
+      "providerNotMatching": "Prijave ni mogoče spremeniti"
+    }
+  }
+}

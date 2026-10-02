@@ -1,0 +1,24 @@
+{
+  "expandAll": "Tümünü genişlet",
+  "collapseAll": "Tümünü daralt",
+  "categoryItem": {
+    "expand": "Genişlet",
+    "collapse": "Daralt",
+    "editCategory": "Kategoriyi düzenle",
+    "deleteCategory": "Kategoriyi sil",
+    "addSubcategory": "Alt kategori ekle",
+    "addCategory": "Kategori ekle",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "missingTitleMessage": "Kategori başlığı gereklidir.",
+    "errors": {
+      "generic": "Bazı hatalar oluştu. Lütfen daha sonra yeniden deneyin.",
+      "maxDepthExceeded": "Kategorileri 2 seviyeden daha derinde yuvaya yerleştiremezsiniz.",
+      "destinationHasSameName": "Hedef kategoride aynı ada sahip bir kategori zaten var.",
+      "emptyTitle": "Kategori başlığı boş olamaz.",
+      "noSchema": "Kullanıcı için öge şeması bulunamadı.",
+      "maxCharacter": "Kategori adı izin verilen karakter sınırını aşıyor."
+    },
+    "dragHandleLabel": "Yeniden sıralamak için sürükleyin."
+  }
+}

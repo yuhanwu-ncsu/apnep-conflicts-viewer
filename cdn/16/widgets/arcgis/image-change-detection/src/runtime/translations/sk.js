@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Detekcia zmien na sn\xedmkach",_widgetDescription:"Widget na detekciu zmien v sn\xedmkov\xfdch vrstv\xe1ch v priebehu \u010dasu."})}}});

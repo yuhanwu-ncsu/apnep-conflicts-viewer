@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Att\u0113la izmai\u0146u noteik\u0161ana",_widgetDescription:"Logr\u012bks izmai\u0146u noteik\u0161anai laika gait\u0101 att\u0113lu sl\u0101\u0146os."})}}});

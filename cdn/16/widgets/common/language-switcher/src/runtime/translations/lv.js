@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Valodas p\u0101rsl\u0113dz\u0113js",previewTip:"Tas darbojas tikai priek\u0161skat\u012bjum\u0101 vai public\u0113taj\u0101s lietotn\u0113s."})}}});

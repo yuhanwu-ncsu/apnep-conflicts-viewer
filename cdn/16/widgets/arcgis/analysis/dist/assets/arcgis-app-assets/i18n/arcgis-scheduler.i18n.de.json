@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Beginnt am",
+  "repeatTypeLabel": "Wiederholungstyp",
+  "endingOnTypeLabel": "Endet am",
+  "endingOnDateLabel": "Enddatum",
+  "endingOnCountLabel": "Anzahl",
+  "endingOnCountPlaceholder": "z. B.: 1, 10, 30",
+  "repeatIntervalLabel": "Wiederholungsintervall",
+  "timeLabel": "Zeit",
+  "hourlyOnMinuteLabel": "Bei Minute",
+  "betweenHoursLabel": "Zwischen",
+  "weeklyDaysOfWeekLabel": "Wochentag",
+  "monthlyDayOfMonthLabel": "Tag des Monats",
+  "monthlyDayOfMonthPlaceholder": "z. B. 1–31",
+  "allDayLabel": "Ganztägig",
+  "allWeekLabel": "Ganze Woche",
+  "repeatTypeOptions": {
+    "minute": "Minute",
+    "hour": "Stunde",
+    "day": "Tag",
+    "week": "Woche",
+    "month": "Monat"
+  },
+  "endingOnType": {
+    "never": "Nie",
+    "date": "Datum",
+    "count": "Anzahl"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Jede Minute",
+    "everyTwoMinutes": "Alle 2 Minuten",
+    "everyThreeMinutes": "Alle 3 Minuten",
+    "everyFiveMinutes": "Alle 5 Minuten",
+    "everyTenMinutes": "Alle 10 Minuten",
+    "everyFifteenMinutes": "Alle 15 Minuten",
+    "everyThirtyMinutes": "Alle 30 Minuten"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Jede Stunde",
+    "everyTwoHours": "Alle 2 Stunden",
+    "everyThreeHours": "Alle 3 Stunden",
+    "everyFourHours": "Alle 4 Stunden",
+    "everySixHours": "Alle 6 Stunden",
+    "everyTwelveHours": "Alle 12 Stunden"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Täglich",
+    "everyOtherDay": "Jeden zweiten Tag",
+    "everyThreeDays": "Alle 3 Tage",
+    "everyFourDays": "Alle 4 Tage",
+    "everyFiveDays": "Alle 5 Tage",
+    "everySixDays": "Alle 6 Tage",
+    "everySevenDays": "Alle 7 Tage",
+    "everyFourteenDays": "Alle 14 Tage"
+  },
+  "weekDays": {
+    "allWeekdays": "Alle Werktage",
+    "sunday": "Sonntag",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Monatlich",
+    "everyTwoMonths": "Alle 2 Monate",
+    "everyThreeMonths": "Alle 3 Monate",
+    "everyFourMonths": "Alle 4 Monate",
+    "everyFiveMonths": "Alle 5 Monate",
+    "everySixMonths": "Alle 6 Monate"
+  }
+}

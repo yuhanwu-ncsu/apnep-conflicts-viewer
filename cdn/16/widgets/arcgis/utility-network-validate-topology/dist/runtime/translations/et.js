@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Utility Networki topoloogia valideerimine",_widgetDescription:"See vidin v\xf5imaldab p\xe4rast muudatuste tegemist valideerida kommunaalv\xf5rgu topoloogias olevad muudetud alad."})}}});

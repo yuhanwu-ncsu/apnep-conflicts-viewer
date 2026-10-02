@@ -1,0 +1,16 @@
+{
+  "point": "Točkovni sloj",
+  "line": "Linijski sloj",
+  "polygon": "Poligonski sloj",
+  "multipatch": "Poliederski sloj",
+  "multipoint": "Mnogotočkovni sloj",
+  "table": "Tabela",
+  "annotation": "Sloj z napisom",
+  "catalog": "Sloj kataloga",
+  "dimension": "Sloj dimenzije",
+  "oriented imagery": "Sloj usmerjenega slikovja",
+  "parcel": "Sloj parcelne strukture",
+  "utility network": "Sloj komunalnega omrežja",
+  "topology": "Topološki sloj",
+  "trace network": "Sloj mrežne sledi"
+}

@@ -1,0 +1,24 @@
+{
+  "expandAll": "Laajenna kaikki",
+  "collapseAll": "Tiivistä kaikki",
+  "categoryItem": {
+    "expand": "Laajenna",
+    "collapse": "Kutista",
+    "editCategory": "Muokkaa luokkaa",
+    "deleteCategory": "Poista luokka",
+    "addSubcategory": "Lisää alaluokka",
+    "addCategory": "Lisää luokka",
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "missingTitleMessage": "Luokan otsikko vaaditaan.",
+    "errors": {
+      "generic": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
+      "maxDepthExceeded": "Luokkia voidaan asettaa sisäkkäin enintään kahden tason syvyydeltä.",
+      "destinationHasSameName": "Kohdeluokassa on jo luokka, jolla on sama nimi.",
+      "emptyTitle": "Luokan otsikko ei voi olla tyhjä.",
+      "noSchema": "Kohteen rakennetta ei löytynyt käyttäjälle.",
+      "maxCharacter": "Luokan nimi ylittää suurimman sallitun merkkien määrän."
+    },
+    "dragHandleLabel": "Järjestä uudelleen vetämällä."
+  }
+}

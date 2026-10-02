@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Nemate dopuštenje za ažuriranje dijeljenja ove stavke.",
+      "panel": "Nemate dopuštenje za ažuriranje dijeljenja ove stavke. Ova stavka možda neće biti vidljiva drugima jer se dijeli na drugi način."
+    },
+    "pdc": {
+      "notice": "Omogućite javno prikupljanje podataka prije javnog dijeljenja ovog sloja.",
+      "panel": "Omogućite javno prikupljanje podataka prije javnog dijeljenja ovog sloja. Za optimalne performanse i integritet podataka, molimo razmislite o onemogućivanju uređivanja ili upotrebi sloja za pregled bez mogućnosti uređivanja.",
+      "learnMore": "Saznajte više o omogućavanju uređivanja na javnim slojevima."
+    },
+    "premium": {
+      "notice": "Premium i pretplatnički sadržaj može zahtijevati prijavu za gledanje.",
+      "panel": "Premium i pretplatnički sadržaj može zahtijevati prijavu za gledanje.",
+      "learnMore": "Saznajte više o dijeljenju premium ili pretplatničkog sadržaja."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Javno dijeljenje ovog sloja koji se može uređivati omogućit će svakome da ga uređuje.",
+      "panel": "Javno dijeljenje ovog sloja koji se može uređivati omogućit će svakome da ga uređuje. Za optimalne performanse i integritet podataka, molimo razmislite o onemogućivanju uređivanja ili upotrebi sloja za pregled bez mogućnosti uređivanja."
+    },
+    "needsAuthentication": {
+      "notice": "Potrebna je provjera autentičnosti.",
+      "panel": "Ova stavka možda neće biti dostupna drugim korisnicima jer sadrži usluge lokacije koje zahtijevaju provjeru autentičnosti u aplikacijama koje prikazuju stavku."
+    }
+  },
+  "goToItem": "Prikaži sve pojedinosti"
+}

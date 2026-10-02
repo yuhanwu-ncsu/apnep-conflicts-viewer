@@ -1,0 +1,16 @@
+{
+  "point": "Taškų sluoksnis",
+  "line": "Linijų sluoksnis",
+  "polygon": "Poligonų sluoksnis",
+  "multipatch": "Daugiasienis sluoksnis",
+  "multipoint": "Daugiataškis sluoksnis",
+  "table": "Lentelė",
+  "annotation": "Anotacijų sluoksnis",
+  "catalog": "Katalogų sluoksnis",
+  "dimension": "Matmenų sluoksnis",
+  "oriented imagery": "Orientuotų vaizdų sluoksnis",
+  "parcel": "„Parcel fabric“ sluoksnis",
+  "utility network": "Utility Network sluoksnis",
+  "topology": "Topologijos sluoksnis",
+  "trace network": "Trace Network sluoksnis"
+}

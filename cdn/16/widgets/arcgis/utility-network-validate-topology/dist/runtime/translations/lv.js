@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Utility Network topolo\u0123ijas valid\u0113\u0161ana",_widgetDescription:"\u0160is logr\u012bks Jums \u013cauj valid\u0113t k\u013c\u016bdainos apgabalus utility network t\u012bkla topolo\u0123ij\u0101 p\u0113c redi\u0123\u0113jumu veik\u0161anas."})}}});

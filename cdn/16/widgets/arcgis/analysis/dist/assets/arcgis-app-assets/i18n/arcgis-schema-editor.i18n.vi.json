@@ -1,0 +1,24 @@
+{
+  "expandAll": "Mở rộng tất cả",
+  "collapseAll": "Thu gọn tất cả",
+  "categoryItem": {
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn",
+    "editCategory": "Chỉnh sửa danh mục",
+    "deleteCategory": "Xóa danh mục",
+    "addSubcategory": "Thêm danh mục con",
+    "addCategory": "Thêm danh mục",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "missingTitleMessage": "Tiêu đề danh mục là thông tin bắt buộc.",
+    "errors": {
+      "generic": "Đã xảy ra sự cố. Vui lòng thử lại sau.",
+      "maxDepthExceeded": "Bạn không thể lồng danh mục sâu hơn 2 cấp độ.",
+      "destinationHasSameName": "Một danh mục có cùng tên đã tồn tại trong danh mục đích.",
+      "emptyTitle": "Tiêu đề danh mục không được trống.",
+      "noSchema": "Không tìm thấy schema mục cho người dùng.",
+      "maxCharacter": "Tên danh mục vượt quá giới hạn ký tự cho phép."
+    },
+    "dragHandleLabel": "Kéo để sắp xếp lại."
+  }
+}

@@ -1,0 +1,1 @@
+System.register([],function(o){return{execute:function(){o({dropdown:"Vys\xfavacia ponuka",button:"Tla\u010didlo",configTip:"Pred pou\u017eit\xedm tohto widgetu nakonfigurujte jazykov\xe9 nastavenia na karte <bold>V\u0161eobecn\xe9</bold> v prostred\xed Builder."})}}});

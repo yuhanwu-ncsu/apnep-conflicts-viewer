@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Prep\xedna\u010d jazykov",previewTip:"Toto funguje iba v n\xe1h\u013eade alebo v publikovan\xfdch aplik\xe1ci\xe1ch."})}}});

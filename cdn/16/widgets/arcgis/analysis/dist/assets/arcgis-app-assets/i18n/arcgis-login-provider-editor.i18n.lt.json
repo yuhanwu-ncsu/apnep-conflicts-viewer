@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Keisti prisijungimo tipą",
+  "chooseLoginType": "Pasirinkti prisijungimo tipą",
+  "selectMembers": "Pasirinkti narius",
+  "userDetails": "Išsami naudotojo informacija",
+  "reauth": "Autentifikuoti pakartotinai",
+  "confirmComplete": "Patvirtinti ir baigti",
+  "next": "Kitas",
+  "back": "Atgal",
+  "cancel": "Atšaukti",
+  "close": "Uždaryti",
+  "changeLogins": "Keisti prisijungimus",
+  "acknowledgeImpact": "Patvirtinu ir suprantu šio pakeitimo poveikį.",
+  "propertiesHeading": "Nurodykite toliau išvardytų narių naujus prisijungimo duomenis",
+  "chooseFile": "Pasirinkti kitą failą",
+  "mustAcknowledge": "Prieš tęsdami turite patvirtinti šio pakeitimo poveikį.",
+  "confirmLeave": {
+    "title": "Atšaukti pakeitimus",
+    "message1": "Neįrašėte pakeitimų.",
+    "message2": "Ar tikrai norite atšaukti pakeitimus?",
+    "remain": "Tęsti redagavimą",
+    "leave": "Išeiti neįrašant"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS prisijungimas",
+    "chooseLoginModify": "Pasirinkite, kaip norite keisti prisijungimo tipus",
+    "changeType": "Keisti prisijungimo tipą",
+    "selectType": "Pasirinkite dabartinį prisijungimo tipą, su kuriuo dirbsite",
+    "changeTypeDescription": "Pakeiskite konkrečių organizacijų ID tarp OpenID Connect, SAML arba ArcGIS prisijungimo tipų.",
+    "keepType": "Palikti prisijungimo tipą",
+    "keepTypeDescription": "Atnaujinkite OpenID Connect arba SAML ir el. pašto adresą nekeisdami prisijungimo tipo.",
+    "currentType": "Dabartinis prisijungimo tipas",
+    "newType": "Naujas prisijungimo tipas",
+    "select": "Pasirinkti",
+    "samlLogin": "{name} (SAML prisijungimas)",
+    "oidcLogin": "{name} (prisijungimas naudojant OpenID Connect)",
+    "oldSaml": "Ankstesnis SAML prisijungimas",
+    "oldOidc": "Ankstesnis OIDC prisijungimas",
+    "enterpriseOverwrite": "Atsižvelgiant į jūsų įmonės prisijungimo teikėjo nustatymus, el. pašto adresas gali būti perrašytas pakeičiant jį reikšme iš jūsų tapatybės teikėjo.",
+    "generateMissingPasswords": "Pakeitus į bus ArcGIS prisijungimą, bus automatiškai sugeneruoti laikini slaptažodžiai, jei jie nebuvo nurodyti. Jie bus pateikti atliekant išsamios naudotojo informacijos veiksmą.",
+    "errors": {
+      "loginTypes": "Turi būti pasirinkti ir esami, ir nauji prisijungimo tipai.",
+      "currentLoginType": "Reikia nurodyti dabartinį prisijungimo tipą ir jis turi būti pasirinktas.",
+      "sameLoginType": "Naujasis prisijungimo tipas turi skirtis nuo dabartinio prisijungimo tipo."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Narių pasirinkimo metodas",
+    "howToSelect": "Kaip norite pasirinkti narius?",
+    "bulkUpload": "Masinis įkėlimas (CSV)",
+    "chooseAFile": "Pasirinkite failą, kurį norite įkelti kitame žingsnyje.",
+    "manualSelection": "Pasirinkimas rankiniu būdu",
+    "selectMembers": "Kitame žingsnyje pasirinkite narius iš sąrašo.",
+    "selectFromFile": "Pasirinkti narius iš CSV failo",
+    "dragDrop": "Nuvilkite failą arba pasirinkite iš savo įrenginio.",
+    "headerInstructions": "Antraštėje (pirma eilutė) turėtų būti tiksliai tokie laukų pavadinimai, kaip nurodyta žemiau.",
+    "fieldOrder": "Laukų tvarka gali keistis.",
+    "yourDevice": "Jūsų įrenginys",
+    "downloadTemplate": "Atsisiųsti CSV šabloną",
+    "requiredFields": "Būtini laukai",
+    "optionalFields": "Pasirinktini laukai",
+    "passwordTooltip": "Jei slaptažodis nebus pateiktas, bus sugeneruotas laikinas slaptažodis.",
+    "excessTitleCsv": "CSV viršija 5 000 narių limitą",
+    "excessBatchLimit": "Galite atnaujinti iki 5 000 narių viename pakete prisijungimo tipus.",
+    "excessBodyCsv": "Kad galėtumėte apdoroti daugiau nei 5 000 narių, padalykite CSV į kelis mažesnius failus ir įkelkite juos atskirai.",
+    "learnMore": "Sužinokite daugiau",
+    "errors": {
+      "fileType": "Neleistinas failo tipas. Įkelkite CSV failą.",
+      "fileSize": "Failo dydis viršija 500 KB ir jis gali nebūti apdorotas efektyviai.",
+      "noMembers": "Nepasirinkta jokių narių. Norėdami tęsti, pasirinkite narius arba įkelkite CSV failą.",
+      "tooManyMembers": "Pasirinktų narių skaičius viršija 5000 narių limitą."
+    }
+  },
+  "fieldNames": {
+    "email": "El. paštas",
+    "username": "ArcGIS naudotojo vardas",
+    "password": "Laikinas slaptažodis",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "Ankstesnis SAML ID",
+    "oldOidcId": "Ankstesnis OIDC ID",
+    "success": "Pavyko",
+    "error": "Klaida",
+    "fromLoginType": "Pradinis prisijungimo tipas",
+    "toLoginType": "Naujas prisijungimo tipas"
+  },
+  "authentication": {
+    "header": "Būtina autentifikuoti pakartotinai",
+    "reauthSteps": "Pakartotinio autentifikavimo žingsniai",
+    "step1_label": "1 žingsnis. Prisijungimas (naujas langas)",
+    "step1_desc": "Pasirodys naujas prisijungimo langas.",
+    "step2_label": "2 žingsnis. Autentifikavimo rakto kopijavimas",
+    "step2_desc": "Jums bus pateiktas kopijuoti skirtas autentifikavimo raktas.",
+    "step3_label": "3 žingsnis. Autentifikavimo rakto įklijavimas",
+    "step3_desc": "Kad galėtumėte tęsti, įveskite autentifikavimo raktą.",
+    "openWindow": "Atidarykite naują langą, kad galėtumėte autentifikuoti pakartotinai",
+    "authKey": "Autentifikavimo raktas",
+    "paste": "Įklijuoti",
+    "getNewKey": "Generuoti naują raktą",
+    "hide": "Slėpti",
+    "show": "Rodyti",
+    "errors": {
+      "clipboard": "Nepavyko nuskaityti iš iškarpinės",
+      "authKey": "Būtinas tinkamas autentifikavimo raktas"
+    }
+  },
+  "usersTable": {
+    "asc": "Abėcėlės tvarka",
+    "desc": "Atvirkštine abėcėlės tvarka",
+    "sortBy": "Rūšiuoti pagal",
+    "sortDirection": "Rūšiavimo tvarka",
+    "searchMembers": "Ieškoti narių šiame sąraše",
+    "memberDetails": "Prisijungimo paslaugos teikėjo keitimo veiksmo nario informacija",
+    "optional": "(neprivaloma)",
+    "fieldErrors": "Laukų klaidos",
+    "noErrors": "Klaidų nėra",
+    "noData": "Nėra duomenų",
+    "noMembersMatch": "Paieškos kriterijus atitinkančių narių nėra",
+    "togglePassword": "Perjungti slaptažodžio matomumą",
+    "memberCount": "{start} - {end} iš {total}",
+    "errors": {
+      "email": "Reikalingas el. pašto adresas",
+      "username": "ArcGIS naudotojo vardas būtinas",
+      "password": "Laikinas slaptažodis būtinas",
+      "samlId": "SAML ID būtinas",
+      "oidcId": "OIDC ID būtinas"
+    }
+  },
+  "review": {
+    "heading": "Peržiūrėti pakeitimus",
+    "loginsWillChange": "Toliau nurodytos paskyros bus pakeistos iš {fromLogin} į {toLogin}",
+    "downloadCsv": "Atsisiųsti pakeitimų CSV",
+    "providerTypes": {
+      "saml": "SAML prisijungimai",
+      "oidc": "OpenID Connect prisijungimai",
+      "arcgis": "ArcGIS paskyrų prisijungimai"
+    },
+    "missingRequired": "Trūksta privalomos informacijos. Prieš tęsdami įveskite trūkstamą informaciją."
+  },
+  "progress": {
+    "processing": "Apdorojama... Naudotojų: {current} iš {total}.",
+    "percentComplete": "Atlikta procentais",
+    "doNotClose": "Neuždarykite naršyklės.",
+    "extendedTime": "Kantriai palaukite – tai gali užtrukti iki 10 minučių.",
+    "extendedTime10": "Kantriai palaukite – tai gali užtrukti daugiau nei 10 minučių.",
+    "extendedTime15": "Kantriai palaukite – tai gali užtrukti daugiau nei 15 minučių.",
+    "label": "Eigos indikatorius, skirtas prisijungimo tipams pakeisti",
+    "errors": {
+      "authkey": {
+        "title": "Netinkamas autentifikavimo raktas",
+        "body1": "Jūsų įvestas autentifikavimo raktas netinkamas.",
+        "body2": "Dar kartą įveskite tinkamą autentifikavimo raktą.",
+        "action": "Dar kartą įvesti autentifikavimo raktą",
+        "cancel": "Atšaukti"
+      },
+      "unknown": "Vykstant tiekėjo keitimo procesui įvyko klaida. Jei problema išlieka, bandykite dar kartą arba susisiekite su palaikymo tarnyba.",
+      "userNotFound": "Naudotojo vardas nerastas",
+      "idpUsernameNotMatching": "Naudotojo vardas neatitinka",
+      "providerNotMatching": "Slaptažodžio pakeisti nepavyko"
+    }
+  }
+}

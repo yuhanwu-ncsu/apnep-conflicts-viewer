@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Vrsta vjerodajnice: API ključ",
+  "oauthUserCredentialType": "Vrsta vjerodajnice: OAuth 2.0 (provjera autentičnosti korisnika)",
+  "oauthAppCredentialType": "Vrsta vjerodajnice: OAuth 2.0 (provjera autentičnosti aplikacije)",
+  "publicEmbed": "Javna aplikacija",
+  "scriptSpecific": "Privatna aplikacija",
+  "allPrivileges": "Privatna aplikacija koja vas oponaša",
+  "itemAccess": "Pristup stavci",
+  "page": "Stranica: ${page}",
+  "currentPage": "Trenutna stranica: ${page}",
+  "privileges": "Privilegije",
+  "itemDetails": "Pojedinosti o stavci",
+  "settings": "Postavke",
+  "serviceScope": "Opseg usluge",
+  "summary": "Sažetak"
+}

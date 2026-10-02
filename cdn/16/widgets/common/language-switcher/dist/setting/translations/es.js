@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Desplegable",button:"Bot\xf3n",configTip:"Configure los ajustes de idioma en la pesta\xf1a <bold>General</bold> del builder antes de utilizar este widget."})}}});

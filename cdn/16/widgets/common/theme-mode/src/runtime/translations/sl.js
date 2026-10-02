@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Preklopnik med na\u010dini teme",notSupportTip:"Trenutna tema ne podpira preklapljanja med na\u010dini teme.",lightModeLabel:"Svetli na\u010din. Pritisnite za preklop na temni na\u010din.",darkModeLabel:"Temni na\u010din. Pritisnite za preklop na svetli na\u010din."})}}});

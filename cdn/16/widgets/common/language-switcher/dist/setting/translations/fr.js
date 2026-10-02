@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Liste d\xe9roulante",button:"Bouton",configTip:"Configurez les param\xe8tres linguistiques dans l\u2019onglet <bold>G\xe9n\xe9ral</bold> du g\xe9n\xe9rateur avant d\u2019utiliser ce widget."})}}});

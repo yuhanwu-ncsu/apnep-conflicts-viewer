@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Logontype: API-nøgle",
+  "oauthUserCredentialType": "Logontype: OAuth 2.0 (Brugergodkendelse)",
+  "oauthAppCredentialType": "Logontype: OAuth 2.0 (App-godkendelse)",
+  "publicEmbed": "Offentlig applikation",
+  "scriptSpecific": "Privat applikation",
+  "allPrivileges": "Privat applikation, der udgiver sig for at være dig",
+  "itemAccess": "Elementadgang",
+  "page": "Side: ${page}",
+  "currentPage": "Aktuel side: ${page}",
+  "privileges": "Rettigheder",
+  "itemDetails": "Elementoplysninger",
+  "settings": "Indstillinger",
+  "serviceScope": "Tjenesteomfang",
+  "summary": "Resumé"
+}

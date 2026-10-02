@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({_widgetLabel:"Ph\xe1t hi\u1ec7n Thay \u0111\u1ed5i H\xecnh \u1ea3nh",_widgetDescription:"Ti\u1ec7n \xedch \u0111\u1ec3 ph\xe1t hi\u1ec7n c\xe1c thay \u0111\u1ed5i theo th\u1eddi gian trong c\xe1c l\u1edbp h\xecnh \u1ea3nh."})}}});

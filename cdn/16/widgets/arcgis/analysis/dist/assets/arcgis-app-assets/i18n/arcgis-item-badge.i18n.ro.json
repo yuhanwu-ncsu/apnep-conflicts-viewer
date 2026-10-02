@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "De autoritate",
+    "tooltip": {
+      "org": "Recomandat de organizația dvs.",
+      "public": "Recomandat de ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Acest tip de element este în beta."
+  },
+  "Deprecated": {
+    "title": "Perimat",
+    "tooltip": "Nu este recomandat pentru utilizare. Proprietarul, ${owner}, a perimat acest element."
+  },
+  "Has Replacement": {
+    "title": "Are înlocuitor",
+    "tooltip": "Acest element are un înlocuitor recomandat. Vizualizați detaliile elementului pentru a găsi și a utiliza înlocuitorul.",
+    "itemPageTooltip": "Acest element are un înlocuitor recomandat.",
+    "link": "Vizualizare înlocuitor"
+  },
+  "DeprecatedItemType": {
+    "title": "Tip element perimat",
+    "tooltip": {
+      "general": "Esri a perimat acest tip de element. Acesta va fi retras în curând și va fi indisponibil pentru utilizare.",
+      "webAppBuilder": "Esri a perimat ArcGIS Web AppBuilder, care a fost utilizat pentru a crea acest element. Acesta va fi retras în curând și va fi indisponibil pentru utilizare. Pentru a crea o nouă aplicație, utilizați ArcGIS Experience Builder sau altă aplicație ArcGIS."
+    }
+  },
+  "Living Atlas": {
+    "title": "Atlas actualizat",
+    "tooltip": "Conținut administrat de Esri"
+  },
+  "Subscriber": {
+    "title": "Abonat",
+    "tooltip": {
+      "org": "Conținut exclusiv pentru abonați",
+      "public": "Conținut exclusiv pentru abonați. Pentru a utiliza, conectați-vă cu un abonament ArcGIS Online."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Conținut exclusiv pentru abonați. Consumă credite.",
+      "public": "Conținut exclusiv pentru abonați care consumă credite. Pentru a utiliza, conectați-vă cu un abonament ArcGIS Online."
+    }
+  },
+  "Open Data": {
+    "title": "Open Data",
+    "tooltip": "Disponibil pentru uz public"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Listat pe ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Colaborare distribuită",
+    "tooltip": "Acest reper a fost primit dintr-o colaborare distribuită"
+  },
+  "Retired": {
+    "title": "Tip de element retras",
+    "tooltip": {
+      "general": "Esri a retras acest tip de element. Acesta nu mai este disponibil pentru utilizare.",
+      "classicStoryMap": "Șablonul clasic Esri Story Maps (${template_name}) utilizat pentru a crea acest element a fost retras. Acest element nu mai poate fi editat sau vizualizat. Pentru redirecționarea aplicațiilor de vizualizare, configurați un element de înlocuire creat cu ArcGIS StoryMaps sau cu altă aplicație ArcGIS.",
+      "classicStoryMapGeneric": "Șablonul clasic Esri Story Maps utilizat pentru a crea acest element a fost retras. Acest element nu mai poate fi editat sau vizualizat. Pentru redirecționarea aplicațiilor de vizualizare, configurați un element de înlocuire creat cu ArcGIS StoryMaps sau cu altă aplicație ArcGIS.",
+      "cityEngine": "CityEngine Web Viewer și CityEngine Web Scenes nu mai sunt acceptate.",
+      "app": "Șablonul Configurable Apps utilizat pentru a crea această aplicație a fost retras. Acest element este neoperațional și poate fi șters. Pentru a crea o nouă aplicație, utilizați ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards sau ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder este retrasă din ArcGIS Enterprise. Acest element este neoperațional și poate fi șters. Pentru a crea o nouă aplicație, utilizați ArcGIS Experience Builder.",
+      "insights": "ArcGIS Insights este retrasă din ArcGIS Enterprise. Acest element este neoperațional și poate fi șters.",
+      "bdfs": "Partajările fișierului Big Data sunt retrase în ArcGIS Enterprise. Acest element este neoperațional și poate fi șters."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Colectarea datelor publice",
+    "tooltip": "Aprobat pentru colectarea de date publice."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Soluție acceptată de Esri"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "O aplicație OAuth 2.0 înregistrată. Poate utiliza conținut premium sau pe bază de abonament.",
+      "enterprise": "O aplicație OAuth 2.0 înregistrată."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Date de autentificare cheie API",
+      "enterprise": "Date de autentificare cheie API"
+    },
+    "tooltip": "Acordă acces la servicii."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Date de autentificare cheie API - aplicație privată",
+    "tooltip": "Furnizați tokenuri de acces cu privilegii pentru a accesa un set extins de servicii și elemente. Protejați aceste tokenuri așa cum ați proteja numele de utilizator și parola dvs. Nu încorporați într-o aplicație."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "Date de autentificare 0Auth 2.0",
+      "enterprise": "Date de autentificare 0Auth 2.0"
+    },
+    "tooltip": "Acordă acces la servicii."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "Credențiale OAuth 2.0 – se dă drept proprietarul obiectului.",
+    "tooltip": "Se dă drept proprietarul acestui obiect. Din motive de securitate, ar trebui să protejați aceste date de autentificare așa cum ați proteja numele de utilizator și parola."
+  },
+  "Registered Application": {
+    "title": "Aplicație OAuth 2.0",
+    "tooltip": "O aplicație OAuth 2.0 înregistrată"
+  },
+  "Personal credential": {
+    "title": "Personal",
+    "tooltip": "Acordați un privilegiu personal acestei date de autentificare. Din motive de siguranță, trebuie să protejați orice token de acces cu aceste date de autentificare așa cum ați proteja numele de utilizator și parola. Consultați termenii de utilizare."
+  },
+  "loading": "Se încarcă..."
+}

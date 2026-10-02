@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Autoriseret",
+    "tooltip": {
+      "org": "Anbefalet af din organisation",
+      "public": "Anbefalet af ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Denne elementtype er i betafasen."
+  },
+  "Deprecated": {
+    "title": "Udfaset",
+    "tooltip": "Anbefales ikke til brug. Ejeren, ${owner}, har udfaset dette element."
+  },
+  "Has Replacement": {
+    "title": "Har erstatning",
+    "tooltip": "Dette element har en anbefalet erstatning. Se elementoplysninger for at finde og bruge erstatningen.",
+    "itemPageTooltip": "Dette element har en anbefalet erstatning.",
+    "link": "Vis erstatning"
+  },
+  "DeprecatedItemType": {
+    "title": "Udfaset elementtype",
+    "tooltip": {
+      "general": "Esri har udfaset denne elementtype. Det udfases snart og vil ikke kunne bruges.",
+      "webAppBuilder": "Esri har udfaset ArcGIS Web AppBuilder, der blev brugt til at oprette dette element. Det udfases snart og vil ikke kunne bruges. Hvis du vil oprette en ny applikation, skal du bruge ArcGIS Experience Builder eller en anden ArcGIS-app."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Esri-vedligeholdt indhold"
+  },
+  "Subscriber": {
+    "title": "Abonnent",
+    "tooltip": {
+      "org": "Eksklusivt indhold til abonnenter",
+      "public": "Eksklusivt indhold for abonnenter. Hvis du vil bruge det, skal du logge ind med et ArcGIS Online-abonnement."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Eksklusivt indhold til abonnenter. Forbruger credits.",
+      "public": "Eksklusivt indhold for abonnenter, der forbruger credits. Hvis du vil bruge det, skal du logge ind med et ArcGIS Online-abonnement."
+    }
+  },
+  "Open Data": {
+    "title": "Open Data",
+    "tooltip": "Tilgængelig til offentlig anvendelse"
+  },
+  "Marketplace": {
+    "title": "Markedsplads",
+    "tooltip": "Findes på ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Distribueret samarbejde",
+    "tooltip": "Dette element blev modtaget fra et distribueret samarbejde"
+  },
+  "Retired": {
+    "title": "Udfaset elementtype",
+    "tooltip": {
+      "general": "Esri har udfaset denne elementtype. Den er ikke længere tilgængelig til brug.",
+      "classicStoryMap": "Den klassiske Esri Story Maps-skabelon (${template_name}), der bruges til at oprette dette element, er udfaset. Dette element kan ikke længere redigeres eller vises. For at omdirigere brugere oprettes et erstatningselement med ArcGIS StoryMaps eller en anden ArcGIS-app.",
+      "classicStoryMapGeneric": "Den klassiske Esri Story Maps-skabelon, der bruges til at oprette dette element, er udfaset. Dette element kan ikke længere redigeres eller vises. For at omdirigere brugere oprettes et erstatningselement med ArcGIS StoryMaps eller en anden ArcGIS-app.",
+      "cityEngine": "CityEngine Web Viewer og CityEngine Web Scenes understøttes ikke længere.",
+      "app": "Skabelonen Configurable Apps, der bruges til at oprette denne applikation, er blevet udfaset. Dette element er ikke længere i brug og kan slettes. Hvis du vil oprette en ny applikation, skal du bruge ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards eller ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder udfases i ArcGIS Enterprise. Dette element er ikke længere i brug og kan slettes. Hvis du vil oprette en ny applikation, skal du bruge ArcGIS Experience Builder.",
+      "insights": "ArcGIS Insights udfases i ArcGIS Enterprise. Dette element er ikke længere i brug og kan slettes.",
+      "bdfs": "Big data-fildelinger er udfaset i ArcGIS Enterprise. Dette element er ikke længere i brug og kan slettes."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Offentlig dataindsamling",
+    "tooltip": "Godkendt til offentlig dataindsamling."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Esri-understøttet løsning"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "En registreret OAuth 2.0-applikation. Kan bruge premium-/abonnentindhold.",
+      "enterprise": "En registreret OAuth 2.0-applikation."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Legitimationsoplysninger for API-nøgle",
+      "enterprise": "Legitimationsoplysninger for API-nøgle"
+    },
+    "tooltip": "Giver adgang til tjenester."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Login-oplysninger for API-nøgle – privat applikation",
+    "tooltip": "Giver adgangstokens med rettigheder til at få adgang til et udvidet sæt tjenester og elementer. Beskyt disse tokens på samme måde, som du ville beskytte dit brugernavn og din adgangskode. Integrer ikke i en applikation."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "OAuth 2.0-legitimationsoplysninger",
+      "enterprise": "OAuth 2.0-legitimationsoplysninger"
+    },
+    "tooltip": "Giver adgang til tjenester."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "OAuth 2.0 Credentials - Udgiver sig for at være elementejer",
+    "tooltip": "Udgiver sig for at være ejer af dette element. Af sikkerhedsmæssige hensyn skal du beskytte disse legitimationsoplysninger på samme måde, som du ville beskytte dit brugernavn og din adgangskode."
+  },
+  "Registered Application": {
+    "title": "OAuth 2.0-applikation",
+    "tooltip": "En registreret OAuth 2.0-applikation"
+  },
+  "Personal credential": {
+    "title": "Personlig",
+    "tooltip": "Du er ved at tildele en personlig rettighed til disse legitimationsoplysninger. Af sikkerhedsmæssige hensyn skal du beskytte ethvert adgangstoken, der er oprettet med disse legitimationsoplysninger, på samme måde, som du ville beskytte dit brugernavn og din adgangskode. Gennemse vilkårene for anvendelse."
+  },
+  "loading": "Indlæser..."
+}

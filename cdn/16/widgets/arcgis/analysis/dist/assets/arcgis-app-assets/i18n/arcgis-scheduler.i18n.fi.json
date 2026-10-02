@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Alkaen",
+  "repeatTypeLabel": "Toistotyyppi",
+  "endingOnTypeLabel": "Päättyen",
+  "endingOnDateLabel": "Lopetuspäivämäärä",
+  "endingOnCountLabel": "Määrä",
+  "endingOnCountPlaceholder": "esimerkiksi 1, 10, 30",
+  "repeatIntervalLabel": "Toistoväli",
+  "timeLabel": "Aika",
+  "hourlyOnMinuteLabel": "Minuutissa",
+  "betweenHoursLabel": "Tuntien välillä",
+  "weeklyDaysOfWeekLabel": "Viikonpäivä",
+  "monthlyDayOfMonthLabel": "Kuukauden päivä",
+  "monthlyDayOfMonthPlaceholder": "esimerkiksi 1–31",
+  "allDayLabel": "Koko päivä",
+  "allWeekLabel": "Koko viikko",
+  "repeatTypeOptions": {
+    "minute": "Minuutti",
+    "hour": "Tunti",
+    "day": "Päivä",
+    "week": "Viikko",
+    "month": "Kuukausi"
+  },
+  "endingOnType": {
+    "never": "Ei koskaan",
+    "date": "Päivämäärä",
+    "count": "Määrä"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Minuutin välein",
+    "everyTwoMinutes": "Kahden minuutin välein",
+    "everyThreeMinutes": "Kolmen minuutin välein",
+    "everyFiveMinutes": "Viiden minuutin välein",
+    "everyTenMinutes": "Kymmenen minuutin välein",
+    "everyFifteenMinutes": "15 minuutin välein",
+    "everyThirtyMinutes": "30 minuutin välein"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Tunnin välein",
+    "everyTwoHours": "Kahden tunnin välein",
+    "everyThreeHours": "Kolmen tunnin välein",
+    "everyFourHours": "Neljän tunnin välein",
+    "everySixHours": "Kuuden tunnin välein",
+    "everyTwelveHours": "12 tunnin välein"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Joka päivä",
+    "everyOtherDay": "Joka toinen päivä",
+    "everyThreeDays": "Kolmen päivän välein",
+    "everyFourDays": "Neljän päivän välein",
+    "everyFiveDays": "Viiden päivän välein",
+    "everySixDays": "Kuuden päivän välein",
+    "everySevenDays": "Seitsemän päivän välein",
+    "everyFourteenDays": "14 päivän välein"
+  },
+  "weekDays": {
+    "allWeekdays": "Kaikki viikonpäivät",
+    "sunday": "Sunnuntai",
+    "monday": "Maanantai",
+    "tuesday": "Tiistai",
+    "wednesday": "Keskiviikko",
+    "thursday": "Torstai",
+    "friday": "Perjantai",
+    "saturday": "Lauantai"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Joka kuukausi",
+    "everyTwoMonths": "Kahden kuukauden välein",
+    "everyThreeMonths": "Kolmen kuukauden välein",
+    "everyFourMonths": "Neljän kuukauden välein",
+    "everyFiveMonths": "Viiden kuukauden välein",
+    "everySixMonths": "Kuuden kuukauden välein"
+  }
+}

@@ -1,0 +1,1 @@
+System.register([],function(t){return{execute:function(){t({_widgetLabel:"Skifter af tema-tilstand",notSupportTip:"Det nuv\xe6rende tema underst\xf8tter ikke skift mellem tematilstande.",lightModeLabel:"Lys tilstand. Tryk for at skifte til m\xf8rk tilstand.",darkModeLabel:"M\xf8rk tilstand, Tryk for at skifte til lys tilstand."})}}});

@@ -1,0 +1,30 @@
+{
+  "hosted": "driftad",
+  "hostedView": "driftad, vy",
+  "hostedPhotos": "driftad, foton",
+  "hostedCollection": "driftad, samling",
+  "hostedMultidimensional": "driftad, flerdimensionell",
+  "hostedCollectionMultidimensional": "driftad, samling, flerdimensionell",
+  "collectionMultidimensional": "driftad, flerdimensionell",
+  "multidimensional": "flerdimensionell",
+  "query": "fråga",
+  "collection": "samling",
+  "photoLocations": "foton",
+  "locatorView": "vy",
+  "utilityNetwork": "infrastruktursnätverk",
+  "parcelFabric": "fastighetsregister",
+  "parcelFabricHosted": "fastighetsregister, driftat",
+  "Integrated Mesh": "integrerat rutnät",
+  "3D Object": "3D-objekt",
+  "Point": "punkt",
+  "Point Cloud": "punktmoln",
+  "Building Scene Layer": "skapar scenlager",
+  "Voxel Scene Layer": "voxel-scenlager",
+  "dataStore": {
+    "bigdata": "big data-fildelning",
+    "cloud": "moln",
+    "cloudStorage": "molnlagring",
+    "database": "databas",
+    "folder": "mapp"
+  }
+}

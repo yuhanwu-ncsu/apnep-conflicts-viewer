@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Validare topologie Utility Network",_widgetDescription:"Acest widget permite validarea zonelor murdare \xeen topologia de re\u021bea a unei re\u021bele de utilit\u0103\u021bi dup\u0103 ce au fost efectuate edit\u0103ri."})}}});

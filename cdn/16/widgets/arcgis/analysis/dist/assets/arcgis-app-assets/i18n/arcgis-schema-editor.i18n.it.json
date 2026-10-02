@@ -1,0 +1,24 @@
+{
+  "expandAll": "Espandi tutto",
+  "collapseAll": "Comprimi tutto",
+  "categoryItem": {
+    "expand": "Espandi",
+    "collapse": "Comprimi",
+    "editCategory": "Modifica categoria",
+    "deleteCategory": "Elimina categoria",
+    "addSubcategory": "Aggiungi sottocategoria",
+    "addCategory": "Aggiungi categoria",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "missingTitleMessage": "Il titolo della categoria è obbligatorio.",
+    "errors": {
+      "generic": "Si è verificato un errore. Riprovare più tardi.",
+      "maxDepthExceeded": "Non è possibile annidare categorie con più di 2 livelli di profondità.",
+      "destinationHasSameName": "Una categoria con lo stesso nome esiste giù nella categoria di destinazione.",
+      "emptyTitle": "Specificare il titolo della categoria.",
+      "noSchema": "Schema elemento non trovato per l'utente.",
+      "maxCharacter": "Il nome della categoria supera il limite di caratteri consentito."
+    },
+    "dragHandleLabel": "Trascina per riordinare."
+  }
+}

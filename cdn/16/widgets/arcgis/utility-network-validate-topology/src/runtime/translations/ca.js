@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Validaci\xf3 de la topologia de la xarxa de serveis",_widgetDescription:"Aquest widget permet validar les \xe0rees sense validar d'una xarxa en la topologia de xarxa de serveis despr\xe9s d'haver realitzat modificacions."})}}});

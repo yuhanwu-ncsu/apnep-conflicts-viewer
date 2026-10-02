@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "ประเภทข้อมูลประจำตัว: คีย์ API",
+  "oauthUserCredentialType": "ประเภทข้อมูลประจำตัว: OAuth 2.0 (การรับรองความถูกต้องผู้ใช้)",
+  "oauthAppCredentialType": "ประเภทข้อมูลประจำตัว: OAuth 2.0 (การรับรองความถูกต้องแอป)",
+  "publicEmbed": "แอปพลิเคชันสาธารณะ",
+  "scriptSpecific": "แอปพลิเคชันส่วนบุคคล",
+  "allPrivileges": "แอปพลิเคชันส่วนบุคคลที่แอบอ้างเป็นตัวคุณ",
+  "itemAccess": "การเข้าถึงรายการ",
+  "page": "หน้า: ${page}",
+  "currentPage": "หน้าปัจจุบัน: ${page}",
+  "privileges": "สิทธิ์",
+  "itemDetails": "รายละเอียดข้อมูล",
+  "settings": "การตั้งค่า",
+  "serviceScope": "ขอบเขตบริการ",
+  "summary": "สรุป"
+}

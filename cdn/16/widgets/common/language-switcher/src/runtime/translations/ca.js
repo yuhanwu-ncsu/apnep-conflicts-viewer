@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Commutador de llengua",previewTip:"Aix\xf2 nom\xe9s funciona en aplicacions de vista pr\xe8via o en aplicacions publicades."})}}});

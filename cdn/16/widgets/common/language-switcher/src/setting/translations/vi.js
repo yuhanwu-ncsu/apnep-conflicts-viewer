@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({dropdown:"Th\u1ea3 xu\u1ed1ng",button:"N\xfat",configTip:"Vui l\xf2ng c\u1ea5u h\xecnh c\xe0i \u0111\u1eb7t ng\xf4n ng\u1eef trong tab <bold>Chung</bold> c\u1ee7a tr\xecnh x\xe2y d\u1ef1ng tr\u01b0\u1edbc khi s\u1eed d\u1ee5ng ti\u1ec7n \xedch n\xe0y."})}}});

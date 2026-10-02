@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Akreditācijas datu veids: API atslēga",
+  "oauthUserCredentialType": "Akreditācijas datu veids: OAuth 2.0 (Lietotāja autentifikācija)",
+  "oauthAppCredentialType": "Akreditācijas datu veids: OAuth 2.0 (Lietotāja autentifikācija)",
+  "publicEmbed": "Publiska lietotne",
+  "scriptSpecific": "Privāta lietotne",
+  "allPrivileges": "Privāta lietotne, kas Jūs personificē",
+  "itemAccess": "Vienību piekļuve",
+  "page": "Lapa: ${page}",
+  "currentPage": "Pašreizējā lapa: ${page}",
+  "privileges": "Privilēģijas",
+  "itemDetails": "Vienības detaļas",
+  "settings": "Iestatījumi",
+  "serviceScope": "Servisa tvērums",
+  "summary": "Kopsavilkums"
+}

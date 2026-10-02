@@ -1,0 +1,381 @@
+{
+  "itemBrowser": {
+    "filters": "Filtres",
+    "preview": "Aperçu",
+    "selectedLayers": "Couches sélectionnées",
+    "selectedItems": "Éléments sélectionnés",
+    "pageRange": "${start}-${end}, total : ${total}",
+    "pageRangeAria": "${start}-${end}, nombre total d’éléments : ${total}",
+    "pageRangeWithRecycleBin": "${start}-${end}, total : ${total} (taille totale : ${recycleBinSize})",
+    "pageRangeAriaWithRecycleBin": "${start}-${end}, nombre total d’éléments : ${total} (taille totale : ${recycleBinSize})",
+    "foundOnPage": "Résultats trouvés sur la page actuelle : ${total}",
+    "totalSize": "Taille totale : ${totalSize}",
+    "selectedMultiple": "Sélection : ${num}",
+    "selectedMultipleWithSize": "Sélection : ${num} (${totalSize})",
+    "selectedMultipleWithSizeSmall": "${num} (${totalSize})",
+    "noSelectedLayers": "Aucune couche actuellement sélectionnée",
+    "noSelectedItems": "Aucun élément actuellement sélectionné",
+    "sharingUpdated": "Partage de ${itemTitle} mis à jour.",
+    "refineContent": "Affiner le contenu",
+    "itemActions": "Actions sur l’élément ${title}"
+  },
+  "layerTypes": {
+    "point": "Couche ponctuelle",
+    "line": "Couche linéaire",
+    "polygon": "Couche surfacique",
+    "multipatch": "Couche de multipatch",
+    "multipoint": "Couche multi-points",
+    "table": "Table",
+    "catalog": "Couche de catalogue",
+    "oriented imagery": "Couche d’imagerie orientée",
+    "parcel": "Couche d’atelier parcellaire",
+    "utility network": "Couche de réseau de distribution",
+    "topology": "Couche de topologie",
+    "trace network": "Couche de réseau de traces"
+  },
+  "filterIndustry": {
+    "title": "Secteur d’activité",
+    "Industry": "Secteur d’activité : ${industry}",
+    "Build a layer": "Créer une couche",
+    "Agriculture": "Agriculture",
+    "Electric Utilities": "Compagnies d’électricité",
+    "Environment": "Environnement",
+    "Forestry": "Foresterie",
+    "Gas Utilities": "Compagnies de gaz",
+    "General": "Général",
+    "Natural Resources": "Ressources naturelles",
+    "Petroleum": "Industrie pétrolière",
+    "Public Safety": "Sécurité publique",
+    "Telecommunications": "Télécommunications",
+    "Transportation": "Transports",
+    "Water Utilities": "Compagnies des eaux"
+  },
+  "filterCategories": {
+    "categories": "Catégories",
+    "groupCategories": "Catégories de groupe",
+    "category": "Catégorie : ${category}",
+    "uncategorized": "Non classé",
+    "noCategoriesTitle": "Aucune catégorie pour l’instant",
+    "noCategories": "Les catégories permettent aux membres d’organiser les éléments de manière cohérente et de parcourir facilement le contenu de l’organisation.",
+    "noGroupCategoriesTitle": "Aucune catégorie de groupe pour l’instant",
+    "noGroupCategories": "Les catégories permettent aux membres du groupe d’organiser les éléments de manière cohérente et de parcourir facilement le contenu du groupe.",
+    "setupCategories": "Configurer des catégories de contenu",
+    "setupGroupCategories": "Configurer des catégories de groupe",
+    "configureCategories": "Configurer des catégories"
+  },
+  "filterRegion": {
+    "regions": "Régions",
+    "region": "Région : ${region}"
+  },
+  "filterCollaborations": {
+    "title": "Collaborations distribuées",
+    "label": "Collaborations distribuées : ${name}",
+    "loading": "Chargement des collaborations..."
+  },
+  "filterContentStatus": {
+    "title": "Statut",
+    "label": "Statut : ${contentStatus}",
+    "authoritative": "Officiel",
+    "deprecated": "Obsolète"
+  },
+  "filterDeleteProtection": {
+    "title": "Protection contre la suppression",
+    "label": "Protection contre la suppression : ${deleteProtection}",
+    "enabled": "Activé",
+    "disabled": "Désactivée"
+  },
+  "filterExpiration": {
+    "today": "Aujourd’hui",
+    "tomorrow": "Demain",
+    "next7": "7 prochains jours",
+    "next30": "30 prochains jours",
+    "custom": "Plage personnalisée...",
+    "title": {
+      "expires": "Date d’expiration"
+    },
+    "expires": "Date d’expiration : ${date}"
+  },
+  "filterExtent": {
+    "label": "Dans la zone cartographique",
+    "title": "Afficher uniquement le contenu se trouvant dans la zone cartographique"
+  },
+  "filterFolder": {
+    "folders": "Dossiers",
+    "placeholder": "Filtrer les dossiers",
+    "clear": "Effacer la recherche",
+    "all": "Tout mon contenu",
+    "allContentUser": "Tout le contenu de ${username}",
+    "recycleBin": "Corbeille",
+    "label": "Dossier : ${folder}",
+    "loading": "Chargement des dossiers...",
+    "folderOptions": "Options du dossier",
+    "editFolder": "Modifier le dossier",
+    "deleteFolder": "Supprimer le dossier",
+    "delete": "Supprimer",
+    "areYouSure": "Voulez-vous vraiment supprimer ce dossier ?",
+    "areYouSureExplanation": "Le dossier <strong style='font-weight: 500'>${title}</strong> sera supprimé définitivement. En outre, tous les éléments se trouvant dans le dossier seront marqués pour suppression. Souhaitez-vous toujours poursuivre la suppression de ce dossier ?",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "createAFolder": "Créer un dossier",
+    "folderName": "Nom du dossier",
+    "createFolder": "Créer le dossier",
+    "error": {
+      "title": "Erreur",
+      "noName": "Vous devez fournir un nom pour ce dossier.",
+      "folderAlreadyExists": "Un dossier nommé '${folder}' existe déjà. Choisissez un autre nom.",
+      "invalidCharacters": {
+        "single": "Le nom ne peut pas contenir le caractère suivant : ${invalidCharacters}.",
+        "multiple": "Le nom ne peut contenir aucun des caractères suivants : ${invalidCharacters}.",
+        "unknown": "Le nom ne peut contenir aucun des caractères suivants : ${invalidCharacters}."
+      },
+      "errorCreatingFolder": "Une erreur s’est produite lors de la création du dossier ${folderName}."
+    }
+  },
+  "filterGroup": {
+    "title": "Groupes",
+    "groups": "Mes groupes",
+    "placeholder": "Filtrer les groupes",
+    "all": "Contenu de tous mes groupes",
+    "label": "Groupe : ${group}",
+    "loading": "Chargement des groupes..."
+  },
+  "filterContentType": {
+    "contentType": "Type de contenu",
+    "all": "Tout le contenu de mon organisation",
+    "recycle": "Corbeille"
+  },
+  "filterLocation": {
+    "location": "Localisation",
+    "label": "Localisation : ${location}",
+    "findLocationText": "Rechercher une adresse ou un lieu",
+    "search": "Rechercher des localisations",
+    "suggestions": "Suggestions",
+    "noResults": "Aucun résultat trouvé pour \"${searchTerm}\""
+  },
+  "filterSharing": {
+    "title": "Partage",
+    "label": "Partagé : ${sharing}",
+    "owner": "Propriétaire",
+    "shared": "Partagé avec des groupes",
+    "private": "Non partagé avec des groupes",
+    "account": "Organisation",
+    "public": "Tout le monde (public)"
+  },
+  "filterTags": {
+    "title": "Balises",
+    "label": "Balisé : ${tags}",
+    "selectTags": "Sélectionner des balises"
+  },
+  "filterReportType": {
+    "title": "Type de rapport",
+    "label": "Type de rapport : ${reportType}",
+    "activity": "Activité",
+    "credits": "Crédits",
+    "users": "Membre",
+    "content": "Élément",
+    "item_usages": "Nombre de vues des éléments",
+    "service_usages": "Utilisation du service"
+  },
+  "cardThumbnail": {
+    "loading": "Chargement de l’image"
+  },
+  "card": {
+    "select": "Sélectionner un élément : ${title}",
+    "lastUpdated": "Mise à jour de l’élément : ${date}",
+    "viewItemDetails": "Afficher plus de détails sur ${title}",
+    "preview": "Plus de détails",
+    "hidePreview": "Moins de détails",
+    "closeDetails": "Fermer l’aperçu",
+    "openDetails": "Aperçu",
+    "moreOptions": "Autres options"
+  },
+  "cardSublayerSelect": {
+    "select": "Sélectionner une couche",
+    "selectLayers": "Sélectionner des couches",
+    "selectedSingle": "Sélectionné",
+    "selectedLayers": "Couches sélectionnées : ${num}",
+    "selectedMultiple": "Sélection : ${num}",
+    "selectedName": "Couche sélectionnée : ${name}",
+    "selectedTask": "Tâche sélectionnée : ${task}",
+    "errorTitle": "Erreur lors de la connexion au service.",
+    "errorBody": "Impossible de se connecter au service. Le service est arrêté ou nécessite une authentification.",
+    "notebookErrorBody": "Cet outil a été publié à partir d’un notebook. L’accès à ArcGIS Notebooks est bloqué pour votre organisation. Contactez votre administrateur pour lui demander de modifier ce paramètre.",
+    "retry": "Réessayer",
+    "selectTask": "Sélectionner une tâche",
+    "selectTaskFrom": "Sélectionner une tâche à partir de ${title}"
+  },
+  "cardLayersList": {
+    "hideDetails": "Masquer les détails",
+    "showDetails": "Afficher les détails",
+    "layersAndTables": "Couches et tables"
+  },
+  "content": {
+    "noResults": "Aucun élément correspondant à vos critères n’a été trouvé. Modifiez votre terme de recherche ou effacez certains filtres pour afficher plus d’éléments.",
+    "noContent": "Aucun contenu disponible.",
+    "loading": "Chargement en cours..."
+  },
+  "copy": {
+    "copy": "Copier",
+    "copied": "Copié"
+  },
+  "bucketSelect": {
+    "my": "Mes contenus",
+    "org": "Mon organisation",
+    "group": "Mes groupes",
+    "favorites": "Mes favoris",
+    "living atlas": "Living Atlas",
+    "living atlas analysis": "Couches d’analyse Living Atlas",
+    "subscription content": "Contenu Abonné",
+    "all": "ArcGIS Online",
+    "catalog": "Catalogues Hub",
+    "catalogLabel": "Catalogue"
+  },
+  "preview": {
+    "owner": "Propriétaire",
+    "summary": "Résumé",
+    "noSummary": "Aucun résumé fourni",
+    "description": "Description",
+    "noDescription": "Aucune description fournie",
+    "thumbnail": "Miniature",
+    "overview": "Vue d’ensemble",
+    "details": "Détails",
+    "termsOfUse": "Conditions d’utilisation",
+    "noTermsOfUse": "Aucunes conditions d’utilisation fournies",
+    "itemManagedBy": "Élément géré par : ${username}",
+    "fullItemDetails": "Détails complets de l’élément",
+    "layersCount": "Couches (${count})",
+    "layers": "Couches",
+    "add": "Ajouter",
+    "remove": "Supprimer",
+    "loading": "Chargement...",
+    "shared": "Partage",
+    "created": "Élément créé",
+    "updated": "Élément mis à jour",
+    "fileSize": "Taille",
+    "attatchmentsSize": "Taille des pièces jointes",
+    "dataUpdated": "Données mises à jour",
+    "schemaUpdated": "Structure mise à jour",
+    "ID": "ID",
+    "copyID": "Copier l’ID",
+    "URL": "URL",
+    "copyURL": "Copier l’URL",
+    "itemStatus": "Statut",
+    "viewCount": "Nombre de vues",
+    "readMore": "En savoir plus",
+    "dashboardViews": "Vues du tableau de bord",
+    "dashboardMobile": "Bureautique, Mobile",
+    "dashboardDesktop": "Bureautique",
+    "sharing": {
+      "private": "Privé",
+      "shared": "Groupes",
+      "public": "Tout le monde",
+      "org": "Organisation"
+    },
+    "fieldType": {
+      "esriFieldTypeOID": "OID",
+      "esriFieldTypeBoolean": "Booléen",
+      "esriFieldTypeString": "Chaîne",
+      "esriFieldTypeSingle": "Simple",
+      "esriFieldTypeDouble": "Double",
+      "esriFieldTypeInteger": "Entier",
+      "esriFieldTypeSmallInteger": "Entier petit",
+      "esriFieldTypeGlobalID": "ID global",
+      "esriFieldTypeDate": "Date",
+      "esriFieldTypeBigInteger": "Entier très grand",
+      "esriFieldTypeDateOnly": "Date uniquement",
+      "esriFieldTypeTimeOnly": "Heure uniquement",
+      "esriFieldTypeTimestampOffset": "Fuseau horaire",
+      "esriFieldTypeGUID": "ID global"
+    },
+    "groupCategories": "Catégories de groupe",
+    "matched": "Appariés",
+    "matchedNumber": "Appariés (${num})",
+    "layerError": {
+      "title": "Impossible d’afficher les couches",
+      "message": "La prévisualisation des couches n’est pas prise en charge pour les services sécurisés."
+    },
+    "noServiceMessage": "Le service sélectionné n’existe pas ou est inaccessible.",
+    "credits": "Crédits (source)",
+    "noCredits": "Aucune source indiquée.",
+    "geometryTypeTitle": "Type de géométrie",
+    "layerTypeTitle": "Type de couche",
+    "fields": "Champs",
+    "noFields": "Aucun champ configuré pour cette couche",
+    "geometryType": {
+      "esriGeometryPoint": "Couche ponctuelle",
+      "esriGeometryPolyline": "Couche linéaire",
+      "esriGeometryPolygon": "Couche surfacique",
+      "esriGeometryMultiPatch": "Couche de multipatch",
+      "table": "Table"
+    },
+    "layerActions": "Actions sur la couche",
+    "itemError": {
+      "title": "Erreur",
+      "subscription": "Cet élément n’est actuellement pas disponible. L’abonnement ArcGIS Online associé à cet élément a été désactivé.",
+      "unhandled": "Une erreur s’est produite lors de la récupération de cet élément."
+    }
+  },
+  "table": {
+    "loading": "Chargement...",
+    "caption": "Les résultats d’élément et les en-têtes de colonne avec boutons peuvent être triés.",
+    "selectAll": "Sélectionner tout",
+    "selection": "Sélection",
+    "headers": {
+      "title": "Titre",
+      "modified": "Modification",
+      "created": "Création",
+      "owner": "Propriétaire",
+      "size": "Taille",
+      "deleted": "Date de suppression",
+      "type": "Type d’élément",
+      "badges": "Statut de l’élément",
+      "favorite": "Favori",
+      "sharing": "Niveau de partage",
+      "details": "Afficher les détails",
+      "actions": "Plus d’actions sur l’élément",
+      "dataset": "Jeu de données",
+      "download": "Télécharger"
+    }
+  },
+  "tableRow": {
+    "deletesTomorrow": "Suppression demain",
+    "deletes": {
+      "single": "Suppression dans ${number} jour",
+      "multiple": "Suppression dans ${number} jours",
+      "unknown": "Nombre de jours avant la suppression : ${number}"
+    },
+    "restore": "Restaurer",
+    "details": "Afficher les détails",
+    "moreOptions": "Autres options",
+    "download": "Télécharger"
+  },
+  "search": {
+    "searchName": "Rechercher dans ${searchName}",
+    "searchAllContent": "Rechercher dans Tout mon contenu",
+    "searchAllUserContent": "Rechercher dans Tout le contenu de ${username}",
+    "searchGroupsContent": "Rechercher dans Mes groupes",
+    "searchingGroupsContent": "Parcourir Mes groupes pour rechercher",
+    "searchFavoritesContent": "Rechercher dans Mes favoris",
+    "searchOrganizationsContent": "Rechercher dans Mon organisation",
+    "searchLivingAtlasContent": "Rechercher dans le Living Atlas",
+    "searchRecycleCurrentPage": "Rechercher des titres d’élément sur la page actuelle"
+  },
+  "find": {
+    "find": "Rechercher",
+    "findOnPage": "Rechercher sur la page",
+    "match": "Renvoie les correspondances de texte pour les titres d’élément sur la page actuelle uniquement."
+  },
+  "view": {
+    "view": "Affichage",
+    "list": "Liste",
+    "grid": "Grille",
+    "table": "Table"
+  },
+  "searchType": {
+    "keyword": "Recherche par mots-clés",
+    "keywordNum": "Recherche par mots-clés (${num})",
+    "semanticSearch": "Recherche sémantique",
+    "semanticSearchNum": "Recherche sémantique (${num})",
+    "semanticTooltip": "La recherche sémantique renvoie des résultats en fonction du sens et de l’objectif et non selon des mots-clés."
+  }
+}

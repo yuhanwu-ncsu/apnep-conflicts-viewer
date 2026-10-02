@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Ov\u011b\u0159it topologii in\u017een\xfdrsk\xe9 s\xedt\u011b",_widgetDescription:"Tento widget umo\u017e\u0148uje ov\u011b\u0159it nezkontrolovan\xe9 oblasti v topologii in\u017een\xfdrsk\xe9 s\xedt\u011b po proveden\xed \xfaprav."})}}});

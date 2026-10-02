@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Bạn không có quyền cập nhật chia sẻ mục này.",
+      "panel": "Bạn không có quyền cập nhật chia sẻ mục này. Mục này có thể không hiển thị với những người khác do được chia sẻ theo cách khác."
+    },
+    "pdc": {
+      "notice": "Bật tính năng Thu thập Dữ liệu Công khai trước khi chia sẻ công khai lớp này.",
+      "panel": "Bật tính năng Thu thập Dữ liệu Công khai trước khi chia sẻ công khai lớp này. Để đạt hiệu suất tối ưu và tính thống nhất của dữ liệu, vui lòng xem xét việc vô hiệu hóa chức năng chỉnh sửa hoặc sử dụng một lớp có chế độ xem không thể chỉnh sửa được.",
+      "learnMore": "Tìm hiểu thêm về bật tính năng chỉnh sửa trên lớp công khai."
+    },
+    "premium": {
+      "notice": "Nội dung của người đăng ký và cao cấp có thể yêu cầu đăng nhập để xem.",
+      "panel": "Nội dung của người đăng ký và cao cấp có thể yêu cầu đăng nhập để xem.",
+      "learnMore": "Tìm hiểu thêm về việc chia sẻ nội dung của người đăng ký hoặc cao cấp."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Chia sẻ công khai lớp có thể chỉnh sửa này sẽ cho phép mọi người chỉnh sửa.",
+      "panel": "Chia sẻ công khai lớp có thể chỉnh sửa này sẽ cho phép mọi người chỉnh sửa. Để đạt hiệu suất tối ưu và tính thống nhất của dữ liệu, vui lòng xem xét việc vô hiệu hóa chức năng chỉnh sửa hoặc sử dụng một lớp có chế độ xem không thể chỉnh sửa được."
+    },
+    "needsAuthentication": {
+      "notice": "Yêu cầu xác thực.",
+      "panel": "Những người khác có thể không truy cập được vào mục này vì nó chứa các dịch vụ vị trí yêu cầu xác thực trong các ứng dụng hiển thị mục."
+    }
+  },
+  "goToItem": "Xem đầy đủ thông tin chi tiết"
+}

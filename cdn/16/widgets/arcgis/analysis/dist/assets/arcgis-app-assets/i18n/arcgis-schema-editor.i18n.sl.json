@@ -1,0 +1,24 @@
+{
+  "expandAll": "Razširi vse",
+  "collapseAll": "Strni vse",
+  "categoryItem": {
+    "expand": "Razširi",
+    "collapse": "Strni",
+    "editCategory": "Uredi kategorijo",
+    "deleteCategory": "Izbriši kategorijo",
+    "addSubcategory": "Dodaj podkategorijo",
+    "addCategory": "Dodaj kategorijo",
+    "save": "Shrani",
+    "cancel": "Prekliči",
+    "missingTitleMessage": "Zahtevano je ime kategorije.",
+    "errors": {
+      "generic": "Nekaj je šlo narobe. Poskusite znova pozneje.",
+      "maxDepthExceeded": "Kategorij ne morete ugnezditi globlje kot 2 ravni.",
+      "destinationHasSameName": "Kategorija z istim imenom že obstaja v ciljni kategoriji.",
+      "emptyTitle": "Naslov kategorije ne sme biti prazen.",
+      "noSchema": "Shema elementa za uporabnika ni bila najdena.",
+      "maxCharacter": "Ime kategorije presega dovoljeno omejitev znakov."
+    },
+    "dragHandleLabel": "Povlecite za spreminjanje vrstnega reda."
+  }
+}

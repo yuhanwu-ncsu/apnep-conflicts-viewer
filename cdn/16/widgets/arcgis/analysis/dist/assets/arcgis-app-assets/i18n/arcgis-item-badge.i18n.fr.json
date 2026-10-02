@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Officiel",
+    "tooltip": {
+      "org": "Recommandé par votre organisation",
+      "public": "Recommandé par ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Bêta",
+    "tooltip": "Ce type d’élément est en version bêta."
+  },
+  "Deprecated": {
+    "title": "Obsolète",
+    "tooltip": "Utilisation déconseillée. Cet élément a été marqué comme obsolète par son propriétaire (${owner})."
+  },
+  "Has Replacement": {
+    "title": "Possède un élément de remplacement",
+    "tooltip": "Il existe un élément de remplacement recommandé pour cet élément. Affichez les détails de l’élément pour identifier et utiliser l’élément de remplacement.",
+    "itemPageTooltip": "Il existe un élément de remplacement recommandé pour cet élément.",
+    "link": "Afficher l’élément de remplacement"
+  },
+  "DeprecatedItemType": {
+    "title": "Type d’élément obsolète",
+    "tooltip": {
+      "general": "Ce type d’élément a été marqué comme obsolète par Esri. Il sera bientôt retiré et ne pourra plus être utilisé.",
+      "webAppBuilder": "ArcGIS Web AppBuilder, qui a été utilisé pour créer cet élément, a été marqué comme obsolète par Esri. Il sera bientôt retiré et ne pourra plus être utilisé. Pour créer une nouvelle application, utilisez ArcGIS Experience Builder ou une autre application ArcGIS."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Contenu organisé par Esri"
+  },
+  "Subscriber": {
+    "title": "Abonné",
+    "tooltip": {
+      "org": "Contenu exclusif réservé aux abonnés",
+      "public": "Contenu exclusif réservé aux abonnés. Pour l’utiliser, connectez-vous avec un abonnement ArcGIS Online."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Contenu exclusif réservé aux abonnés. Consomme des crédits.",
+      "public": "Contenu exclusif réservé aux abonnés qui consomme des crédits. Pour l’utiliser, connectez-vous avec un abonnement ArcGIS Online."
+    }
+  },
+  "Open Data": {
+    "title": "Open Data",
+    "tooltip": "Utilisation publique"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Répertorié sur ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Collaboration distribuée",
+    "tooltip": "Cet élément a été reçu d’une collaboration distribuée"
+  },
+  "Retired": {
+    "title": "Type d’élément retiré",
+    "tooltip": {
+      "general": "Esri a retiré ce type d’élément. Il ne peut plus être utilisé.",
+      "classicStoryMap": "Le modèle de story map Esri classique (${template_name}) utilisé pour créer cet élément a été retiré. Cet élément ne peut plus être affiché ni modifié. Pour rediriger les utilisateurs, configurez un élément de remplacement créé avec ArcGIS StoryMaps ou une autre application ArcGIS.",
+      "classicStoryMapGeneric": "Le modèle de story map Esri classique utilisé pour créer cet élément a été retiré. Cet élément ne peut plus être affiché ni modifié. Pour rediriger les utilisateurs, configurez un élément de remplacement créé avec ArcGIS StoryMaps ou une autre application ArcGIS.",
+      "cityEngine": "La visionneuse Web CityEngine et les scènes Web CityEngine ne sont plus prises en charge.",
+      "app": "Le modèle Configurable Apps utilisé pour créer cette application a été retiré. Cet élément n’est pas fonctionnel et peut être supprimé. Pour créer une nouvelle application, utilisez ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards ou ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder a été retiré d’ArcGIS Enterprise. Cet élément n’est pas fonctionnel et peut être supprimé. Pour créer une nouvelle application, utilisez ArcGIS Experience Builder.",
+      "insights": "ArcGIS Insights a été retiré d’ArcGIS Enterprise. Cet élément n’est pas fonctionnel et peut être supprimé.",
+      "bdfs": "Les partages de fichiers Big Data ont été retirés dans ArcGIS Enterprise. Cet élément n’est pas fonctionnel et peut être supprimé."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Collecte de données publiques",
+    "tooltip": "Collecte de données publiques autorisée."
+  },
+  "Solution": {
+    "title": "Solution ArcGIS",
+    "tooltip": "Solution développée par Esri"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "Une application OAuth 2.0 inscrite. Peut utiliser du contenu Premium ou Abonné.",
+      "enterprise": "Une application OAuth 2.0 inscrite."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Informations d’identification de clé d’API",
+      "enterprise": "Informations d’identification de clé d’API"
+    },
+    "tooltip": "Accorder l’accès à des services."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Informations d’identification de clé d’API – Application privée",
+    "tooltip": "Cette option fournit des jetons d’accès avec des privilèges permettant d’accéder à un large éventail d’éléments et de services. Vous devez protéger ces jetons de la même manière que vous protégeriez votre nom d’utilisateur et votre mot de passe. Ne les intégrez pas dans une application."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "Informations d’identification OAuth 2.0",
+      "enterprise": "Informations d’identification OAuth 2.0"
+    },
+    "tooltip": "Accorder l’accès à des services."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "Informations d’identification OAuth 2.0 – Emprunter l’identité du propriétaire de l’élément",
+    "tooltip": "Cette option autorise l’emprunt de l’identité du propriétaire de cet élément. Pour des raisons de sécurité, vous devez protéger ces informations d’identification de la même manière que vous protégeriez votre nom d’utilisateur et votre mot de passe."
+  },
+  "Registered Application": {
+    "title": "Application OAuth 2.0",
+    "tooltip": "Une application OAuth 2.0 inscrite"
+  },
+  "Personal credential": {
+    "title": "Personnel",
+    "tooltip": "Vous accordez des privilèges personnels à ces informations d’identification. Pour des raisons de sécurité, vous devez protéger les jetons d’accès créés avec ces informations d’identification de la même manière que vous protégeriez votre nom d’utilisateur et votre mot de passe. Lisez les conditions d’utilisation."
+  },
+  "loading": "Chargement..."
+}

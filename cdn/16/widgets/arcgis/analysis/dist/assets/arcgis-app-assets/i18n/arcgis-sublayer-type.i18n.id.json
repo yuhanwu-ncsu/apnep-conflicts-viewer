@@ -1,0 +1,16 @@
+{
+  "point": "Layer titik",
+  "line": "Layer garis",
+  "polygon": "Layer poligon",
+  "multipatch": "Layer multipatch",
+  "multipoint": "Layer multititik",
+  "table": "Tabel",
+  "annotation": "Layer anotasi",
+  "catalog": "Katalog layer",
+  "dimension": "Layer dimensi",
+  "oriented imagery": "Layer pencitraan yang diorientasi",
+  "parcel": "Layer parcel fabric",
+  "utility network": "Layer utility network",
+  "topology": "Layer topologi",
+  "trace network": "Layer trace network"
+}

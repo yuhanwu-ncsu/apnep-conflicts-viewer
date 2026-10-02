@@ -1,0 +1,30 @@
+{
+  "hosted": "viesots",
+  "hostedView": "viesots, skats",
+  "hostedPhotos": "viesots, attēli",
+  "hostedCollection": "viesots, kolekcija",
+  "hostedMultidimensional": "viesots, daudzdimensiju",
+  "hostedCollectionMultidimensional": "viesots, kolekcija, daudzdimensiju",
+  "collectionMultidimensional": "kolekcija, daudzdimensiju",
+  "multidimensional": "daudzdimensiju",
+  "query": "vaicājums",
+  "collection": "kolekcija",
+  "photoLocations": "fotoattēli",
+  "locatorView": "skats",
+  "utilityNetwork": "Utility Network",
+  "parcelFabric": "parcel fabric",
+  "parcelFabricHosted": "parcel fabric, viesots",
+  "Integrated Mesh": "integrēts tīkls",
+  "3D Object": "3D objekts",
+  "Point": "punkts",
+  "Point Cloud": "punktu mākonis",
+  "Building Scene Layer": "ēkas scēnu slānis",
+  "Voxel Scene Layer": "vokseļa scēnas slānis",
+  "dataStore": {
+    "bigdata": "lielapjoma datu faila koplietošana",
+    "cloud": "mākonis",
+    "cloudStorage": "mākoņkrātuve",
+    "database": "datubāze",
+    "folder": "mape"
+  }
+}

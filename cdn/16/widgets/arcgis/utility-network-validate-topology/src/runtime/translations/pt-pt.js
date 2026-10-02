@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Topologia de valida\xe7\xe3o da rede de servi\xe7os p\xfablicos",_widgetDescription:"Este widget permite identificar \xe1reas problem\xe1ticas na topologia de uma rede de servi\xe7os p\xfablicos ap\xf3s a realiza\xe7\xe3o de altera\xe7\xf5es."})}}});

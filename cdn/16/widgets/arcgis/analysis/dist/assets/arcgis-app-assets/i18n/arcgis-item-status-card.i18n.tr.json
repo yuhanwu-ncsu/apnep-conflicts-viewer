@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Bu ögenin paylaşımını güncelleme izniniz yok.",
+      "panel": "Bu ögenin paylaşımını güncelleme izniniz yok. Farklı bir şekilde paylaşıldığı için bu öge başkaları tarafından görüntülenemeyebilir."
+    },
+    "pdc": {
+      "notice": "Bu katmanı herkese açık olarak paylaşmadan önce Herkese Açık Veri Koleksiyonunu etkinleştirin.",
+      "panel": "Bu katmanı herkese açık olarak paylaşmadan önce Herkese Açık Veri Koleksiyonunu etkinleştirin. Optimum performans ve veri bütünlüğü için lütfen düzenlemeyi devre dışı bırakmayı veya düzenlenemez bir görünüm katmanı kullanmayı düşünün.",
+      "learnMore": "Herkese açık katmanlarda düzenlemeyi etkinleştirme hakkında daha fazla bilgi edinin"
+    },
+    "premium": {
+      "notice": "Premium ve abone içeriği, görüntüleme için oturum açmayı gerektiriyor olabilir.",
+      "panel": "Premium ve abone içeriği, görüntüleme için oturum açmayı gerektiriyor olabilir.",
+      "learnMore": "Premium ve abone içeriği paylaşımı hakkında bilgi edinin."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Bu düzenlenebilir katmanı herkese açık olarak paylaşmak, herkesin onu düzenlemesine izin verir.",
+      "panel": "Bu düzenlenebilir katmanı herkese açık olarak paylaşmak, herkesin onu düzenlemesine izin verir. Optimum performans ve veri bütünlüğü için lütfen düzenlemeyi devre dışı bırakmayı veya düzenlenemez bir görünüm katmanı kullanmayı düşünün."
+    },
+    "needsAuthentication": {
+      "notice": "Kimlik doğrulaması gerekiyor",
+      "panel": "Bu öge, ögeyi görüntüleyen uygulamalarda kimlik doğrulama gerektiren konum servisleri içerdiğinden başkaları tarafından erişilebilir olmayabilir."
+    }
+  },
+  "goToItem": "Tam ayrıntıları görüntüle"
+}

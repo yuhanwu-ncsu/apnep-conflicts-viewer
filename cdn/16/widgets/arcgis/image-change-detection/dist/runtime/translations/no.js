@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Bildeendringsdeteksjon",_widgetDescription:"Et miniprogram som oppdager endringer i bildelag over tid."})}}});

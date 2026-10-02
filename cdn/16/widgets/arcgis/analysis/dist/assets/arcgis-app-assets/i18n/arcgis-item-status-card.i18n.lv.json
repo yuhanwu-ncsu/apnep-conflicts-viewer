@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Jums nav atļaujas atjaunināt šīs vienības koplietošanu.",
+      "panel": "Jums nav atļaujas atjaunināt šīs vienības koplietošanu. Iespējams, šī vienība nav redzama citiem, jo tā tiek koplietota citādi."
+    },
+    "pdc": {
+      "notice": "Iespējojiet publisko datu ievākšanu, pirms koplietojat šo slāni publiski.",
+      "panel": "Iespējojiet publisko datu ievākšanu, pirms koplietojat šo slāni publiski. Lai nodrošinātu labāko veiktspēju un datu integritāti, apsveriet iespēju atspējot rediģēšanu vai izmantot nerediģējamu slāņa skatu.",
+      "learnMore": "Uzzināt vairāk par rediģēšanas iespējošanu publiskajos slāņos."
+    },
+    "premium": {
+      "notice": "Lai skatītu augstākā līmeņa un abonenta saturu, iespējams, ir jāpierakstās.",
+      "panel": "Lai skatītu augstākā līmeņa un abonenta saturu, iespējams, ir jāpierakstās.",
+      "learnMore": "Uzziniet vairāk par augstākā līmeņa un abonenta satura koplietošanu."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Ja koplietosiet šo rediģējamo slāni publiski, ikviens to varēs rediģēt.",
+      "panel": "Ja koplietosiet šo rediģējamo slāni publiski, ikviens to varēs rediģēt. Lai nodrošinātu labāko veiktspēju un datu integritāti, apsveriet iespēju atspējot rediģēšanu vai izmantot nerediģējamu slāņa skatu."
+    },
+    "needsAuthentication": {
+      "notice": "Nepieciešama autentifikācija.",
+      "panel": "Iespējams, ka šī vienība nav pieejama citiem, jo tajā ir novietojuma servisi, kuriem nepieciešama autentifikācija lietotnēs, kurās tiek attēlota vienība."
+    }
+  },
+  "goToItem": "Skatīt visus datus"
+}

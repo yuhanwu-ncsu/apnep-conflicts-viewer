@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Validacija topologije uslu\u017ene mre\u017ee",_widgetDescription:"Ovaj vid\u017eet vam omogu\u0107ava da izvr\u0161ite validaciju prljavih oblasti u topologiji uslu\u017ene mre\u017ee nakon \u0161to ure\u0111ivanja budu izvr\u0161ena."})}}});

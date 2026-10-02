@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Oturum açma türünü değiştir",
+  "chooseLoginType": "Oturum açma türünü seç",
+  "selectMembers": "Üyeleri seç",
+  "userDetails": "Kullanıcı bilgileri",
+  "reauth": "Yeniden kimlik doğrula",
+  "confirmComplete": "Onayla ve tamamla",
+  "next": "İleri",
+  "back": "Geri",
+  "cancel": "İptal",
+  "close": "Kapat",
+  "changeLogins": "Oturum açmayı değiştir",
+  "acknowledgeImpact": "Bu değişikliğin etkisini kabul ediyor ve anlıyorum.",
+  "propertiesHeading": "Aşağıdaki üyeler için yeni oturum açma bilgilerini belirtin",
+  "chooseFile": "Farklı bir dosya seç",
+  "mustAcknowledge": "Devam etmeden önce bu değişikliğin etkisini kabul etmelisiniz.",
+  "confirmLeave": {
+    "title": "Değişiklikleri iptal edin",
+    "message1": "Kaydedilmemiş değişiklikleriniz var.",
+    "message2": "Değişiklikleri iptal etmek istediğinize emin misiniz?",
+    "remain": "Düzenlemeye devam et",
+    "leave": "Kaydetmeden çık"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS oturumu açma",
+    "chooseLoginModify": "Oturum açmaları nasıl değiştireceğinizi seçin",
+    "changeType": "Oturum açma türünü değiştir",
+    "selectType": "Çalışmak istediğiniz mevcut oturum açma türünü seçin",
+    "changeTypeDescription": "OpenID Connect, SAML veya ArcGIS oturum açma bilgileri arasında kuruluşa özgü kimlikleri değiştirin.",
+    "keepType": "Oturum açma türünü koru",
+    "keepTypeDescription": "OpenID Connect veya SAML Kimliğini ve e-posta adresini, oturum açma türünü değiştirmeden güncelleyin.",
+    "currentType": "Geçerli oturum açma türü",
+    "newType": "Yeni oturum açma türü",
+    "select": "Seç",
+    "samlLogin": "{name} (SAML girişi)",
+    "oidcLogin": "{name} (OpenID Connect girişi)",
+    "oldSaml": "Önceki SAML oturumu açma",
+    "oldOidc": "Önceki OIDC oturumu açma",
+    "enterpriseOverwrite": "Kurumsal oturum açma sağlayıcınızın ayarlarına bağlı olarak, kimlik sağlayıcınızdan gelen değer e-posta adresinin üzerine yazılabilir.",
+    "generateMissingPasswords": "ArcGIS oturum açma bilgilerine geçerken, geçici şifreler belirtilmemişse otomatik olarak oluşturulacaktır. Bunlar, kullanıcı bilgileri adımında görüntülenecektir.",
+    "errors": {
+      "loginTypes": "Hem geçerli hem de yeni oturum açma türleri seçilmelidir.",
+      "currentLoginType": "Geçerli oturum açma türü zorunludur ve seçilmelidir.",
+      "sameLoginType": "Yeni oturum açma türü, mevcut oturum açma türünden farklı olmalıdır."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Üye seçim yöntemi",
+    "howToSelect": "Üyeleri nasıl seçmek istiyorsunuz?",
+    "bulkUpload": "Toplu yükleme (CSV)",
+    "chooseAFile": "Bir sonraki adımda yüklenecek dosyayı seçin.",
+    "manualSelection": "Manuel seçim",
+    "selectMembers": "Bir sonraki adımda listeden üyeler seçin.",
+    "selectFromFile": "Üyeleri CSV dosyasından seçin",
+    "dragDrop": "Dosyanızı sürükleyip bırakın veya cihazınızdan seçin.",
+    "headerInstructions": "Başlık (ilk satır) alan adlarını tam olarak aşağıda göründüğü gibi içermelidir.",
+    "fieldOrder": "Alan sırası farklı olabilir.",
+    "yourDevice": "Cihazınız",
+    "downloadTemplate": "CSV şablonunu indir",
+    "requiredFields": "Gerekli alanlar",
+    "optionalFields": "İsteğe bağlı alanlar",
+    "passwordTooltip": "Şifre girilmezse, otomatik olarak geçici bir şifre oluşturulacaktır.",
+    "excessTitleCsv": "CSV 5000 üye sınırını aşıyor",
+    "excessBatchLimit": "Her seferinde en fazla 5000 üye için oturum açma türlerini güncelleyebilirsiniz.",
+    "excessBodyCsv": "5000'den fazla üyeyi işlemek için CSV dosyanızı birden fazla küçük dosyaya bölün ve bunları ayrı ayrı yükleyin.",
+    "learnMore": "Daha fazla bilgi",
+    "errors": {
+      "fileType": "Geçersiz dosya türü. Lütfen bir CSV dosyası yükleyin.",
+      "fileSize": "Dosya boyutu 500 KB'yi aşıyor ve verimli bir şekilde işlenemeyebilir.",
+      "noMembers": "Seçili üye yok. Devam etmek için üyeleri seçin veya bir CSV dosyası yükleyin.",
+      "tooManyMembers": "Seçim 5000 üye sınırını aşıyor."
+    }
+  },
+  "fieldNames": {
+    "email": "E-posta",
+    "username": "ArcGIS kullanıcı adı",
+    "password": "Geçici parola",
+    "samlId": "SAML kimliği",
+    "oidcId": "OIDC kimliği",
+    "oldSamlId": "Önceki SAML Kimliği",
+    "oldOidcId": "Önceki OIDC Kimliği",
+    "success": "Başarılı",
+    "error": "Hata",
+    "fromLoginType": "İlk oturum açma türü",
+    "toLoginType": "Yeni oturum açma türü"
+  },
+  "authentication": {
+    "header": "Yeniden kimlik doğrulama gerekli",
+    "reauthSteps": "Yeniden kimlik doğrulama adımları",
+    "step1_label": "Adım 1: Giriş yapın (yeni pencere)",
+    "step1_desc": "Oturum açmanız için yeni bir pencere açılacaktır.",
+    "step2_label": "Adım 2: Kimlik doğrulama anahtarını kopyalayın",
+    "step2_desc": "Kopyalamanız için size bir kimlik doğrulama anahtarı verilecektir.",
+    "step3_label": "Adım 3: Kimlik doğrulama anahtarını yapıştırın",
+    "step3_desc": "Devam etmek için kimlik doğrulama anahtarını girin.",
+    "openWindow": "Yeniden kimlik doğrulamak için yeni bir pencere açın",
+    "authKey": "Kimlik doğrulama anahtarı",
+    "paste": "Yapıştır",
+    "getNewKey": "Yeni anahtar oluşturun",
+    "hide": "Gizle",
+    "show": "Göster",
+    "errors": {
+      "clipboard": "Panodan okunamadı",
+      "authKey": "Geçerli bir kimlik doğrulama anahtarı gereklidir"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabetik",
+    "desc": "Ters alfabetik",
+    "sortBy": "Sırala",
+    "sortDirection": "Sıralama yönü",
+    "searchMembers": "Bu listede üye ara",
+    "memberDetails": "Değişiklik oturumu açma sağlayıcısı işlemi için üye bilgileri",
+    "optional": "(isteğe bağlı)",
+    "fieldErrors": "Alan hataları",
+    "noErrors": "Hata yok",
+    "noData": "Kullanılabilir veri yok",
+    "noMembersMatch": "Hiçbir üye arama kriterlerinizle eşleşmiyor",
+    "togglePassword": "Parola görünürlüğünü aç/kapat",
+    "memberCount": "{start} - {end} / {total}",
+    "errors": {
+      "email": "E-posta gereklidir",
+      "username": "ArcGIS kullanıcı adı gerekli",
+      "password": "Geçici parola gerekli",
+      "samlId": "SAML kimliği gerekli",
+      "oidcId": "OIDC kimliği gerekli"
+    }
+  },
+  "review": {
+    "heading": "Değişiklikleri incele",
+    "loginsWillChange": "Aşağıdaki hesaplar {fromLogin}'den {toLogin}'ye değiştirilecektir",
+    "downloadCsv": "Değişiklikler CSV'sini indir",
+    "providerTypes": {
+      "saml": "SAML oturum açma bilgileri",
+      "oidc": "OpenID Connect oturum açma bilgileri",
+      "arcgis": "ArcGIS hesabı oturum açma bilgileri"
+    },
+    "missingRequired": "Gerekli bilgiler eksik. Devam etmeden önce eksik bilgileri girin."
+  },
+  "progress": {
+    "processing": "İşlem yapılıyor... {total} kullanıcının {current}'i",
+    "percentComplete": "Tamamlanma yüzdesi",
+    "doNotClose": "Lütfen tarayıcı kapatmayın.",
+    "extendedTime": "Bu işlem 10 dakika kadar sürebilir, lütfen sabırlı olun.",
+    "extendedTime10": "Bu işlem 10 dakikadan fazla sürebilir, lütfen sabırlı olun.",
+    "extendedTime15": "Bu işlem 15 dakikadan fazla sürebilir, lütfen sabırlı olun.",
+    "label": "Oturum açma türleri için ilerleme göstergesi",
+    "errors": {
+      "authkey": {
+        "title": "Geçersiz kimlik doğrulama anahtarı",
+        "body1": "Girdiğiniz kimlik doğrulama anahtarı geçersiz.",
+        "body2": "Lütfen tekrar geçerli bir kimlik doğrulama anahtarı girin.",
+        "action": "Kimlik doğrulama anahtarını yeniden gir",
+        "cancel": "İptal"
+      },
+      "unknown": "Sağlayıcı değiştirme işlemi sırasında bir hata oluştu. Sorun devam ederse lütfen tekrar deneyin veya destek ile iletişime geçin.",
+      "userNotFound": "Kullanıcı adı bulunamadı",
+      "idpUsernameNotMatching": "Kullanıcı adı eşleşmiyor",
+      "providerNotMatching": "Oturum açma değiştirilemiyor"
+    }
+  }
+}

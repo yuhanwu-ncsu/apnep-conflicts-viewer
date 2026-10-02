@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"D\xe1tumsz\u0171r\u0151"})}}});

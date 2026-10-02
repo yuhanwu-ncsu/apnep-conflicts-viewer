@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Teema re\u017eiimivahetaja",notSupportTip:"Praegune teema ei toeta teema re\u017eiimide vahetamist.",lightModeLabel:"Hele re\u017eiim. Vajutage, et l\xfclituda tumedale re\u017eiimile.",darkModeLabel:"Tume re\u017eiim Vajutage, et l\xfclituda heledale re\u017eiimile."})}}});

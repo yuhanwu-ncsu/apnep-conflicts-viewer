@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Vous n’êtes pas autorisé à mettre à jour le partage de cet élément.",
+      "panel": "Vous n’êtes pas autorisé à mettre à jour le partage de cet élément. Cet élément risque de ne pas être visible pour autrui car il est partagé différemment."
+    },
+    "pdc": {
+      "notice": "Activez la collecte de données publiques avant de partager cette couche publiquement.",
+      "panel": "Activez la collecte de données publiques avant de partager cette couche publiquement. Pour optimiser les performances et préserver l’intégrité des données, désactivez la modification ou utilisez une vue de couche non modifiable.",
+      "learnMore": "En savoir plus sur l’activation de la mise à jour sur les couches publiques."
+    },
+    "premium": {
+      "notice": "Les utilisateurs devront peut-être se connecter pour afficher le contenu Premium et Abonné.",
+      "panel": "Les utilisateurs devront peut-être se connecter pour afficher le contenu Premium et Abonné.",
+      "learnMore": "En savoir plus sur le partage de contenu Premium ou Abonné."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Si vous partagez publiquement cette couche modifiable, tout le monde pourra la modifier.",
+      "panel": "Si vous partagez publiquement cette couche modifiable, tout le monde pourra la modifier. Pour optimiser les performances et préserver l’intégrité des données, désactivez la modification ou utilisez une vue de couche non modifiable."
+    },
+    "needsAuthentication": {
+      "notice": "Authentification requise.",
+      "panel": "Cet élément risque de ne pas être accessible à d’autres utilisateurs car il contient des services de localisation qui nécessitent une authentification dans les applications qui affichent l’élément."
+    }
+  },
+  "goToItem": "Afficher les détails complets"
+}

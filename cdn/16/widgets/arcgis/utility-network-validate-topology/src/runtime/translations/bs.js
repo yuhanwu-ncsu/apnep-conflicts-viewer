@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Validacija topologije Utility Network",_widgetDescription:"Ovaj widget omogu\u0107uje provjeru neispravnih podru\u010dja u topologiji mre\u017ee komunalne mre\u017ee nakon \u0161to su napravljene izmjene."})}}});

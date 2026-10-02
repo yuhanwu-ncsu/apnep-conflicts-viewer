@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Sākums",
+  "repeatTypeLabel": "Atkārtošanas veids",
+  "endingOnTypeLabel": "Beidzas",
+  "endingOnDateLabel": "Beigu datums",
+  "endingOnCountLabel": "Skaits",
+  "endingOnCountPlaceholder": "piemēram: 1, 10, 30",
+  "repeatIntervalLabel": "Atkārtošanas intervāls",
+  "timeLabel": "Laiks",
+  "hourlyOnMinuteLabel": "Minūtē",
+  "betweenHoursLabel": "Starp stundām",
+  "weeklyDaysOfWeekLabel": "Nedēļas diena",
+  "monthlyDayOfMonthLabel": "Mēneša diena",
+  "monthlyDayOfMonthPlaceholder": "piemēram, 1 - 31",
+  "allDayLabel": "Visu dienu",
+  "allWeekLabel": "Visa nedēļa",
+  "repeatTypeOptions": {
+    "minute": "Minūte",
+    "hour": "Stunda",
+    "day": "Diena",
+    "week": "Nedēļa",
+    "month": "Mēnesis"
+  },
+  "endingOnType": {
+    "never": "Nekad",
+    "date": "Datums",
+    "count": "Skaits"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Katru minūti",
+    "everyTwoMinutes": "Ik pēc divām minūtēm",
+    "everyThreeMinutes": "Ik pēc trim minūtēm",
+    "everyFiveMinutes": "Ik pēc piecām minūtēm",
+    "everyTenMinutes": "Ik pēc desmit minūtēm",
+    "everyFifteenMinutes": "Ik pēc piecpadsmit minūtēm",
+    "everyThirtyMinutes": "Ik pēc trīsdesmit minūtēm"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Ik pēc stundas",
+    "everyTwoHours": "Ik pēc divām stundām",
+    "everyThreeHours": "Ik pēc trim stundām",
+    "everyFourHours": "Ik pēc četrām stundām",
+    "everySixHours": "Ik pēc sešām stundām",
+    "everyTwelveHours": "Ik pēc divpadsmit stundām"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Katru dienu",
+    "everyOtherDay": "Ik pārdienas",
+    "everyThreeDays": "Ik pēc trijām dienām",
+    "everyFourDays": "Ik pēc četrām dienām",
+    "everyFiveDays": "Ik pēc piecām dienām",
+    "everySixDays": "Ik pēc sešām dienām",
+    "everySevenDays": "Ik pēc septiņām dienām",
+    "everyFourteenDays": "Ik pēc četrpadsmit dienām"
+  },
+  "weekDays": {
+    "allWeekdays": "Visas darbdienas",
+    "sunday": "Svētdiena",
+    "monday": "Pirmdiena",
+    "tuesday": "Otrdiena",
+    "wednesday": "Trešdiena",
+    "thursday": "Ceturtdiena",
+    "friday": "Piektdiena",
+    "saturday": "Sestdiena"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Reizi mēnesī",
+    "everyTwoMonths": "Ik pēc diviem mēnešiem",
+    "everyThreeMonths": "Ik pēc trijiem mēnešiem",
+    "everyFourMonths": "Ik pēc četriem mēnešiem",
+    "everyFiveMonths": "Ik pēc pieciem mēnešiem",
+    "everySixMonths": "Ik pēc sešiem mēnešiem"
+  }
+}

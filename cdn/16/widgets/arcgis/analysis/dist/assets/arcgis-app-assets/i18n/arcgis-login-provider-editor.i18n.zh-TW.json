@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "變更登入類型",
+  "chooseLoginType": "選擇登入類型",
+  "selectMembers": "選擇成員",
+  "userDetails": "使用者詳細資訊",
+  "reauth": "重新驗證",
+  "confirmComplete": "確認和完成",
+  "next": "下一步",
+  "back": "上一步",
+  "cancel": "取消",
+  "close": "關閉",
+  "changeLogins": "變更登入",
+  "acknowledgeImpact": "我承認並理解此變更的影響。",
+  "propertiesHeading": "請為以下成員指定新的登入詳細資訊",
+  "chooseFile": "選擇不同的檔案",
+  "mustAcknowledge": "您必須認可此變更的影響才能繼續。",
+  "confirmLeave": {
+    "title": "取消變更",
+    "message1": "您有未儲存的變更。",
+    "message2": "是否確定要取消變更?",
+    "remain": "正在繼續編輯",
+    "leave": "結束而不儲存"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS 登入",
+    "chooseLoginModify": "選擇如何修改登入",
+    "changeType": "變更登入類型",
+    "selectType": "選擇要使用的目前登入類型",
+    "changeTypeDescription": "在 OpenID Connect、SAML 或 ArcGIS 登入之間變更組織特定 ID。",
+    "keepType": "維持登入類型",
+    "keepTypeDescription": "更新 OpenID Connect 或 SAML ID 及電子郵件地址，而不變更登入類型。",
+    "currentType": "目前登入類型",
+    "newType": "新登入類型",
+    "select": "選擇",
+    "samlLogin": "{name} (SAML 登入)",
+    "oidcLogin": "{name} (OpenID Connect 登入)",
+    "oldSaml": "先前的 SAML 登入",
+    "oldOidc": "先前的 OIDC 登入",
+    "enterpriseOverwrite": "根據企業登入提供者設定，電子郵件地址可能會被身分提供者提供的值覆寫。",
+    "generateMissingPasswords": "變更為 ArcGIS 登入時，如果未指定臨時密碼，系統會自動產生臨時密碼。 它們將顯示在使用者詳細資訊步驟中。",
+    "errors": {
+      "loginTypes": "必須同時選擇目前登入類型和新登入類型。",
+      "currentLoginType": "目前登入類型為必填欄位，必須選擇。",
+      "sameLoginType": "新的登入類型必須與目前的登入類型不同。"
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "成員選擇方法",
+    "howToSelect": "您打算如何選擇成員?",
+    "bulkUpload": "批量上傳 (CSV)",
+    "chooseAFile": "在下一個步驟中選擇要上傳的檔案。",
+    "manualSelection": "手動選擇",
+    "selectMembers": "在下一個步驟中從清單中選擇成員。",
+    "selectFromFile": "從 CSV 檔案中選擇成員",
+    "dragDrop": "拖放您的檔案或從您的裝置中選擇。",
+    "headerInstructions": "頁首 (第一列) 應包含如下所示的欄位名稱。",
+    "fieldOrder": "欄位順序可能有所不同。",
+    "yourDevice": "您的裝置",
+    "downloadTemplate": "下載 CSV 樣板",
+    "requiredFields": "必要欄位",
+    "optionalFields": "選用欄位",
+    "passwordTooltip": "如果未提供密碼，系統將自動產生臨時密碼。",
+    "excessTitleCsv": "CSV 超過 5,000 名成員限制",
+    "excessBatchLimit": "每批次最多可更新 5,000 名成員的登入類型。",
+    "excessBodyCsv": "若要處理超過 5,000 名成員，請將 CSV 分割成多個較小的檔案，然後分別上傳。",
+    "learnMore": "瞭解詳細資訊",
+    "errors": {
+      "fileType": "無效的檔案類型。 請上傳 CSV 檔案。",
+      "fileSize": "檔案大小超過 500 KB，可能無法有效率處理。",
+      "noMembers": "未選擇成員。 請選擇成員或上傳 CSV 檔案以繼續。",
+      "tooManyMembers": "選取的成員數量超過 5,000 名上限。"
+    }
+  },
+  "fieldNames": {
+    "email": "電子郵件",
+    "username": "ArcGIS 使用者名稱",
+    "password": "臨時密碼",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "先前的 SAML ID",
+    "oldOidcId": "先前的 OIDC ID",
+    "success": "成功",
+    "error": "錯誤",
+    "fromLoginType": "初始登入類型",
+    "toLoginType": "新登入類型"
+  },
+  "authentication": {
+    "header": "需要重新驗證",
+    "reauthSteps": "重新驗證步驟",
+    "step1_label": "步驟 1: 登入 (新視窗)",
+    "step1_desc": "將出現新視窗供您登入。",
+    "step2_label": "步驟 2: 複製驗證金鑰",
+    "step2_desc": "您將獲得驗證金鑰以進行複製。",
+    "step3_label": "步驟 3: 貼上驗證金鑰",
+    "step3_desc": "輸入驗證金鑰以繼續。",
+    "openWindow": "開啟新視窗以重新驗證",
+    "authKey": "驗證金鑰",
+    "paste": "貼上",
+    "getNewKey": "產生新金鑰",
+    "hide": "隱藏",
+    "show": "顯示",
+    "errors": {
+      "clipboard": "無法從剪貼簿讀取",
+      "authKey": "需要有效的驗證金鑰"
+    }
+  },
+  "usersTable": {
+    "asc": "字母",
+    "desc": "反向字母",
+    "sortBy": "排序方式",
+    "sortDirection": "排序方向",
+    "searchMembers": "搜尋清單中的成員",
+    "memberDetails": "用於變更登入提供者操作的成員詳細資訊",
+    "optional": "(可選)",
+    "fieldErrors": "欄位錯誤",
+    "noErrors": "無錯誤",
+    "noData": "沒有可用的資料",
+    "noMembersMatch": "沒有符合搜尋條件的成員",
+    "togglePassword": "切換密碼可見性",
+    "memberCount": "{start} - {end} 個，總計 {total} 個",
+    "errors": {
+      "email": "電子郵件為必填項",
+      "username": "ArcGIS 使用者名稱為必填項",
+      "password": "臨時密碼為必填項",
+      "samlId": "SAML ID 為必填項",
+      "oidcId": "OIDC ID 為必填項"
+    }
+  },
+  "review": {
+    "heading": "檢閱變更",
+    "loginsWillChange": "以下帳號將從 {fromLogin} 變更為 {toLogin}",
+    "downloadCsv": "下載變更的 CSV",
+    "providerTypes": {
+      "saml": "SAML 登入",
+      "oidc": "OpenID Connect 登入",
+      "arcgis": "ArcGIS 帳號登入"
+    },
+    "missingRequired": "缺少必要資訊。 請先填寫缺失的資訊再繼續。"
+  },
+  "progress": {
+    "processing": "正在處理... {current}/{total} 名使用者。",
+    "percentComplete": "完成百分比",
+    "doNotClose": "請不要關閉瀏覽器。",
+    "extendedTime": "這可能需要 10 分鐘，請耐心等待。",
+    "extendedTime10": "這可能需要 10 分鐘以上，請耐心等待。",
+    "extendedTime15": "這可能需要 15 分鐘以上，請耐心等待。",
+    "label": "變更登入類型的進度指示燈",
+    "errors": {
+      "authkey": {
+        "title": "無效的驗證金鑰",
+        "body1": "輸入的驗證金鑰無效。",
+        "body2": "請重新輸入有效的驗證金鑰。",
+        "action": "重新輸入驗證金鑰",
+        "cancel": "取消"
+      },
+      "unknown": "提供者變更程序發生錯誤。 請重試，如果問題仍然存在，請聯絡支援。",
+      "userNotFound": "找不到使用者名稱",
+      "idpUsernameNotMatching": "使用者名稱不符",
+      "providerNotMatching": "無法變更登入"
+    }
+  }
+}

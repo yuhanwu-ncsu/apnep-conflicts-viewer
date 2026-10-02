@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Dil De\u011fi\u015ftirici",previewTip:"Bu yaln\u0131zca \xd6nizleme veya yay\u0131nlanm\u0131\u015f uygulamalarda \xe7al\u0131\u015f\u0131r."})}}});

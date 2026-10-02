@@ -1,0 +1,24 @@
+{
+  "expandAll": "Développer tout",
+  "collapseAll": "Réduire tout",
+  "categoryItem": {
+    "expand": "Développer",
+    "collapse": "Réduire",
+    "editCategory": "Modifier la catégorie",
+    "deleteCategory": "Supprimer la catégorie",
+    "addSubcategory": "Ajouter une sous-catégorie",
+    "addCategory": "Ajouter une catégorie",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "missingTitleMessage": "Le titre de la catégorie doit être renseigné.",
+    "errors": {
+      "generic": "Un problème est survenu. Réessayez ultérieurement.",
+      "maxDepthExceeded": "Vous ne pouvez pas imbriquer les catégories sur plus de 2 niveaux.",
+      "destinationHasSameName": "Il existe déjà une catégorie portant ce nom dans la catégorie de destination.",
+      "emptyTitle": "Le titre de la catégorie doit être renseigné.",
+      "noSchema": "La structure des éléments est introuvable pour l’utilisateur.",
+      "maxCharacter": "Le nom de la catégorie dépasse le nombre maximal de caractères autorisés."
+    },
+    "dragHandleLabel": "Faire glisser pour réorganiser."
+  }
+}

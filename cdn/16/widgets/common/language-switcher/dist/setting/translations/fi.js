@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Avattava valikko",button:"Painike",configTip:"M\xe4\xe4rit\xe4 kielieasetukset muodostustoiminnon <bold>Yleiset</bold>-v\xe4lilehdell\xe4, ennen kuin k\xe4yt\xe4t t\xe4t\xe4 pienoisohjelmaa."})}}});

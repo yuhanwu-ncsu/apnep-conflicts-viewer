@@ -1,0 +1,16 @@
+{
+  "point": "Lớp điểm",
+  "line": "Lớp đường",
+  "polygon": "Lớp vùng",
+  "multipatch": "Lớp Multipatch",
+  "multipoint": "Lớp Multipoint",
+  "table": "Bảng",
+  "annotation": "Lớp chú giải",
+  "catalog": "Lớp Catalog",
+  "dimension": "Lớp kích thước",
+  "oriented imagery": "Lớp Oriented imagery",
+  "parcel": "Lớp parcel fabric",
+  "utility network": "Lớp Utility network",
+  "topology": "Lớp Topology",
+  "trace network": "Lớp Trace network"
+}

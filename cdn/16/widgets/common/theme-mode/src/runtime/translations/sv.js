@@ -1,0 +1,1 @@
+System.register([],function(t){return{execute:function(){t({_widgetLabel:"V\xe4xlare f\xf6r temal\xe4gen",notSupportTip:"Det aktuella temat har inte st\xf6d f\xf6r v\xe4xling mellan temal\xe4gen.",lightModeLabel:"Ljust l\xe4ge. Tryck f\xf6r att v\xe4xla till m\xf6rkt l\xe4ge.",darkModeLabel:"M\xf6rkt l\xe4ge. Tryck f\xf6r att v\xe4xla till ljust l\xe4ge."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"G\xf6r\xfcnt\xfc De\u011fi\u015fikli\u011fi Alg\u0131lama",_widgetDescription:"Zaman i\xe7inde g\xf6r\xfcnt\xfc katmanlar\u0131ndaki de\u011fi\u015fiklikleri alg\u0131layan bir ara\xe7t\u0131r."})}}});

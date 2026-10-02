@@ -1,0 +1,16 @@
+{
+  "point": "Punktlager",
+  "line": "Linjelager",
+  "polygon": "Polygonlager",
+  "multipatch": "Multipatch-lager",
+  "multipoint": "Multipunktlager",
+  "table": "Tabell",
+  "annotation": "Textlager",
+  "catalog": "Kataloglager",
+  "dimension": "Måttlager",
+  "oriented imagery": "Orienterat bildlager",
+  "parcel": "Parcel Fabric-lager",
+  "utility network": "Infrastruktursnätverkslager",
+  "topology": "Topologilager",
+  "trace network": "Spårningsnätverkslager"
+}

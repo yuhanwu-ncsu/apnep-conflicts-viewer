@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Comutator limb\u0103",previewTip:"Func\u021bioneaz\u0103 doar \xeen Previzualizare sau aplica\u021bii publicate."})}}});

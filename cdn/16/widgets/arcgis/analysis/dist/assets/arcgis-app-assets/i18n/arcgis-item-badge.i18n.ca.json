@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Acreditat",
+    "tooltip": {
+      "org": "Recomanat per la vostra organització",
+      "public": "Recomanat per ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Aquest tipus d'element està en fase beta."
+  },
+  "Deprecated": {
+    "title": "Desestimat",
+    "tooltip": "No se'n recomana l'ús. El propietari, ${owner}, ha decidit deixar d'utilitzar aquest element."
+  },
+  "Has Replacement": {
+    "title": "Té una substitució",
+    "tooltip": "Aquest element té una substitució recomanada. Visualitzeu els detalls de l'element per trobar i fer servir la substitució.",
+    "itemPageTooltip": "Aquest element té una substitució recomanada.",
+    "link": "Mostra la substitució"
+  },
+  "DeprecatedItemType": {
+    "title": "Tipus d'element obsolet",
+    "tooltip": {
+      "general": "Esri ha decidit deixar d'utilitzar aquest tipus d'element. Es retirarà aviat i no es podrà fer servir.",
+      "webAppBuilder": "Esri ha retirat l'ArcGIS Web AppBuilder, que s'utilitzava per crear aquest element. Es retirarà aviat i no es podrà fer servir. Per crear una aplicació, utilitzeu l'ArcGIS Experience Builder o una altra aplicació de l'ArcGIS."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Contingut seleccionat per Esri"
+  },
+  "Subscriber": {
+    "title": "Subscriptor",
+    "tooltip": {
+      "org": "Contingut exclusiu per a subscriptors",
+      "public": "Contingut exclusiu per a subscriptors. Per utilitzar-lo, inicieu la sessió amb una subscripció a l'ArcGIS Online."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Contingut exclusiu per a subscriptors. Consumeix crèdits.",
+      "public": "Contingut exclusiu per a subscriptors que consumeix crèdits. Per utilitzar-lo, inicieu la sessió amb una subscripció a l'ArcGIS Online."
+    }
+  },
+  "Open Data": {
+    "title": "Open Data",
+    "tooltip": "Disponible per a ús públic"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Publicat a l'ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Col·laboració distribuïda",
+    "tooltip": "Aquest element s'ha rebut d'una col·laboració distribuïda"
+  },
+  "Retired": {
+    "title": "Tipus d'element retirat",
+    "tooltip": {
+      "general": "Esri ha retirat aquest tipus d'element. Ja no es pot fer servir.",
+      "classicStoryMap": "La plantilla clàssica de l'Esri Story Maps (${template_name}) utilitzada per crear aquest element s'ha retirat. Aquest element ja no es pot editar ni visualitzar. Per redirigir els visualitzadors, configureu un element de substitució creat amb l'ArcGIS StoryMaps o una altra aplicació de l'ArcGIS.",
+      "classicStoryMapGeneric": "La plantilla clàssica de l'Esri Story Maps utilitzada per crear aquest element s'ha retirat. Aquest element ja no es pot editar ni visualitzar. Per redirigir els visualitzadors, configureu un element de substitució creat amb l'ArcGIS StoryMaps o una altra aplicació de l'ArcGIS.",
+      "cityEngine": "Ja no s'admeten el visor web del CityEngine ni les escenes web del CityEngine.",
+      "app": "La plantilla Configurable Apps utilitzada per crear aquesta aplicació s'ha retirat. Aquest element no és operatiu i es pot suprimir. Per crear una aplicació, utilitzeu l'ArcGIS Instant Apps, l'ArcGIS StoryMaps, l'ArcGIS Dashboards o l'ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder s'ha retirat de l'ArcGIS Enterprise. Aquest element no és operatiu i es pot suprimir. Per crear una aplicació, utilitzeu l'ArcGIS Experience Builder.",
+      "insights": "L'ArcGIS Insights s'ha retirat de l'ArcGIS Enterprise. Aquest element no és operatiu i es pot suprimir.",
+      "bdfs": "Els recursos compartits de fitxers de dades massives s'han retirat de l'ArcGIS Enterprise. Aquest element no és operatiu i es pot suprimir."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Recopilació de dades públiques",
+    "tooltip": "Se n'ha aprovat la recopilació de dades públiques."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Solució compatible amb Esri"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "Una aplicació OAuth 2.0 registrada. Pot fer servir contingut Premium o de subscriptor.",
+      "enterprise": "Una aplicació OAuth 2.0 registrada."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Credencials de la clau d'API",
+      "enterprise": "Credencials de la clau d'API"
+    },
+    "tooltip": "Concedeix accés als serveis."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Credencials de la clau d'API - Aplicació privada",
+    "tooltip": "Proporciona tokens d'accés amb privilegis per accedir a un conjunt ampli de serveis i elements. Protegiu aquests tokens com ho faríeu amb el vostre nom d'usuari i la vostra contrasenya. No les incrusteu en una aplicació."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "Credencials de l'OAuth 2.0",
+      "enterprise": "Credencials de l'OAuth 2.0"
+    },
+    "tooltip": "Concedeix accés als serveis."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "Credencials de l'OAuth 2.0: suplanta el propietari de l'element",
+    "tooltip": "Suplanta el propietari d'aquest element. Per motius de seguretat, heu de protegir aquestes credencials de la mateixa manera que protegiríeu el vostre nom d'usuari i la vostra contrasenya."
+  },
+  "Registered Application": {
+    "title": "Aplicació OAuth 2.0",
+    "tooltip": "Una aplicació OAuth 2.0 registrada"
+  },
+  "Personal credential": {
+    "title": "Personal",
+    "tooltip": "Esteu concedint un permís personal a aquesta credencial. Per motius de seguretat, heu de protegir qualsevol testimoni d'accés creat amb aquestes credencials de la mateixa manera que protegiríeu el vostre nom d'usuari i la vostra contrasenya. Reviseu les condicions d'ús."
+  },
+  "loading": "S'està carregant..."
+}

@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Mandaadi tüüp: API-võti",
+  "oauthUserCredentialType": "Mandaadi tüüp: OAuth 2.0 (kasutaja autentimine)",
+  "oauthAppCredentialType": "Mandaadi tüüp: OAuth 2.0 (rakenduse autentimine)",
+  "publicEmbed": "Avalik rakendus",
+  "scriptSpecific": "Privaatne rakendus",
+  "allPrivileges": "Privaatne rakendus, mis matkib teid",
+  "itemAccess": "Juurdepääs üksusele",
+  "page": "Lehekülg: ${page}",
+  "currentPage": "Praegune lehekülg: ${page}",
+  "privileges": "Õigused",
+  "itemDetails": "Üksuse üksikasjad",
+  "settings": "Seaded",
+  "serviceScope": "Teenuse ulatus",
+  "summary": "Kokkuvõte"
+}

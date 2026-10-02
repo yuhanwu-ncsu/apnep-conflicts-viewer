@@ -1,0 +1,20 @@
+.textAreaStyle {
+  width:98%
+}
+
+.flexColumn1 {
+  flex:1;
+  flex-Direction:"column";
+  display:"flex";
+}
+
+.mobileContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}

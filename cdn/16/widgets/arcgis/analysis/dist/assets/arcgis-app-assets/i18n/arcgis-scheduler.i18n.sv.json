@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Börjar på",
+  "repeatTypeLabel": "Upprepa typ",
+  "endingOnTypeLabel": "Slutar på",
+  "endingOnDateLabel": "Slutdatum",
+  "endingOnCountLabel": "Antal",
+  "endingOnCountPlaceholder": "till exempel: 1, 10, 30",
+  "repeatIntervalLabel": "Upprepa intervall",
+  "timeLabel": "Tid",
+  "hourlyOnMinuteLabel": "Minut",
+  "betweenHoursLabel": "Mellan timmar",
+  "weeklyDaysOfWeekLabel": "Veckodag",
+  "monthlyDayOfMonthLabel": "Dag i månaden",
+  "monthlyDayOfMonthPlaceholder": "till exempel: 1 - 31",
+  "allDayLabel": "Hela dagen",
+  "allWeekLabel": "Hela veckan",
+  "repeatTypeOptions": {
+    "minute": "Minut",
+    "hour": "Timme",
+    "day": "Dag",
+    "week": "Vecka",
+    "month": "Månad"
+  },
+  "endingOnType": {
+    "never": "Aldrig",
+    "date": "Datum",
+    "count": "Antal"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Varje minut",
+    "everyTwoMinutes": "Varannan minut",
+    "everyThreeMinutes": "Var 3:e minut",
+    "everyFiveMinutes": "Var 5:e minut",
+    "everyTenMinutes": "Var 10:e minut",
+    "everyFifteenMinutes": "Var 15:e minut",
+    "everyThirtyMinutes": "Varje halvtimme"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Varje timme",
+    "everyTwoHours": "Varannan timme",
+    "everyThreeHours": "Var 3:e timme",
+    "everyFourHours": "Var 4:e timme",
+    "everySixHours": "Var 6:e timme",
+    "everyTwelveHours": "Var 12:e timme"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Varje dag",
+    "everyOtherDay": "Varannan dag",
+    "everyThreeDays": "Var 3:e dag",
+    "everyFourDays": "Var 4:e dag",
+    "everyFiveDays": "Var 5:e dag",
+    "everySixDays": "Var 6:e dag",
+    "everySevenDays": "Var 7:e dag",
+    "everyFourteenDays": "Var 14:e dag"
+  },
+  "weekDays": {
+    "allWeekdays": "Alla veckodagar",
+    "sunday": "söndag",
+    "monday": "måndag",
+    "tuesday": "tisdag",
+    "wednesday": "onsdag",
+    "thursday": "torsdag",
+    "friday": "fredag",
+    "saturday": "lördag"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Varje månad",
+    "everyTwoMonths": "Varannan månad",
+    "everyThreeMonths": "Var 3:e månad",
+    "everyFourMonths": "Var 4:e månad",
+    "everyFiveMonths": "Var 5:e månad",
+    "everySixMonths": "Var 6:e månad"
+  }
+}

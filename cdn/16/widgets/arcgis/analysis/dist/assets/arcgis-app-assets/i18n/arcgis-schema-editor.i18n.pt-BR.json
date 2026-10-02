@@ -1,0 +1,24 @@
+{
+  "expandAll": "Expandir todos",
+  "collapseAll": "Recolher todos",
+  "categoryItem": {
+    "expand": "Expandir",
+    "collapse": "Recolher",
+    "editCategory": "Editar categoria",
+    "deleteCategory": "Excluir categoria",
+    "addSubcategory": "Adicionar subcategoria",
+    "addCategory": "Adicionar categoria",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "missingTitleMessage": "O título da categoria é exigido.",
+    "errors": {
+      "generic": "Aconteceu algo errado. Tente novamente mais tarde.",
+      "maxDepthExceeded": "Você não pode agrupar categorias com mais de 2 níveis de profundidade.",
+      "destinationHasSameName": "Já existe uma categoria com o mesmo nome na categoria de destino.",
+      "emptyTitle": "O título da categoria não pode ficar vazio.",
+      "noSchema": "Esquema de item não encontrado para o usuário.",
+      "maxCharacter": "O nome da categoria excede o limite de caracteres permitido."
+    },
+    "dragHandleLabel": "Arraste para ordenar."
+  }
+}

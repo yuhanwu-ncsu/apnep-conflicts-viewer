@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Deteksi Perubahan Gambar",_widgetDescription:"Widget untuk mendeteksi perubahan pada lapisan citra dari waktu ke waktu."})}}});
