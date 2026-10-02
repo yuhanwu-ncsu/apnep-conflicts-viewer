@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Verodostojno",
+    "tooltip": {
+      "org": "Priporoča vaša organizacija",
+      "public": "Priporoča ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Ta tip elementa je v fazi beta."
+  },
+  "Deprecated": {
+    "title": "Zastarelo",
+    "tooltip": "Ni priporočljivo za uporabo. Lastnik, ${owner}, je ta element umaknil iz uporabe."
+  },
+  "Has Replacement": {
+    "title": "Ima zamenjavo",
+    "tooltip": "Ta element ima priporočeno zamenjavo. Ogled podrobnosti elementa, da poiščete in uporabite zamenjavo.",
+    "itemPageTooltip": "Ta element ima priporočeno zamenjavo.",
+    "link": "Ogled zamenjave"
+  },
+  "DeprecatedItemType": {
+    "title": "Zastarel tip elementa",
+    "tooltip": {
+      "general": "Esri je ta tip elementa umaknil iz uporabe. Kmalu bo ukinjen in ne bo več na voljo.",
+      "webAppBuilder": "Esri je umaknil iz uporabe ArcGIS Web AppBuilder, ki je bil uporabljen za izdelavo tega elementa. Kmalu bo ukinjen in ne bo več na voljo. Če želite ustvariti novo aplikacijo, uporabite ArcGIS Experience Builder ali drugo aplikacijo ArcGIS."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Skrbno izbrana vsebina Esri"
+  },
+  "Subscriber": {
+    "title": "Naročnik",
+    "tooltip": {
+      "org": "Ekskluzivna vsebina za naročnike",
+      "public": "Ekskluzivna vsebina za naročnike. Za uporabo se prijavite z naročnino za ArcGIS Online."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Ekskluzivna vsebina za naročnike. Porablja kredite.",
+      "public": "Ekskluzivna vsebina za naročnike, ki porablja kredite. Za uporabo se prijavite z naročnino za ArcGIS Online."
+    }
+  },
+  "Open Data": {
+    "title": "Odprti podatki",
+    "tooltip": "Na voljo za javno uporabo"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Naveden v trgovini ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Deljeno sodelovanje",
+    "tooltip": "Ta element je bil pridobljen iz deljenega sodelovanja"
+  },
+  "Retired": {
+    "title": "Ukinjen tip elementa",
+    "tooltip": {
+      "general": "Esri je ukinil ta tip elementa. Ni več na voljo za uporabo.",
+      "classicStoryMap": "Klasična predloga Esri Story Maps (${template_name}), ki je bila uporabljena za ustvarjanje tega elementa, je ukinjena. Tega elementa ni več mogoče urejati ali si ga ogledati. Če želite preusmeriti ogledovalce, konfigurirajte nadomestni element, ustvarjen z ArcGIS StoryMaps ali drugo aplikacijo ArcGIS.",
+      "classicStoryMapGeneric": "Klasična predloga Esri Story Maps, ki je bila uporabljena za ustvarjanje tega elementa, je ukinjena. Tega elementa ni več mogoče urejati ali si ga ogledati. Če želite preusmeriti ogledovalce, konfigurirajte nadomestni element, ustvarjen z ArcGIS StoryMaps ali drugo aplikacijo ArcGIS.",
+      "cityEngine": "Spletni pregledovalnik CityEngine in spletni prizori CityEngine več niso podprti.",
+      "app": "Predloga Configurable Apps, uporabljena za ustvarjanje te aplikacije, je bila ukinjena. Ta element ne deluje in ga je mogoče izbrisati. Če želite ustvariti novo aplikacijo, uporabite ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards ali ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder je ukinjen v ArcGIS Enterprise. Ta element ne deluje in ga je mogoče izbrisati. Če želite ustvariti novo aplikacijo, uporabite ArcGIS Experience Builder.",
+      "insights": "ArcGIS Insights je ukinjen v ArcGIS Enterprise. Ta element ne deluje in ga je mogoče izbrisati.",
+      "bdfs": "Delitev datotek velikih podatkov je ukinjeno v ArcGIS Enterprise. Ta element ne deluje in ga je mogoče izbrisati."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Zbiranje javnih podatkov",
+    "tooltip": "Odobreno za zbiranje javnih podatkov."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Rešitev, podprta z Esri"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "Registrirana aplikacija OAuth 2.0. Morda uporabi premium ali naročniško vsebino.",
+      "enterprise": "Registrirana aplikacija OAuth 2.0."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Poverilnice ključa API",
+      "enterprise": "Poverilnice ključa API"
+    },
+    "tooltip": "Dodeli dostop do storitev."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Poverilnice ključa API – zasebna aplikacija",
+    "tooltip": "Zagotavlja žetone za dostop s pravicami za dostop do razširjenega nabora storitev in elementov. Te žetone varujte tako kot svoje uporabniško ime in geslo. Ne vdelajte v aplikacijo."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "Poverilnice OAuth 2.0",
+      "enterprise": "Poverilnice OAuth 2.0"
+    },
+    "tooltip": "Dodeli dostop do storitev."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "Poverilnice OAuth 2.0 – predstavljajo lastnika elementa",
+    "tooltip": "Predstavlja se kot lastnik tega elementa. Iz varnostnih razlogov morate varovati te poverilnice, kot bi varovali svoje uporabniško ime in geslo."
+  },
+  "Registered Application": {
+    "title": "Aplikacija OAuth 2.0",
+    "tooltip": "Registrirana aplikacija OAuth 2.0"
+  },
+  "Personal credential": {
+    "title": "Osebno",
+    "tooltip": "Tej poverilnici dodeljujete osebne pravice.. Iz varnostnih razlogov morate varovati vse žetone za dostop, ustvarjene s temi poverilnicami, kot bi varovali svoje uporabniško ime in geslo. Preglejte Pogoje uporabe."
+  },
+  "loading": "Nalaganje..."
+}

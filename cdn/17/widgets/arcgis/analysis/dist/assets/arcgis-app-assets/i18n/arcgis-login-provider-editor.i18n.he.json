@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "שנה סוג כניסה",
+  "chooseLoginType": "בחר סוג כניסה",
+  "selectMembers": "בחר חברים",
+  "userDetails": "פרטי משתמש",
+  "reauth": "אימות מחדש",
+  "confirmComplete": "אישור וסיום",
+  "next": "הבא",
+  "back": "חזור",
+  "cancel": "ביטול",
+  "close": "סגירה",
+  "changeLogins": "שנה כניסות",
+  "acknowledgeImpact": "אני מודע להשפעה של שינוי זה ומבין אותה.",
+  "propertiesHeading": "ציין פרטי כניסה חדשים עבור החברים הבאים",
+  "chooseFile": "בחר קובץ אחר",
+  "mustAcknowledge": "עליך לאשר שאתה יודע ומבין את ההשפעה של שינוי זה לפני שתמשיך.",
+  "confirmLeave": {
+    "title": "בטל שינויים",
+    "message1": "יש לך שינויים שלא נשמרו.",
+    "message2": "האם אתה בטוח שברצונך לבטל את השינויים?",
+    "remain": "המשך לערוך",
+    "leave": "צא בלי לשמור"
+  },
+  "methodSelection": {
+    "arcgisLogin": "כניסה של ArcGIS",
+    "chooseLoginModify": "בחר כדי לשנות כניסות",
+    "changeType": "שנה סוג כניסה",
+    "selectType": "בחר את סוג הכניסה הנוכחי שאיתו ברצונך לעבוד",
+    "changeTypeDescription": "שנה מזהים ספציפיים לארגון בין כניסות OpenID Connect, SAML או ArcGIS.",
+    "keepType": "השאר סוג כניסה",
+    "keepTypeDescription": "עדכן OpenID Connect או SAML ID וכתובת דוא\"ל בלי לשנות את סוג הכניסה.",
+    "currentType": "סוג כניסה נוכחי",
+    "newType": "סוג כניסה חדש",
+    "select": "בחר",
+    "samlLogin": "{name} (כניסת SAML)",
+    "oidcLogin": "{name} (כניסת OpenID Connect)",
+    "oldSaml": "כניסת SMAL קודמת",
+    "oldOidc": "כניסת OIDC קודמת",
+    "enterpriseOverwrite": "בהתאם להגדרות ספק ההתחברות הארגוני, כתובת הדוא״ל עשויה להיות מוחלפת בערך מספק הזהויות שלך.",
+    "generateMissingPasswords": "בעת מעבר להתחברות ArcGIS, סיסמאות זמניות ייווצרו אוטומטית אם לא הוגדרו מראש. הן יוצגו בשלב פרטי המשתמש.",
+    "errors": {
+      "loginTypes": "יש לבחור גם סוג כניסה נוכחי וגם סוג כניסה חדש.",
+      "currentLoginType": "נדרש לבחור את סוג הכניסה הנוכחי.",
+      "sameLoginType": "סוג הכניסה החדש חייב להיות שונה מסוג הכניסה הנוכחי."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "שיטת בחירת חבר",
+    "howToSelect": "כיצד ברצונך לבחור חברים?",
+    "bulkUpload": "העלאה באצווה (CSV)",
+    "chooseAFile": "בחר קובץ להעלאה בשלב הבא.",
+    "manualSelection": "בחירה ידנית",
+    "selectMembers": "בחר חברים מרשימה בשלב הבא.",
+    "selectFromFile": "בחר חברים מקובץ CSV",
+    "dragDrop": "גרור ושחרר את הקובץ או בחר מהמכשיר שלך.",
+    "headerInstructions": "הכותרת העליונה (השורה הראשונה) צריכה להכיל את שמות השדות בדיוק כפי שהם מופיעים בהמשך.",
+    "fieldOrder": "סדר השדות עשוי להיות שונה",
+    "yourDevice": "המכשיר שלך",
+    "downloadTemplate": "העלה תבנית CSV",
+    "requiredFields": "שדות נדרשים",
+    "optionalFields": "שדות אופציונליים",
+    "passwordTooltip": "סיסמה זמנית תיווצר אוטומטית אם לא תסופק סיסמה.",
+    "excessTitleCsv": "CSV חורג מהמגבלה של 5,000 חברים",
+    "excessBatchLimit": "ניתן לעדכן סוגי כניסה עבור עד 5,000 חברים בכל אצווה.",
+    "excessBodyCsv": "כדי לעבד יותר מ-5,000 חברים, פצל את ה-CSV למספר קבצים קטנים יותר והעלה אותם בנפרד.",
+    "learnMore": "מידע נוסף",
+    "errors": {
+      "fileType": "סוג קובץ לא חוקי. יש לעדכן קובץ CSV.",
+      "fileSize": "גודל הקובץ חורג מעבר ל-500 KB וייתכן שלא יעובד ביעילות.",
+      "noMembers": "לא נבחרו חברים. בחר חברים או העלה קובץ CSV כדי להמשיך.",
+      "tooManyMembers": "הבחירה חורגת מהמגבלה של 5,000 חברים."
+    }
+  },
+  "fieldNames": {
+    "email": "דוא\"ל",
+    "username": "שם המשתמש ב-ArcGIS",
+    "password": "סיסמה זמנית",
+    "samlId": "מזהה SAML",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "מזהה SAML קודם",
+    "oldOidcId": "מזהה OIDC קודם",
+    "success": "הצלחה",
+    "error": "שגיאה",
+    "fromLoginType": "סוג כניסה התחלתי",
+    "toLoginType": "סוג כניסה חדש"
+  },
+  "authentication": {
+    "header": "נדרש אימות מחדש",
+    "reauthSteps": "שלבי אימות מחדש",
+    "step1_label": "שלב 1: התחבר (חלון חדש)",
+    "step1_desc": "חלון חדש יופיע שבו תוכל להתחבר.",
+    "step2_label": "שלב 2: העתק את מפתח האימות",
+    "step2_desc": "תקבל מפתח אימות להעתקה.",
+    "step3_label": "שלב 3: הדבק את מפתח האימות",
+    "step3_desc": "הזן את מפתח האימות כדי להמשיך.",
+    "openWindow": "פתח חלון חדש כדי לאמת מחדש",
+    "authKey": "מפתח אימות",
+    "paste": "הדבק",
+    "getNewKey": "הפק מפתח חדש",
+    "hide": "הסתר",
+    "show": "הצג",
+    "errors": {
+      "clipboard": "קריאה מלוח העריכה נכשלה",
+      "authKey": "נדרש מפתח אימות חוקי"
+    }
+  },
+  "usersTable": {
+    "asc": "סדר א\"ב",
+    "desc": "סדר א\"ב הפוך",
+    "sortBy": "מיין לפי",
+    "sortDirection": "כיוון מיון",
+    "searchMembers": "חפש חברים ברשימה זו",
+    "memberDetails": "פרטי חבר לפעולת שינוי ספק כניסה",
+    "optional": "(אופציונלי)",
+    "fieldErrors": "שגיאות שדה",
+    "noErrors": "אין שגיאות",
+    "noData": "אין נתונים זמינים",
+    "noMembersMatch": "לא נמצאו חברים שתואמים לקריטריוני החיפוש",
+    "togglePassword": "שנה את מצב הניראות של סיסמה",
+    "memberCount": "{start} - {end} מתוך {total}",
+    "errors": {
+      "email": "חובה לציין דוא\"ל",
+      "username": "שם משתמש ArcGIS נדרש",
+      "password": "סיסמה זמנית נדרשת",
+      "samlId": "מזהה SAML נדרש",
+      "oidcId": "OIDC ID נדרש"
+    }
+  },
+  "review": {
+    "heading": "בדוק את השינויים",
+    "loginsWillChange": "החשבונות הבאים ישתנו מ-{fromLogin} ל-{toLogin}",
+    "downloadCsv": "הורד קובץ CSV של השינויים",
+    "providerTypes": {
+      "saml": "כניסות SAML",
+      "oidc": "כניסות OpenID Connect",
+      "arcgis": "כניסות לחשבון ArcGIS"
+    },
+    "missingRequired": "מידע נדרש חסר. מלא את המידע הנדרש לפני שתמשיך."
+  },
+  "progress": {
+    "processing": "מעבד... {current} מתוך {total} משתמשים.",
+    "percentComplete": "אחוז השלמה",
+    "doNotClose": "אל תסגור את חלון הדפדפן.",
+    "extendedTime": "תהליך זה עשוי להימשך עד 10 דקות, אנא המתן בסבלנות.",
+    "extendedTime10": "תהליך זה עשוי להימשך יותר מ-10 דקות, אנא המתן בסבלנות.",
+    "extendedTime15": "תהליך זה עשוי להימשך יותר מ-15 דקות, אנא המתן בסבלנות.",
+    "label": "מחוון התקדמות עבור שינוי סוגי כניסה",
+    "errors": {
+      "authkey": {
+        "title": "מפתח אימות לא חוקי",
+        "body1": "מפתח האימות שהזנת לא חוקי.",
+        "body2": "הזן שוב מפתח אימות חוקי.",
+        "action": "הזן שוב מפתח אימות",
+        "cancel": "ביטול"
+      },
+      "unknown": "אירעה שגיאה במהלך העיבוד של שינוי הספק. נסה שוב או פנה לתמיכה אם הבעיה נמשכת.",
+      "userNotFound": "שם משתמש לא נמצא",
+      "idpUsernameNotMatching": "אין התאמה בין שמות המשתמש",
+      "providerNotMatching": "לא ניתן לשנות כניסה"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "凭据类型：API 键",
+  "oauthUserCredentialType": "凭据类型：OAuth 2.0 (用户身份验证)",
+  "oauthAppCredentialType": "凭据类型：OAuth 2.0 (应用程序身份验证)",
+  "publicEmbed": "公共应用程序",
+  "scriptSpecific": "私有应用程序",
+  "allPrivileges": "模拟您身份的私有应用程序",
+  "itemAccess": "项目访问权限",
+  "page": "页：${page}",
+  "currentPage": "当前页：${page}",
+  "privileges": "权限",
+  "itemDetails": "项目详细信息",
+  "settings": "设置",
+  "serviceScope": "服务范围",
+  "summary": "摘要"
+}

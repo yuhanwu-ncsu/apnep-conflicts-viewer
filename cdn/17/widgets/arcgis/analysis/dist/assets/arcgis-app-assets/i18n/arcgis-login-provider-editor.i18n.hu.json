@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Bejelentkezés típusának módosítása",
+  "chooseLoginType": "Bejelentkezés típusának kiválasztása",
+  "selectMembers": "Tagok kiválasztása",
+  "userDetails": "Felhasználó adatai",
+  "reauth": "Újbóli hitelesítés",
+  "confirmComplete": "Megerősítés és végrehajtás",
+  "next": "Tovább",
+  "back": "Vissza",
+  "cancel": "Mégse",
+  "close": "Bezárás",
+  "changeLogins": "Bejelentkezések módosítása",
+  "acknowledgeImpact": "Tudomásul veszem, és tisztában vagyok a módosítás következményeivel.",
+  "propertiesHeading": "Adja meg az új bejelentkezési adatokat a következő tagok számára",
+  "chooseFile": "Válasszon másik fájlt",
+  "mustAcknowledge": "A továbblépés előtt tudomásul kell vennie a módosítás hatását.",
+  "confirmLeave": {
+    "title": "Módosítások elvetése",
+    "message1": "Nem mentett módosításai vannak.",
+    "message2": "Biztosan visszavonja a módosításokat?",
+    "remain": "Szerkesztés folytatása",
+    "leave": "Kilépés mentés nélkül"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS bejelentkezés",
+    "chooseLoginModify": "Válassza ki, hogyan szeretné módosítani a bejelentkezéseket",
+    "changeType": "Bejelentkezés típusának módosítása",
+    "selectType": "Válassza ki a használni kívánt aktuális bejelentkezési típust",
+    "changeTypeDescription": "Módosítsa a szervezetspecifikus azonosítókat az OpenID Connect-, a SAML- vagy az ArcGIS-bejelentkezések között.",
+    "keepType": "Bejelentkezés típusának megtartása",
+    "keepTypeDescription": "Az OpenID Connectet vagy a SAML-azonosítót és az e-mail-címet a bejelentkezési típus módosítása nélkül frissítheti.",
+    "currentType": "Aktuális bejelentkezési típus",
+    "newType": "Új bejelentkezési típus",
+    "select": "Kiválasztás",
+    "samlLogin": "{name} (SAML-bejelentkezés)",
+    "oidcLogin": "{name} (OpenID Connect-bejelentkezés)",
+    "oldSaml": "Előző SAML-bejelentkezés",
+    "oldOidc": "Előző OIDC-bejelentkezés",
+    "enterpriseOverwrite": "A vállalati bejelentkezési szolgáltató beállításaitól függően a rendszer felülírhatja az e-mail-címet az identitásszolgáltatótól származó értékkel.",
+    "generateMissingPasswords": "Az ArcGIS-bejelentkezésre történő váltáskor a rendszer automatikusan létrehozza az ideiglenes jelszavakat, ha korábban nem adták meg őket. A felhasználói adatok lépésben jelennek majd meg.",
+    "errors": {
+      "loginTypes": "A bejelentkezés jelenlegi és új típusát is ki kell választani.",
+      "currentLoginType": "Az aktuális bejelentkezési típus megadása kötelező, és ki kell választani.",
+      "sameLoginType": "Az új bejelentkezési típusnak különböznie kell az aktuális bejelentkezési típustól."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Tagkiválasztási metódus",
+    "howToSelect": "Hogyan szeretné kiválasztani a tagokat?",
+    "bulkUpload": "Tömeges feltöltés (CSV)",
+    "chooseAFile": "Válassza ki a feltöltendő fájlt a következő lépésben.",
+    "manualSelection": "Kézi kiválasztás",
+    "selectMembers": "A következő lépésben válasszon ki tagokat egy listából.",
+    "selectFromFile": "Tagok kiválasztása CSV-fájlból",
+    "dragDrop": "Húzza be a fájlt, vagy válassza ki az eszközéről.",
+    "headerInstructions": "A fejlécben (első sor) szerepelniük kell a mezőneveknek pontosan az alábbiakban feltüntetettek szerint.",
+    "fieldOrder": "A mezők sorrendje eltérő lehet.",
+    "yourDevice": "Saját eszköze",
+    "downloadTemplate": "CSV-sablon letöltése",
+    "requiredFields": "Kötelező mezők",
+    "optionalFields": "Opcionális mezők",
+    "passwordTooltip": "Ha nem ad meg ideiglenes jelszót, a rendszer automatikusan létrehoz egyet.",
+    "excessTitleCsv": "A CSV meghaladja az 5000 tagos korlátot",
+    "excessBatchLimit": "Egy kötegben legfeljebb 5000 tag bejelentkezésének típusát frissítheti.",
+    "excessBodyCsv": "Ha 5000-nél több tagot szeretne feldolgozni, ossza a CSV-t több kisebb fájlra, és töltse fel őket külön-külön.",
+    "learnMore": "További információ",
+    "errors": {
+      "fileType": "Érvénytelen fájltípus. Kérjük, töltsön fel egy CSV-fájlt.",
+      "fileSize": "A fájlméret meghaladja az 500 KB-ot, és előfordulhat, hogy a fájlt nem lehet hatékonyan feldolgozni.",
+      "noMembers": "Nincsenek kiválasztva tagok. A folytatáshoz válasszon ki tagokat, vagy töltsön fel egy CSV-fájlt.",
+      "tooManyMembers": "A kiválasztás meghaladja az 5000 tagos korlátot."
+    }
+  },
+  "fieldNames": {
+    "email": "E-mail-cím",
+    "username": "ArcGIS-felhasználónév",
+    "password": "Ideiglenes jelszó",
+    "samlId": "SAML-azonosító",
+    "oidcId": "OIDC-azonosító",
+    "oldSamlId": "Előző SAML-azonosító",
+    "oldOidcId": "Előző OIDC-azonosító",
+    "success": "Sikerült",
+    "error": "Hiba",
+    "fromLoginType": "Kezdeti bejelentkezés típusa",
+    "toLoginType": "Új bejelentkezési típus"
+  },
+  "authentication": {
+    "header": "Újbóli hitelesítés szükséges",
+    "reauthSteps": "Újbóli hitelesítés lépései",
+    "step1_label": "1. lépés: Bejelentkezés (új ablak)",
+    "step1_desc": "Megjelenik egy új ablak a bejelentkezéshez.",
+    "step2_label": "2. lépés: Hitelesítési kulcs másolása",
+    "step2_desc": "Kapni fog egy hitelesítési kulcsot, amelyet kimásolhat.",
+    "step3_label": "3. lépés: Hitelesítési kulcs beillesztése",
+    "step3_desc": "A folytatáshoz adja meg a hitelesítési kulcsot.",
+    "openWindow": "Nyisson meg egy új ablakot az újbóli hitelesítéshez",
+    "authKey": "Hitelesítési kulcs",
+    "paste": "Beillesztés",
+    "getNewKey": "Új kulcs létrehozása",
+    "hide": "Elrejtés",
+    "show": "Megjelenítés",
+    "errors": {
+      "clipboard": "Nem sikerült beolvasni a vágólapról",
+      "authKey": "Érvényes hitelesítési kulcs szükséges"
+    }
+  },
+  "usersTable": {
+    "asc": "Betűrend szerint",
+    "desc": "Fordított betűrend szerint",
+    "sortBy": "Rendezési szempont",
+    "sortDirection": "Rendezés iránya",
+    "searchMembers": "Tagok keresése ebben a listában",
+    "memberDetails": "Tag adatai a bejelentkezési szolgáltató módosítására szolgáló művelethez",
+    "optional": "(opcionális)",
+    "fieldErrors": "Mezőhibák",
+    "noErrors": "Nincsenek hibák",
+    "noData": "Nem áll rendelkezésre adat",
+    "noMembersMatch": "Nincsenek a keresési feltételeknek megfelelő eredmények",
+    "togglePassword": "A jelszó láthatóságának be-/kikapcsolása",
+    "memberCount": "{start} – {end} / {total}",
+    "errors": {
+      "email": "Az e-mail-címet kötelező megadni",
+      "username": "Az ArcGIS-felhasználónév megadása kötelező",
+      "password": "Az ideiglenes jelszó megadása kötelező",
+      "samlId": "A SAML-azonosító megadása kötelező",
+      "oidcId": "Az OIDC-azonosító megadása kötelező"
+    }
+  },
+  "review": {
+    "heading": "Módosítások áttekintése",
+    "loginsWillChange": "A következő fiókok a(z) {fromLogin} bejelentkezésről a(z) {toLogin} bejelentkezésre változnak",
+    "downloadCsv": "Módosításokat tartalmazó CSV letöltése",
+    "providerTypes": {
+      "saml": "SAML-bejelentkezések",
+      "oidc": "OpenID Connect-bejelentkezések",
+      "arcgis": "ArcGIS-fiók bejelentkezések"
+    },
+    "missingRequired": "Hiányoznak a szükséges információk. A folytatás előtt adja meg a hiányzó információt."
+  },
+  "progress": {
+    "processing": "Feldolgozás... {current}/{total}. felhasználó.",
+    "percentComplete": "Készültségi százalék",
+    "doNotClose": "Kérjük, ne zárja be a böngészőt.",
+    "extendedTime": "Ez akár 10 percet is igénybe vehet, kérjük, legyen türelmes.",
+    "extendedTime10": "Ez több mint 10 percet vehet igénybe, kérjük, legyen türelmes.",
+    "extendedTime15": "Ez több mint 15 percet vehet igénybe, kérjük, legyen türelmes.",
+    "label": "A bejelentkezési típusok módosításának folyamatjelzője",
+    "errors": {
+      "authkey": {
+        "title": "Érvénytelen hitelesítési kulcs",
+        "body1": "A megadott hitelesítési kulcs érvénytelen.",
+        "body2": "Adjon meg újra egy érvényes hitelesítési kulcsot.",
+        "action": "Adja meg újra a hitelesítési kulcsot",
+        "cancel": "Mégse"
+      },
+      "unknown": "Hiba történt a szolgáltatóváltási folyamat közben. Próbálja meg újra, vagy forduljon az ügyfélszolgálathoz, ha a probléma továbbra is fennáll.",
+      "userNotFound": "A felhasználónév nem található",
+      "idpUsernameNotMatching": "A felhasználónév nem egyezik",
+      "providerNotMatching": "Nem sikerült módosítani a bejelentkezést"
+    }
+  }
+}

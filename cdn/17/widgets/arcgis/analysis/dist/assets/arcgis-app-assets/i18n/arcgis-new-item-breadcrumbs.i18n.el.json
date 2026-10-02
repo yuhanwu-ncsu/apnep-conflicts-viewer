@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Τύπος διαπιστευτηρίων: Κλειδί API",
+  "oauthUserCredentialType": "Τύπος διαπιστευτηρίων: OAuth 2.0 (Έλεγχος ταυτότητας χρήστη)",
+  "oauthAppCredentialType": "Τύπος διαπιστευτηρίων: OAuth 2.0 (Έλεγχος ταυτότητας εφαρμογής)",
+  "publicEmbed": "Δημόσια εφαρμογή",
+  "scriptSpecific": "Ιδιωτική εφαρμογή",
+  "allPrivileges": "Ιδιωτική εφαρμογή που σας μιμείται",
+  "itemAccess": "Πρόσβαση αντικειμένων",
+  "page": "Σελίδα: ${page}",
+  "currentPage": "Τρέχουσα σελίδα: ${page}",
+  "privileges": "Δικαιώματα",
+  "itemDetails": "Λεπτομέρειες αντικειμένου",
+  "settings": "Ρυθμίσεις",
+  "serviceScope": "Πεδίο εφαρμογής",
+  "summary": "Σύνοψη"
+}

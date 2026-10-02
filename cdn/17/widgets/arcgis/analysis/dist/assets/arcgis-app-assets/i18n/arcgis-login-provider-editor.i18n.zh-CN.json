@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "更改登录类型",
+  "chooseLoginType": "选择登录类型",
+  "selectMembers": "选择成员",
+  "userDetails": "用户详细信息",
+  "reauth": "重新身份验证",
+  "confirmComplete": "确认并完成",
+  "next": "前进",
+  "back": "返回",
+  "cancel": "取消",
+  "close": "关闭",
+  "changeLogins": "更改登录账户",
+  "acknowledgeImpact": "我确认并了解此更改的影响。",
+  "propertiesHeading": "请为以下成员指定新的登录详细信息",
+  "chooseFile": "选择其他文件",
+  "mustAcknowledge": "您必须在继续操作前了解此更改的影响。",
+  "confirmLeave": {
+    "title": "取消更改",
+    "message1": "您有未保存的更改。",
+    "message2": "是否确定要取消更改?",
+    "remain": "继续编辑",
+    "leave": "退出但不保存"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS 登录",
+    "chooseLoginModify": "选择修改登录账户的方式",
+    "changeType": "更改登录类型",
+    "selectType": "选择要使用的当前登录类型",
+    "changeTypeDescription": "在 OpenID Connect、SAML 或 ArcGIS 登录之间更改组织特定的 ID。",
+    "keepType": "保持登录类型",
+    "keepTypeDescription": "更新 OpenID Connect 或 SAML ID 以及电子邮件地址，而无需更改登录类型。",
+    "currentType": "当前登录类型",
+    "newType": "新建登录类型",
+    "select": "选择",
+    "samlLogin": "{name} (SAML 登录账户)",
+    "oidcLogin": "{name} (OpenID Connect 登录账户)",
+    "oldSaml": "上次 SAML 登录",
+    "oldOidc": "上次 OIDC 登录",
+    "enterpriseOverwrite": "根据您的企业级登录提供商设置，电子邮件地址可能会被身份提供商中的值覆盖。",
+    "generateMissingPasswords": "更改为 ArcGIS 登录时，如果未指定密码，则系统将自动生成临时密码。 将显示在用户详细信息步骤中。",
+    "errors": {
+      "loginTypes": "必须同时选择当前登录类型和新登录类型。",
+      "currentLoginType": "当前登录类型为必填项，必须进行选择。",
+      "sameLoginType": "新的登录类型必须与当前登录类型不同。"
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "成员选择方法",
+    "howToSelect": "您希望如何选择成员?",
+    "bulkUpload": "批量上传 (CSV)",
+    "chooseAFile": "在下一步中选择要上传的文件。",
+    "manualSelection": "手动选择",
+    "selectMembers": "在下一步中从列表中选择成员。",
+    "selectFromFile": "从 CSV 文件中选择成员",
+    "dragDrop": "拖放您的文件或者从您的设备中选择。",
+    "headerInstructions": "页眉(第一行)应包含如下所示的确切字段名称。",
+    "fieldOrder": "字段顺序可能会有所不同。",
+    "yourDevice": "您的设备",
+    "downloadTemplate": "下载 CSV 模板",
+    "requiredFields": "所需字段",
+    "optionalFields": "可选字段",
+    "passwordTooltip": "如果未提供密码，则系统将自动生成临时密码。",
+    "excessTitleCsv": "CSV 超出 5,000 名成员的限制",
+    "excessBatchLimit": "每批次最多可以更新 5,000 名成员的登录类型。",
+    "excessBodyCsv": "要处理超过 5,000 名成员，请将 CSV 文件拆分成多个较小的文件，然后分别上传。",
+    "learnMore": "了解详细信息",
+    "errors": {
+      "fileType": "无效的文件类型。 请上传 CSV 文件。",
+      "fileSize": "文件大小超过 500 KB，可能无法高效处理。",
+      "noMembers": "未选择成员。 请选择成员或上传 CSV 文件以继续。",
+      "tooManyMembers": "选择超出 5000 名成员的限制。"
+    }
+  },
+  "fieldNames": {
+    "email": "电子邮件",
+    "username": "ArcGIS 用户名",
+    "password": "临时密码",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "上一个 SAML ID",
+    "oldOidcId": "上一个 OIDC ID",
+    "success": "成功",
+    "error": "错误",
+    "fromLoginType": "初始登录类型",
+    "toLoginType": "新建登录类型"
+  },
+  "authentication": {
+    "header": "需要重新身份验证",
+    "reauthSteps": "重新身份验证步骤",
+    "step1_label": "步骤 1：登录（新窗口）",
+    "step1_desc": "将显示一个新窗口，供您登录。",
+    "step2_label": "步骤 2：复制身份验证密钥",
+    "step2_desc": "您将获得一个用于复制的身份验证密钥。",
+    "step3_label": "步骤 3：粘贴身份验证密钥",
+    "step3_desc": "输入身份验证密钥以继续。",
+    "openWindow": "打开新窗口进行重新身份验证",
+    "authKey": "身份验证密钥",
+    "paste": "粘贴",
+    "getNewKey": "生成新密钥",
+    "hide": "隐藏",
+    "show": "显示",
+    "errors": {
+      "clipboard": "无法读取剪切板",
+      "authKey": "需要有效的身份验证密钥"
+    }
+  },
+  "usersTable": {
+    "asc": "按字母顺序",
+    "desc": "按字母逆向顺序",
+    "sortBy": "排序方式",
+    "sortDirection": "排序",
+    "searchMembers": "在此列表中搜索成员",
+    "memberDetails": "用于更改登录提供商操作的成员详细信息",
+    "optional": "(可选)",
+    "fieldErrors": "字段错误",
+    "noErrors": "无错误",
+    "noData": "无可用数据",
+    "noMembersMatch": "没有符合搜索条件的成员",
+    "togglePassword": "切换密码可见性",
+    "memberCount": "{start} - {end}/{total}",
+    "errors": {
+      "email": "电子邮件为必填项",
+      "username": "ArcGIS 用户名为必填项",
+      "password": "临时密码为必填项",
+      "samlId": "SAML ID 为必填项",
+      "oidcId": "OIDC ID 为必填项"
+    }
+  },
+  "review": {
+    "heading": "查看更改",
+    "loginsWillChange": "以下账户将从 {fromLogin} 更改为 {toLogin}",
+    "downloadCsv": "下载更改的 CSV",
+    "providerTypes": {
+      "saml": "SAML 登录账户",
+      "oidc": "OpenID Connect 登录账户",
+      "arcgis": "ArcGIS 登录账户"
+    },
+    "missingRequired": "缺少必填信息。 继续操作前请填写缺少的信息。"
+  },
+  "progress": {
+    "processing": "正在处理... {current} 位用户，共 {total} 位。",
+    "percentComplete": "完成百分比",
+    "doNotClose": "请勿关闭浏览器。",
+    "extendedTime": "此过程最多可能需要 10 分钟，请耐心等待。",
+    "extendedTime10": "此过程可能需要超过 10 分钟，请耐心等待。",
+    "extendedTime15": "此过程可能需要超过 15 分钟，请耐心等待。",
+    "label": "更改登录类型的进度指示器",
+    "errors": {
+      "authkey": {
+        "title": "身份验证密钥无效",
+        "body1": "您已输入的身份验证密钥无效。",
+        "body2": "请重新输入有效的身份验证密钥。",
+        "action": "重新输入身份验证密钥",
+        "cancel": "取消"
+      },
+      "unknown": "提供商更改过程中出错。 请重试，如果问题仍然存在，请联系技术支持。",
+      "userNotFound": "未找到用户名",
+      "idpUsernameNotMatching": "用户名不匹配",
+      "providerNotMatching": "无法更改登录账户"
+    }
+  }
+}

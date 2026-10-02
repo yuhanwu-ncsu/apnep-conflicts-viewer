@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Otkrivanje promjene slike",_widgetDescription:"Widget za otkrivanje promjena u slojevima slika tijekom vremena."})}}});

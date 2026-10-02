@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Patikimas",
+    "tooltip": {
+      "org": "Rekomenduoja jūsų organizacija",
+      "public": "Rekomenduoja ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Šis elemento tipas yra beta."
+  },
+  "Deprecated": {
+    "title": "Nebenaudojamas",
+    "tooltip": "Nerekomenduojama naudoti. Savininkas ${owner} nutraukė šio elemento palaikymą."
+  },
+  "Has Replacement": {
+    "title": "Turi pakaitalą",
+    "tooltip": "Šis elementas turi rekomenduojamą pakaitalą. Peržiūrėkite išsamią elemento informaciją, kad rastumėte ir naudotumėte pakaitalą.",
+    "itemPageTooltip": "Šis elementas turi rekomenduojamą pakaitalą.",
+    "link": "Peržiūrėti pakaitalą"
+  },
+  "DeprecatedItemType": {
+    "title": "Nebenaudojamas elemento tipas",
+    "tooltip": {
+      "general": "Esri nutraukė šio elemento tipo palaikymą. Jis netrukus bus pašalintas ir jo nebebus galima naudoti.",
+      "webAppBuilder": "Esri nutraukė ArcGIS Web AppBuilder, kuris buvo naudojamas šiam elementui sukurti, naudojimą. Jis netrukus bus pašalintas ir jo nebebus galima naudoti. Norėdami sukurti naują programėlę, naudokite ArcGIS Experience Builder ar kitą ArcGIS programėlę."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Esri prižiūrimas turinys"
+  },
+  "Subscriber": {
+    "title": "Prenumeratorius",
+    "tooltip": {
+      "org": "Išskirtinis turinys prenumeratoriams",
+      "public": "Išskirtinis turinys prenumeratoriams. Norėdami naudoti, prisijunkite naudodami savo ArcGIS Online prenumeratos duomenis."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Išskirtinis turinys prenumeratoriams. Naudoja kreditus.",
+      "public": "Išskirtinis turinys prenumeratoriams, kurie naudoja kreditus. Norėdami naudoti, prisijunkite naudodami savo ArcGIS Online prenumeratos duomenis."
+    }
+  },
+  "Open Data": {
+    "title": "Atviri duomenys",
+    "tooltip": "Prieinama naudoti viešai"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Rodomas ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Paskirstytas bendradarbiavimas",
+    "tooltip": "Šis elementas gautas iš paskirstyto bendradarbiavimo"
+  },
+  "Retired": {
+    "title": "Pašalintas elemento tipas",
+    "tooltip": {
+      "general": "Esri pašalinio šį elemento tipą. Jo nebegalima naudoti.",
+      "classicStoryMap": "Klasikinis ArcGIS StoryMaps šablonas (${template_name}), naudojamas šiam elementui kurti, nebenaudojamas. Šio elemento nebegalima redaguoti arba peržiūrėti. Norėdami nukreipti žiūrovus, sukonfigūruokite pakaitinį elementą, sukurtą naudojant ArcGIS StoryMaps ar kitą ArcGIS programą.",
+      "classicStoryMapGeneric": "Klasikinis ArcGIS StoryMaps šablonas, naudojamas šiam elementui kurti, nebenaudojamas. Šio elemento nebegalima redaguoti arba peržiūrėti. Norėdami nukreipti žiūrovus, sukonfigūruokite pakaitinį elementą, sukurtą naudojant ArcGIS StoryMaps ar kitą ArcGIS programą.",
+      "cityEngine": "CityEngine Web Viewer ir CityEngine Web Scenes nebepalaikomos.",
+      "app": "Šiai programėlei sukurti naudotas Configurable Apps šablonas pašalintas. Šis elementas neveikia ir gali būti ištrintas. Norėdami kurti naują programėlę, naudokite ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards arba ArcGIS Experience Builder.",
+      "webAppBuilder": "„ArcGIS Web AppBuilder“ yra nebepalaikoma „ArcGIS Enterprise“. Šis elementas neveikia ir gali būti ištrintas. Norėdami sukurti naują programėlę, naudokite „ArcGIS Experience Builder“.",
+      "insights": "„ArcGIS Insights“ yra nebepalaikoma „ArcGIS Enterprise“. Šis elementas neveikia ir gali būti ištrintas.",
+      "bdfs": "Didelių duomenų failų bendrinimai nebenaudojami Šis elementas neveikia ir gali būti ištrintas."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Viešas duomenų rinkimas",
+    "tooltip": "Patvirtintas viešam duomenų rinkimui."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Esri palaikomas sprendimas"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "Registruota OAuth 2.0 programėlė. Galma naudoti premium arba prenumeratoriaus turinį.",
+      "enterprise": "Registruota OAuth 2.0 programėlė."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "API rakto kredencialai",
+      "enterprise": "API rakto kredencialai"
+    },
+    "tooltip": "Suteikia prieigą prie paslaugų."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "API rakto prisijungimo duomenys – privati programėlė",
+    "tooltip": "Pateikiami prieigos raktai su teisėmis pasiekti išplėstą paslaugų ir elementų rinkinį. Saugokite šiuos prieigos raktus taip pat, kaip saugotumėte savo naudotojo vardą ir slaptažodį. Neįterpkite į aplikaciją."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "OAuth 2.0 kredencialai",
+      "enterprise": "OAuth 2.0 kredencialai"
+    },
+    "tooltip": "Suteikia prieigą prie paslaugų."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "OAuth 2.0 prisijungimo duomenys – imituoja elemento savininką",
+    "tooltip": "Imituoja šio elemento savininką. Saugumo sumetimais šiuos prisijungimo duomenis turite saugoti taip, kaip saugotumėte savo naudotojo vardą ir slaptažodį."
+  },
+  "Registered Application": {
+    "title": "OAuth 2.0 programėlė",
+    "tooltip": "Registruota OAuth 2.0 programėlė"
+  },
+  "Personal credential": {
+    "title": "Asmeninė",
+    "tooltip": "Suteikiate asmeninę teisę šiems prisijungimo duomenims. Saugumo sumetimais naudojant šiuos prisijungimo duomenis sugeneruotą bet kurį prieigos raktą turite saugoti taip, kaip saugotumėte savo naudotojo vardą ir slaptažodį. Peržiūrėkite naudojimo sąlygas."
+  },
+  "loading": "Įkeliama..."
+}

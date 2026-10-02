@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Alternador de modo de tema",notSupportTip:"O tema atual n\xe3o suporta a altern\xe2ncia entre modos de tema.",lightModeLabel:"Modo de claro. Pressione para mudar para o modo escuro.",darkModeLabel:"Modo escuro. Pressione para mudar para o modo claro."})}}});

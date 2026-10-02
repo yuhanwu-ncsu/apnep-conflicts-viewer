@@ -1,0 +1,24 @@
+{
+  "expandAll": "Extindere toate",
+  "collapseAll": "Restrângere toate",
+  "categoryItem": {
+    "expand": "Extindere",
+    "collapse": "Restrângere",
+    "editCategory": "Editare categorie",
+    "deleteCategory": "Ștergere categorie",
+    "addSubcategory": "Adăugare subcategorie",
+    "addCategory": "Adaugă categorie",
+    "save": "Salvare",
+    "cancel": "Anulare",
+    "missingTitleMessage": "Titlul de categorie este obligatoriu.",
+    "errors": {
+      "generic": "Ceva nu a mers bine. Încercați din nou mai târziu.",
+      "maxDepthExceeded": "Nu puteți imbrica mai multe de 2 niveluri în adâncime.",
+      "destinationHasSameName": "O categorie cu același nume există deja în categoria de destinație.",
+      "emptyTitle": "Titlul categoriei nu poate rămâne necompletat.",
+      "noSchema": "Schema elementului nu este găsită pentru utilizator.",
+      "maxCharacter": "Numele categoriei depășește limita maximă permisă de caractere."
+    },
+    "dragHandleLabel": "Glisați pentru a reordona."
+  }
+}

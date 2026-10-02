@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Prze\u0142\u0105cznik j\u0119zyka",previewTip:"To dzia\u0142a tylko w podgl\u0105dzie lub opublikowanych aplikacjach."})}}});

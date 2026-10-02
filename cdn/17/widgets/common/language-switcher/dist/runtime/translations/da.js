@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Sprog-skifter",previewTip:"Dette virker kun i forh\xe5ndsvisning eller publicerede apps."})}}});

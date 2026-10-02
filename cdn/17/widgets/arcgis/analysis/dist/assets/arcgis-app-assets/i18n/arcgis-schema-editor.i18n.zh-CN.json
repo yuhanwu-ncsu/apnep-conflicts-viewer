@@ -1,0 +1,24 @@
+{
+  "expandAll": "全部展开",
+  "collapseAll": "全部折叠",
+  "categoryItem": {
+    "expand": "展开",
+    "collapse": "折叠",
+    "editCategory": "编辑类别",
+    "deleteCategory": "删除类别",
+    "addSubcategory": "添加子类别",
+    "addCategory": "添加类别",
+    "save": "保存",
+    "cancel": "取消",
+    "missingTitleMessage": "类别标题为必填项。",
+    "errors": {
+      "generic": "发生了一些错误。 请稍后再试。",
+      "maxDepthExceeded": "类别的嵌套深度不能超过 2 级。",
+      "destinationHasSameName": "目标类别中已存在同名类别。",
+      "emptyTitle": "类别标题不能为空。",
+      "noSchema": "未找到用户的项目方案。",
+      "maxCharacter": "类别名称超过允许的字符限制。"
+    },
+    "dragHandleLabel": "拖动以重新排序。"
+  }
+}

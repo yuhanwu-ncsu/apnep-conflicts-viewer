@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Teil pole selle üksuse jagamise uuendamise õigust.",
+      "panel": "Teil pole selle üksuse jagamise uuendamise õigust. See üksus ei pruugi olla nähtav, kuna seda jagatakse teistmoodi."
+    },
+    "pdc": {
+      "notice": "Enne selle kihi avalikku jagamist lubage Andmete kogumine avalikkuse jaoks.",
+      "panel": "Enne selle kihi avalikku jagamist lubage Andmete kogumine avalikkuse jaoks. Optimaalse toimivuse ja andmete terviklikkuse tagamiseks kaaluge redigeerimise keelamist või mitteredigeeritava vaatekihi kasutamist.",
+      "learnMore": "Lisateave avalikel kihtidel redigeerimise lubamise kohta."
+    },
+    "premium": {
+      "notice": "Premium-sisu ja tellijate sisu kuvamiseks võib olla vaja sisse logida.",
+      "panel": "Premium-sisu ja tellijate sisu kuvamiseks võib olla vaja sisse logida.",
+      "learnMore": "Lugege lisateavet kaartide Premium-sisu või tellijate sisu jagamise kohta."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Selle muudetava kihi avalik jagamine võimaldab kõigil seda muuta.",
+      "panel": "Selle muudetava kihi avalik jagamine võimaldab kõigil seda muuta. Optimaalse toimivuse ja andmete terviklikkuse tagamiseks kaaluge redigeerimise keelamist või mitteredigeeritava vaatekihi kasutamist."
+    },
+    "needsAuthentication": {
+      "notice": "Autentimine on nõutav.",
+      "panel": "See sisuüksus ei pruugi olla teistele kättesaadav, kuna see sisaldab asukohateenuseid, mis nõuavad sisuüksust kuvavates rakendustes autentimist."
+    }
+  },
+  "goToItem": "Kuva kõik üksikasjad"
+}

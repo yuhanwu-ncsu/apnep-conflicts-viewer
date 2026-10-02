@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "시작:",
+  "repeatTypeLabel": "반복 유형",
+  "endingOnTypeLabel": "종료:",
+  "endingOnDateLabel": "종료일",
+  "endingOnCountLabel": "개수",
+  "endingOnCountPlaceholder": "예시: 1, 10, 30",
+  "repeatIntervalLabel": "반복 간격",
+  "timeLabel": "시간",
+  "hourlyOnMinuteLabel": "분 단위",
+  "betweenHoursLabel": "시간 사이",
+  "weeklyDaysOfWeekLabel": "요일",
+  "monthlyDayOfMonthLabel": "일",
+  "monthlyDayOfMonthPlaceholder": "예시: 1 - 31",
+  "allDayLabel": "종일",
+  "allWeekLabel": "모든 주",
+  "repeatTypeOptions": {
+    "minute": "분",
+    "hour": "시간",
+    "day": "일",
+    "week": "주",
+    "month": "월"
+  },
+  "endingOnType": {
+    "never": "없음",
+    "date": "날짜",
+    "count": "개수"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "1분마다",
+    "everyTwoMinutes": "2분마다",
+    "everyThreeMinutes": "3분마다",
+    "everyFiveMinutes": "5분마다",
+    "everyTenMinutes": "10분마다",
+    "everyFifteenMinutes": "15분마다",
+    "everyThirtyMinutes": "30분마다"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "1시간마다",
+    "everyTwoHours": "2시간마다",
+    "everyThreeHours": "3시간마다",
+    "everyFourHours": "4시간마다",
+    "everySixHours": "6시간마다",
+    "everyTwelveHours": "12시간마다"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "매일",
+    "everyOtherDay": "2일마다",
+    "everyThreeDays": "3일마다",
+    "everyFourDays": "4일마다",
+    "everyFiveDays": "5일마다",
+    "everySixDays": "6일마다",
+    "everySevenDays": "7일마다",
+    "everyFourteenDays": "14일마다"
+  },
+  "weekDays": {
+    "allWeekdays": "주중 모두",
+    "sunday": "일요일",
+    "monday": "월요일",
+    "tuesday": "화요일",
+    "wednesday": "수요일",
+    "thursday": "목요일",
+    "friday": "금요일",
+    "saturday": "토요일"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "매달",
+    "everyTwoMonths": "2개월마다",
+    "everyThreeMonths": "3개월마다",
+    "everyFourMonths": "4개월마다",
+    "everyFiveMonths": "5개월마다",
+    "everySixMonths": "6개월마다"
+  }
+}

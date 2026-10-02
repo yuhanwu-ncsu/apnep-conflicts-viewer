@@ -1,0 +1,26 @@
+{
+  "defaultVersions": {},
+  "manageVersionsEnabled": true,
+  "editSessionsEnabled": true,
+  "editToolBar": {
+    "scale": "s",
+    "displayType": "docked",
+    "dockedPosition": "panel-top",
+    "layoutType": "horizontal",
+    "floatingPanelJson": {
+      "position": "TOP_LEFT",
+      "width": "375px",
+      "height": "75px",
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "saveEnabled": true,
+    "discardEnabled": true,
+    "undoEnabled": true,
+    "redoEnabled": true,
+    "reconcileEnabled": true,
+    "postEnabled": true,
+    "showDialogOnSave": true,
+    "showDialogOnDiscard": true
+  }
+}

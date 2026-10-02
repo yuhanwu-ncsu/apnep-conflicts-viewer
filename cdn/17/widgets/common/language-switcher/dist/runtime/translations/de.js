@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Sprachauswahl",previewTip:"Dies ist nur in der Vorschau oder in ver\xf6ffentlichten Apps m\xf6glich."})}}});

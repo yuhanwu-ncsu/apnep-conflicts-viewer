@@ -1,0 +1,24 @@
+{
+  "expandAll": "Vis alle",
+  "collapseAll": "Skjul alle",
+  "categoryItem": {
+    "expand": "Udvid",
+    "collapse": "Skjul",
+    "editCategory": "Redigér kategori",
+    "deleteCategory": "Slet kategori",
+    "addSubcategory": "Tilføj underkategori",
+    "addCategory": "Tilføj kategori",
+    "save": "Gem",
+    "cancel": "Annuller",
+    "missingTitleMessage": "Kategorititlen er påkrævet.",
+    "errors": {
+      "generic": "Der gik noget galt. Prøv igen senere.",
+      "maxDepthExceeded": "Du kan ikke indlejre kategorier i mere end 2 niveauer.",
+      "destinationHasSameName": "Der findes allerede en kategori med samme navn i destinationskategorien.",
+      "emptyTitle": "Kategorititlen kan ikke være tom.",
+      "noSchema": "Elementskema ikke fundet for brugeren.",
+      "maxCharacter": "Kategorinavn overstiger den tilladte tegngrænse."
+    },
+    "dragHandleLabel": "Træk for at ændre rækkefølge."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Thay đổi loại đăng nhập",
+  "chooseLoginType": "Chọn loại đăng nhập",
+  "selectMembers": "Chọn thành viên",
+  "userDetails": "Thông tin chi tiết người dùng",
+  "reauth": "Xác thực lại",
+  "confirmComplete": "Xác nhận và hoàn thành",
+  "next": "Tiếp",
+  "back": "Quay lại",
+  "cancel": "Hủy bỏ",
+  "close": "Đóng",
+  "changeLogins": "Thay đổi đăng nhập",
+  "acknowledgeImpact": "Tôi công nhận và hiểu rõ tác động của thay đổi này.",
+  "propertiesHeading": "Chỉ định chi tiết đăng nhập mới cho các thành viên sau",
+  "chooseFile": "Chọn tệp khác",
+  "mustAcknowledge": "Bạn phải công nhận tác động của thay đổi này trước khi tiếp tục.",
+  "confirmLeave": {
+    "title": "Hủy các thay đổi",
+    "message1": "Bạn có những thay đổi chưa được lưu.",
+    "message2": "Bạn có chắc bạn muốn hủy thay đổi?",
+    "remain": "Tiếp tục chỉnh sửa",
+    "leave": "Thoát mà không cần lưu"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Đăng nhập ArcGIS",
+    "chooseLoginModify": "Chọn cách sửa đổi đăng nhập",
+    "changeType": "Thay đổi loại đăng nhập",
+    "selectType": "Chọn loại đăng nhập hiện tại để làm việc",
+    "changeTypeDescription": "Thay đổi ID riêng của tổ chức giữa các phiên đăng nhập OpenID Connect, SAML hoặc ArcGIS.",
+    "keepType": "Giữ nguyên loại đăng nhập",
+    "keepTypeDescription": "Cập nhật ID OpenID Connect hoặc SAML và địa chỉ email mà không thay đổi loại đăng nhập.",
+    "currentType": "Loại đăng nhập hiện tại",
+    "newType": "Loại đăng nhập mới",
+    "select": "Chọn",
+    "samlLogin": "{name} (Đăng nhập SAML)",
+    "oidcLogin": "{name} (Đăng nhập OpenID Connect)",
+    "oldSaml": "Đăng nhập SAML trước",
+    "oldOidc": "Đăng nhập OIDC trước",
+    "enterpriseOverwrite": "Tùy theo cài đặt nhà cung cấp đăng nhập doanh nghiệp, địa chỉ email có thể bị ghi đè bằng giá trị từ nhà cung cấp định danh.",
+    "generateMissingPasswords": "Khi chuyển sang đăng nhập ArcGIS, mật khẩu tạm thời sẽ được tự động tạo nếu chưa được chỉ định. Mật khẩu sẽ được hiển thị trong bước thông tin chi tiết người dùng.",
+    "errors": {
+      "loginTypes": "Phải chọn cả loại đăng nhập hiện tại và mới.",
+      "currentLoginType": "Loại đăng nhập hiện tại là bắt buộc và phải được chọn.",
+      "sameLoginType": "Loại đăng nhập mới phải khác với loại đăng nhập hiện tại."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Phương thức chọn thành viên",
+    "howToSelect": "Bạn muốn chọn thành viên theo cách nào?",
+    "bulkUpload": "Tải lên hàng loạt (CSV)",
+    "chooseAFile": "Chọn tệp để tải lên ở bước tiếp theo.",
+    "manualSelection": "Chọn thủ công",
+    "selectMembers": "Chọn thành viên từ danh sách ở bước tiếp theo.",
+    "selectFromFile": "Chọn thành viên từ tệp CSV",
+    "dragDrop": "Kéo và thả tệp hoặc chọn từ thiết bị.",
+    "headerInstructions": "Tiêu đề (dòng đầu tiên) phải chứa các tên trường chính xác như dưới đây.",
+    "fieldOrder": "Thứ tự của trường có thể thay đổi.",
+    "yourDevice": "Thiết bị của bạn",
+    "downloadTemplate": "Tải xuống mẫu CSV",
+    "requiredFields": "Trường bắt buộc",
+    "optionalFields": "Trường tùy chọn",
+    "passwordTooltip": "Mật khẩu tạm thời sẽ được tự động tạo nếu không có mật khẩu nào được cung cấp.",
+    "excessTitleCsv": "CSV vượt quá giới hạn 5.000 thành viên",
+    "excessBatchLimit": "Bạn có thể cập nhật loại đăng nhập cho tối đa 5.000 thành viên mỗi đợt.",
+    "excessBodyCsv": "Để xử lý nhiều hơn 5.000 thành viên, hãy chia tệp CSV thành nhiều tệp nhỏ hơn và tải riêng từng tệp lên.",
+    "learnMore": "Tìm hiểu thêm",
+    "errors": {
+      "fileType": "Loại tệp không hợp lệ. Vui lòng tải lên tệp CSV.",
+      "fileSize": "Tệp có kích thước lớn hơn 500 KB và có thể không được xử lý hiệu quả.",
+      "noMembers": "Chưa chọn thành viên nào. Vui lòng chọn thành viên hoặc tải lên tệp CSV để tiếp tục.",
+      "tooManyMembers": "Lựa chọn vượt quá giới hạn 5.000 thành viên."
+    }
+  },
+  "fieldNames": {
+    "email": "Email",
+    "username": "Tên đăng nhập ArcGIS",
+    "password": "Mật khẩu tạm thời",
+    "samlId": "SAML ID",
+    "oidcId": "ID OIDC",
+    "oldSamlId": "ID SAML trước",
+    "oldOidcId": "ID OIDC trước",
+    "success": "Thành công",
+    "error": "Lỗi",
+    "fromLoginType": "Loại đăng nhập ban đầu",
+    "toLoginType": "Loại đăng nhập mới"
+  },
+  "authentication": {
+    "header": "Cần xác thực lại",
+    "reauthSteps": "Các bước xác thực lại",
+    "step1_label": "Bước 1: Đăng nhập (cửa sổ mới)",
+    "step1_desc": "Một cửa sổ mới sẽ hiển thị để bạn đăng nhập.",
+    "step2_label": "Bước 2: Sao chép khóa xác thực",
+    "step2_desc": "Bạn sẽ nhận được một khóa xác thực để sao chép.",
+    "step3_label": "Bước 3: Dán khóa xác thực",
+    "step3_desc": "Nhập khóa xác thực để tiếp tục.",
+    "openWindow": "Mở cửa sổ mới để xác thực lại",
+    "authKey": "Khóa xác thực",
+    "paste": "Dán",
+    "getNewKey": "Tạo khóa mới",
+    "hide": "Ẩn",
+    "show": "Hiển thị",
+    "errors": {
+      "clipboard": "Không thể đọc từ bộ nhớ tạm",
+      "authKey": "Cần có khóa xác thực hợp lệ"
+    }
+  },
+  "usersTable": {
+    "asc": "Theo thứ tự chữ cái",
+    "desc": "Ngược lại thứ tự chữ cái",
+    "sortBy": "Sắp xếp theo",
+    "sortDirection": "Hướng sắp xếp",
+    "searchMembers": "Tìm thành viên trong danh sách này",
+    "memberDetails": "Thông tin thành viên cho thao tác thay đổi nhà cung cấp đăng nhập",
+    "optional": "(tùy chọn)",
+    "fieldErrors": "Lỗi trường",
+    "noErrors": "Không có lỗi",
+    "noData": "Không có dữ liệu",
+    "noMembersMatch": "Không có thành viên nào khớp với tiêu chí tìm kiếm của bạn",
+    "togglePassword": "Ẩn/hiện mật khẩu",
+    "memberCount": "{start} - {end} / {total}",
+    "errors": {
+      "email": "Yêu cầu Email",
+      "username": "Cần có tên người dùng ArcGIS",
+      "password": "Cần có mật khẩu tạm thời",
+      "samlId": "Cần có ID SAML",
+      "oidcId": "Cần có ID OIDC"
+    }
+  },
+  "review": {
+    "heading": "Xem lại thay đổi",
+    "loginsWillChange": "Tài khoản sau sẽ đổi từ {fromLogin} thành {toLogin}",
+    "downloadCsv": "Tải xuống CSV chứa các thay đổi",
+    "providerTypes": {
+      "saml": "Đăng nhập SAML",
+      "oidc": "Đăng nhập OpenID Connect",
+      "arcgis": "Đăng nhập tài khoản ArcGIS"
+    },
+    "missingRequired": "Thiếu thông tin bắt buộc. Điền thông tin còn thiếu trước khi tiếp tục."
+  },
+  "progress": {
+    "processing": "Đang xử lý... {current} trong số {total} người dùng.",
+    "percentComplete": "Phần trăm hoàn thành",
+    "doNotClose": "Vui lòng không đóng trình duyệt.",
+    "extendedTime": "Quá trình này có thể mất đến 10 phút, vui lòng chờ.",
+    "extendedTime10": "Quá trình này có thể mất hơn 10 phút, vui lòng chờ.",
+    "extendedTime15": "Quá trình này có thể mất hơn 15 phút, vui lòng chờ.",
+    "label": "Chỉ báo tiến trình thay đổi loại đăng nhập",
+    "errors": {
+      "authkey": {
+        "title": "Khóa xác thực không hợp lệ",
+        "body1": "Khóa xác thực bạn đã nhập không hợp lệ.",
+        "body2": "Vui lòng nhập lại khóa xác thực hợp lệ.",
+        "action": "Nhập lại khóa xác thực",
+        "cancel": "Hủy bỏ"
+      },
+      "unknown": "Đã xảy ra lỗi trong quy trình thay đổi nhà cung cấp. Vui lòng thử lại hoặc liên hệ bộ phận hỗ trợ nếu sự cố vẫn tiếp diễn.",
+      "userNotFound": "Không tìm thấy tên người dùng",
+      "idpUsernameNotMatching": "Tên người dùng không khớp",
+      "providerNotMatching": "Không thể thay đổi đăng nhập"
+    }
+  }
+}

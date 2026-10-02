@@ -1,0 +1,30 @@
+{
+  "hosted": "allotjat",
+  "hostedView": "allotjat, visualització",
+  "hostedPhotos": "allotjat, fotos",
+  "hostedCollection": "allotjat, recopilació",
+  "hostedMultidimensional": "allotjat, multidimensional",
+  "hostedCollectionMultidimensional": "allotjat, recopilació, multidimensional",
+  "collectionMultidimensional": "recopilació, multidimensional",
+  "multidimensional": "multidimensional",
+  "query": "consulta",
+  "collection": "col·lecció",
+  "photoLocations": "fotos",
+  "locatorView": "visualització",
+  "utilityNetwork": "xarxa de serveis",
+  "parcelFabric": "estructura de parcel·la",
+  "parcelFabricHosted": "estructura de parcel·la, allotjada",
+  "Integrated Mesh": "malla integrada",
+  "3D Object": "objecte 3D",
+  "Point": "punt",
+  "Point Cloud": "núvol de punts",
+  "Building Scene Layer": "capa d'escena d'edificis",
+  "Voxel Scene Layer": "capa d'escena de vòxel",
+  "dataStore": {
+    "bigdata": "recurs compartit de fitxers de dades massives",
+    "cloud": "núvol",
+    "cloudStorage": "emmagatzematge al núvol",
+    "database": "base de dades",
+    "folder": "carpeta"
+  }
+}

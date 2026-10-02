@@ -1,0 +1,16 @@
+{
+  "point": "點圖層",
+  "line": "線圖層",
+  "polygon": "多邊形圖層",
+  "multipatch": "多面體圖層",
+  "multipoint": "多點圖層",
+  "table": "表格",
+  "annotation": "註釋圖層",
+  "catalog": "目錄圖層",
+  "dimension": "維度圖層",
+  "oriented imagery": "導向的影像圖層",
+  "parcel": "宗地網狀架構圖層",
+  "utility network": "公用事業網路圖層",
+  "topology": "拓撲圖層",
+  "trace network": "追蹤網路圖層"
+}

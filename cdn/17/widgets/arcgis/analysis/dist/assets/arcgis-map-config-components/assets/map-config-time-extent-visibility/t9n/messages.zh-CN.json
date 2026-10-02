@@ -1,0 +1,1 @@
+{"start":"开始","end":"结束","startDate":"开始日期","endDate":"结束日期","startTime":"开始时间","endTime":"结束时间","layerVisibilityPeriod":"图层可见性时间段","timeBasedLayerVisibility":"基于时间的图层可见性","info":"信息","infoMessage":"启用基于时间的图层可见性，仅在特定时间段内显示图层。","startWarning":"开始日期和时间为必填项。","endWarning":"结束日期和时间为必填项。","rangeWarning":"开始日期和时间必须早于结束日期和时间。"}

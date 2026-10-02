@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Pendente",button:"Bot\xe3o",configTip:"Configure as defini\xe7\xf5es de idioma no separador <bold>Geral</bold> do builder antes de utilizar este widget."})}}});

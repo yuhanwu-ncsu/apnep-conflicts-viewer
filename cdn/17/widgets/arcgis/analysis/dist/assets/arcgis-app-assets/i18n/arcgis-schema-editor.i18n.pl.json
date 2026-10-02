@@ -1,0 +1,24 @@
+{
+  "expandAll": "Rozwiń wszystko",
+  "collapseAll": "Zwiń wszystko",
+  "categoryItem": {
+    "expand": "Rozwiń",
+    "collapse": "Zwiń",
+    "editCategory": "Edytuj kategorię",
+    "deleteCategory": "Usuń kategorię",
+    "addSubcategory": "Dodaj podkategorię",
+    "addCategory": "Dodaj kategorię",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "missingTitleMessage": "Wymagany jest tytuł kategorii.",
+    "errors": {
+      "generic": "Wystąpiły problemy. Spróbuj ponownie później.",
+      "maxDepthExceeded": "Nie można zagnieżdżać kategorii na więcej niż 2 poziomach.",
+      "destinationHasSameName": "Kategoria o tej samej nazwie już istnieje w kategorii docelowej.",
+      "emptyTitle": "Tytuł kategorii nie może być pusty.",
+      "noSchema": "Nie znaleziono schematu elementu dla użytkownika.",
+      "maxCharacter": "Nazwa kategorii przekracza dopuszczalną liczbę znaków."
+    },
+    "dragHandleLabel": "Przeciągnij, aby zmienić kolejność."
+  }
+}

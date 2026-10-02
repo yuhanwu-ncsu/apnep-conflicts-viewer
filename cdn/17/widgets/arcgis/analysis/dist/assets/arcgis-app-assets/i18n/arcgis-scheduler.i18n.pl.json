@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Rozpoczęcie:",
+  "repeatTypeLabel": "Typ powtarzania",
+  "endingOnTypeLabel": "Zakończenie:",
+  "endingOnDateLabel": "Data końcowa",
+  "endingOnCountLabel": "Liczba",
+  "endingOnCountPlaceholder": "na przykład: 1, 10, 30",
+  "repeatIntervalLabel": "Przedział powtarzania",
+  "timeLabel": "Czas",
+  "hourlyOnMinuteLabel": "Na minutę",
+  "betweenHoursLabel": "Między godzinami",
+  "weeklyDaysOfWeekLabel": "Dzień tygodnia",
+  "monthlyDayOfMonthLabel": "Dzień miesiąca",
+  "monthlyDayOfMonthPlaceholder": "na przykład 1 - 31",
+  "allDayLabel": "Cały dzień",
+  "allWeekLabel": "Cały tydzień",
+  "repeatTypeOptions": {
+    "minute": "Minuta",
+    "hour": "Godzina",
+    "day": "Dzień",
+    "week": "Tydzień",
+    "month": "Miesiąc"
+  },
+  "endingOnType": {
+    "never": "Nigdy",
+    "date": "Data",
+    "count": "Liczba"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Co minutę",
+    "everyTwoMinutes": "Co dwie minuty",
+    "everyThreeMinutes": "Co trzy minuty",
+    "everyFiveMinutes": "Co pięć minut",
+    "everyTenMinutes": "Co 10 minut",
+    "everyFifteenMinutes": "Co 15 minut",
+    "everyThirtyMinutes": "Co 30 minut"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Co godzinę",
+    "everyTwoHours": "Co dwie godziny",
+    "everyThreeHours": "Co trzy godziny",
+    "everyFourHours": "Co cztery godziny",
+    "everySixHours": "Co sześć godzin",
+    "everyTwelveHours": "Co 12 godzin"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Codziennie",
+    "everyOtherDay": "Co drugi dzień",
+    "everyThreeDays": "Co trzy dni",
+    "everyFourDays": "Co cztery dni",
+    "everyFiveDays": "Co pięć dni",
+    "everySixDays": "Co sześć dni",
+    "everySevenDays": "Co siedem dni",
+    "everyFourteenDays": "Co 14 dni"
+  },
+  "weekDays": {
+    "allWeekdays": "Wszystkie dni tygodnia",
+    "sunday": "Niedziela",
+    "monday": "Poniedziałek",
+    "tuesday": "Wtorek",
+    "wednesday": "Środa",
+    "thursday": "Czwartek",
+    "friday": "Piątek",
+    "saturday": "Sobota"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Co miesiąc",
+    "everyTwoMonths": "Co dwa miesiące",
+    "everyThreeMonths": "Co trzy miesiące",
+    "everyFourMonths": "Co cztery miesiące",
+    "everyFiveMonths": "Co pięć miesięcy",
+    "everySixMonths": "Co sześć miesięcy"
+  }
+}

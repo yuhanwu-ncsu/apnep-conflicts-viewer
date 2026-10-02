@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Topologie von Versorgungsnetzen validieren",_widgetDescription:"Mit diesem Widget k\xf6nnen Sie nach vorgenommenen \xc4nderungen nicht \xfcberpr\xfcfte Bereiche in der Netzwerk-Topologie eines Versorgungsnetzes validieren."})}}});

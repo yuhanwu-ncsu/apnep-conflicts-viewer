@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({dropdown:"Listmeny",button:"Knapp",configTip:"Konfigurera spr\xe5kinst\xe4llningarna p\xe5 fliken <bold>Allm\xe4nt</bold> i byggverktyget innan du anv\xe4nder den h\xe4r widgeten."})}}});

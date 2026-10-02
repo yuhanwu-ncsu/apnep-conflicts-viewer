@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "期間の開始日",
+  "repeatTypeLabel": "繰り返しタイプ",
+  "endingOnTypeLabel": "期間の終了日",
+  "endingOnDateLabel": "終了日",
+  "endingOnCountLabel": "個数",
+  "endingOnCountPlaceholder": "例: 1, 10, 30",
+  "repeatIntervalLabel": "繰り返し間隔",
+  "timeLabel": "時間",
+  "hourlyOnMinuteLabel": "分",
+  "betweenHoursLabel": "時間",
+  "weeklyDaysOfWeekLabel": "曜日",
+  "monthlyDayOfMonthLabel": "日付",
+  "monthlyDayOfMonthPlaceholder": "例: 1 - 31",
+  "allDayLabel": "終日",
+  "allWeekLabel": "すべての週",
+  "repeatTypeOptions": {
+    "minute": "分",
+    "hour": "時間",
+    "day": "日",
+    "week": "週",
+    "month": "月"
+  },
+  "endingOnType": {
+    "never": "なし",
+    "date": "Date",
+    "count": "個数"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "1 分間隔",
+    "everyTwoMinutes": "2 分間隔",
+    "everyThreeMinutes": "3 分間隔",
+    "everyFiveMinutes": "5 分間隔",
+    "everyTenMinutes": "10 分間隔",
+    "everyFifteenMinutes": "15 分間隔",
+    "everyThirtyMinutes": "30 分間隔"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "1 時間間隔",
+    "everyTwoHours": "2 時間間隔",
+    "everyThreeHours": "3 時間間隔",
+    "everyFourHours": "4 時間間隔",
+    "everySixHours": "6 時間間隔",
+    "everyTwelveHours": "12 時間間隔"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "毎日",
+    "everyOtherDay": "隔日",
+    "everyThreeDays": "3 日間隔",
+    "everyFourDays": "4 日間隔",
+    "everyFiveDays": "5 日間隔",
+    "everySixDays": "6 日間隔",
+    "everySevenDays": "7 日間隔",
+    "everyFourteenDays": "14 日間隔"
+  },
+  "weekDays": {
+    "allWeekdays": "すべての平日",
+    "sunday": "日曜日",
+    "monday": "月曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日",
+    "thursday": "木曜日",
+    "friday": "金曜日",
+    "saturday": "土曜日"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "毎月",
+    "everyTwoMonths": "2 か月間隔",
+    "everyThreeMonths": "3 か月間隔",
+    "everyFourMonths": "4 か月間隔",
+    "everyFiveMonths": "5 か月間隔",
+    "everySixMonths": "6 か月間隔"
+  }
+}

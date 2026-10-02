@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Detekcija promene snimka",_widgetDescription:"Vid\u017eet koji detektuje promene u slojevima snimaka tokom vremena."})}}});

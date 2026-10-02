@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Început pe",
+  "repeatTypeLabel": "Tip repetare",
+  "endingOnTypeLabel": "Terminat pe",
+  "endingOnDateLabel": "Data terminării",
+  "endingOnCountLabel": "Număr",
+  "endingOnCountPlaceholder": "de exemplu: 1, 10, 30",
+  "repeatIntervalLabel": "Interval de repetare",
+  "timeLabel": "Ora",
+  "hourlyOnMinuteLabel": "Pe minut",
+  "betweenHoursLabel": "Între orele",
+  "weeklyDaysOfWeekLabel": "Ziua săptămânii",
+  "monthlyDayOfMonthLabel": "Ziua din lună",
+  "monthlyDayOfMonthPlaceholder": "de exemplu, 1 - 31",
+  "allDayLabel": "Toată ziua",
+  "allWeekLabel": "Toată săptămâna",
+  "repeatTypeOptions": {
+    "minute": "Minut",
+    "hour": "Oră",
+    "day": "Zi",
+    "week": "Săptămână",
+    "month": "Lună"
+  },
+  "endingOnType": {
+    "never": "Niciodată",
+    "date": "Data",
+    "count": "Număr"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "În fiecare minut",
+    "everyTwoMinutes": "La fiecare două minute",
+    "everyThreeMinutes": "La fiecare trei minute",
+    "everyFiveMinutes": "La fiecare cinci minute",
+    "everyTenMinutes": "La fiecare zece minute",
+    "everyFifteenMinutes": "La fiecare cincisprezece minute",
+    "everyThirtyMinutes": "La fiecare treizeci de minute"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "În fiecare oră",
+    "everyTwoHours": "La fiecare două ore",
+    "everyThreeHours": "La fiecare trei ore",
+    "everyFourHours": "La fiecare patru ore",
+    "everySixHours": "La fiecare șase ore",
+    "everyTwelveHours": "La fiecare douăsprezece ore"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "În fiecare zi",
+    "everyOtherDay": "La fiecare două zile",
+    "everyThreeDays": "La fiecare trei zile",
+    "everyFourDays": "La fiecare patru zile",
+    "everyFiveDays": "La fiecare cinci zile",
+    "everySixDays": "La fiecare șase zile",
+    "everySevenDays": "La fiecare șapte zile",
+    "everyFourteenDays": "La fiecare paisprezece zile"
+  },
+  "weekDays": {
+    "allWeekdays": "În toate zilele săptămânii",
+    "sunday": "Duminică",
+    "monday": "Luni",
+    "tuesday": "Marți",
+    "wednesday": "Miercuri",
+    "thursday": "Joi",
+    "friday": "Vineri",
+    "saturday": "Sâmbătă"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "În fiecare lună",
+    "everyTwoMonths": "La fiecare două luni",
+    "everyThreeMonths": "La fiecare trei luni",
+    "everyFourMonths": "La fiecare patru luni",
+    "everyFiveMonths": "La fiecare cinci luni",
+    "everySixMonths": "La fiecare șase luni"
+  }
+}

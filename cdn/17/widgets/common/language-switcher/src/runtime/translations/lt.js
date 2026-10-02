@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Kalbos perjungiklis",previewTip:"Tai veikia tik per\u017ei\u016bros re\u017eime arba publikuotose aplikacijose."})}}});

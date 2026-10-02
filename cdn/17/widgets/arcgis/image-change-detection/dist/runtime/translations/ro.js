@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Detectare modificare imagine",_widgetDescription:"Un widget pentru detectarea modific\u0103rilor din straturile tematice de imagini satelitare \xeen timp."})}}});

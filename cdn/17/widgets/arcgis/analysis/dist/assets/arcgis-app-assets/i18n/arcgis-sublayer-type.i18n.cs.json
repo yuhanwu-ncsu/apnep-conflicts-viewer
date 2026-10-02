@@ -1,0 +1,16 @@
+{
+  "point": "Bodová vrstva",
+  "line": "Liniová vrstva",
+  "polygon": "Polygonová vrstva",
+  "multipatch": "Vrstva multipatch",
+  "multipoint": "Vícebodová vrstva",
+  "table": "Tabulka",
+  "annotation": "Vrstva anotací",
+  "catalog": "Vrstva katalogu",
+  "dimension": "Vrstva kót",
+  "oriented imagery": "Vrstva orientovaných snímků",
+  "parcel": "Vrstva datové sady parcel",
+  "utility network": "Vrstva inženýrské sítě",
+  "topology": "Vrstva topologie",
+  "trace network": "Vrstva trasovací sítě"
+}

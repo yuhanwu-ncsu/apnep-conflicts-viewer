@@ -1,0 +1,16 @@
+{
+  "point": "Layer puntuale",
+  "line": "Layer lineare",
+  "polygon": "Layer poligono",
+  "multipatch": "Layer multipatch",
+  "multipoint": "Layer multipunto",
+  "table": "Tabella",
+  "annotation": "Layer annotazione",
+  "catalog": "Layer catalogo",
+  "dimension": "Layer dimensione",
+  "oriented imagery": "Layer immagini orientate",
+  "parcel": "Layer Parcel Fabric",
+  "utility network": "Layer Utility Network",
+  "topology": "Layer topologia",
+  "trace network": "Layer Trace Network"
+}

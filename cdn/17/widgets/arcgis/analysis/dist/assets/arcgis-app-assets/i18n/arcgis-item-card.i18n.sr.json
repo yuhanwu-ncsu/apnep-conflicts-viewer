@@ -1,0 +1,9 @@
+{
+  "select": "Izaberite stavku: ${title}",
+  "lastUpdated": "Ažurirana stavka: ${date}",
+  "viewItemDetails": "Prikaži detalje",
+  "preview": "Pregled",
+  "closePreview": "Zatvorite pregledanje",
+  "moreOptions": "Više opcija",
+  "itemActions": "Radnje stavke za ${title}"
+}

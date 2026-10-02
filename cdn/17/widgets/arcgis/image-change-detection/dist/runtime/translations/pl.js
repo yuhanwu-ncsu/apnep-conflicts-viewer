@@ -1,0 +1,1 @@
+System.register([],function(a){return{execute:function(){a({_widgetLabel:"Wykrywanie zmian na obrazach",_widgetDescription:"Wid\u017cet s\u0142u\u017c\u0105cy do wykrywania zmian w warstwach zobrazowa\u0144 w czasie."})}}});

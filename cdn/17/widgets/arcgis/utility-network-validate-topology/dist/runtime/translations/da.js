@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Validering af topologi for Utility Network",_widgetDescription:'Denne widget g\xf8r det muligt at kontrollere "dirty" omr\xe5der i et forsyningsnetv\xe6rk, n\xe5r der er foretaget \xe6ndringer.'})}}});

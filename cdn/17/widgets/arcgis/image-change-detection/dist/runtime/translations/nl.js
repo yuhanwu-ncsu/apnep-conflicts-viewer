@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Veranderingsdetectie afbeeldingen",_widgetDescription:"Een widget dat veranderingen in imagery layers over tijd detecteert."})}}});

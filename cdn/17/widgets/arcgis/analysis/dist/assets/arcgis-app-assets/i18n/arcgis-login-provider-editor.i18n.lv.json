@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Mainīt pieteikšanās veidu",
+  "chooseLoginType": "Izvēlēties pieteikšanās veidu",
+  "selectMembers": "Izvēlēties dalībniekus",
+  "userDetails": "Lietotāja informācija",
+  "reauth": "Atkārtota autentifikācija",
+  "confirmComplete": "Apstiprināt un pabeigt",
+  "next": "Nākošais",
+  "back": "Atpakaļ",
+  "cancel": "Atcelt",
+  "close": "Aizvērt",
+  "changeLogins": "Mainīt pieteikšanās veidu",
+  "acknowledgeImpact": "Es piekrītu un saprotu šo izmaiņu ietekmi.",
+  "propertiesHeading": "Norādiet jaunus pieteikšanās datus šādiem dalībniekiem",
+  "chooseFile": "Izvēlēties citu failu",
+  "mustAcknowledge": "Pirms turpināt, Jums jāapzinās šo izmaiņu ietekme.",
+  "confirmLeave": {
+    "title": "Atcelt izmaiņas",
+    "message1": "Jums ir nesaglabātas izmaiņas.",
+    "message2": "Vai tiešām vēlaties atcelt izmaiņas?",
+    "remain": "Turpināt rediģēšanu",
+    "leave": "Aizvērt nesaglabājot"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS pieteikšanās",
+    "chooseLoginModify": "Izvēlieties, kā modificēt pieteikšanās informāciju",
+    "changeType": "Mainīt pieteikšanās veidu",
+    "selectType": "Atlasiet pašreizējo pieteikšanās veidu, ar ko strādāt",
+    "changeTypeDescription": "Mainiet organizācijai specifiskos ID starp OpenID Connect, SAML vai ArcGIS pieteikšanos.",
+    "keepType": "Saglabāt pieteikšanās veidu",
+    "keepTypeDescription": "Atjaunināt OpenID Connect vai SAML ID un e-pasta adresi, nemainot pieteikšanās veidu.",
+    "currentType": "Esošais pieteikšanās veids",
+    "newType": "Jauns pieteikšanās veids",
+    "select": "Izvēlēties",
+    "samlLogin": "{name} (SAML pieteikšanās)",
+    "oidcLogin": "{name} (OpenID Connect pieteikšanās)",
+    "oldSaml": "Iepriekšējā SAML pieteikšanās",
+    "oldOidc": "Iepriekšējā OIDC pieteikšanās",
+    "enterpriseOverwrite": "Atkarībā no Jūsu uzņēmuma pieteikšanās pakalpojumu sniedzēja iestatījumiem e-pasta adrese var tikt pārrakstīta ar vērtību no Jūsu identitātes pakalpojumu sniedzēja.",
+    "generateMissingPasswords": "Mainot uz ArcGIS pieteikšanos, pagaidu paroles tiks ģenerētas automātiski, ja tās nebūs norādītas. Tie tiks parādīti lietotāja informācijas sadaļā.",
+    "errors": {
+      "loginTypes": "Jāatlasa gan pašreizējais, gan jaunais pieteikšanās veids.",
+      "currentLoginType": "Pašreizējais pieteikšanās veids ir obligāts, un tas ir jāatlasa.",
+      "sameLoginType": "Jaunajam pieteikšanās veidam ir jāatšķiras no pašreizējā pieteikšanās veida."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Dalībnieku atlases metode",
+    "howToSelect": "Kā Jūs vēlaties atlasīt dalībniekus?",
+    "bulkUpload": "Masveida augšupielāde (CSV)",
+    "chooseAFile": "Nākamajā darbībā izvēlieties augšupielādējamo failu.",
+    "manualSelection": "Manuāla atlase",
+    "selectMembers": "Nākamajā darbībā atlasiet dalībniekus no saraksta.",
+    "selectFromFile": "Atlasīt dalībniekus no CSV faila",
+    "dragDrop": "Velciet un nometiet failu vai izvēlieties no savas ierīces.",
+    "headerInstructions": "Galvenē (pirmajā rindā) jābūt norādītajiem lauku nosaukumiem tieši tā, kā tie ir redzami zemāk.",
+    "fieldOrder": "Lauku secība var atšķirties.",
+    "yourDevice": "Jūsu ierīce",
+    "downloadTemplate": "Lejupielādēt CSV veidni",
+    "requiredFields": "Obligāti aizpildāmie lauki",
+    "optionalFields": "Izvēles lauki",
+    "passwordTooltip": "Ja parole netiks norādīta, automātiski tiks ģenerēta pagaidu parole.",
+    "excessTitleCsv": "CSV pārsniedz 5000 dalībnieku ierobežojumu",
+    "excessBatchLimit": "Katrā augšupielādē var atjaunināt pieteikšanās veidus līdz pat 5000 dalībniekiem.",
+    "excessBodyCsv": "Lai apstrādātu vairāk nekā 5000 dalībnieku, sadaliet CSV failu vairākos mazākos failos un augšupielādējiet tos atsevišķi.",
+    "learnMore": "Uzzināt vairāk",
+    "errors": {
+      "fileType": "Nederīgs faila veids. Lūdzu, augšupielādējiet CSV failu.",
+      "fileSize": "Faila lielums pārsniedz 500 KB, un, iespējams, tas netiks efektīvi apstrādāts.",
+      "noMembers": "Neviens dalībnieks nav atlasīts. Lūdzu, atlasiet dalībniekus vai augšupielādējiet CSV failu, lai turpinātu.",
+      "tooManyMembers": "Atlase pārsniedz 5000 dalībnieku ierobežojumu."
+    }
+  },
+  "fieldNames": {
+    "email": "E-pasts",
+    "username": "ArcGIS lietotājvārds",
+    "password": "Pagaidu parole",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "Iepriekšējais SAML ID",
+    "oldOidcId": "Iepriekšējais OIDC ID",
+    "success": "Izdevās!",
+    "error": "Kļūda",
+    "fromLoginType": "Sākotnējais pieteikšanās veids",
+    "toLoginType": "Jauns pieteikšanās veids"
+  },
+  "authentication": {
+    "header": "Nepieciešama atkārtota autentifikācija",
+    "reauthSteps": "Atkārtotas autentifikācijas darbības",
+    "step1_label": "1. dabība: Pierakstieties (jauns logs)",
+    "step1_desc": "Jums parādīsies jauns logs, lai pieteiktos.",
+    "step2_label": "2 dabība: Kopējiet autentifikācijas atslēgu",
+    "step2_desc": "Jums tiks piešķirta autentifikācijas atslēga, kas jākopē.",
+    "step3_label": "3. darbība. Ielīmējiet autentifikācijas atslēgu",
+    "step3_desc": "Ievadiet autentifikācijas atslēgu, lai turpinātu.",
+    "openWindow": "Atveriet jaunu logu, lai atkārtoti autentificētos",
+    "authKey": "Autentifikācijas atslēga",
+    "paste": "Ielīmēt",
+    "getNewKey": "Ģenerēt jaunu atslēgu",
+    "hide": "Paslēpt",
+    "show": "Rādīt",
+    "errors": {
+      "clipboard": "Neizdevās nolasīt no starpliktuves",
+      "authKey": "Nepieciešama derīga autentifikācijas atslēga"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabētiskā secībā",
+    "desc": "Apgrieztā alfabēta secībā",
+    "sortBy": "Kārtot pēc",
+    "sortDirection": "Kārtošanas virziens",
+    "searchMembers": "Meklēt dalībniekus šajā sarakstā",
+    "memberDetails": "Dalībnieka informācija pieteikšanās nodrošinātāja maiņas darbībai",
+    "optional": "(pēc izvēles)",
+    "fieldErrors": "Lauka kļūdas",
+    "noErrors": "Nav nevienas kļūdas",
+    "noData": "Dati nav pieejami",
+    "noMembersMatch": "Neviens dalībnieks neatbilst meklēšanas kritērijiem",
+    "togglePassword": "Pārslēdziet paroles redzamību",
+    "memberCount": "{start} - {end} no {total}",
+    "errors": {
+      "email": "E-pasts ir jānorāda obligāti",
+      "username": "ArcGIS lietotājvārds ir nepieciešams",
+      "password": "Pagaidu parole ir nepieciešama",
+      "samlId": "SAML ID ir nepieciešams",
+      "oidcId": "OIDC ID ir nepieciešams"
+    }
+  },
+  "review": {
+    "heading": "Pārskatīt izmaiņas",
+    "loginsWillChange": "Šie konti mainīsies no {fromLogin} uz {toLogin}",
+    "downloadCsv": "Lejupielādēt izmaiņu CSV",
+    "providerTypes": {
+      "saml": "SAML pieteikšanās",
+      "oidc": "OpenID Connect pieteikšanās",
+      "arcgis": "ArcGIS konta pieteikšanās"
+    },
+    "missingRequired": "Nav nepieciešamās informācijas. Pirms turpināt, ievadiet trūkstošo informāciju."
+  },
+  "progress": {
+    "processing": "Notiek apstrāde... {current} no {total} lietotājiem.",
+    "percentComplete": "Procenti pabeigti",
+    "doNotClose": "Lūdzu, neaizveriet pārlūku.",
+    "extendedTime": "Tas var aizņemt līdz 10 minūtēm, lūdzu, esiet pacietīgs.",
+    "extendedTime10": "Tas var aizņemt ilgāk par 10 minūtēm, lūdzu, esiet pacietīgs.",
+    "extendedTime15": "Tas var aizņemt ilgāk par 15 minūtēm, lūdzu, esiet pacietīgs.",
+    "label": "Pieteikšanās veida maiņas progresa indikators",
+    "errors": {
+      "authkey": {
+        "title": "Nederīga autentifikācijas atslēga",
+        "body1": "Jūsu ievadītā autentifikācijas atslēga nav derīga.",
+        "body2": "Lūdzu, atkārtoti ievadiet derīgu autentifikācijas atslēgu.",
+        "action": "Atkārtoti ievadiet autentifikācijas atslēgu",
+        "cancel": "Atcelt"
+      },
+      "unknown": "Pakalpojuma sniedzēja maiņas procesā radās kļūda. Lūdzu, mēģiniet vēlreiz vai sazinieties ar atbalsta dienestu, ja problēma joprojām pastāv.",
+      "userNotFound": "Lietotājvārds nav atrasts",
+      "idpUsernameNotMatching": "Lietotājvārds neatbilst",
+      "providerNotMatching": "Nevar nomainīt lietotājvārdu"
+    }
+  }
+}

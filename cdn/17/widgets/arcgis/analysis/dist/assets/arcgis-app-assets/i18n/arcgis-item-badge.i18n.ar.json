@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "موثوق",
+    "tooltip": {
+      "org": "موصى به بواسطة مؤسستك",
+      "public": "مُوصى به بواسطة ${name}"
+    }
+  },
+  "Beta": {
+    "title": "تجريبي",
+    "tooltip": "هذا النوع من العناصر في مرحلة تجريبية."
+  },
+  "Deprecated": {
+    "title": "تم إهماله",
+    "tooltip": "غير موصى باستخدامه. ألغى المالك ،${owner}، هذا العنصر."
+  },
+  "Has Replacement": {
+    "title": "لديه بديل",
+    "tooltip": "هذا العنصر لديه بديل موصى به. اعرض تفاصيل العنصر للعثور على العنصر البديل واستخدامه.",
+    "itemPageTooltip": "هذا العنصر لديه بديل موصى به.",
+    "link": "عرض البديل"
+  },
+  "DeprecatedItemType": {
+    "title": "نوع العنصر المهمل",
+    "tooltip": {
+      "general": "ألغت Esri هذا العنصر. سيتم إيقافه قريبًا ولن يكون متاحًا للاستخدام.",
+      "webAppBuilder": "ألغت Esri ArcGIS Web AppBuilder، والذي يستخدم لإنشاء هذا العنصر. سيتم إيقافه قريبًا ولن يكون متاحًا للاستخدام. لإنشاء تطبيق جديد، يمكنك استخدام ArcGIS Experience Builder أو غيره من تطبيقات ArcGIS."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "محتوى Esri المدعوم"
+  },
+  "Subscriber": {
+    "title": "مشترك",
+    "tooltip": {
+      "org": "محتوى خاص للمشتركين",
+      "public": "محتوى خاص للمشتركين. للاستخدام، سجّل الدخول باستخدام اشتراك ArcGIS Online."
+    }
+  },
+  "Premium": {
+    "title": "متميز",
+    "tooltip": {
+      "org": "محتوى خاص للمشتركين. استخدام الاعتمادات.",
+      "public": "محتوى خاص للمشتركين الذين يستهلكون الاعتمادات. للاستخدام، سجّل الدخول باستخدام اشتراك ArcGIS Online."
+    }
+  },
+  "Open Data": {
+    "title": "فتح البيانات",
+    "tooltip": "متاح للاستخدام العام"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "مُدرج على ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "التعاون الموزع",
+    "tooltip": "تم استلام هذا العنصر من تعاون موزع"
+  },
+  "Retired": {
+    "title": "نوع العنصر المستبعد",
+    "tooltip": {
+      "general": "أوقفت Esri نوع هذا العنصر. لم يعد متاحًا للاستخدام.",
+      "classicStoryMap": "تم إيقاف قالب Esri Story Maps الكلاسيكي (${template_name}) المستخدم لإنشاء هذا العنصر. ولم يعد من الممكن تعديل هذا العنصر أو عرضه. لإعادة توجيه العارضين، يمكنك تكوين عنصر بديل تم إنشائه باستخدام تطبيق ArcGIS StoryMaps أو غيره من تطبيقات ArcGIS.",
+      "classicStoryMapGeneric": "تم إيقاف قالب Esri Story Maps الكلاسيكي المستخدم لإنشاء هذا العنصر. ولم يعد من الممكن تعديل هذا العنصر أو عرضه. لإعادة توجيه العارضين، يمكنك تكوين عنصر بديل تم إنشائه باستخدام تطبيق ArcGIS StoryMaps أو غيره من تطبيقات ArcGIS.",
+      "cityEngine": "لم يعد CityEngine Web Viewer وCityEngine Web Scenes مدعومين.",
+      "app": "تم إيقاف قالب التطبيقات القابلة للتكوين Configurable Apps المُستخدم لإنشاء هذا التطبيق. هذا العنصر غير تشغيلي ويمكن حذفه. لإنشاء تطبيق جديد، يرجى استخدام ArcGIS Instant Apps أو ArcGIS StoryMaps أو ArcGIS Dashboards أو ArcGIS Experience Builder.",
+      "webAppBuilder": "تم إيقاف ArcGIS Web AppBuilder في ArcGIS Enterprise. هذا العنصر غير تشغيلي ويمكن حذفه. لإنشاء تطبيق جديد، الرجاء استخدام ArcGIS Experience Builder.",
+      "insights": "تم إيقاف ArcGIS Insights في ArcGIS Enterprise. هذا العنصر غير تشغيلي ويمكن حذفه.",
+      "bdfs": "تم إيقاف استخدام مشاركات ملفات Big Data في ArcGIS Enterprise. هذا العنصر غير تشغيلي ويمكن حذفه."
+    }
+  },
+  "Public Data Collection": {
+    "title": "تجميع البيانات العامة",
+    "tooltip": "تمت الموافقة على تجميع البيانات العامة."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "حل Esri المدعوم"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "تطبيق OAuth 2.0 مسجل يمكن استخدام المحتوى المتميز أو محتوى المشترك.",
+      "enterprise": "تطبيق OAuth 2.0 مسجل"
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "بيانات اعتماد مفتاح واجهة برمجة التطبيقات (API)",
+      "enterprise": "بيانات اعتماد مفتاح واجهة برمجة التطبيقات (API)"
+    },
+    "tooltip": "تمنح حق الوصول إلى الخدمات."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "بيانات اعتماد مفتاح واجهة برمجة التطبيقات - تطبيق خاص",
+    "tooltip": "توفر الوصول إلى الرموز المميزة المزودة بامتيازات للوصول إلى مجموعة أكبر من الخدمات والعناصر. حافظ على هذه الرموز المميزة هذه تمامًا كما تحافظ على اسم المستخدم وكلمة السر الخاصين بك. لا تُضمنها في تطبيق."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "بيانات اعتماد OAuth 2.0",
+      "enterprise": "بيانات اعتماد OAuth 2.0"
+    },
+    "tooltip": "تمنح حق الوصول إلى الخدمات."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "بيانات اعتماد OAuth 2.0 - انتحال شخصية مالك العنصر",
+    "tooltip": "انتحال شخصية مالك هذا العنصر. لأغراض أمنية، يجب عليك حماية بيانات الاعتماد هذه كما تحمي اسم المستخدم وكلمة المرور."
+  },
+  "Registered Application": {
+    "title": "تطبيق OAuth 2.0",
+    "tooltip": "تطبيق OAuth 2.0 مسجل"
+  },
+  "Personal credential": {
+    "title": "شخصي",
+    "tooltip": "أنت تمنح امتيازًا شخصيًا لبيانات الاعتماد هذه. لأغراض أمنية، يجب عليك حماية أي رمز مميز للوصول تم إنشاؤه باستخدام بيانات الاعتماد هذه كما تحمي اسم المستخدم وكلمة المرور. ترجى مراجعة شروط الاستخدام."
+  },
+  "loading": "جارِ التحميل..."
+}

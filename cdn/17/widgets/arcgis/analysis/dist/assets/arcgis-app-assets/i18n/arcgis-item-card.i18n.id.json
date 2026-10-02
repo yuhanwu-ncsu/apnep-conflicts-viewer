@@ -1,0 +1,9 @@
+{
+  "select": "Pilih item: ${title}",
+  "lastUpdated": "Item diperbarui: ${date}",
+  "viewItemDetails": "Lihat detail",
+  "preview": "Pratinjau",
+  "closePreview": "Tutup pratinjau",
+  "moreOptions": "Opsi lainnya",
+  "itemActions": "Tindakan item untuk ${title}"
+}

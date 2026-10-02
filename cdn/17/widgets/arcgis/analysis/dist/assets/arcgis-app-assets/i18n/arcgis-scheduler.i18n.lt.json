@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Pradžia",
+  "repeatTypeLabel": "Kartojimo tipas",
+  "endingOnTypeLabel": "Pabaiga",
+  "endingOnDateLabel": "Pabaigos data",
+  "endingOnCountLabel": "Bendras skaičius",
+  "endingOnCountPlaceholder": "pavyzdžiui: 1, 10, 30",
+  "repeatIntervalLabel": "Kartojimo intervalas",
+  "timeLabel": "Laikas",
+  "hourlyOnMinuteLabel": "min.",
+  "betweenHoursLabel": "Valandomis",
+  "weeklyDaysOfWeekLabel": "Savaitės diena",
+  "monthlyDayOfMonthLabel": "Mėnesio diena",
+  "monthlyDayOfMonthPlaceholder": "pavyzdžiui, 1–31",
+  "allDayLabel": "Visa diena",
+  "allWeekLabel": "Visa savaitė",
+  "repeatTypeOptions": {
+    "minute": "Minutė",
+    "hour": "Valanda",
+    "day": "Diena",
+    "week": "Savaitė",
+    "month": "Mėnuo"
+  },
+  "endingOnType": {
+    "never": "Niekada",
+    "date": "Data",
+    "count": "Bendras skaičius"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Kas minutę",
+    "everyTwoMinutes": "Kas dvi minutes",
+    "everyThreeMinutes": "Kas tris minutes",
+    "everyFiveMinutes": "Kas penkias minutes",
+    "everyTenMinutes": "Kas dešimt minučių",
+    "everyFifteenMinutes": "Kas penkiolika minučių",
+    "everyThirtyMinutes": "Kas trisdešimt minučių"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Kas valandą",
+    "everyTwoHours": "Kas dvi valandas",
+    "everyThreeHours": "Kas tris valandas",
+    "everyFourHours": "Kas keturias valandas",
+    "everySixHours": "Kas šešias valandas",
+    "everyTwelveHours": "Kas dvylika valandų"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Kasdien",
+    "everyOtherDay": "Kas antrą dieną",
+    "everyThreeDays": "Kas tris dienas",
+    "everyFourDays": "Kas keturias dienas",
+    "everyFiveDays": "Kas penkias dienas",
+    "everySixDays": "Kas šešias dienas",
+    "everySevenDays": "Kas septynias dienas",
+    "everyFourteenDays": "Kas keturiolika dienų"
+  },
+  "weekDays": {
+    "allWeekdays": "Visos darbo dienos",
+    "sunday": "Sekmadienis",
+    "monday": "Pirmadienis",
+    "tuesday": "Antradienis",
+    "wednesday": "Trečiadienis",
+    "thursday": "Ketvirtadienis",
+    "friday": "Penktadienis",
+    "saturday": "Šeštadienis"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Kas mėnesį",
+    "everyTwoMonths": "Kas du mėnesius",
+    "everyThreeMonths": "Kas tris mėnesius",
+    "everyFourMonths": "Kas keturis mėnesius",
+    "everyFiveMonths": "Kas penkis mėnesius",
+    "everySixMonths": "Kas šešis mėnesius"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "ログイン タイプの変更",
+  "chooseLoginType": "ログイン タイプの選択",
+  "selectMembers": "メンバーの選択",
+  "userDetails": "ユーザーの詳細",
+  "reauth": "再認証",
+  "confirmComplete": "確認および完了",
+  "next": "次へ",
+  "back": "戻る",
+  "cancel": "キャンセル",
+  "close": "閉じる",
+  "changeLogins": "ログインの変更",
+  "acknowledgeImpact": "この変更による影響を認識し、理解しています。",
+  "propertiesHeading": "次のメンバーの新しいログインの詳細を指定します",
+  "chooseFile": "別のファイルを選択",
+  "mustAcknowledge": "続行する前に、この変更による影響を認識する必要があります。",
+  "confirmLeave": {
+    "title": "変更のキャンセル",
+    "message1": "保存されていない変更があります。",
+    "message2": "変更をキャンセルしますか？",
+    "remain": "編集を続行",
+    "leave": "保存せずに終了"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS ログイン",
+    "chooseLoginModify": "ログインの変更方法を選択",
+    "changeType": "ログイン タイプの変更",
+    "selectType": "使用する現在のログイン タイプを選択",
+    "changeTypeDescription": "組織固有の ID を OpenID Connect、SAML、ArcGIS ログインのいずれかに変更します。",
+    "keepType": "ログイン タイプの保持",
+    "keepTypeDescription": "ログイン タイプを変更せずに、OpenID Connect または SAML ID、および電子メール アドレスを更新します。",
+    "currentType": "現在のログイン タイプ",
+    "newType": "新しいログイン タイプ",
+    "select": "選択",
+    "samlLogin": "{name} (SAML ログイン)",
+    "oidcLogin": "{name} (OpenID Connect ログイン)",
+    "oldSaml": "以前の SAML ログイン",
+    "oldOidc": "以前の OIDC ログイン",
+    "enterpriseOverwrite": "エンタープライズ ログイン プロバイダーの設定に応じ、電子メール アドレスが ID プロバイダーの値で上書きされることがあります。",
+    "generateMissingPasswords": "ArcGIS ログインに変更する際、パスワードが指定されていなければ、一時的なパスワードが自動的に生成されます。 ユーザーの詳細ステップに表示されます。",
+    "errors": {
+      "loginTypes": "現在および新しいログイン タイプの両方を選択する必要があります。",
+      "currentLoginType": "現在のログイン タイプは必須で、選択する必要があります。",
+      "sameLoginType": "新しいログイン タイプは、現在のログイン タイプとは異なる必要があります。"
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "メンバーの選択方法",
+    "howToSelect": "メンバーをどのように選択しますか？",
+    "bulkUpload": "一括アップロード (CSV)",
+    "chooseAFile": "次のステップでアップロードするファイルを選択します。",
+    "manualSelection": "手動での選択",
+    "selectMembers": "次のステップでリストからメンバーを選択します。",
+    "selectFromFile": "CSV ファイルからメンバーを選択",
+    "dragDrop": "ファイルをドラッグ アンド ドロップするか、デバイスから選択します。",
+    "headerInstructions": "ヘッダー (先頭行) には、以下に表示されるフィールド名を正確に含める必要があります。",
+    "fieldOrder": "フィールドの順序は異なる可能性があります。",
+    "yourDevice": "お使いのデバイス",
+    "downloadTemplate": "CSV テンプレートのダウンロード",
+    "requiredFields": "必須フィールド",
+    "optionalFields": "任意のフィールド",
+    "passwordTooltip": "パスワードが指定されていない場合は、一時的なパスワードが自動的に生成されます。",
+    "excessTitleCsv": "CSV が 5,000 人のメンバー上限を超えています",
+    "excessBatchLimit": "バッチあたり最大 5,000 人のメンバーのログイン タイプを更新できます。",
+    "excessBodyCsv": "5,000 人を超えるメンバーを処理するには、CSV を複数の小さいファイルに分け、個別にアップロードします。",
+    "learnMore": "詳細",
+    "errors": {
+      "fileType": "無効なファイル タイプです。 CSV ファイルをアップロードしてください。",
+      "fileSize": "ファイルのサイズが 500 KB を超えているため、効率的に処理されない可能性があります。",
+      "noMembers": "メンバーが選択されていません。 メンバーを選択するか、CSV ファイルをアップロードして続行してください。",
+      "tooManyMembers": "上限の 5,000 人を超えるメンバーが選択されています。"
+    }
+  },
+  "fieldNames": {
+    "email": "電子メール",
+    "username": "ArcGIS ユーザー名",
+    "password": "一時パスワード",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "以前の SAML ID",
+    "oldOidcId": "以前の OIDC ID",
+    "success": "成功",
+    "error": "エラー",
+    "fromLoginType": "最初のログイン タイプ",
+    "toLoginType": "新しいログイン タイプ"
+  },
+  "authentication": {
+    "header": "再認証が必要",
+    "reauthSteps": "再認証のステップ",
+    "step1_label": "ステップ 1: サイン イン (新しいウィンドウ)",
+    "step1_desc": "サイン イン用の新しいウィンドウが表示されます。",
+    "step2_label": "ステップ 2: 認証キーのコピー",
+    "step2_desc": "コピーする認証キーが与えられます。",
+    "step3_label": "ステップ 3: 認証キーの貼り付け",
+    "step3_desc": "認証キーを入力して続行します。",
+    "openWindow": "新しいウィンドウを開いて再認証します。",
+    "authKey": "認証キー",
+    "paste": "貼り付け",
+    "getNewKey": "新しいキーの生成",
+    "hide": "非表示",
+    "show": "表示",
+    "errors": {
+      "clipboard": "クリップボードから読み取れませんでした",
+      "authKey": "有効な認証キーが必要です"
+    }
+  },
+  "usersTable": {
+    "asc": "アルファベット順",
+    "desc": "逆アルファベット順",
+    "sortBy": "並べ替え",
+    "sortDirection": "並べ替え方向",
+    "searchMembers": "このリスト内でメンバーを検索",
+    "memberDetails": "ログイン プロバイダーの変更操作のメンバーの詳細",
+    "optional": "(オプション)",
+    "fieldErrors": "フィールド エラー",
+    "noErrors": "エラーなし",
+    "noData": "利用可能なデータがありません",
+    "noMembersMatch": "検索基準に一致するメンバーがいません",
+    "togglePassword": "パスワードの表示を切り替え",
+    "memberCount": "{start} ～ {end} / {total}",
+    "errors": {
+      "email": "電子メールは必須です",
+      "username": "ArcGIS ユーザー名は必須です",
+      "password": "一時パスワードは必須です",
+      "samlId": "SAML ID は必須です",
+      "oidcId": "OIDC ID は必須です"
+    }
+  },
+  "review": {
+    "heading": "変更の確認",
+    "loginsWillChange": "次のアカウントは {fromLogin} から {toLogin} に変更されます",
+    "downloadCsv": "変更内容の CSV をダウンロード",
+    "providerTypes": {
+      "saml": "SAML ログイン",
+      "oidc": "OpenID Connect ログイン",
+      "arcgis": "ArcGIS アカウント ログイン"
+    },
+    "missingRequired": "必須の情報がありません。 不足している情報を入力してから続行してください。"
+  },
+  "progress": {
+    "processing": "処理しています... {current} / {total} ユーザー",
+    "percentComplete": "進捗状況 (%)",
+    "doNotClose": "ブラウザーを閉じないでください。",
+    "extendedTime": "これには最大 10 分かかる場合があります。",
+    "extendedTime10": "これには 10 分以上かかる場合があります。",
+    "extendedTime15": "これには 15 分以上かかる場合があります。",
+    "label": "ログイン タイプ変更の進捗状況インジケーター",
+    "errors": {
+      "authkey": {
+        "title": "無効な認証キー",
+        "body1": "入力した認証キーが無効です。",
+        "body2": "有効な認証キーを再入力してください。",
+        "action": "認証キーを再入力",
+        "cancel": "キャンセル"
+      },
+      "unknown": "プロバイダーの変更処理中にエラーが発生しました。 問題が解決しない場合は、もう一度やり直すか、サポートにご連絡ください。",
+      "userNotFound": "ユーザー名が見つかりませんでした",
+      "idpUsernameNotMatching": "ユーザー名が一致しません",
+      "providerNotMatching": "ログインを変更できません"
+    }
+  }
+}

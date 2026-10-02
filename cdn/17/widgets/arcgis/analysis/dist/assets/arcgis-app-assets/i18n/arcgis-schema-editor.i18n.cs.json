@@ -1,0 +1,24 @@
+{
+  "expandAll": "Rozbalit vše",
+  "collapseAll": "Sbalit vše",
+  "categoryItem": {
+    "expand": "Rozbalit",
+    "collapse": "Sbalit",
+    "editCategory": "Upravit kategorii",
+    "deleteCategory": "Smazat kategorii",
+    "addSubcategory": "Přidat podkategorii",
+    "addCategory": "Přidat kategorii",
+    "save": "Uložit",
+    "cancel": "Storno",
+    "missingTitleMessage": "Název kategorie je povinný údaj.",
+    "errors": {
+      "generic": "Něco se pokazilo. Zkuste to prosím znovu později.",
+      "maxDepthExceeded": "Kategorie nelze vnořit hlouběji než dvě úrovně.",
+      "destinationHasSameName": "V cílové kategorii již existuje kategorie se stejným názvem.",
+      "emptyTitle": "Název kategorie nesmí být prázdný.",
+      "noSchema": "Schéma položky nebylo pro uživatele nalezeno.",
+      "maxCharacter": "Název kategorie překračuje povolený počet znaků."
+    },
+    "dragHandleLabel": "Přetažením změníte pořadí."
+  }
+}

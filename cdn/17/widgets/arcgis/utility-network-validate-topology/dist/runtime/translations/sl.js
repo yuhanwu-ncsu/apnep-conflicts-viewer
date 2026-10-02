@@ -1,0 +1,1 @@
+System.register([],function(o){return{execute:function(){o({_widgetLabel:"Topologija potrjevanja Utility Network",_widgetDescription:"Ta pripomo\u010dek omogo\u010da potrjevanje umazanih obmo\u010dij v omre\u017eni topologiji omre\u017eja pripomo\u010dkov po opravljenih spremembah."})}}});

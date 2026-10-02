@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Muuda sisselogimise tüüpi",
+  "chooseLoginType": "Vali sisselogimise tüüp",
+  "selectMembers": "Valige liikmed",
+  "userDetails": "Kasutaja andmed",
+  "reauth": "Uuesti autentimine",
+  "confirmComplete": "Kinnitage ja viige lõpule",
+  "next": "Edasi",
+  "back": "Tagasi",
+  "cancel": "Tühista",
+  "close": "Sule",
+  "changeLogins": "Muuda sisselogimisi",
+  "acknowledgeImpact": "Ma tunnistan ja mõistan selle muudatuse mõju.",
+  "propertiesHeading": "Määrake järgmistele liikmetele uued sisselogimise andmed",
+  "chooseFile": "Valige muu fail",
+  "mustAcknowledge": "Enne jätkamist peate kinnitama, et olete teadlik selle muudatuse mõjust.",
+  "confirmLeave": {
+    "title": "Tühista muudatused",
+    "message1": "Teil on salvestamata muudatusi.",
+    "message2": "Kas soovite muudatused kindlasti tühistada?",
+    "remain": "Jätka redigeerimist",
+    "leave": "Välju salvestamata"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS-isse sisselogimine",
+    "chooseLoginModify": "Valige, kuidas muuta sisselogimisi",
+    "changeType": "Muuda sisselogimise tüüpi",
+    "selectType": "Valige praegune sisselogimistüüp, millega töötada",
+    "changeTypeDescription": "Muutke organisatsioonispetsiifilisi ID-sid OpenID Connecti, SAML-i või ArcGIS-i sisselogimiste vahel.",
+    "keepType": "Säilita sisselogimise tüüp",
+    "keepTypeDescription": "Uuendage OpenID Connecti või SAML-i ja e-posti aadressi ilma sisselogimise tüüpi muutmata.",
+    "currentType": "Praegune sisselogimise tüüp",
+    "newType": "Uus sisselogimise tüüp",
+    "select": "Vali",
+    "samlLogin": "{name} (SAML-i sisselogimine)",
+    "oidcLogin": "{name} (OpenID Connecti sisselogimine)",
+    "oldSaml": "Eelmine SAML-i sisselogimine",
+    "oldOidc": "Eelmine OIDC-sse sisselogimine",
+    "enterpriseOverwrite": "Olenevalt teie ettevõtte sisselogimisteenuse pakkuja seadetest võidakse e-posti aadress üle kirjutada teie identiteedipakkuja väärtusega.",
+    "generateMissingPasswords": "ArcGIS-i sisselogimisele üleminekul genereeritakse ajutised paroolid automaatselt, kui neid pole määratud. Need kuvatakse kasutajaandmete etapis.",
+    "errors": {
+      "loginTypes": "Tuleb valida nii praegune kui ka uus sisselogimise tüüp.",
+      "currentLoginType": "Praegune sisselogimistüüp on kohustuslik ja see tuleb valida.",
+      "sameLoginType": "Uus sisselogimistüüp peab erinema praegusest sisselogimistüübist."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Liikmete valimise meetod",
+    "howToSelect": "Kuidas soovite liikmeid valida?",
+    "bulkUpload": "Hulgiüleslaadimine (CSV)",
+    "chooseAFile": "Valige järgmises etapis üleslaaditav fail.",
+    "manualSelection": "Käsitsi valik",
+    "selectMembers": "Valige järgmises etapis liikmed nimekirjast.",
+    "selectFromFile": "Valige liikmed CSV-failist",
+    "dragDrop": "Lohistage fail või valige see oma seadmest.",
+    "headerInstructions": "Päis (esimene rida) peab sisaldama täpselt allpool loetletud väljanimesid.",
+    "fieldOrder": "Väljakukorraldus võib varieeruda.",
+    "yourDevice": "Teie seade",
+    "downloadTemplate": "Laadi alla CSV-mall",
+    "requiredFields": "Nõutavad väljad",
+    "optionalFields": "Valikulised väljad",
+    "passwordTooltip": "Ajutine parool genereeritakse automaatselt, kui seda ei sisestata.",
+    "excessTitleCsv": "CSV ületab 5000 liikme piirmäära",
+    "excessBatchLimit": "Saate uuendada kuni 5000 liikme sisselogimise tüüpe korraga.",
+    "excessBodyCsv": "Rohkem kui 5000 liikme töötlemiseks jagage CSV-fail mitmeks väiksemaks failiks ja laadige need eraldi üles.",
+    "learnMore": "Lisainfo",
+    "errors": {
+      "fileType": "Sobimatut tüüpi fail. Laadige üles CSV-fail.",
+      "fileSize": "Faili suurus ületab 500 KB ja seda ei pruugi olla võimalik tõhusalt töödelda.",
+      "noMembers": "Liikmeid pole valitud. Jätkamiseks valige liikmed või laadige üles CSV-fail.",
+      "tooManyMembers": "Valik ületab 5000 liikme piirmäära."
+    }
+  },
+  "fieldNames": {
+    "email": "Meiliaadress",
+    "username": "ArcGISi kasutajanimi",
+    "password": "Ajutine parool",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "Eelmine SAML ID",
+    "oldOidcId": "Eelmine OIDC ID",
+    "success": "Edukas",
+    "error": "Tõrge",
+    "fromLoginType": "Algne sisselogimise tüüp",
+    "toLoginType": "Uus sisselogimise tüüp"
+  },
+  "authentication": {
+    "header": "Vaja on uuesti autentimist",
+    "reauthSteps": "Uuesti autentimise sammud",
+    "step1_label": "1. samm: Logi sisse (uus aken)",
+    "step1_desc": "Ilmub uus aken, kus saate sisse logida.",
+    "step2_label": "2. samm: Kopeeri autentimise võti",
+    "step2_desc": "Teile antakse kopeerimiseks autentimise võti.",
+    "step3_label": "3. samm: kleebi autentimise võti",
+    "step3_desc": "Sisestage autentimise võti, et jätkata.",
+    "openWindow": "Ava uus aken, et uuesti autentida",
+    "authKey": "Autentimisvõti",
+    "paste": "Kleebi",
+    "getNewKey": "Loo uus võti",
+    "hide": "Peida",
+    "show": "Kuva",
+    "errors": {
+      "clipboard": "Lõikelaudalt lugemine ebaõnnestus",
+      "authKey": "Vaja on kehtivat autentimise võtit"
+    }
+  },
+  "usersTable": {
+    "asc": "Tähestikuline",
+    "desc": "Pöördtähestikuline",
+    "sortBy": "Sortimisalus",
+    "sortDirection": "Sortimise alus",
+    "searchMembers": "Otsi liikmeid sellest nimekirjast",
+    "memberDetails": "Liikme andmed muutuste tegemiseks sisselogimisteenuse pakkuja toimingusse",
+    "optional": "(valikuline)",
+    "fieldErrors": "Väljatõrked",
+    "noErrors": "Tõrkeid pole",
+    "noData": "Andmed puuduvad",
+    "noMembersMatch": "Teie otsingukriteeriumidele vastavaid liikmeid ei leitud.",
+    "togglePassword": "Lülita parooli nähtavus sisse/välja",
+    "memberCount": "{start}–{end} /{total}",
+    "errors": {
+      "email": "Meiliaadress on vajalik",
+      "username": "ArcGIS kasutajanimi on vajalik",
+      "password": "Vajalik on ajutine parool",
+      "samlId": "SAML ID on nõutav",
+      "oidcId": "OIDC ID on nõutav"
+    }
+  },
+  "review": {
+    "heading": "Vaata muudatusi",
+    "loginsWillChange": "Järgmised kontod muutuvad {fromLogin}-st {toLogin}-ks.",
+    "downloadCsv": "Lae alla muudatuste CSV-fail",
+    "providerTypes": {
+      "saml": "SAML-sisselogimised",
+      "oidc": "OpenID Connecti sisselogimised",
+      "arcgis": "ArcGIS-konto sisselogimised"
+    },
+    "missingRequired": "Nõutav teave puudub. Enne jätkamist märkige puuduv teave."
+  },
+  "progress": {
+    "processing": "Töötlemine... {current}/{total} kasutajat.",
+    "percentComplete": "Valmidusprotsent",
+    "doNotClose": "Ärge sulgege brauserit.",
+    "extendedTime": "See võib võtta kuni 10 minutit, olge kannatlik.",
+    "extendedTime10": "See võib võtta rohkem kui 10 minutit, olge kannatlik.",
+    "extendedTime15": "See võib võtta rohkem kui 15 minutit, olge kannatlik.",
+    "label": "Sisselogimistüüpide muutmise edenemisnäidik",
+    "errors": {
+      "authkey": {
+        "title": "Sobimatu autentimisvõti",
+        "body1": "Sisestatud autentimisvõti on sobimatu.",
+        "body2": "Sisestage sobiv autentimisvõti uuesti.",
+        "action": "Sisestage autentimisvõti uuesti",
+        "cancel": "Tühista"
+      },
+      "unknown": "Teenusepakkuja vahetamise protsessi käigus ilmnes viga. Proovige uuesti või pöörduge probleemi püsimisel toe poole.",
+      "userNotFound": "Kasutajanime ei leitud",
+      "idpUsernameNotMatching": "Kasutajanimi ei ühti",
+      "providerNotMatching": "Sisselogimist ei saa muuta"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+System.register([],function(t){return{execute:function(){t({dropdown:"Leg\xf6rd\xfcl\u0151 men\xfc",button:"Gomb",configTip:"K\xe9rj\xfck, a widget haszn\xe1lata el\u0151tt konfigur\xe1lja a nyelvi be\xe1ll\xedt\xe1sokat a szerkeszt\u0151 <bold>\xc1ltal\xe1nos</bold> lapj\xe1n."})}}});

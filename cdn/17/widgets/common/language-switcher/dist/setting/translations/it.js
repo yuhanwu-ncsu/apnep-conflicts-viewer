@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Elenco a discesa",button:"Pulsante",configTip:"Configurare le impostazioni della lingua nella scheda <bold>Generale</bold> del generatore prima di usare questo widget."})}}});

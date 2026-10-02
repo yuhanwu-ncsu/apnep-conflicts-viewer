@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Ubah jenis login",
+  "chooseLoginType": "Pilih jenis login",
+  "selectMembers": "Pilih anggota",
+  "userDetails": "Detail pengguna",
+  "reauth": "Autentikasi ulang",
+  "confirmComplete": "Konfirmasikan dan selesaikan",
+  "next": "Selanjutnya",
+  "back": "Kembali",
+  "cancel": "Batalkan",
+  "close": "Tutup",
+  "changeLogins": "Ubah login",
+  "acknowledgeImpact": "Saya mengakui dan memahami dampak dari perubahan ini.",
+  "propertiesHeading": "Tentukan detail login baru untuk anggota berikut",
+  "chooseFile": "Pilih file yang berbeda",
+  "mustAcknowledge": "Anda harus mengonfirmasi bahwa Anda memahami dampak perubahan ini sebelum melanjutkan.",
+  "confirmLeave": {
+    "title": "Batalkan perubahan",
+    "message1": "Anda memiliki perubahan yang belum disimpan.",
+    "message2": "Anda yakin ingin membatalkan perubahan?",
+    "remain": "Terus mengedit",
+    "leave": "Keluar tanpa menyimpan"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Login ArcGIS",
+    "chooseLoginModify": "Pilih cara mengubah login",
+    "changeType": "Ubah jenis login",
+    "selectType": "Pilih jenis login saat ini yang ingin digunakan",
+    "changeTypeDescription": "Ubah ID khusus organisasi antara login OpenID Connect, SAML, atau ArcGIS.",
+    "keepType": "Pertahankan jenis login",
+    "keepTypeDescription": "Perbarui OpenID Connect atau ID SAML dan alamat email tanpa mengubah jenis login.",
+    "currentType": "Jenis login saat ini",
+    "newType": "Jenis login baru",
+    "select": "Pilih",
+    "samlLogin": "{name} (login SAML)",
+    "oidcLogin": "{name} (login OpenID Connect)",
+    "oldSaml": "Login SAML sebelumnya",
+    "oldOidc": "Login OIDC sebelumnya",
+    "enterpriseOverwrite": "Tergantung pengaturan penyedia login perusahaan Anda, alamat email mungkin akan ditimpa dengan nilai dari penyedia identitas Anda.",
+    "generateMissingPasswords": "Saat beralih ke login ArcGIS, kata sandi sementara akan otomatis dibuat jika belum ditentukan. Kata sandi tersebut akan ditampilkan di langkah detail pengguna.",
+    "errors": {
+      "loginTypes": "Jenis login saat ini dan yang baru harus dipilih.",
+      "currentLoginType": "Jenis login saat ini diperlukan dan harus dipilih.",
+      "sameLoginType": "Jenis login baru harus berbeda dengan jenis login saat ini."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metode pemilihan anggota",
+    "howToSelect": "Bagaimana Anda ingin memilih anggota?",
+    "bulkUpload": "Unggahan massal (CSV)",
+    "chooseAFile": "Pilih file yang akan diunggah pada langkah berikutnya.",
+    "manualSelection": "Pemilihan manual",
+    "selectMembers": "Pada langkah berikutnya, pilih anggota dari daftar.",
+    "selectFromFile": "Pilih anggota dari file CSV",
+    "dragDrop": "Seret dan letakkan file atau pilih dari perangkat Anda",
+    "headerInstructions": "Header (baris pertama) harus berisi nama kolom persis seperti yang ditampilkan di bawah.",
+    "fieldOrder": "Urutan kolom dapat berbeda-beda.",
+    "yourDevice": "Perangkat Anda",
+    "downloadTemplate": "Unggah template CSV",
+    "requiredFields": "Kolom yang wajib diisi",
+    "optionalFields": "Kolom opsional",
+    "passwordTooltip": "Kata sandi sementara akan otomatis dibuat jika kata sandi tidak diberikan.",
+    "excessTitleCsv": "CSV melebihi batas anggota 5.000",
+    "excessBatchLimit": "Anda dapat memperbarui jenis login untuk maksimal 5.000 anggota per batch.",
+    "excessBodyCsv": "Untuk memproses lebih dari 5.000 anggota, pisahkan file CSV Anda menjadi beberapa file yang lebih kecil dan unggah secara terpisah.",
+    "learnMore": "Pelajari selengkapnya",
+    "errors": {
+      "fileType": "Jenis berkas tidak valid. Harap unggah file CSV.",
+      "fileSize": "Ukuran file melebihi 500 KB dan mungkin tidak dapat diproses secara efisien.",
+      "noMembers": "Tidak ada anggota yang dipilih. Pilih anggota atau unggah file CSV untuk melanjutkan.",
+      "tooManyMembers": "Pemilihan melebihi batas 5.000 anggota."
+    }
+  },
+  "fieldNames": {
+    "email": "Email",
+    "username": "Nama pengguna ArcGIS",
+    "password": "Kata sandi sementara",
+    "samlId": "ID SAML",
+    "oidcId": "ID OIDC",
+    "oldSamlId": "ID SAML sebelumnya",
+    "oldOidcId": "ID OIDC sebelumnya",
+    "success": "Berhasil",
+    "error": "Kesalahan",
+    "fromLoginType": "Jenis login awal",
+    "toLoginType": "Jenis login baru"
+  },
+  "authentication": {
+    "header": "Diperlukan autentikasi ulang",
+    "reauthSteps": "Langkah-langkah autentikasi ulang",
+    "step1_label": "Langkah 1: Masuk (jendela baru)",
+    "step1_desc": "Jendela baru akan ditampilkan untuk Anda masuk.",
+    "step2_label": "Langkah 2: Salin kunci autentikasi",
+    "step2_desc": "Anda akan diberikan kunci autentikasi untuk disalin.",
+    "step3_label": "Langkah 3: Tempel kunci autentikasi",
+    "step3_desc": "Masukkan kunci autentikasi untuk melanjutkan.",
+    "openWindow": "Buka jendela baru untuk melakukan autentikasi ulang",
+    "authKey": "Kunci autentikasi",
+    "paste": "Tempel",
+    "getNewKey": "Buat kunci baru",
+    "hide": "Sembunyikan",
+    "show": "Tampilkan",
+    "errors": {
+      "clipboard": "Gagal membaca dari clipboard",
+      "authKey": "Diperlukan kunci autentikasi yang valid"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabetis",
+    "desc": "Alfabetis terbalik",
+    "sortBy": "Urutkan menurut",
+    "sortDirection": "Urutkan arah",
+    "searchMembers": "Cari anggota dalam daftar ini",
+    "memberDetails": "Detail anggota untuk operasi ubah penyedia login",
+    "optional": "(opsional)",
+    "fieldErrors": "Kesalahan kolom",
+    "noErrors": "Tidak ada kesalahan",
+    "noData": "Data tidak tersedia",
+    "noMembersMatch": "Tidak ada anggota yang cocok dengan kriteria pencarian",
+    "togglePassword": "Alihkan visibilitas kata sandi",
+    "memberCount": "{start} - {end} dari {total}",
+    "errors": {
+      "email": "Email wajib diisi",
+      "username": "Nama pengguna ArcGIS diperlukan",
+      "password": "Kata sandi sementara diperlukan",
+      "samlId": "ID SAML diperlukan",
+      "oidcId": "ID OIDC diperlukan"
+    }
+  },
+  "review": {
+    "heading": "Tinjau perubahan",
+    "loginsWillChange": "Akun berikut akan berubah dari {fromLogin} menjadi {toLogin}",
+    "downloadCsv": "Unduh CSV perubahan",
+    "providerTypes": {
+      "saml": "Login SAML",
+      "oidc": "Login OpenID Connect",
+      "arcgis": "Login akun ArcGIS"
+    },
+    "missingRequired": "Informasi yang diperlukan tidak ada. Isi informasi yang belum terisi sebelum melanjutkan."
+  },
+  "progress": {
+    "processing": "Memproses... {current} dari {total} pengguna.",
+    "percentComplete": "Persen selesai",
+    "doNotClose": "Harap jangan tutup browser.",
+    "extendedTime": "Proses ini mungkin memerlukan waktu hingga 10 menit, mohon bersabar.",
+    "extendedTime10": "Proses ini mungkin memerlukan waktu lebih dari 10 menit, mohon bersabar.",
+    "extendedTime15": "Proses ini mungkin memerlukan waktu lebih dari 15 menit, mohon bersabar.",
+    "label": "Indikator kemajuan untuk mengubah jenis login",
+    "errors": {
+      "authkey": {
+        "title": "Kunci autentikasi tidak valid",
+        "body1": "Kunci autentikasi yang Anda masukkan tidak valid.",
+        "body2": "Masukkan lagi kunci autentikasi yang valid.",
+        "action": "Masukkan lagi kunci autentikasi",
+        "cancel": "Batalkan"
+      },
+      "unknown": "Terjadi kesalahan saat proses perubahan penyedia. Jika masalah berlanjut, silakan coba lagi atau hubungi dukungan.",
+      "userNotFound": "Nama pengguna tidak ditemukan",
+      "idpUsernameNotMatching": "Nama pengguna tidak cocok",
+      "providerNotMatching": "Tidak dapat mengubah login"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "התחלה ב-",
+  "repeatTypeLabel": "סוג חזרה",
+  "endingOnTypeLabel": "סיום ב-",
+  "endingOnDateLabel": "תאריך סיום",
+  "endingOnCountLabel": "מונה",
+  "endingOnCountPlaceholder": "לדוגמה: 1, 10, 30",
+  "repeatIntervalLabel": "מרווח חזרה",
+  "timeLabel": "זמן",
+  "hourlyOnMinuteLabel": "בדקה",
+  "betweenHoursLabel": "בין שעות",
+  "weeklyDaysOfWeekLabel": "יום בשבוע",
+  "monthlyDayOfMonthLabel": "יום בחודש",
+  "monthlyDayOfMonthPlaceholder": "לדוגמה, 1 - 31",
+  "allDayLabel": "כל היום",
+  "allWeekLabel": "כל השבוע",
+  "repeatTypeOptions": {
+    "minute": "דקה",
+    "hour": "שעה",
+    "day": "יום",
+    "week": "שבוע",
+    "month": "חודש"
+  },
+  "endingOnType": {
+    "never": "אף פעם",
+    "date": "תאריך",
+    "count": "מונה"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "כל דקה",
+    "everyTwoMinutes": "כל שתי דקות",
+    "everyThreeMinutes": "כל שלוש דקות",
+    "everyFiveMinutes": "כל חמש דקות",
+    "everyTenMinutes": "כל עשר דקות",
+    "everyFifteenMinutes": "כל חמש-עשרה דקות",
+    "everyThirtyMinutes": "כל שלושים דקות"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "כל שעה",
+    "everyTwoHours": "לכ שעתיים",
+    "everyThreeHours": "כל שלוש שעות",
+    "everyFourHours": "כל ארבע שעות",
+    "everySixHours": "כל שש שעות",
+    "everyTwelveHours": "כל שתים-עשרה שעות"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "כל יום",
+    "everyOtherDay": "כל יומיים",
+    "everyThreeDays": "כל שלושה ימים",
+    "everyFourDays": "כל ארבעה ימים",
+    "everyFiveDays": "כל חמישה ימים",
+    "everySixDays": "כל שישה ימים",
+    "everySevenDays": "כל שבעה ימים",
+    "everyFourteenDays": "כל ארבע-עשר ימים"
+  },
+  "weekDays": {
+    "allWeekdays": "כל ימי החול",
+    "sunday": "ראשון",
+    "monday": "שני",
+    "tuesday": "שלישי",
+    "wednesday": "רביעי",
+    "thursday": "חמישי",
+    "friday": "שישי",
+    "saturday": "שבת"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "כל חודש",
+    "everyTwoMonths": "כל חודשיים",
+    "everyThreeMonths": "כל שלושה חודשים",
+    "everyFourMonths": "כל ארבעה חודשים",
+    "everyFiveMonths": "כל חמישה חודשים",
+    "everySixMonths": "כל שישה חודשים"
+  }
+}

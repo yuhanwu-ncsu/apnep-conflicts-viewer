@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Walidacja topologii Utility Network",_widgetDescription:"Ten wid\u017cet umo\u017cliwia zwalidowanie obszar\xf3w niepewnych w topologii sieci Utility Network po dokonaniu zmian."})}}});

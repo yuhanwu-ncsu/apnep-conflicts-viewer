@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Zmeniť typ prihlasovania",
+  "chooseLoginType": "Vyberte typ prihlasovania",
+  "selectMembers": "Vybrať členov",
+  "userDetails": "Podrobnosti o používateľovi",
+  "reauth": "Znovu autentifikovať",
+  "confirmComplete": "Potvrdiť a dokončiť",
+  "next": "Ďalej",
+  "back": "Späť",
+  "cancel": "Zrušiť",
+  "close": "Zatvoriť",
+  "changeLogins": "Zmeniť prihlasovacie údaje",
+  "acknowledgeImpact": "Beriem na vedomie a rozumiem dôsledkom tejto zmeny.",
+  "propertiesHeading": "Zadajte nové prihlasovacie údaje pre nasledujúcich členov",
+  "chooseFile": "Vyberte iný súbor",
+  "mustAcknowledge": "Pred pokračovaním musíte potvrdiť, že beriete na vedomie dôsledky tejto zmeny.",
+  "confirmLeave": {
+    "title": "Zrušiť zmeny",
+    "message1": "Máte neuložené zmeny.",
+    "message2": "Ste si istý, že chcete zrušiť zmeny?",
+    "remain": "Pokračovať v editácii",
+    "leave": "Ukončiť bez uloženia"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS prihlásenie",
+    "chooseLoginModify": "Vyberte ako upraviť prihlasovanie",
+    "changeType": "Zmeniť typ prihlasovania",
+    "selectType": "Vyberte aktuálny typ prihlasovania, s ktorým chcete pracovať.",
+    "changeTypeDescription": "Zmeňte ID špecifické pre organizáciu medzi prihláseniami OpenID Connect, SAML alebo ArcGIS.",
+    "keepType": "Zachovať typ prihlasovania",
+    "keepTypeDescription": "Aktualizujte OpenID Connect alebo SAML ID a e-mailovú adresu bez zmeny typu prihlasovania.",
+    "currentType": "Aktuálny typ prihlasovania",
+    "newType": "Nový typ prihlasovania",
+    "select": "Vybrať",
+    "samlLogin": "{name} (Prihlásenie cez SAML)",
+    "oidcLogin": "{name} (Prihlásenie cez OpenID Connect)",
+    "oldSaml": "Predchádzajúce prihlásenie SAML",
+    "oldOidc": "Predchádzajúce prihlásenie OIDC",
+    "enterpriseOverwrite": "E-mailová adresa môže byť prepísaná hodnotou od poskytovateľa identity v závislosti od nastavení poskytovateľa enterprise prihlásenia.",
+    "generateMissingPasswords": "Pri prechode na prihlásenie ArcGIS sa dočasné heslá vygenerujú automaticky, ak neboli vopred zadané. Zobrazia sa v kroku s podrobnosťami o používateľovi.",
+    "errors": {
+      "loginTypes": "Musí byť vybraný aktuálny aj nový typ prihlásenia.",
+      "currentLoginType": "Aktuálny typ prihlasovania je povinný a musí byť vybraný.",
+      "sameLoginType": "Nový typ prihlásenia sa musí líšiť od aktuálneho typu prihlásenia."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metóda výberu členov",
+    "howToSelect": "Ako chcete vyberať členov?",
+    "bulkUpload": "Hromadné nahrávanie (CSV)",
+    "chooseAFile": "V ďalšom kroku vyberte súbor na nahratie.",
+    "manualSelection": "Manuálny výber",
+    "selectMembers": "V ďalšom kroku vyberte členov zo zoznamu.",
+    "selectFromFile": "Vyberte členov zo súboru CSV",
+    "dragDrop": "Potiahnite a pustite váš súbor alebo ho vyberte z vášho zariadenia.",
+    "headerInstructions": "Hlavička (prvý riadok) by mala obsahovať názvy polí presne tak, ako sú uvedené nižšie.",
+    "fieldOrder": "Poradie polí sa môže líšiť.",
+    "yourDevice": "Vaše zariadenie",
+    "downloadTemplate": "Stiahnuť CSV šablónu",
+    "requiredFields": "Povinné polia",
+    "optionalFields": "Nepovinné polia",
+    "passwordTooltip": "Ak nezadáte heslo, automaticky sa vygeneruje dočasné heslo.",
+    "excessTitleCsv": "Súbor CSV presahuje limit 5000 členov",
+    "excessBatchLimit": "V jednej dávke môžete zmeniť typ prihlásenia až pre 5 000 členov.",
+    "excessBodyCsv": "Ak chcete spracovať viac ako 5000 členov, rozdeľte váš CSV súbor na viacero menších súborov a nahrajte ich oddelene.",
+    "learnMore": "Zistiť viac",
+    "errors": {
+      "fileType": "Neplatný typ súboru. Nahrajte súbor CSV.",
+      "fileSize": "Veľkosť súboru presahuje 500 KB a jeho spracovanie nemusí byť efektívne.",
+      "noMembers": "Neboli vybraní žiadni členovia. Pre pokračovanie vyberte členov alebo nahrajte súbor CSV.",
+      "tooManyMembers": "Výber presahuje limit 5 000 členov."
+    }
+  },
+  "fieldNames": {
+    "email": "Email",
+    "username": "Používateľské meno ArcGIS",
+    "password": "Dočasné heslo",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "Predchádzajúce SAML ID",
+    "oldOidcId": "Predchádzajúce OIDC ID",
+    "success": "Úspešné",
+    "error": "Chyba",
+    "fromLoginType": "Počiatočný typ prihlasovania",
+    "toLoginType": "Nový typ prihlasovania"
+  },
+  "authentication": {
+    "header": "Je požadovaná opätovná autentifikácia",
+    "reauthSteps": "Kroky opätovnej autentifikácie",
+    "step1_label": "Krok 1: Prihláste sa (nové okno)",
+    "step1_desc": "Objaví sa nové okno, v ktorom sa prihlásite.",
+    "step2_label": "Krok 2: Skopírujte autentifikačný kľúč",
+    "step2_desc": "Bude vám poskytnutý autentifikačný kľúč na skopírovanie.",
+    "step3_label": "Krok 3: Vložte autentifikačný kľúč",
+    "step3_desc": "Pre pokračovanie zadajte autentifikačný kľúč.",
+    "openWindow": "Otvorte nové okno pre opätovnú autentifikáciu",
+    "authKey": "Autentifikačný kľúč",
+    "paste": "Vložiť",
+    "getNewKey": "Vygenerovať nový kľúč",
+    "hide": "Skryť",
+    "show": "Zobraziť",
+    "errors": {
+      "clipboard": "Nepodarilo sa načítať zo schránky",
+      "authKey": "Je požadovaný platný autentifikačný kľúč"
+    }
+  },
+  "usersTable": {
+    "asc": "Abecedne",
+    "desc": "V opačnom abecednom poradí",
+    "sortBy": "Zoradiť podľa",
+    "sortDirection": "Smer zoradenia",
+    "searchMembers": "Vyhľadať členov v tomto zozname",
+    "memberDetails": "Podrobnosti člena pre operáciu zmeny poskytovateľa prihlásenia",
+    "optional": "(voliteľné)",
+    "fieldErrors": "Chyby poľa",
+    "noErrors": "Žiadne chyby",
+    "noData": "Žiadne dostupné dáta",
+    "noMembersMatch": "Žiadny z členov nespĺňa vaše kritéria vyhľadávania",
+    "togglePassword": "Prepnúť viditeľnosť hesla",
+    "memberCount": "{start} - {end} z {total}",
+    "errors": {
+      "email": "Vyžaduje sa e-mail",
+      "username": "Vyžaduje sa používateľské meno ArcGIS",
+      "password": "Vyžaduje sa dočasné heslo",
+      "samlId": "Vyžaduje sa SAML ID",
+      "oidcId": "Vyžaduje sa OIDC ID"
+    }
+  },
+  "review": {
+    "heading": "Skontrolujte zmeny",
+    "loginsWillChange": "Nasledujúce účty sa zmenia z {fromLogin} na {toLogin}",
+    "downloadCsv": "Stiahnuť súbor CSV obsahujúci zmeny",
+    "providerTypes": {
+      "saml": "Prihlásenia cez SAML",
+      "oidc": "Prihlásenie cez OpenID Connect",
+      "arcgis": "Prihlásenie do účtu ArcGIS"
+    },
+    "missingRequired": "Chýbajú vyžadované informácie Skôr než budete pokračovať, vyplňte chýbajúce informácie."
+  },
+  "progress": {
+    "processing": "Spracovávanie... {current} z {total} používateľov.",
+    "percentComplete": "Percento dokončenia",
+    "doNotClose": "Nezatvárajte prehliadač.",
+    "extendedTime": "Môže to trvať až 10 minút, buďte trpezliví.",
+    "extendedTime10": "Môže to trvať viac ako 10 minút, buďte trpezliví.",
+    "extendedTime15": "Môže to trvať viac ako 15 minút, buďte trpezliví.",
+    "label": "Indikátor priebehu zmeny typov prihlasovania",
+    "errors": {
+      "authkey": {
+        "title": "Neplatný autentifikačný kľúč",
+        "body1": "Zadaný autentifikačný kľúč je neplatný.",
+        "body2": "Znova zadajte platný autentifikačný kľúč.",
+        "action": "Znova zadajte autentifikačný kľúč",
+        "cancel": "Zrušiť"
+      },
+      "unknown": "Počas procesu zmeny poskytovateľa došlo k chybe. Skúste to znova alebo kontaktujte podporu, ak problém pretrváva.",
+      "userNotFound": "Používateľské meno sa nenašlo.",
+      "idpUsernameNotMatching": "Používateľské meno sa nezhoduje",
+      "providerNotMatching": "Prihlásenie nie je možné zmeniť"
+    }
+  }
+}

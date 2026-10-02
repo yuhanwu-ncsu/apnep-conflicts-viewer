@@ -1,0 +1,30 @@
+{
+  "hosted": "được lưu trữ",
+  "hostedView": "được lưu trữ, chế độ xem",
+  "hostedPhotos": "được lưu trữ, ảnh",
+  "hostedCollection": "được lưu trữ, bộ sưu tập",
+  "hostedMultidimensional": "được lưu trữ, đa chiều",
+  "hostedCollectionMultidimensional": "được lưu trữ, bộ sưu tập, đa chiều",
+  "collectionMultidimensional": "bộ sưu tập, đa chiều",
+  "multidimensional": "đa chiều",
+  "query": "truy vấn",
+  "collection": "bộ sưu tập",
+  "photoLocations": "ảnh",
+  "locatorView": "chế độ xem",
+  "utilityNetwork": "mạng lưới tiện ích",
+  "parcelFabric": "parcel fabric",
+  "parcelFabricHosted": "parcel fabric, được lưu trữ",
+  "Integrated Mesh": "Mô hình Mesh tích hợp",
+  "3D Object": "Đối tượng 3D",
+  "Point": "điểm",
+  "Point Cloud": "đám mây điểm",
+  "Building Scene Layer": "lớp scene công trình",
+  "Voxel Scene Layer": "lớp scene voxel",
+  "dataStore": {
+    "bigdata": "chia sẻ tệp dữ liệu lớn",
+    "cloud": "đám mây",
+    "cloudStorage": "lưu trữ đám mây",
+    "database": "cơ sở dữ liệu",
+    "folder": "thư mục"
+  }
+}

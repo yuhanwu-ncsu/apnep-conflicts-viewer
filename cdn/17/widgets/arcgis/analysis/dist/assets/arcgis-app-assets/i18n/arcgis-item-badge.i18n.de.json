@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Verlässlich",
+    "tooltip": {
+      "org": "Empfohlen von Ihrer Organisation",
+      "public": "Empfohlen von ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Dieser Elementtyp ist im Beta-Stadium."
+  },
+  "Deprecated": {
+    "title": "Veraltet",
+    "tooltip": "Verwendung nicht empfohlen. Der Besitzer ${owner} hat dieses Element abgekündigt."
+  },
+  "Has Replacement": {
+    "title": "Ersatz vorhanden",
+    "tooltip": "Für dieses Element gibt es einen vorgeschlagenen Ersatz. Rufen Sie die Elementdetails auf, um den Ersatz zu suchen und zu verwenden.",
+    "itemPageTooltip": "Für dieses Element gibt es einen vorgeschlagenen Ersatz.",
+    "link": "Ersatz anzeigen"
+  },
+  "DeprecatedItemType": {
+    "title": "Abgekündigter Elementtyp",
+    "tooltip": {
+      "general": "Dieser Elementtyp wurde von Esri abgekündigt. Er wird in Kürze in die Phase \"Retired\" übergehen und nicht mehr zur Verwendung bereitstehen.",
+      "webAppBuilder": "Esri hat ArcGIS Web AppBuilder, mit dem dieses Element erstellt wurde, abgekündigt. Er wird in Kürze in die Phase \"Retired\" übergehen und nicht mehr zur Verwendung bereitstehen. Verwenden Sie zum Erstellen einer neuen Anwendung ArcGIS Experience Builder oder eine andere ArcGIS-App."
+    }
+  },
+  "Living Atlas": {
+    "title": "Living Atlas",
+    "tooltip": "Von Esri kuratierter Inhalt"
+  },
+  "Subscriber": {
+    "title": "Abonnent",
+    "tooltip": {
+      "org": "Exklusiver Inhalt für Abonnenten",
+      "public": "Exklusiver Subskriptionsinhalt. Melden Sie sich zur Verwendung mit einer ArcGIS Online-Subskription an."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Exklusiver Inhalt für Abonnenten. Verbraucht Credits.",
+      "public": "Exklusiver Subskriptionsinhalt mit Credit-Verbrauch. Melden Sie sich zur Verwendung mit einer ArcGIS Online-Subskription an."
+    }
+  },
+  "Open Data": {
+    "title": "Open Data",
+    "tooltip": "Verfügbar für die öffentliche Verwendung"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Im ArcGIS Marketplace verfügbar"
+  },
+  "Collaboration": {
+    "title": "Verteilte Kollaboration",
+    "tooltip": "Dieses Element wurde aus einer verteilten Kollaboration empfangen."
+  },
+  "Retired": {
+    "title": "Elementtyp ist in die Phase \"Retired\" übergegangen",
+    "tooltip": {
+      "general": "Esri unterstützt diesen Elementtypen nicht mehr, da er in die Phase \"Retired\" übergegangen ist. Er steht nicht mehr zur Verwendung bereit.",
+      "classicStoryMap": "Die klassische Esri Story Maps-Vorlage (${template_name}), mit der dieses Element erstellt wurde, ist in die Phase \"Retired\" übergegangen. Dieses Element kann nicht mehr bearbeitet oder angezeigt werden. Konfigurieren Sie ein Ersatzelement, das mit ArcGIS StoryMaps oder einer anderen ArcGIS-App erstellt wurde, um Viewer umzuleiten.",
+      "classicStoryMapGeneric": "Die klassische Esri Story Maps-Vorlage, mit der dieses Element erstellt wurde, ist in die Phase \"Retired\" übergegangen. Dieses Element kann nicht mehr bearbeitet oder angezeigt werden. Konfigurieren Sie ein Ersatzelement, das mit ArcGIS StoryMaps oder einer anderen ArcGIS-App erstellt wurde, um Viewer umzuleiten.",
+      "cityEngine": "CityEngine Web Viewer und CityEngine-Webszenen werden nicht mehr unterstützt.",
+      "app": "Die Configurable Apps-Vorlage, mit der diese Anwendung erstellt wurde, ist in die Phase \"Retired\" übergegangen. Dieses Element ist nicht funktionsfähig und kann gelöscht werden. Verwenden Sie zum Erstellen einer neuen Anwendung ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards oder ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder befindet sich in ArcGIS Enterprise in der Phase \"Retired\". Dieses Element ist nicht funktionsfähig und kann gelöscht werden. Verwenden Sie zum Erstellen einer neuen Anwendung ArcGIS Experience Builder.",
+      "insights": "ArcGIS Insights befindet sich in ArcGIS Enterprise in der Phase \"Retired\". Dieses Element ist nicht funktionsfähig und kann gelöscht werden.",
+      "bdfs": "Big-Data-Dateifreigaben sind in ArcGIS Enterprise in die Phase \"Retired\" übergegangen. Dieses Element ist nicht funktionsfähig und kann gelöscht werden."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Öffentliche Datenerfassung",
+    "tooltip": "Öffentliche Datenerfassung genehmigt."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Von Esri unterstützte Lösung"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "Registrierte OAuth 2.0-basierte Anwendung. Es kann Premium- oder Subskriptionsinhalt verwendet werden.",
+      "enterprise": "Registrierte OAuth 2.0-basierte Anwendung."
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Anmeldeinformationen für API-Schlüssel",
+      "enterprise": "Anmeldeinformationen für API-Schlüssel"
+    },
+    "tooltip": "Gewährt Zugriff auf Services."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Anmeldeinformationen für API-Schlüssel: Private Anwendung",
+    "tooltip": "Stellt Zugriffstoken mit Berechtigungen für den Zugriff auf eine Reihe von Services und Elementen bereit. Bewahren Sie diese Token ebenso sicher auf wie Ihren Benutzernamen und Ihr Kennwort. Betten Sie sie nicht in eine Anwendung ein."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "OAuth 2.0-Anmeldeinformationen",
+      "enterprise": "OAuth 2.0-Anmeldeinformationen"
+    },
+    "tooltip": "Gewährt Zugriff auf Services."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "OAuth 2.0-Anmeldeinformationen: Nimmt die Identität des Elementbesitzers an",
+    "tooltip": "Nimmt die Identität des Elementbesitzers an. Aus Sicherheitsgründen sollten Sie diese Anmeldeinformationen ebenso sorgfältig schützen wie Ihren Benutzernamen und Ihr Kennwort."
+  },
+  "Registered Application": {
+    "title": "OAuth 2.0-basierte Anwendung",
+    "tooltip": "Eine registrierte OAuth 2.0-basierte Anwendung"
+  },
+  "Personal credential": {
+    "title": "Persönlich",
+    "tooltip": "Sie gewähren eine persönliche Berechtigung für diese Anmeldeinformationen. Aus Sicherheitsgründen sollten Sie die mit diesen Anmeldeinformationen erstellten Zugriffstoken ebenso sorgfältig schützen wie Ihren Benutzernamen und Ihr Kennwort. Lesen Sie die Nutzungsbedingungen."
+  },
+  "loading": "Wird geladen..."
+}

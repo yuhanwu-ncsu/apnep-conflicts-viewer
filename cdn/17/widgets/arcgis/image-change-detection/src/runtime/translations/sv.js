@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Bildf\xf6r\xe4ndringsdetektion",_widgetDescription:"En widget f\xf6r att identifiera f\xf6r\xe4ndringar i bildlager \xf6ver tid."})}}});

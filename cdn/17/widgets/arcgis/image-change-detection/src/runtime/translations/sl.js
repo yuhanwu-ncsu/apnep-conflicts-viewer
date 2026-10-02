@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Zaznavanje spremembe slike",_widgetDescription:"Pripomo\u010dek za zaznavanje sprememb v slikovnih slojih skozi \u010das."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Utility Network \u9a57\u8b49\u62d3\u64b2",_widgetDescription:"\u6b64 widget \u5141\u8a31\u65bc\u7de8\u8f2f\u5f8c\uff0c\u9a57\u8b49\u516c\u7528\u4e8b\u696d\u7db2\u8def\u62d3\u64b2\u4e2d\u7684\u7591\u554f\u5340\u57df\u3002"})}}});

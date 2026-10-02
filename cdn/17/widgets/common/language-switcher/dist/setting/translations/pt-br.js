@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Suspenso",button:"Bot\xe3o",configTip:"Defina as configura\xe7\xf5es de idioma na guia <bold>Geral</bold> do construtor antes de usar este widget."})}}});

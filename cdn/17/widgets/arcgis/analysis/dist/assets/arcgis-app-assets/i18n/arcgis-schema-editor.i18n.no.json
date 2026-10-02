@@ -1,0 +1,24 @@
+{
+  "expandAll": "Utvid alle",
+  "collapseAll": "Skjul alle",
+  "categoryItem": {
+    "expand": "Utvid",
+    "collapse": "Skjul",
+    "editCategory": "Rediger kategori",
+    "deleteCategory": "Slett kategori",
+    "addSubcategory": "Legg til underkategori",
+    "addCategory": "Legg til kategori",
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "missingTitleMessage": "Kategoritittelen er obligatorisk.",
+    "errors": {
+      "generic": "Noe gikk galt. Prøv igjen senere.",
+      "maxDepthExceeded": "Du kan ikke neste kategorier mer enn to nivåer.",
+      "destinationHasSameName": "Det finnes allerede en kategori med samme navn i målkategorien.",
+      "emptyTitle": "Kategoritittel kan ikke være tom.",
+      "noSchema": "Finner ikke elementskjema for bruker.",
+      "maxCharacter": "Kategorinavnet overskrider tillatt antall tegn."
+    },
+    "dragHandleLabel": "Dra for å endre rekkefølgen."
+  }
+}

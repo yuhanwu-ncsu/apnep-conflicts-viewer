@@ -1,0 +1,1 @@
+System.register([],function(a){return{execute:function(){a({_widgetLabel:"Selettore modalit\xe0 tema",notSupportTip:"Il tema attuale non supporta il passaggio da una modalit\xe0 all'altra.",lightModeLabel:"Modalit\xe0 chiara. Premi per passare alla modalit\xe0 scura.",darkModeLabel:"Modalit\xe0 scura. Premi per passare alla modalit\xe0 chiara."})}}});

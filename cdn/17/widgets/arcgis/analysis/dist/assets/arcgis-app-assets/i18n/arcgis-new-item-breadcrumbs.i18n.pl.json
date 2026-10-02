@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Typ poświadczeń: klucz API",
+  "oauthUserCredentialType": "Typ poświadczeń: OAuth 2.0 (Uwierzytelnianie użytkownika)",
+  "oauthAppCredentialType": "Typ poświadczeń: OAuth 2.0 (Uwierzytelnianie aplikacji)",
+  "publicEmbed": "Aplikacja publiczna",
+  "scriptSpecific": "Aplikacja prywatna",
+  "allPrivileges": "Prywatna aplikacja działająca w Twoim imieniu",
+  "itemAccess": "Dostęp do elementu",
+  "page": "Strona: ${page}",
+  "currentPage": "Bieżąca strona: ${page}",
+  "privileges": "Uprawnienia",
+  "itemDetails": "Szczegóły elementu",
+  "settings": "Parametry",
+  "serviceScope": "Zakres usługi",
+  "summary": "Podsumowanie"
+}

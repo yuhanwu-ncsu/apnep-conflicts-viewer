@@ -1,0 +1,29 @@
+{
+  "updateSharing": "Peržiūrėti bendrinimą",
+  "moreInfo": "Daugiau informacijos",
+  "learnMore": "Sužinokite daugiau",
+  "noItemToShare": "Bendrinimo nesklandumų neaptikta",
+  "loadingInfo": "Kraunama bendrinimo informacija...",
+  "updatingSharing": "Atnaujinamas bendrinimas...",
+  "updateItemsCount": "Elementas (-ai), kurį galite atnaujinti: {num}",
+  "updateItemsCountText": "Šie priklausomi elementai negali būti matomi kitiems, kadangi jie nėra bendrinami kitokiu būdu. Spustelėkite Atnaujinti, jei norite sinchronizuoti priklausomų elementų bendrinimą, kuriuos turite leidimą atnaujinti.",
+  "uneditableItemsCount": "Elementas (-ai), kurio negalite atnaujinti: {num}",
+  "uneditableMessage": "Šie priklausomi elementai negali būti matomi kitiems, kadangi jie nėra bendrinami kitokiu būdu.",
+  "nonPublicItems": "Elementai, kurių negalima bendrinti viešai:",
+  "premiumItemsWebMap": "Šiame internetiniame žemėlapyje pateikiamas Premium arba prenumeratorių turinys.",
+  "premiumMessage": "Šie priklausomi elementai gali būti nematomi kitiems, nes jiems reikia prenumeratos.",
+  "premiumTextMap": "Sužinokite daugiau apie žemėlapių su prenumeratorių ar Premium turiniu bendrinimą",
+  "notice": "Šie elementai gali būti nematomi kitiems, nes jie bendrinami kitaip arba jiems peržiūrėti reikalinga prenumerata. Spustelėkite <b>Atnaujinti bendrinimą</b>, jei norite sinchronizuoti elementų, kuriuos turite teisę atnaujinti, bendrinimą.",
+  "noticeEnterprise": "Šie elementai negali būti matomi kitiems, kadangi jie nėra bendrinami kitokiu būdu. Spustelėkite <b>Atnaujinti bendrinimą</b>, jei norite sinchronizuoti elementų, kuriuos turite teisę atnaujinti, bendrinimą.",
+  "canBeUpdated": "Elementai, kuriuos galima atnaujinti: ${count}",
+  "cantBeUpdated": "Elementai, kurių negalima atnaujinti: ${count}",
+  "update": "Atnaujinti bendrinimą",
+  "cancel": "Neatnaujinkite bendrinimo",
+  "ok": "Gerai",
+  "unableToGetItem": "Nepavyko gauti elemento informacijos.",
+  "postShareDialog": {
+    "title": "Elemento bendrinimo lygis atnaujintas sėkmingai",
+    "description": "Bendrinamas elementas (-ai) susijęs su kitais elementais, kurie gali būti nematomi, nes jų bendrinimo lygis skiriasi. Peržiūrėkite šių elementų bendrinimo lygius.",
+    "confirm": "Peržiūrėti bendrinimą"
+  }
+}

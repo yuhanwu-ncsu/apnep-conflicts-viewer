@@ -1,0 +1,24 @@
+{
+  "expandAll": "توسيع الكل",
+  "collapseAll": "طي الكل",
+  "categoryItem": {
+    "expand": "توسيع",
+    "collapse": "طي",
+    "editCategory": "تحرير الفئة",
+    "deleteCategory": "حذف الفئة",
+    "addSubcategory": "إضافة فئة فرعية",
+    "addCategory": "أضف فئة",
+    "save": "حفظ",
+    "cancel": "إلغاء الأمر",
+    "missingTitleMessage": "عنوان الفئة مطلوب.",
+    "errors": {
+      "generic": "هناك خطأ ما. يرجى إعادة المحاولة لاحقًا.",
+      "maxDepthExceeded": "يتعذر دمج الفئات بعمق يزيد عن مستويين.",
+      "destinationHasSameName": "هناك فئة بنفس الاسم موجودة بالفعل في فئة الوجهة.",
+      "emptyTitle": "يتعذر أن يكون عنوان الفئة فارغًا.",
+      "noSchema": "لم يتم العثور على مخطط العنصر للمستخدم.",
+      "maxCharacter": "يتجاوز اسم الفئة الحد المسموح به للأحرف."
+    },
+    "dragHandleLabel": "اسحب لإعادة الترتيب."
+  }
+}

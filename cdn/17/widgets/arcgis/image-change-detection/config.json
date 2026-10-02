@@ -1,0 +1,15 @@
+{
+    "enableFromImageryLayer": false,
+    "enableToImageryLayer": false,
+    "fromImageryLayerName": "",
+    "fromImageryLayerBands": [],
+    "toImageryLayerBands": [],
+    "toImageryLayerName": "",
+    "resultMode": "multi-layer",
+    "selectedMethodGroupNames": ["spectral-change", "image-index-change", "pixel-value-change"],
+    "selectedChangeOfInterests": ["vegetation", "water", "burn-scar", "built-up"],
+    "selectedBands": {},
+    "sameAsFrom": {"vegetation": false, "water": false, "burn-scar": false, "built-up": false},
+    "configuredResultName": "Result - Spectral Euclidean distance",
+    "methodGroupName": "spectral-change"
+}

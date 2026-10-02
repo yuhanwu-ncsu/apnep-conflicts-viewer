@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Tunnistetietotyyppi: API-avain",
+  "oauthUserCredentialType": "Tunnistetietojen tyyppi: OAuth 2.0 (käyttäjän todennus)",
+  "oauthAppCredentialType": "Tunnistetietojen tyyppi: OAuth 2.0 (sovelluksen todennus)",
+  "publicEmbed": "Julkinen sovellus",
+  "scriptSpecific": "Yksityinen sovellus",
+  "allPrivileges": "Yksityinen sovellus, joka jäljittelee sinua",
+  "itemAccess": "Kohteen käyttöoikeus",
+  "page": "Sivu: ${page}",
+  "currentPage": "Nykyinen sivu: ${page}",
+  "privileges": "Valtuudet",
+  "itemDetails": "Kohteen tiedot",
+  "settings": "Asetukset",
+  "serviceScope": "Palvelun soveltamisala",
+  "summary": "Yhteenveto"
+}

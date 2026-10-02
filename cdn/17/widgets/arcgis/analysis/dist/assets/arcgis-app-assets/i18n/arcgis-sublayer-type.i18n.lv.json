@@ -1,0 +1,16 @@
+{
+  "point": "Punktu slānis",
+  "line": "Līniju slānis",
+  "polygon": "Laukumu slānis",
+  "multipatch": "Daudzformu slānis",
+  "multipoint": "Vairākpunktu slānis",
+  "table": "Tabula",
+  "annotation": "Anotāciju slānis",
+  "catalog": "Kataloga slānis",
+  "dimension": "Dimensiju slānis",
+  "oriented imagery": "Orientēts attēlu slānis",
+  "parcel": "Parcel fabric slānis",
+  "utility network": "Utility Network slānis",
+  "topology": "Topoloģijas slānis",
+  "trace network": "Trasēšanas tīkla slānis"
+}

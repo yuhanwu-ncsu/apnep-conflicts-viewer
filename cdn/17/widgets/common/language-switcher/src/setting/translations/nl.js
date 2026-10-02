@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Vervolgkeuzelijst",button:"Knop",configTip:"Voordat u deze widget gebruikt, moet u de taalinstellingen configureren. Ga daarvoor naar het tabblad <bold>Algemeen</bold> van de bouwer."})}}});

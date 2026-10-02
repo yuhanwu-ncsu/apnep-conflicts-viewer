@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Rullegardinliste",button:"Knapp",configTip:"Konfigurer spr\xe5kinnstillingene i fanen <bold>Generelt</bold> i byggeren f\xf8r du bruker dette miniprogrammet."})}}});

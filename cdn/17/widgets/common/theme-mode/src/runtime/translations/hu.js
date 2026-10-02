@@ -1,0 +1,1 @@
+System.register([],function(t){return{execute:function(){t({_widgetLabel:"T\xe9mam\xf3dv\xe1lt\xf3",notSupportTip:"A jelenlegi t\xe9ma nem t\xe1mogatja a t\xe9mam\xf3dok k\xf6z\xf6tti v\xe1lt\xe1st.",lightModeLabel:"Vil\xe1gos m\xf3d Nyomja meg a s\xf6t\xe9t m\xf3dra v\xe1lt\xe1shoz.",darkModeLabel:"S\xf6t\xe9t m\xf3d Nyomja meg a vil\xe1gos m\xf3dra v\xe1lt\xe1shoz."})}}});

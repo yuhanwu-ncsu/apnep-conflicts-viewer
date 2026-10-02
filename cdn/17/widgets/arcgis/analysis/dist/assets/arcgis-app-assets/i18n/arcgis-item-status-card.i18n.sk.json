@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Nemáte povolenie aktualizovať zdieľanie tejto položky.",
+      "panel": "Nemáte povolenie aktualizovať zdieľanie tejto položky. Táto položka nemusí byť viditeľná pre ostatných, pretože je zdieľaná iným spôsobom."
+    },
+    "pdc": {
+      "notice": "Pred verejným publikovaním tejto vrstvy povoľte verejný zber dát.",
+      "panel": "Pred verejným publikovaním tejto vrstvy povoľte verejný zber dát. Pre optimálny výkon a integritu dát zvážte zakázanie editácie alebo použite pohľad vrstvy bez možnosti editácie.",
+      "learnMore": "Ďalšie informácie o povolení editácie na verejných vrstvách."
+    },
+    "premium": {
+      "notice": "Pre zobrazenie prémiového a predplatiteľského obsahu môže byť potrebné prihlásenie.",
+      "panel": "Pre zobrazenie prémiového a predplatiteľského obsahu môže byť potrebné prihlásenie.",
+      "learnMore": "Ďalšie informácie o zdieľaní prémiového alebo predplatiteľského obsahu."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Verejné zdieľanie tejto editovateľnej vrstvy umožní komukoľvek jej editáciu.",
+      "panel": "Verejné zdieľanie tejto editovateľnej vrstvy umožní komukoľvek jej editáciu. Pre optimálny výkon a integritu dát zvážte zakázanie editácie alebo použite pohľad vrstvy bez možnosti editácie."
+    },
+    "needsAuthentication": {
+      "notice": "Vyžaduje sa autentifikácia.",
+      "panel": "Táto položka nemusí byť dostupná ostatným, pretože obsahuje lokalizačné služby, ktoré vyžadujú autentifikáciu v aplikáciách, ktoré položku zobrazujú."
+    }
+  },
+  "goToItem": "Zobraziť úplné podrobnosti"
+}

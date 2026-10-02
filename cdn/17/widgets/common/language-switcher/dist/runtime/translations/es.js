@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Conmutador de idioma",previewTip:"Solo funciona en aplicaciones de vista previa o publicadas."})}}});

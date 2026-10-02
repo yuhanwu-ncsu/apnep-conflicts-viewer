@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Nemate dozvolu da ažurirate deljenje ove stavke.",
+      "panel": "Nemate dozvolu da ažurirate deljenje ove stavke. Ova stavka možda neće biti vidljiva drugima jer se deli drugačije."
+    },
+    "pdc": {
+      "notice": "Omogućite prikupljanje javnih podataka pre nego što javno podelite ovaj sloj.",
+      "panel": "Omogućite prikupljanje javnih podataka pre nego što javno podelite ovaj sloj. Za optimalne performanse i integritet podataka, razmotrite onemogućavanje uređivanja ili korišćenje sloja prikaza kojeg nije moguće urediti.",
+      "learnMore": "Saznajte više o omogućavanju uređivanja na javnim slojevima."
+    },
+    "premium": {
+      "notice": "Premium i pretplatnički sadržaj može zahtevati prijavljivanje da biste ga videli.",
+      "panel": "Premium i pretplatnički sadržaj može zahtevati prijavljivanje da biste ga videli.",
+      "learnMore": "Saznajte više o deljenju premijum ili pretplatničkog sadržaja."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Javno deljenje ovog sloja koji se može uređivati omogućiće svima da ga uređuju.",
+      "panel": "Javno deljenje ovog sloja koji se može uređivati omogućiće svima da ga uređuju. Za optimalne performanse i integritet podataka, razmotrite onemogućavanje uređivanja ili korišćenje sloja prikaza kojeg nije moguće urediti."
+    },
+    "needsAuthentication": {
+      "notice": "Potvrda identiteta je obavezna.",
+      "panel": "Ova stavka možda neće biti dostupna drugima jer sadrži usluge lokacije koje zahtevaju autentifikaciju u aplikacijama koje prikazuju stavku."
+    }
+  },
+  "goToItem": "Prikaži potpune detalje"
+}

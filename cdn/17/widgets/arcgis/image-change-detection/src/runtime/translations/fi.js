@@ -1,0 +1,1 @@
+System.register([],function(t){return{execute:function(){t({_widgetLabel:"Kuvan muutoksen tunnistus",_widgetDescription:"Pienoisohjelma, joka havaitsee muutokset kuva-aineistokarttatasoissa ajan mittaan."})}}});

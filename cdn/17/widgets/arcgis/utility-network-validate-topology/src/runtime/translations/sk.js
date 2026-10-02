@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Validova\u0165 topol\xf3giu Utility siete",_widgetDescription:"Tento widget umo\u017e\u0148uje validova\u0165 neskontrolovan\xe9 oblasti v sie\u0165ovej topol\xf3gii utility siete po vykonan\xed edit\xe1ci\xed."})}}});

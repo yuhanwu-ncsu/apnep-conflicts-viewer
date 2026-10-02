@@ -1,0 +1,24 @@
+{
+  "expandAll": "Proširi sve",
+  "collapseAll": "Skupi sve",
+  "categoryItem": {
+    "expand": "Proširi",
+    "collapse": "Skupi",
+    "editCategory": "Izmeni kategoriju",
+    "deleteCategory": "Obriši kategoriju",
+    "addSubcategory": "Dodaj podkategoriju",
+    "addCategory": "Dodaj kategoriju",
+    "save": "Sačuvaj",
+    "cancel": "Otkaži",
+    "missingTitleMessage": "Naslov kategorije je obavezan.",
+    "errors": {
+      "generic": "Nešto nije u redu. Pokušajte ponovo kasnije.",
+      "maxDepthExceeded": "Ne možete ugnezditi kategorije dublje od 2 nivoa.",
+      "destinationHasSameName": "Kategorija sa istim imenom već postoji u kategoriji odredišta.",
+      "emptyTitle": "Naslov kategorije ne može da bude prazan.",
+      "noSchema": "Šema stavke nije pronađena za korisnika.",
+      "maxCharacter": "Naziv kategorije premašuje ograničenje broja znakova."
+    },
+    "dragHandleLabel": "Prevucite da biste preuredili."
+  }
+}

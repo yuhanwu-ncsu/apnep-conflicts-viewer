@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Тип учетных данных: ключ API",
+  "oauthUserCredentialType": "Тип учетных данных: OAuth 2.0 (аутентификация пользователя)",
+  "oauthAppCredentialType": "Тип учетных данных: OAuth 2.0 (аутентификация приложения)",
+  "publicEmbed": "Общедоступное приложение",
+  "scriptSpecific": "Частное приложение",
+  "allPrivileges": "Частное приложение, имитирующее вас",
+  "itemAccess": "Доступ к элементу",
+  "page": "Страница: ${page}",
+  "currentPage": "Текущая страница: ${page}",
+  "privileges": "Права доступа",
+  "itemDetails": "Сведения об элементе",
+  "settings": "Настройки",
+  "serviceScope": "Область применения сервиса",
+  "summary": "Краткая информация"
+}

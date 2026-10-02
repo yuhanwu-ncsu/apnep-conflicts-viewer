@@ -1,0 +1,24 @@
+{
+  "expandAll": "Bentangkan semua",
+  "collapseAll": "Tutup semua",
+  "categoryItem": {
+    "expand": "Bentang",
+    "collapse": "Tutup",
+    "editCategory": "Edit kategori",
+    "deleteCategory": "Hapus kategori",
+    "addSubcategory": "Tambahkan subkategori",
+    "addCategory": "Tambah kategori",
+    "save": "Simpan",
+    "cancel": "Batalkan",
+    "missingTitleMessage": "Judul kategori harus diisi.",
+    "errors": {
+      "generic": "Ada kesalahan. Coba lagi nanti.",
+      "maxDepthExceeded": "Anda tidak boleh menyarangkan kategori di kedalaman lebih dari level 2.",
+      "destinationHasSameName": "Kategori dengan nama yang sama sudah ada di kategori tujuan.",
+      "emptyTitle": "Judul kategori tidak boleh kosong.",
+      "noSchema": "Skema item tidak ditemukan untuk pengguna.",
+      "maxCharacter": "Nama kategori melebihi batas karakter yang diperbolehkan."
+    },
+    "dragHandleLabel": "Seret untuk mengurutkan kembali."
+  }
+}

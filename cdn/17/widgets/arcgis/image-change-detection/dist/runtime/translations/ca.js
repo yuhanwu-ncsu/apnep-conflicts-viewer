@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Detecci\xf3 de canvis d'imatge",_widgetDescription:"Widget per detectar canvis en capes d'imatge al llarg del temps."})}}});

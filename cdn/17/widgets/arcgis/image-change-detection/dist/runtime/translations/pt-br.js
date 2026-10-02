@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Detec\xe7\xe3o de altera\xe7\xe3o de imagem",_widgetDescription:"Um widget para detectar mudan\xe7as nas camadas de imagens ao longo do tempo."})}}});

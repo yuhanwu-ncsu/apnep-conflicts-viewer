@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"\uc5b8\uc5b4 \uc804\ud658 \ub3c4\uad6c",previewTip:"\uc774 \uc635\uc158\uc740 \ubbf8\ub9ac \ubcf4\uae30 \ub610\ub294 \ubc1c\ud589\ub41c \uc571\uc5d0\uc11c\ub9cc \uc791\ub3d9\ud569\ub2c8\ub2e4."})}}});

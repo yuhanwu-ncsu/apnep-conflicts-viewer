@@ -1,0 +1,1 @@
+System.register([],function(a){return{execute:function(){a({dropdown:"Nolai\u017eamais saraksts",button:"Poga",configTip:"L\u016bdzu, pirms \u0161\u012b logr\u012bka izmanto\u0161anas konfigur\u0113jiet valodas iestat\u012bjumus <bold>Galvenaj\u0101</bold> (General) veidot\u0101ja ciln\u0113."})}}});

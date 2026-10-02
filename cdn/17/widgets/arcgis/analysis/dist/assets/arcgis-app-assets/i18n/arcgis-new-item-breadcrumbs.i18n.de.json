@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Anmeldeinformationstyp: API-Schlüssel",
+  "oauthUserCredentialType": "Anmeldeinformationstyp: OAuth 2.0 (Benutzerauthentifizierung)",
+  "oauthAppCredentialType": "Anmeldeinformationstyp: OAuth 2.0 (App-Authentifizierung)",
+  "publicEmbed": "Öffentliche Anwendung",
+  "scriptSpecific": "Private Anwendung",
+  "allPrivileges": "Private Anwendung, die Ihre Identität annimmt",
+  "itemAccess": "Elementzugriff",
+  "page": "Seite: ${page}",
+  "currentPage": "Aktuelle Seite: ${page}",
+  "privileges": "Berechtigungen",
+  "itemDetails": "Elementdetails",
+  "settings": "Einstellungen",
+  "serviceScope": "Serviceumfang",
+  "summary": "Zusammenfassung"
+}

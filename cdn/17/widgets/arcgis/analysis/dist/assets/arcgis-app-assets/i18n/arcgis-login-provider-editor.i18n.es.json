@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Cambiar tipo de inicio de sesión",
+  "chooseLoginType": "Elegir tipo de inicio de sesión",
+  "selectMembers": "Seleccionar miembros",
+  "userDetails": "Detalles del usuario",
+  "reauth": "Reautenticar",
+  "confirmComplete": "Confirmar y completar",
+  "next": "Siguiente",
+  "back": "Atrás",
+  "cancel": "Cancelar",
+  "close": "Cerrar",
+  "changeLogins": "Cambiar inicios de sesión",
+  "acknowledgeImpact": "Reconozco y comprendo el impacto de este cambio.",
+  "propertiesHeading": "Especificar nuevos detalles de inicio de sesión para los siguientes miembros",
+  "chooseFile": "Elegir otro archivo",
+  "mustAcknowledge": "Debe aceptar el impacto de este cambio antes de continuar.",
+  "confirmLeave": {
+    "title": "Cancelar cambios",
+    "message1": "Hay cambios sin guardar.",
+    "message2": "¿Está seguro de que desea cancelar los cambios?",
+    "remain": "Seguir editando",
+    "leave": "Salir sin guardar"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Inicio de sesión de ArcGIS",
+    "chooseLoginModify": "Elegir cómo modificar los inicios de sesión",
+    "changeType": "Cambiar tipo de inicio de sesión",
+    "selectType": "Seleccione el tipo de inicio de sesión actual con el que desea trabajar",
+    "changeTypeDescription": "Cambie los Id. específicos de la organización entre los inicios de sesión de OpenID Connect, SAML o ArcGIS.",
+    "keepType": "Mantener el tipo de inicio de sesión",
+    "keepTypeDescription": "Actualice un Id. de OpenID Connect o SAML y una dirección de correo electrónico sin cambiar el tipo de inicio de sesión.",
+    "currentType": "Tipo de inicio de sesión actual",
+    "newType": "Nuevo tipo de inicio de sesión",
+    "select": "Seleccionar",
+    "samlLogin": "{name} (inicio de sesión SAML)",
+    "oidcLogin": "{name} (inicio de sesión OpenID Connect)",
+    "oldSaml": "Inicio de sesión de SAML actual",
+    "oldOidc": "Inicio de sesión de OIDC anterior",
+    "enterpriseOverwrite": "Dependiendo de la configuración de su proveedor de inicio de sesión corporativo, es posible que la dirección de correo electrónico se sustituya por el valor proporcionado por su proveedor de identidad.",
+    "generateMissingPasswords": "Al cambiar al inicio de sesión de ArcGIS, se generarán automáticamente contraseñas temporales si no se han especificado. Aparecerán en el paso de detalles del usuario.",
+    "errors": {
+      "loginTypes": "Se deben seleccionar tanto el tipo de inicio de sesión actual como el nuevo.",
+      "currentLoginType": "El tipo de inicio de sesión actual es obligatorio y debe seleccionarse.",
+      "sameLoginType": "El nuevo tipo de inicio de sesión debe ser diferente del tipo de inicio de sesión actual."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Método de selección de miembros",
+    "howToSelect": "¿Cómo desea seleccionar a los miembros?",
+    "bulkUpload": "Carga masiva (CSV)",
+    "chooseAFile": "Elija un archivo para cargar en el siguiente paso.",
+    "manualSelection": "Selección manual",
+    "selectMembers": "Seleccione los miembros de una lista en el siguiente paso.",
+    "selectFromFile": "Seleccionar los miembros desde un archivo CSV",
+    "dragDrop": "Arrastre y suelte el archivo o elija en un dispositivo.",
+    "headerInstructions": "El encabezado (primera fila) debe contener los nombres de campo tal y como aparecen a continuación.",
+    "fieldOrder": "El orden de los campos puede variar.",
+    "yourDevice": "Su dispositivo",
+    "downloadTemplate": "Descargar plantilla CSV",
+    "requiredFields": "Campos requeridos",
+    "optionalFields": "Campos opcionales",
+    "passwordTooltip": "Si no se introduce ninguna contraseña, se generará automáticamente una contraseña temporal.",
+    "excessTitleCsv": "El CSV supera el límite de 5000 miembros",
+    "excessBatchLimit": "Puede actualizar los tipos de inicio de sesión de hasta 5000 miembros por lote.",
+    "excessBodyCsv": "Para procesar más de 5000 miembros, divida su CSV en varios archivos más pequeños y cárguelos por separado.",
+    "learnMore": "Más información",
+    "errors": {
+      "fileType": "Tipo de archivo no válido. Cargue un archivo CSV.",
+      "fileSize": "El tamaño del archivo supera los 500 KB y es posible que no se procese de manera eficiente.",
+      "noMembers": "No se han seleccionado miembros. Seleccione miembros o cargue un archivo CSV para continuar.",
+      "tooManyMembers": "La selección supera el límite de 5000 miembros"
+    }
+  },
+  "fieldNames": {
+    "email": "Correo electrónico",
+    "username": "Nombre de usuario de ArcGIS",
+    "password": "Contraseña temporal",
+    "samlId": "Id. de SAML",
+    "oidcId": "Id. de OIDC",
+    "oldSamlId": "Id. de SAML anterior",
+    "oldOidcId": "Id. de OIDC anterior",
+    "success": "Correcto",
+    "error": "Error",
+    "fromLoginType": "Tipo de inicio de sesión inicial",
+    "toLoginType": "Nuevo tipo de inicio de sesión"
+  },
+  "authentication": {
+    "header": "Se requiere reautenticación",
+    "reauthSteps": "Pasos para la reautenticación",
+    "step1_label": "Paso 1: Iniciar sesión (nueva ventana)",
+    "step1_desc": "Aparecerá una nueva ventana para que inicie sesión.",
+    "step2_label": "Paso 2: Copiar la clave de autenticación",
+    "step2_desc": "Se le proporcionará una clave de autenticación para copiar.",
+    "step3_label": "Paso 3: Pegar la clave de autenticación",
+    "step3_desc": "Introduzca la clave de autenticación para continuar.",
+    "openWindow": "Abrir una nueva ventana para reautenticarse",
+    "authKey": "Clave de autenticación",
+    "paste": "Pegar",
+    "getNewKey": "Generar nueva clave",
+    "hide": "Ocultar",
+    "show": "Mostrar",
+    "errors": {
+      "clipboard": "Error al leer desde el portapapeles",
+      "authKey": "Se requiere una clave de autenticación válida"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabético",
+    "desc": "Alfabético inverso",
+    "sortBy": "Ordenar por",
+    "sortDirection": "Ordenar dirección",
+    "searchMembers": "Buscar miembros en esta lista",
+    "memberDetails": "Detalles de los miembros para la operación de cambio de proveedor de inicio de sesión",
+    "optional": "(opcional)",
+    "fieldErrors": "Errores de campo",
+    "noErrors": "No hay errores",
+    "noData": "No hay datos disponibles",
+    "noMembersMatch": "No hay miembros que coincidan con sus criterios de búsqueda",
+    "togglePassword": "Alternar visibilidad de la contraseña",
+    "memberCount": "{start} - {end} de {total}",
+    "errors": {
+      "email": "El correo electrónico es obligatorio",
+      "username": "El nombre de usuario de ArcGIS es obligatorio",
+      "password": "La contraseña temporal es obligatoria",
+      "samlId": "El Id. de SAML es obligatorio",
+      "oidcId": "El Id. de OIDC es obligatorio"
+    }
+  },
+  "review": {
+    "heading": "Revisar los cambios",
+    "loginsWillChange": "Las siguientes cuentas cambiarán de {fromLogin} a {toLogin}",
+    "downloadCsv": "Descargar CSV de los cambios",
+    "providerTypes": {
+      "saml": "Inicios de sesión SAML",
+      "oidc": "Inicios de sesión de OpenID Connect",
+      "arcgis": "Inicios de sesión de cuentas ArcGIS"
+    },
+    "missingRequired": "Falta información obligatoria. Complete la información que falta antes de continuar."
+  },
+  "progress": {
+    "processing": "Procesando... {current} de {total} usuarios.",
+    "percentComplete": "Porcentaje completado",
+    "doNotClose": "No cierre el navegador.",
+    "extendedTime": "Esto puede tardar hasta 10 minutos; agradecemos su paciencia.",
+    "extendedTime10": "Esto puede tardar más de 10 minutos; agradecemos su paciencia.",
+    "extendedTime15": "Esto puede tardar más de 15 minutos; agradecemos su paciencia.",
+    "label": "Indicador de progreso para cambiar de tipo de inicio de sesión",
+    "errors": {
+      "authkey": {
+        "title": "Clave de autenticación no válida",
+        "body1": "La clave de autenticación que ha introducido no es válida.",
+        "body2": "Introduzca de nuevo una clave de autenticación que sea válida.",
+        "action": "Introducir de nuevo la clave de autenticación",
+        "cancel": "Cancelar"
+      },
+      "unknown": "Se ha producido un error durante el proceso de cambio de proveedor. Inténtelo de nuevo o póngase en contacto con el equipo se soporte si el problema persiste.",
+      "userNotFound": "Nombre de usuario no encontrado",
+      "idpUsernameNotMatching": "Eln ombre de usuario no coincide",
+      "providerNotMatching": "No se puede cambiar el inicio de sesión"
+    }
+  }
+}

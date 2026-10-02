@@ -1,0 +1,1 @@
+System.register([],function(t){return{execute:function(){t({dropdown:"I\u0161\u0161okantysis meniu",button:"Mygtukas",configTip:"Prie\u0161 naudodami \u0161\u012f valdikl\u012f nustatykite kalbos nustatymus k\u016br\u0117jo skirtuke <bold>Bendrieji</bold>."})}}});

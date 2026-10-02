@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Bild\xe4nderungserkennung",_widgetDescription:"Ein Widget zur Erkennung von \xc4nderungen in Bilddaten-Layern im Zeitverlauf."})}}});

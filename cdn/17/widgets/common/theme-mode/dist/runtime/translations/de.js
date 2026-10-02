@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Umschaltfunktion f\xfcr Designmodi",notSupportTip:"Das aktuelle Design unterst\xfctzt nicht das Wechseln zwischen Designmodi.",lightModeLabel:'Modus "Hell" Dr\xfccken Sie, um zum Modus "Dunkel" zu wechseln.',darkModeLabel:'Modus "Dunkel" Dr\xfccken Sie, um zum Modus "Hell" zu wechseln.'})}}});

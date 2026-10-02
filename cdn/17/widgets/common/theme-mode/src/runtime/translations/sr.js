@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Dugme za promenu re\u017eima teme",notSupportTip:"Trenutna tema ne podr\u017eava prebacivanje izme\u0111u re\u017eima tema.",lightModeLabel:"Svetli re\u017eim Pritisnite da se prebacite u tamni re\u017eim.",darkModeLabel:"Tamni re\u017eim Pritisnite da se prebacite u svetli re\u017eim."})}}});

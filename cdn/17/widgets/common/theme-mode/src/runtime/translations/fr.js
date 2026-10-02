@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"S\xe9lecteur de mode de th\xe8me",notSupportTip:"Le th\xe8me actuel ne prend pas en charge le passage d\u2019un mode de th\xe8me \xe0 un autre.",lightModeLabel:"Mode clair. Appuyez pour passer en mode sombre.",darkModeLabel:"Mode sombre. Appuyez pour passer en mode clair."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Llista desplegable",button:"Bot\xf3",configTip:"Definiu la configuraci\xf3 de llengua a la pestanya <bold>General</bold> del Builder abans de fer servir aquest widget."})}}});

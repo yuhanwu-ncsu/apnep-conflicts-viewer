@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"\u8bed\u8a00\u5207\u6362\u5668",previewTip:"\u8fd9\u4ec5\u7528\u5728\u9884\u89c8\u6216\u5df2\u53d1\u5e03\u7684\u5e94\u7528\u7a0b\u5e8f\u4e2d\u3002"})}}});

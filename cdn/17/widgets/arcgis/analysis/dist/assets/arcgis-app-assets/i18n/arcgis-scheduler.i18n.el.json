@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Έναρξη στις",
+  "repeatTypeLabel": "Τύπος επανάληψης",
+  "endingOnTypeLabel": "Λήξη στις",
+  "endingOnDateLabel": "Ημερομηνία τέλους",
+  "endingOnCountLabel": "Συνολικός αριθμός",
+  "endingOnCountPlaceholder": "για παράδειγμα, 1, 10, 30",
+  "repeatIntervalLabel": "Διάστημα επανάληψης",
+  "timeLabel": "Χρόνος",
+  "hourlyOnMinuteLabel": "Στο λεπτό",
+  "betweenHoursLabel": "Μεταξύ των ωρών",
+  "weeklyDaysOfWeekLabel": "Ημέρα της εβδομάδας",
+  "monthlyDayOfMonthLabel": "Ημέρα του μήνα",
+  "monthlyDayOfMonthPlaceholder": "για παράδειγμα, 1 - 31",
+  "allDayLabel": "Όλη την ημέρα",
+  "allWeekLabel": "Όλη την εβδομάδα",
+  "repeatTypeOptions": {
+    "minute": "Λεπτό",
+    "hour": "Ώρα",
+    "day": "Ημέρα",
+    "week": "Εβδομάδα",
+    "month": "Μήνας"
+  },
+  "endingOnType": {
+    "never": "Ποτέ",
+    "date": "Ημερομηνία",
+    "count": "Πλήθος"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Κάθε λεπτό",
+    "everyTwoMinutes": "Κάθε δύο λεπτά",
+    "everyThreeMinutes": "Κάθε τρία λεπτά",
+    "everyFiveMinutes": "Κάθε πέντε λεπτά",
+    "everyTenMinutes": "Κάθε δέκα λεπτά",
+    "everyFifteenMinutes": "Κάθε δεκαπέντε λεπτά",
+    "everyThirtyMinutes": "Κάθε τριάντα λεπτά"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Κάθε ώρα",
+    "everyTwoHours": "Κάθε δύο ώρες",
+    "everyThreeHours": "Κάθε τρεις ώρες",
+    "everyFourHours": "Κάθε τέσσερις ώρες",
+    "everySixHours": "Κάθε έξι ώρες",
+    "everyTwelveHours": "Κάθε δώδεκα ώρες"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Κάθε μέρα",
+    "everyOtherDay": "Κάθε δεύτερη μέρα",
+    "everyThreeDays": "Κάθε τρεις ημέρες",
+    "everyFourDays": "Κάθε τέσσερις ημέρες",
+    "everyFiveDays": "Κάθε πέντε ημέρες",
+    "everySixDays": "Κάθε έξι ημέρες",
+    "everySevenDays": "Κάθε επτά ημέρες",
+    "everyFourteenDays": "Κάθε δεκατέσσερις ημέρες"
+  },
+  "weekDays": {
+    "allWeekdays": "Όλες τις καθημερινές",
+    "sunday": "Κυριακή",
+    "monday": "Δευτέρα",
+    "tuesday": "Τρίτη",
+    "wednesday": "Τετάρτη",
+    "thursday": "Πέμπτη",
+    "friday": "Παρασκευή",
+    "saturday": "Σάββατο"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Κάθε μήνα",
+    "everyTwoMonths": "Κάθε δύο μήνες",
+    "everyThreeMonths": "Κάθε τρεις μήνες",
+    "everyFourMonths": "Κάθε τέσσερις μήνες",
+    "everyFiveMonths": "Κάθε πέντε μήνες",
+    "everySixMonths": "Κάθε έξι μήνες"
+  }
+}

@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({dropdown:"Padaju\u0107i izbornik",button:"Gumb",configTip:"Prije kori\u0161tenja ovog widgeta konfigurirajte jezi\u010dne postavke na kartici <bold>Op\u0107enito</bold> u alatu za izradu."})}}});

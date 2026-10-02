@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Type aanmelding wijzigen",
+  "chooseLoginType": "Type aanmelding kiezen",
+  "selectMembers": "Leden selecteren",
+  "userDetails": "Gebruikersgegevens",
+  "reauth": "Opnieuw verifiëren",
+  "confirmComplete": "Bevestigen en voltooien",
+  "next": "Volgende",
+  "back": "Terug",
+  "cancel": "Annuleren",
+  "close": "Sluiten",
+  "changeLogins": "Aanmeldingen wijzigen",
+  "acknowledgeImpact": "Ik erken en begrijp de impact van deze verandering.",
+  "propertiesHeading": "Specificeer nieuwe aanmeldingsgegevens voor de volgende leden",
+  "chooseFile": "Een ander bestand kiezen",
+  "mustAcknowledge": "U moet de impact van deze verandering erkennen voordat u doorgaat.",
+  "confirmLeave": {
+    "title": "Wijzigingen annuleren",
+    "message1": "Er zijn niet-opgeslagen wijzigingen.",
+    "message2": "Weet u zeker dat u de wijzigingen wilt annuleren?",
+    "remain": "Doorgaan met bewerken",
+    "leave": "Afsluiten zonder opslaan"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS-aanmelding",
+    "chooseLoginModify": "Kies hoe u aanmeldingen wilt wijzigen",
+    "changeType": "Type aanmelding wijzigen",
+    "selectType": "Selecteer het huidige type aanmelding waarmee moet worden gewerkt",
+    "changeTypeDescription": "Wijzig organisatiespecifieke id's tussen OpenID Connect-, SAML- of ArcGIS-aanmeldingen.",
+    "keepType": "Type aanmelding behouden",
+    "keepTypeDescription": "Werk een OpenID Connect- of SAML-id en -e-mailadres bij zonder het type aanmelding te wijzigen.",
+    "currentType": "Huidig type aanmelding",
+    "newType": "Nieuw type aanmelding",
+    "select": "Selecteren",
+    "samlLogin": "{name} (SAML-aanmelding)",
+    "oidcLogin": "{name} (OpenID Connect-aanmelding)",
+    "oldSaml": "Vorige SAML-aanmelding",
+    "oldOidc": "Vorige OIDC-aanmelding",
+    "enterpriseOverwrite": "Afhankelijk van de provider-instellingen voor uw bedrijfsaanmelding, kan het e-mailadres worden overschreven door de waarde van uw identiteitsprovider.",
+    "generateMissingPasswords": "Wanneer u op ArcGIS-aanmelding overschakelt, worden automatisch tijdelijke wachtwoorden gegenereerd als deze niet zijn gespecificeerd. Deze worden weergegeven tijdens de stap Gebruikerdetails.",
+    "errors": {
+      "loginTypes": "U moet zowel het huidige als het nieuwe type aanmelding selecteren.",
+      "currentLoginType": "Huidig type aanmelding is vereist en moet worden geselecteerd.",
+      "sameLoginType": "Het nieuwe aanmeldingstype moet anders zijn dan het huidige aanmeldingstype."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Selectiemethode leden",
+    "howToSelect": "Hoe wilt u leden selecteren>",
+    "bulkUpload": "Bulkupload (CSV)",
+    "chooseAFile": "Kies tijdens de volgende stap een bestand dat u wilt uploaden.",
+    "manualSelection": "Handmatige selectie",
+    "selectMembers": "Selecteer tijdens de volgende stap leden uit een lijst.",
+    "selectFromFile": "Leden selecteren uit een CSV-bestand",
+    "dragDrop": "Sleep uw bestand hierheen of kies een bestand op uw apparaat.",
+    "headerInstructions": "Hoofdtekst (eerste rij) moet de exacte hieronder vermelde veldnamen bevatten.",
+    "fieldOrder": "De volgorde van velden kan variëren.",
+    "yourDevice": "Uw apparaat",
+    "downloadTemplate": "Download CSV-template",
+    "requiredFields": "Vereiste velden",
+    "optionalFields": "Optionele velden",
+    "passwordTooltip": "Er wordt automatisch een tijdelijk wachtwoord gegenereerd als er geen wachtwoord is verstrekt.",
+    "excessTitleCsv": "CSV overschrijdt de limiet van 5.000 leden",
+    "excessBatchLimit": "U kunt per batch aanmeldingstypes voor 5.000 leden bijwerken.",
+    "excessBodyCsv": "Als u meer dan 5.000 leden wilt verwerken, moet u uw CSV-bestand in meerdere kleinere bestanden splitsen en deze vervolgens afzonderlijk uploaden.",
+    "learnMore": "Meer informatie",
+    "errors": {
+      "fileType": "Ongeldig bestandstype Upload een csv-bestand.",
+      "fileSize": "De bestandsgrootte overschrijdt 500 Kb; het bestand wordt mogelijk niet efficiënt verwerkt.",
+      "noMembers": "Er zijn geen leden geselecteerd. Selecteer leden of upload een CSV-bestand om door te gaan.",
+      "tooManyMembers": "Selectie overschrijdt de limiet van 5.000 leden"
+    }
+  },
+  "fieldNames": {
+    "email": "E-mailadres",
+    "username": "Gebruikersnaam ArcGIS",
+    "password": "Tijdelijk wachtwoord",
+    "samlId": "SAML-ID",
+    "oidcId": "OIDC-ID",
+    "oldSamlId": "Vorige SAML-id",
+    "oldOidcId": "Vorige OIDC-id",
+    "success": "Geslaagd",
+    "error": "Fout",
+    "fromLoginType": "Initieel type aanmelding",
+    "toLoginType": "Nieuw type aanmelding"
+  },
+  "authentication": {
+    "header": "Opnieuw verifiëren is vereist",
+    "reauthSteps": "Stappen voor opnieuw verifiëren",
+    "step1_label": "Stap 1: aanmelden (nieuw venster)",
+    "step1_desc": "Er wordt een nieuw venster weergegeven waarin u zich kunt aanmelden.",
+    "step2_label": "Stap 2: kopieer de verificatiesleutel",
+    "step2_desc": "U krijgt een verificatiesleutel die u moet kopiëren.",
+    "step3_label": "Stap 3: plak de verificatiesleutel",
+    "step3_desc": "Voer de verificatiesleutel in om door te gaan.",
+    "openWindow": "Open een nieuw venster om u opnieuw te verifiëren.",
+    "authKey": "Verificatiesleutel",
+    "paste": "Plakken",
+    "getNewKey": "Nieuwe sleutel genereren",
+    "hide": "Verbergen",
+    "show": "Weergeven",
+    "errors": {
+      "clipboard": "Kan niet uit klembord lezen",
+      "authKey": "Er is een geldige verificatiesleutel vereist"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabetisch",
+    "desc": "Omgekeerd alfabetisch",
+    "sortBy": "Sorteren op",
+    "sortDirection": "Sorteervolgorde",
+    "searchMembers": "Leden zoeken in deze lijst",
+    "memberDetails": "Gegevens leden voor het wijzigen van de aanmeldingsprovider",
+    "optional": "(optioneel)",
+    "fieldErrors": "Fouten zoeken",
+    "noErrors": "Geen fouten",
+    "noData": "Er zijn geen gegevens beschikbaar",
+    "noMembersMatch": "Er zijn geen leden die met uw criteria overeenkomen",
+    "togglePassword": "Zichtbaarheid wachtwoord in-/uitschakelen",
+    "memberCount": "{start} - {end} van {total}",
+    "errors": {
+      "email": "E-mailadres is vereist",
+      "username": "ArcGIS-gebruikersnaam is vereist",
+      "password": "Tijdelijk wachtwoord is vereist",
+      "samlId": "SAML-ID is vereist",
+      "oidcId": "OIDC-ID is vereist"
+    }
+  },
+  "review": {
+    "heading": "Controleer de wijzigingen",
+    "loginsWillChange": "De volgende accounts worden omgezet van {fromLogin} naar {toLogin}",
+    "downloadCsv": "CSV met wijzigingen downloaden",
+    "providerTypes": {
+      "saml": "SAML-aanmeldingen",
+      "oidc": "OpenID Connect-aanmeldingen",
+      "arcgis": "Aanmeldingen ArcGIS-accounts"
+    },
+    "missingRequired": "Vereiste gegevens ontbreken. Vul de ontbrekende gegevens in voordat u doorgaat."
+  },
+  "progress": {
+    "processing": "Bezig met verwerken... {current} van {total} gebruikers.",
+    "percentComplete": "Percentage voltooid",
+    "doNotClose": "Houd de browser open.",
+    "extendedTime": "Dit kan tot 10 minuten duren, even geduld a.u.b.",
+    "extendedTime10": "Dit kan langer dan 10 minuten duren, even geduld a.u.b.",
+    "extendedTime15": "Dit kan langer dan 15 minuten duren, even geduld a.u.b.",
+    "label": "Voortgangsindicator voor het wijzigen van aanmeldingstypes",
+    "errors": {
+      "authkey": {
+        "title": "Ongeldige verificatiesleutel",
+        "body1": "De door u ingevoerde verificatiesleutel is ongeldig.",
+        "body2": "Voer een geldige verificatiesleutel in.",
+        "action": "Verificatiesleutel opnieuw invoeren",
+        "cancel": "Annuleren"
+      },
+      "unknown": "Er is een fout opgetreden tijdens het providerwijzigingsproces. Probeer het opnieuw of neem contact op met support als het probleem blijft aanhouden.",
+      "userNotFound": "Kan de gebruikersnaam niet vinden",
+      "idpUsernameNotMatching": "Gebruikersnaam komt niet overeen",
+      "providerNotMatching": "Kan aanmelding niet wijzigen"
+    }
+  }
+}

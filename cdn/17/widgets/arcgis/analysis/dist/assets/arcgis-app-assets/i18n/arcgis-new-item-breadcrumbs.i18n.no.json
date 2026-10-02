@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Legitimasjonstype: API-nøkkel",
+  "oauthUserCredentialType": "Legitimasjonstype: OAuth 2.0 (brukerautentisering)",
+  "oauthAppCredentialType": "Legitimasjonstype: OAuth 2.0 (appautentisering)",
+  "publicEmbed": "Offentlig applikasjon",
+  "scriptSpecific": "Privat applikasjon",
+  "allPrivileges": "Privat applikasjon som etterligner deg",
+  "itemAccess": "Elementtilgang",
+  "page": "Side: ${page}",
+  "currentPage": "Gjeldende side: ${page}",
+  "privileges": "Rettigheter",
+  "itemDetails": "Elementdetaljer",
+  "settings": "Innstillinger",
+  "serviceScope": "Tjenesteomfang",
+  "summary": "Sammendrag"
+}

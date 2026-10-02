@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Kezdés időpontja:",
+  "repeatTypeLabel": "Ismétlés típusa",
+  "endingOnTypeLabel": "Befejezés időpontja:",
+  "endingOnDateLabel": "Befejező dátum",
+  "endingOnCountLabel": "Darabszám",
+  "endingOnCountPlaceholder": "például: 1, 10, 30",
+  "repeatIntervalLabel": "Ismétlési időköz",
+  "timeLabel": "Időpont",
+  "hourlyOnMinuteLabel": "Egy perce",
+  "betweenHoursLabel": "Órák között",
+  "weeklyDaysOfWeekLabel": "Hét napja",
+  "monthlyDayOfMonthLabel": "Hónap napja",
+  "monthlyDayOfMonthPlaceholder": "például 1–31",
+  "allDayLabel": "Egész nap",
+  "allWeekLabel": "Egész héten",
+  "repeatTypeOptions": {
+    "minute": "perc",
+    "hour": "óra",
+    "day": "Nap",
+    "week": "Hét",
+    "month": "hónap"
+  },
+  "endingOnType": {
+    "never": "Soha",
+    "date": "Dátum",
+    "count": "Darabszám"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Percenként",
+    "everyTwoMinutes": "Kettő percenként",
+    "everyThreeMinutes": "Három percenként",
+    "everyFiveMinutes": "Öt percenként",
+    "everyTenMinutes": "Tíz percenként",
+    "everyFifteenMinutes": "Tizenöt percenként",
+    "everyThirtyMinutes": "Harminc percenként"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Óránként",
+    "everyTwoHours": "Kettő óránként",
+    "everyThreeHours": "Három óránként",
+    "everyFourHours": "Négy óránként",
+    "everySixHours": "Hat óránként",
+    "everyTwelveHours": "Tizenkettő óránként"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Naponta",
+    "everyOtherDay": "Kétnaponta",
+    "everyThreeDays": "Három naponta",
+    "everyFourDays": "Négy naponta",
+    "everyFiveDays": "Öt naponta",
+    "everySixDays": "Hat naponta",
+    "everySevenDays": "Hét naponta",
+    "everyFourteenDays": "Tizennégy naponta"
+  },
+  "weekDays": {
+    "allWeekdays": "Minden hétköznap",
+    "sunday": "vasárnap",
+    "monday": "hétfő",
+    "tuesday": "kedd",
+    "wednesday": "Szerda",
+    "thursday": "csütörtök",
+    "friday": "Péntek",
+    "saturday": "szombat"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Havonta",
+    "everyTwoMonths": "Kettő havonta",
+    "everyThreeMonths": "Három havonta",
+    "everyFourMonths": "Négy havonta",
+    "everyFiveMonths": "Öt havonta",
+    "everySixMonths": "Hat havonta"
+  }
+}

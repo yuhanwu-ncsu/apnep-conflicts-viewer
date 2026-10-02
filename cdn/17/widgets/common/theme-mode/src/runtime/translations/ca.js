@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Commutador de modes de tema",notSupportTip:"El tema actual no permet canviar entre modes de tema.",lightModeLabel:"Mode clar. Premeu per canviar al mode fosc.",darkModeLabel:"Mode fosc. Premeu per canviar al mode clar."})}}});

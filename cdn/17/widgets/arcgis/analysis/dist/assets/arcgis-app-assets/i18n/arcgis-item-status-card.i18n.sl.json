@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Nimate dovoljenja za posodobitev deljenja tega elementa.",
+      "panel": "Nimate dovoljenja za posodobitev deljenja tega elementa. Ta element morda ne bo viden za druge, saj ima drugačno deljenje."
+    },
+    "pdc": {
+      "notice": "Omogočite zbiranje javnih podatkov pred javnim deljenjem tega sloja.",
+      "panel": "Omogočite zbiranje javnih podatkov pred javnim deljenjem tega sloja. Za optimalno delovanje in integriteto podatkov, razmislite o onemogočanju urejanja ali uporabi pogleda sloja, ki ga ni mogoče urejati.",
+      "learnMore": "Več o omogočanju urejanja na javnih slojih."
+    },
+    "premium": {
+      "notice": "Premium ali naročniška vsebina bo morda zahtevala vpis za ogled.",
+      "panel": "Premium ali naročniška vsebina bo morda zahtevala vpis za ogled.",
+      "learnMore": "Več o deljenju premium ali naročniške vsebine."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Javno deljenje tega uredljivega sloja bo vsem dovolilo urejanje sloja.",
+      "panel": "Javno deljenje tega uredljivega sloja bo vsem dovolilo urejanje sloja. Za optimalno delovanje in integriteto podatkov, razmislite o onemogočanju urejanja ali uporabi pogleda sloja, ki ga ni mogoče urejati."
+    },
+    "needsAuthentication": {
+      "notice": "Zahtevana je avtentikacija.",
+      "panel": "Ta element morda ne bo dostopen drugim, saj vsebuje lokacijske storitve, ki zahtevajo avtentikacijo v aplikacijah, ki prikazujejo element."
+    }
+  },
+  "goToItem": "Ogled vseh podrobnosti"
+}

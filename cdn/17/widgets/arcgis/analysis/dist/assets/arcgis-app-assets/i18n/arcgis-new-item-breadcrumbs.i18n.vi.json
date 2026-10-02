@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Loại thông tin xác thực: khóa API",
+  "oauthUserCredentialType": "Loại thông tin xác thực: OAuth 2.0 (Xác thực người dùng)",
+  "oauthAppCredentialType": "Loại thông tin xác thực: OAuth 2.0 (Xác thực ứng dụng)",
+  "publicEmbed": "Ứng dụng công khai",
+  "scriptSpecific": "Ứng dụng riêng tư",
+  "allPrivileges": "Ứng dụng riêng tư đại diện bạn",
+  "itemAccess": "Quyền truy cập Mục",
+  "page": "Trang: ${page}",
+  "currentPage": "Trang hiện tại: ${page}",
+  "privileges": "Quyền",
+  "itemDetails": "Thông tin chi tiết mục",
+  "settings": "Thiết lập",
+  "serviceScope": "Phạm vi dịch vụ",
+  "summary": "Thông tin tóm tắt"
+}

@@ -1,0 +1,1 @@
+System.register([],function(a){return{execute:function(){a({_widgetLabel:"Teeman tilan vaihtaja",notSupportTip:"Nykyinen teema ei tue vaihtamista teeman tilojen v\xe4lill\xe4.",lightModeLabel:"Vaalea tila. Paina, jos haluat vaihtaa tummaan tilaan.",darkModeLabel:"Tumma tila. Paina, jos haluat vaihtaa vaaleaan tilaan."})}}});

@@ -1,0 +1,29 @@
+{
+  "updateSharing": "Tarkista jakaminen",
+  "moreInfo": "Lisätietoja",
+  "learnMore": "Lisätietoja",
+  "noItemToShare": "Jakamisongelmia ei havaittu",
+  "loadingInfo": "Ladataan jakamisen tietoja...",
+  "updatingSharing": "Päivitetään jakamista...",
+  "updateItemsCount": "Kohteet, joihin sinulla on päivitysoikeus: {num}",
+  "updateItemsCountText": "Nämä riippuvaiset kohteet eivät ehkä näy muille, koska ne jaetaan eri tavalla. Napsauttamalla Päivitä voit synkronoida niiden riippuvaisten kohteiden jakamisen, joihin sinulla on päivitysoikeus.",
+  "uneditableItemsCount": "Kohteet, joihin sinulla ei ole päivitysoikeutta: {num}",
+  "uneditableMessage": "Nämä riippuvaiset kohteet eivät ehkä näy muille, koska ne jaetaan eri tavalla.",
+  "nonPublicItems": "Kohteet, joita ei voi jakaa julkisesti:",
+  "premiumItemsWebMap": "Tämä verkkokartta sisältää Premium-sisältöä tai tilaukseen perustuvaa sisältöä.",
+  "premiumMessage": "Nämä riippuvaiset kohteet eivät ehkä näy muille, koska ne edellyttävät tilausta.",
+  "premiumTextMap": "Lue lisätietoja Premium-sisältöä tai tilaukseen perustuvaa sisältöä sisältävien karttojen jakamisesta",
+  "notice": "Seuraavat kohteet eivät ehkä näy muille, koska ne jaetaan eri tavalla tai niiden katsomiseen vaaditaan tilaus. Napsauttamalla <b>Päivitä jakaminen</b> voit synkronoida niiden kohteiden jakamisen, joihin sinulla on päivitysoikeus.",
+  "noticeEnterprise": "Seuraavat kohteet eivät ehkä näy muille, koska ne jaetaan eri tavalla. Napsauttamalla <b>Päivitä jakaminen</b> voit synkronoida niiden kohteiden jakamisen, joihin sinulla on päivitysoikeus.",
+  "canBeUpdated": "Kohteet, jotka voi päivittää: ${count}",
+  "cantBeUpdated": "Kohteet, joita ei voi päivittää: ${count}",
+  "update": "Päivitä jakaminen",
+  "cancel": "Älä päivitä jakamista",
+  "ok": "OK",
+  "unableToGetItem": "Kohteen tietoja ei saada.",
+  "postShareDialog": {
+    "title": "Kohteen jakamisen päivittäminen onnistui",
+    "description": "Jaetut kohteet viittaavat muihin kohteisiin, jotka eivät ehkä ole näkyvissä, koska ne on jaettu eri tavalla. Tarkista näiden kohteiden jakaminen.",
+    "confirm": "Tarkista jakaminen"
+  }
+}

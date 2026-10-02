@@ -1,0 +1,30 @@
+{
+  "hosted": "tárolt",
+  "hostedView": "tárolt, nézet",
+  "hostedPhotos": "tárolt, fényképek",
+  "hostedCollection": "tárolt, gyűjtemény",
+  "hostedMultidimensional": "tárolt, többdimenziós",
+  "hostedCollectionMultidimensional": "tárolt, gyűjtemény, többdimenziós",
+  "collectionMultidimensional": "gyűjtemény, többdimenziós",
+  "multidimensional": "többdimenziós",
+  "query": "lekérdezés",
+  "collection": "gyűjtemény",
+  "photoLocations": "fényképek",
+  "locatorView": "megtekintés",
+  "utilityNetwork": "utility network",
+  "parcelFabric": "parcel fabric",
+  "parcelFabricHosted": "parcel fabric, tárolt",
+  "Integrated Mesh": "integrált háló",
+  "3D Object": "3D objektum",
+  "Point": "pont",
+  "Point Cloud": "pontfelhő",
+  "Building Scene Layer": "ápület 3D térképrétege",
+  "Voxel Scene Layer": "voxel 3D térkép réteg",
+  "dataStore": {
+    "bigdata": "big data-fájlmegosztás",
+    "cloud": "felhő",
+    "cloudStorage": "felhőtárhely",
+    "database": "adatbázis",
+    "folder": "mappa"
+  }
+}

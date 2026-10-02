@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Alterar dete\xe7\xe3o de imagens",_widgetDescription:"Um widget para detetar altera\xe7\xf5es nas camadas de imagens ao longo do tempo."})}}});

@@ -1,0 +1,1 @@
+System.register([],function(a){return{execute:function(){a({_widgetLabel:"Pengalih Bahasa",previewTip:"Ini hanya berfungsi dalam Pratinjau atau aplikasi yang diterbitkan."})}}});

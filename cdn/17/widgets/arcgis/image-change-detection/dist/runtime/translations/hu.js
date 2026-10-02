@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"K\xe9p v\xe1ltoz\xe1s\xe9szlel\xe9se",_widgetDescription:"Widget a t\xe1v\xe9rz\xe9kel\xe9si r\xe9tegek id\u0151beli v\xe1ltoz\xe1sainak \xe9szlel\xe9s\xe9hez."})}}});

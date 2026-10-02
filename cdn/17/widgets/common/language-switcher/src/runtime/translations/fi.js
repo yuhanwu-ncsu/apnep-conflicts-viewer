@@ -1,0 +1,1 @@
+System.register([],function(i){return{execute:function(){i({_widgetLabel:"Kielen vaihtaja",previewTip:"T\xe4m\xe4 toimii vain esikatselussa tai julkaistuissa sovelluksissa."})}}});

@@ -1,0 +1,16 @@
+{
+  "point": "Θεματικό επίπεδο σημείων",
+  "line": "Θεματικό επίπεδο γραμμών",
+  "polygon": "Θεματικό επίπεδο πολυγώνων",
+  "multipatch": "Θεματικό επίπεδο Multipatch",
+  "multipoint": "Θεματικό επίπεδο πολλαπλών σημείων",
+  "table": "Πίνακας",
+  "annotation": "Θεματικό επίπεδο ονοματολογίας (annotation)",
+  "catalog": "Θεματικό επίπεδο καταλόγου",
+  "dimension": "Θεματικό επίπεδο διαστάσεων",
+  "oriented imagery": "Θεματικό επίπεδο oriented imagery",
+  "parcel": "Θεματικό επίπεδο Parcel fabric",
+  "utility network": "Θεματικό επίπεδο utility network",
+  "topology": "Θεματικό επίπεδο τοπολογίας",
+  "trace network": "Θεματικό επίπεδο trace network"
+}

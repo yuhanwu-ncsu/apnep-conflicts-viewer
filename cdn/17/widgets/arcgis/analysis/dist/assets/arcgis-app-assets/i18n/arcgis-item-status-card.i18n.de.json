@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Sie besitzen keine Berechtigungen zum Aktualisieren der Freigabe für dieses Element.",
+      "panel": "Sie besitzen keine Berechtigungen zum Aktualisieren der Freigabe für dieses Element. Dieses Element ist möglicherweise nicht für andere Benutzer sichtbar, da es auf andere Weise freigegeben ist."
+    },
+    "pdc": {
+      "notice": "Aktivieren Sie \"Öffentliche Datenerfassung\", bevor Sie diesen Layer öffentlich freigeben.",
+      "panel": "Aktivieren Sie \"Öffentliche Datenerfassung\", bevor Sie diesen Layer öffentlich freigeben. Um eine optimale Performance zu erzielen und die Datenintegrität zu gewährleisten, sollten Sie die Bearbeitung deaktivieren oder eine nicht editierbare Sicht des Layers verwenden.",
+      "learnMore": "Weitere Informationen zum Aktivieren der Bearbeitung öffentlicher Layer."
+    },
+    "premium": {
+      "notice": "Zum Anzeigen von Premium- und Subskriptionsinhalten ist ggf. die Anmeldung erforderlich.",
+      "panel": "Zum Anzeigen von Premium- und Subskriptionsinhalten ist ggf. die Anmeldung erforderlich.",
+      "learnMore": "Weitere Informationen zum Freigeben von Premium- und Subskriptionsinhalten."
+    },
+    "sharingPDCEnabled": {
+      "notice": "Wenn dieser editierbare Layer öffentlich freigegeben wird, darf er von allen Benutzern bearbeitet werden.",
+      "panel": "Wenn dieser editierbare Layer öffentlich freigegeben wird, darf er von allen Benutzern bearbeitet werden. Um eine optimale Performance zu erzielen und die Datenintegrität zu gewährleisten, sollten Sie die Bearbeitung deaktivieren oder eine nicht editierbare Sicht des Layers verwenden."
+    },
+    "needsAuthentication": {
+      "notice": "Authentifizierung erforderlich.",
+      "panel": "Dieses Element ist möglicherweise nicht für andere Benutzer verfügbar, da es Ortungsdienste enthält, die in Anwendungen, in denen das Element angezeigt wird, eine Authentifizierung erfordern."
+    }
+  },
+  "goToItem": "Vollständige Details anzeigen"
+}

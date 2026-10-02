@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Comutator mod tem\u0103",notSupportTip:"Tema curent\u0103 nu accept\u0103 comutarea \xeentre modurile de tem\u0103.",lightModeLabel:"Mod luminos. Ap\u0103sa\u021bi pentru a comuta la modul \xeentunecat.",darkModeLabel:"Mod \xeentunecat. Ap\u0103sa\u021bi pentru a comuta la modul luminos."})}}});

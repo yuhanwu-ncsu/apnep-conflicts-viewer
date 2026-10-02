@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Тип облікових даних: ключ API",
+  "oauthUserCredentialType": "Тип облікових даних: OAuth 2.0 (автентифікація користувача)",
+  "oauthAppCredentialType": "Тип облікових даних: OAuth 2.0 (автентифікація додатків)",
+  "publicEmbed": "Публічний додаток",
+  "scriptSpecific": "Приватний додаток",
+  "allPrivileges": "Приватний додаток, який видає себе за вас",
+  "itemAccess": "Доступ до елемента",
+  "page": "Сторінка: ${page}",
+  "currentPage": "Поточна сторінка: ${page}",
+  "privileges": "Права",
+  "itemDetails": "Детальна інформація про елемент",
+  "settings": "Налаштування",
+  "serviceScope": "Охоплення сервісу",
+  "summary": "Короткий опис"
+}

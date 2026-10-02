@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Detecci\xf3n de cambio de imagen",_widgetDescription:"Widget para detectar cambios en capas de im\xe1genes a lo largo del tiempo."})}}});

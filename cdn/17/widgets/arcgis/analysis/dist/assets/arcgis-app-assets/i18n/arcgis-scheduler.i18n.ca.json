@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "A partir de",
+  "repeatTypeLabel": "Tipus de repetició",
+  "endingOnTypeLabel": "Fins a",
+  "endingOnDateLabel": "Data de finalització",
+  "endingOnCountLabel": "Recompte",
+  "endingOnCountPlaceholder": "per exemple: 1, 10, 30",
+  "repeatIntervalLabel": "Interval de repetició",
+  "timeLabel": "Temps",
+  "hourlyOnMinuteLabel": "Al minut",
+  "betweenHoursLabel": "Entre hores",
+  "weeklyDaysOfWeekLabel": "Dia de la setmana",
+  "monthlyDayOfMonthLabel": "Dia del mes",
+  "monthlyDayOfMonthPlaceholder": "per exemple, 1 - 31",
+  "allDayLabel": "Tot el dia",
+  "allWeekLabel": "Tota la setmana",
+  "repeatTypeOptions": {
+    "minute": "Minut",
+    "hour": "Hora",
+    "day": "Dia",
+    "week": "Setmana",
+    "month": "Mes"
+  },
+  "endingOnType": {
+    "never": "Mai",
+    "date": "Data",
+    "count": "Recompte"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Cada minut",
+    "everyTwoMinutes": "Cada dos minuts",
+    "everyThreeMinutes": "Cada tres minuts",
+    "everyFiveMinutes": "Cada cinc minuts",
+    "everyTenMinutes": "Cada deu minuts",
+    "everyFifteenMinutes": "Cada quinze minuts",
+    "everyThirtyMinutes": "Cada trenta minuts"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Cada hora",
+    "everyTwoHours": "Cada dues hores",
+    "everyThreeHours": "Cada tres hores",
+    "everyFourHours": "Cada quatre hores",
+    "everySixHours": "Cada sis hores",
+    "everyTwelveHours": "Cada dotze hores"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Cada dia",
+    "everyOtherDay": "Cada dos dies",
+    "everyThreeDays": "Cada tres dies",
+    "everyFourDays": "Cada quatre dies",
+    "everyFiveDays": "Cada cinc dies",
+    "everySixDays": "Cada sis dies",
+    "everySevenDays": "Cada set dies",
+    "everyFourteenDays": "Cada catorze dies"
+  },
+  "weekDays": {
+    "allWeekdays": "Tots els dies entre setmana",
+    "sunday": "Diumenge",
+    "monday": "Dilluns",
+    "tuesday": "Dimarts",
+    "wednesday": "Dimecres",
+    "thursday": "Dijous",
+    "friday": "Divendres",
+    "saturday": "Dissabte"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Cada mes",
+    "everyTwoMonths": "Cada dos mesos",
+    "everyThreeMonths": "Cada tres mesos",
+    "everyFourMonths": "Cada quatre mesos",
+    "everyFiveMonths": "Cada cinc mesos",
+    "everySixMonths": "Cada sis mesos"
+  }
+}

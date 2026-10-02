@@ -1,0 +1,16 @@
+{
+  "apiCredentialType": "Tipo di credenziale: chiave API",
+  "oauthUserCredentialType": "Tipo di credenziale: OAuth 2.0 (autenticazione dell'utente)",
+  "oauthAppCredentialType": "Tipo di credenziale: OAuth 2.0 (autenticazione dell'app)",
+  "publicEmbed": "Applicazione pubblica",
+  "scriptSpecific": "Applicazione privata",
+  "allPrivileges": "Applicazione privata che impersona l'utente",
+  "itemAccess": "Accesso all'elemento",
+  "page": "Pagina: ${page}",
+  "currentPage": "Pagina corrente: ${page}",
+  "privileges": "Privilegi",
+  "itemDetails": "Dettagli elemento",
+  "settings": "Impostazioni",
+  "serviceScope": "Ambito del servizio",
+  "summary": "Riepilogo"
+}

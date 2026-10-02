@@ -1,0 +1,16 @@
+{
+  "point": "ポイント レイヤー",
+  "line": "ライン レイヤー",
+  "polygon": "ポリゴン レイヤー",
+  "multipatch": "マルチパッチ レイヤー",
+  "multipoint": "マルチポイント レイヤー",
+  "table": "テーブル",
+  "annotation": "アノテーション レイヤー",
+  "catalog": "カタログ レイヤー",
+  "dimension": "ディメンション レイヤー",
+  "oriented imagery": "方向付き画像レイヤー",
+  "parcel": "パーセル ファブリック レイヤー",
+  "utility network": "ユーティリティ ネットワーク レイヤー",
+  "topology": "トポロジ レイヤー",
+  "trace network": "トレース ネットワーク レイヤー"
+}

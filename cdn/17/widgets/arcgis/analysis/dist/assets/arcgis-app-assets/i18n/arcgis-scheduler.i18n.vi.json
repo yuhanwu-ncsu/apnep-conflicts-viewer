@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "Bắt đầu vào",
+  "repeatTypeLabel": "Kiểu lặp lại",
+  "endingOnTypeLabel": "Kết thúc vào",
+  "endingOnDateLabel": "Ngày kết thúc",
+  "endingOnCountLabel": "Đếm",
+  "endingOnCountPlaceholder": "ví dụ: 1, 10, 30",
+  "repeatIntervalLabel": "Tần suất lặp lại",
+  "timeLabel": "Thời gian",
+  "hourlyOnMinuteLabel": "Vào phút",
+  "betweenHoursLabel": "Giữa các giờ",
+  "weeklyDaysOfWeekLabel": "Ngày trong tuần",
+  "monthlyDayOfMonthLabel": "Ngày trong tháng",
+  "monthlyDayOfMonthPlaceholder": "ví dụ: 1 - 31",
+  "allDayLabel": "Tất cả các ngày",
+  "allWeekLabel": "Tất cả tuần",
+  "repeatTypeOptions": {
+    "minute": "Phút",
+    "hour": "Giờ",
+    "day": "Ngày",
+    "week": "Tuần",
+    "month": "Tháng"
+  },
+  "endingOnType": {
+    "never": "Không bao giờ",
+    "date": "Ngày",
+    "count": "Đếm"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "Mỗi phút một lần",
+    "everyTwoMinutes": "Hai phút một lần",
+    "everyThreeMinutes": "Ba phút một lần",
+    "everyFiveMinutes": "Năm phút một lần",
+    "everyTenMinutes": "Mười phút một lần",
+    "everyFifteenMinutes": "Mười lăm phút một lần",
+    "everyThirtyMinutes": "Ba mươi phút một lần"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "Mỗi giờ một lần",
+    "everyTwoHours": "Hai giờ một lần",
+    "everyThreeHours": "Ba giờ một lần",
+    "everyFourHours": "Bốn giờ một lần",
+    "everySixHours": "Sáu giờ một lần",
+    "everyTwelveHours": "Mười hai giờ một lần"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "Hàng ngày",
+    "everyOtherDay": "Hai ngày một lần",
+    "everyThreeDays": "Ba ngày một lần",
+    "everyFourDays": "Bốn ngày một lần",
+    "everyFiveDays": "Năm ngày một lần",
+    "everySixDays": "Sáu ngày một lần",
+    "everySevenDays": "Bảy ngày một lần",
+    "everyFourteenDays": "Mười bốn ngày một lần"
+  },
+  "weekDays": {
+    "allWeekdays": "Tất cả ngày trong tuần",
+    "sunday": "Chủ nhật",
+    "monday": "Thứ hai",
+    "tuesday": "Thứ ba",
+    "wednesday": "Thứ tư",
+    "thursday": "Thứ năm",
+    "friday": "Thứ sáu",
+    "saturday": "Thứ bảy"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "Hàng tháng",
+    "everyTwoMonths": "Hai tháng một lần",
+    "everyThreeMonths": "Ba tháng một lần",
+    "everyFourMonths": "Bốn tháng một lần",
+    "everyFiveMonths": "Năm tháng một lần",
+    "everySixMonths": "Sáu tháng một lần"
+  }
+}

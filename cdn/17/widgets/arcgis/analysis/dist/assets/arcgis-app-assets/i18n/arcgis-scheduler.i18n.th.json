@@ -1,0 +1,74 @@
+{
+  "beginningOnLabel": "เริ่มต้นเมื่อ",
+  "repeatTypeLabel": "พิมพ์ซ้ำ",
+  "endingOnTypeLabel": "สิ้นสุดเมื่อ",
+  "endingOnDateLabel": "วันที่สิ้นสุด",
+  "endingOnCountLabel": "นับ",
+  "endingOnCountPlaceholder": "เช่น: 1, 10, 30",
+  "repeatIntervalLabel": "ช่วงเวลาการทำซ้ำ",
+  "timeLabel": "เวลา",
+  "hourlyOnMinuteLabel": "ในนาที",
+  "betweenHoursLabel": "ระหว่างชั่วโมง",
+  "weeklyDaysOfWeekLabel": "วันของสัปดาห์",
+  "monthlyDayOfMonthLabel": "วันของเดือน",
+  "monthlyDayOfMonthPlaceholder": "เช่น, 1 - 31",
+  "allDayLabel": "ทั้งวัน",
+  "allWeekLabel": "ทั้งสัปดาห์",
+  "repeatTypeOptions": {
+    "minute": "นาที",
+    "hour": "ชั่วโมง",
+    "day": "วัน",
+    "week": "สัปดาห์",
+    "month": "เดือน"
+  },
+  "endingOnType": {
+    "never": "ไม่เคย",
+    "date": "วันที่",
+    "count": "นับ"
+  },
+  "minuteRepeatInterval": {
+    "everyMinute": "ทุกนาที",
+    "everyTwoMinutes": "ทุกสองนาที",
+    "everyThreeMinutes": "ทุกสามนาที",
+    "everyFiveMinutes": "ทุกห้านาที",
+    "everyTenMinutes": "ทุกสิบนาที",
+    "everyFifteenMinutes": "ทุกสิบห้านาที",
+    "everyThirtyMinutes": "ทุกสามสิบนาที"
+  },
+  "hourlyRepeatInterval": {
+    "everyHour": "ทุกชั่วโมง",
+    "everyTwoHours": "ทุกสองชั่วโมง",
+    "everyThreeHours": "ทุกสามชั่วโมง",
+    "everyFourHours": "ทุกสี่ชั่วโมง",
+    "everySixHours": "ทุกหกชั่วโมง",
+    "everyTwelveHours": "ทุกสิบสองชั่วโมง"
+  },
+  "dailyRepeatInterval": {
+    "everyDay": "ทุกวัน",
+    "everyOtherDay": "ทุกวันเว้นวัน",
+    "everyThreeDays": "ทุกสามวัน",
+    "everyFourDays": "ทุกสี่วัน",
+    "everyFiveDays": "ทุกห้าวัน",
+    "everySixDays": "ทุกหกวัน",
+    "everySevenDays": "ทุกเจ็ดวัน",
+    "everyFourteenDays": "ทุกสิบสี่วัน"
+  },
+  "weekDays": {
+    "allWeekdays": "วันธรรมดาทั้งหมด",
+    "sunday": "วันอาทิตย์",
+    "monday": "วันจันทร์",
+    "tuesday": "วันอังคาร",
+    "wednesday": "วันพุธ",
+    "thursday": "วันพฤหัสบดี",
+    "friday": "วันศุกร์",
+    "saturday": "วันเสาร์"
+  },
+  "monthlyRepeatInterval": {
+    "everyMonth": "ทุกเดือน",
+    "everyTwoMonths": "ทุกสองเดือน",
+    "everyThreeMonths": "ทุกสามเดือน",
+    "everyFourMonths": "ทุกสี่เดือน",
+    "everyFiveMonths": "ทุกห้าเดือน",
+    "everySixMonths": "ทุกหกเดือน"
+  }
+}

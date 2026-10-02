@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Skift logintype",
+  "chooseLoginType": "Vælg logintype",
+  "selectMembers": "Vælg medlemmer",
+  "userDetails": "Brugeroplysninger",
+  "reauth": "Godkend igen",
+  "confirmComplete": "Bekræft og afslut",
+  "next": "Næste",
+  "back": "Tilbage",
+  "cancel": "Annullér",
+  "close": "Luk",
+  "changeLogins": "Skift logins",
+  "acknowledgeImpact": "Jeg bekræfter og forstår effekten af denne ændring.",
+  "propertiesHeading": "Angiv nye loginoplysninger for følgende medlemmer",
+  "chooseFile": "Vælg en anden fil",
+  "mustAcknowledge": "Du skal bekræfte effekten af denne ændring, før du fortsætter.",
+  "confirmLeave": {
+    "title": "Annullér ændringer",
+    "message1": "Du har ændringer, der ikke er gemt.",
+    "message2": "Er du sikker på, at du vil annullere ændringerne?",
+    "remain": "Fortsæt med at redigere",
+    "leave": "Afslut uden at gemme"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS-login",
+    "chooseLoginModify": "Vælg, hvordan du vil tilpase logins",
+    "changeType": "Skift logintype",
+    "selectType": "Vælg den aktuelle logintype, du vil arbejde med",
+    "changeTypeDescription": "Skift organisationsspecifikke ID'er mellem OpenID Connect-, SAML- eller ArcGIS-logins.",
+    "keepType": "Bevar logintype",
+    "keepTypeDescription": "Opdater et OpenID Connect- eller SAML-ID og e-mailadressen uden at ændre logintypen.",
+    "currentType": "Aktuel logintype",
+    "newType": "Ny logintype",
+    "select": "Vælg",
+    "samlLogin": "{name} (SAML-login)",
+    "oidcLogin": "{name} (OpenID Connect-login)",
+    "oldSaml": "Tidligere SAML-login",
+    "oldOidc": "Tidligere OIDC-login",
+    "enterpriseOverwrite": "Afhængigt af indstillingerne for din udbyder af logins for virksomheder kan e-mailadressen blev overskrevet med værdien fra din identitetsudbyder.",
+    "generateMissingPasswords": "Når der skiftes til ArcGIS-login, bliver midlertidige adgangskoder genereret automatisk, hvis de ikke er blevet angivet. De vises i trinnet med brugeroplysninger.",
+    "errors": {
+      "loginTypes": "Både aktuelle og nye logintyper skal vælges.",
+      "currentLoginType": "Den aktuelle logintype er påkrævet og skal vælges.",
+      "sameLoginType": "Den nye logintype skal være anderledes end den aktuelle logintype."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metode til valg af medlemmer",
+    "howToSelect": "Hvordan vil du vælge medlemmer?",
+    "bulkUpload": "Masseoverførsel (CSV)",
+    "chooseAFile": "Vælg en fil, der skal overføres i næste trin.",
+    "manualSelection": "Manuelt valg",
+    "selectMembers": "Vælg medlemmer på listen i det næste trin.",
+    "selectFromFile": "Vælg medlemmer fra en CSV-fil",
+    "dragDrop": "Træk og slip din fil, eller vælg fra din enhed.",
+    "headerInstructions": "Toptekst (første række) skal indeholde feltnavne, nøjagtigt som de vises nedenfor.",
+    "fieldOrder": "Feltrækkefølgen kan variere.",
+    "yourDevice": "Din enhed",
+    "downloadTemplate": "Download CSV-skabelon",
+    "requiredFields": "Krævede felter",
+    "optionalFields": "Valgfrie felter",
+    "passwordTooltip": "Der genereres automatisk en midlertidig adgangskode, hvis der ikke er angivet en.",
+    "excessTitleCsv": "CCSV overskrider grænsen på 5.000 medlemmer",
+    "excessBatchLimit": "Du kan opdatere logintyper for op til 5.000 medlemmer pr. batch.",
+    "excessBodyCsv": "Hvis du gerne vil behandle mere end 5.000 medlemmer, skal du opdele din CSV i flere mindre filer og overføre dem separat.",
+    "learnMore": "Få mere at vide",
+    "errors": {
+      "fileType": "Ugyldig filtype. Upload en CSV-fil.",
+      "fileSize": "Filstørrelse overstiger 500 KB og bliver muligvis ikke behandlet på en effektiv måde.",
+      "noMembers": "Ingen medlemmer valgt. Vælg medlemmer, eller overfør en CSV-fil for at fortsætte.",
+      "tooManyMembers": "Markering overstiger grænse på 5.000 medlemmer."
+    }
+  },
+  "fieldNames": {
+    "email": "E-mail",
+    "username": "ArcGIS -brugernavn",
+    "password": "Midlertidig adgangskode",
+    "samlId": "SAML-ID",
+    "oidcId": "OIDC-id",
+    "oldSamlId": "Tidligere SAML-ID",
+    "oldOidcId": "Tidligere OIDC-ID",
+    "success": "Lykkedes",
+    "error": "Fejl",
+    "fromLoginType": "Type af første login",
+    "toLoginType": "Ny logintype"
+  },
+  "authentication": {
+    "header": "Gengodkendelse påkrævet",
+    "reauthSteps": "Trin til gengodkendelse",
+    "step1_label": "Trin 1: Log ind (nyt vindue)",
+    "step1_desc": "Der vises et nyt vindue, hvor du skal logge ind.",
+    "step2_label": "Trin 2: Kopiér godkendelsesnøgle",
+    "step2_desc": "Du får udleveret en godkendelsesnøgle, du skal kopiere.",
+    "step3_label": "Trin 3: Indsæt godkendelsesnøgle",
+    "step3_desc": "Angiv godkendelsesnøglen for at fortsætte.",
+    "openWindow": "Åbn et nyt vindue for at godkende igen",
+    "authKey": "Godkendelsesnøgle",
+    "paste": "Sæt ind",
+    "getNewKey": "Generér ny nøgle",
+    "hide": "Skjul",
+    "show": "Vis",
+    "errors": {
+      "clipboard": "Kunne ikke læse fra udklipsholder",
+      "authKey": "Der kræves en gyldig godkendelsesnøgle"
+    }
+  },
+  "usersTable": {
+    "asc": "I alfabetisk orden",
+    "desc": "I omvendt alfabetisk orden",
+    "sortBy": "Sortér efter",
+    "sortDirection": "Sorteringsretning",
+    "searchMembers": "Søg efter medlemmer på denne liste",
+    "memberDetails": "Medlemsoplysninger i forbindelse med ændring af loginudbyder",
+    "optional": "(valgfrit)",
+    "fieldErrors": "Feltfejl",
+    "noErrors": "Ingen fejl",
+    "noData": "Ingen tilgængelige data",
+    "noMembersMatch": "Ingen medlemmer matcher dine søgekriterier",
+    "togglePassword": "Slå synlighed af adgangskode til/fra",
+    "memberCount": "{start} - {end} af {total}",
+    "errors": {
+      "email": "E-mailadresse er påkrævet",
+      "username": "ArcGIS-brugernavn er påkrævet",
+      "password": "Midlertidig adgangskode er påkrævet",
+      "samlId": "SAML-id er påkrævet",
+      "oidcId": "OIDC-id er påkrævet"
+    }
+  },
+  "review": {
+    "heading": "Gennemgå ændringerne",
+    "loginsWillChange": "Følgende konti skifter fra {fromLogin} til {toLogin}",
+    "downloadCsv": "Download CSV med ændringer",
+    "providerTypes": {
+      "saml": "SAML-logins",
+      "oidc": "OpenID Connect-logins",
+      "arcgis": "ArcGIS-kontologins"
+    },
+    "missingRequired": "Påkrævet information mangler. Udfyld de manglende oplysninger, før du fortsætter."
+  },
+  "progress": {
+    "processing": "Behandler... {current} ud af {total} brugere.",
+    "percentComplete": "Procent fuldført",
+    "doNotClose": "Luk ikke browseren.",
+    "extendedTime": "Dette kan tage op til 10 minutter, vær tålmodig.",
+    "extendedTime10": "Dette kan tage mere end 10 minutter, vær tålmodig.",
+    "extendedTime15": "Dette kan tage mere end 15 minutter, vær tålmodig.",
+    "label": "Statusindikatoren for ændring af logintyper",
+    "errors": {
+      "authkey": {
+        "title": "Ugyldig godkendelsesnøgle",
+        "body1": "Den angivne godkendelsesnøgle er ugyldig.",
+        "body2": "Angiv en gyldig godkendelsesnøgle igen.",
+        "action": "Angiv godkendelsesnøgle igen",
+        "cancel": "Annullér"
+      },
+      "unknown": "Der opstod en fejl under processen til ændring af udbyder. Prøv igen, eller kontakt support, hvis problemet fortsætter.",
+      "userNotFound": "Brugernavn ikke fundet",
+      "idpUsernameNotMatching": "Brugernavn matcher ikke",
+      "providerNotMatching": "Kan ikke ændre login"
+    }
+  }
+}

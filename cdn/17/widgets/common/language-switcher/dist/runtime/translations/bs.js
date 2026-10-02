@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Prebaciva\u010d jezika",previewTip:"Ovo radi samo u aplikacijama za pretpregled ili objavljenim aplikacijama."})}}});

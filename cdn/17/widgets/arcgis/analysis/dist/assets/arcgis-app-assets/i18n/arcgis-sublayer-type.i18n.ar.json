@@ -1,0 +1,16 @@
+{
+  "point": "طبقة نقطة",
+  "line": "الطبقة الخطية",
+  "polygon": "طبقة مضلع",
+  "multipatch": "طبقة متعددة التصحيحات",
+  "multipoint": "طبقة متعددة النقاط",
+  "table": "جدول",
+  "annotation": "طبقة التعليق التوضيحي",
+  "catalog": "طبقة الكتالوج",
+  "dimension": "طبقة البُعد",
+  "oriented imagery": "طبقة الصور الموجهة",
+  "parcel": "طبقة Parcel Fabric",
+  "utility network": "طبقة شبكة المرافق",
+  "topology": "طبقة الطبولوجيا",
+  "trace network": "طبقة شبكة التتبع"
+}

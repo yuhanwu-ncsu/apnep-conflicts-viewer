@@ -1,0 +1,119 @@
+{
+  "Authoritative": {
+    "title": "Autorevole",
+    "tooltip": {
+      "org": "Consigliato dall’organizzazione",
+      "public": "Consigliato da ${name}"
+    }
+  },
+  "Beta": {
+    "title": "Beta",
+    "tooltip": "Questo tipo di elemento è in versione beta."
+  },
+  "Deprecated": {
+    "title": "Deprecato",
+    "tooltip": "Non consigliato per l’uso. Il proprietario, ${owner}, ha deprecato questo elemento."
+  },
+  "Has Replacement": {
+    "title": "Ha una sostituzione.",
+    "tooltip": "Per questo elemento è disponibile una sostituzione consigliata. Visualizza i dettagli dell'elemento per trovare e utilizzare la sostituzione.",
+    "itemPageTooltip": "Per questo elemento è disponibile una sostituzione consigliata.",
+    "link": "Visualizza sostituzione"
+  },
+  "DeprecatedItemType": {
+    "title": "Tipo di elemento deprecato",
+    "tooltip": {
+      "general": "Esri ha deprecato questo tipo di elemento. Sarà presto ritirato e non più disponibile per l'uso.",
+      "webAppBuilder": "Esri ha deprecato ArcGIS Web AppBuilder, che è stato utilizzato per creare questo elemento. Sarà presto ritirato e non più disponibile per l'uso. Per creare una nuova applicazione, utilizzare ArcGIS Experience Builder o un'altra app ArcGIS."
+    }
+  },
+  "Living Atlas": {
+    "title": "Atlante attivo",
+    "tooltip": "Contenuto curato Esri"
+  },
+  "Subscriber": {
+    "title": "Sottoscrittore",
+    "tooltip": {
+      "org": "Contenuto esclusivo per abbonati",
+      "public": "Contenuto esclusivo per abbonati. Per usarlo, accedi con un abbonamento ad ArcGIS Online."
+    }
+  },
+  "Premium": {
+    "title": "Premium",
+    "tooltip": {
+      "org": "Contenuto esclusivo per abbonati. Consuma crediti.",
+      "public": "Contenuto esclusivo per abbonati che utilizza crediti. Per usarlo, accedi con un abbonamento ad ArcGIS Online."
+    }
+  },
+  "Open Data": {
+    "title": "Open Data",
+    "tooltip": "Disponibile per uso pubblico"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "tooltip": "Disponibile su ArcGIS Marketplace"
+  },
+  "Collaboration": {
+    "title": "Collaborazione distribuita",
+    "tooltip": "L'elemento è stato ricevuto da una collaborazione distribuita"
+  },
+  "Retired": {
+    "title": "Tipo di elemento ritirato",
+    "tooltip": {
+      "general": "Esri ha ritirato questo tipo di elemento. Non è più disponibile per l'uso.",
+      "classicStoryMap": "Il modello classico di Esri Story Maps (${template_name}) utilizzato per creare questo elemento è stato ritirato. Questo elemento non può più essere modificato o visualizzato. Per reindirizzare gli utenti, configurare un elemento sostitutivo creato con ArcGIS StoryMaps o con un'altra app ArcGIS.",
+      "classicStoryMapGeneric": "Il modello classico di Esri Story Maps utilizzato per creare questo elemento è stato ritirato. Questo elemento non può più essere modificato o visualizzato. Per reindirizzare gli utenti, configurare un elemento sostitutivo creato con ArcGIS StoryMaps o con un'altra app ArcGIS.",
+      "cityEngine": "Il Web Viewer e le scene Web di CityEngine non sono più supportati.",
+      "app": "Il modello di Configurable Apps utilizzato per creare questa applicazione è stato ritirato. Questo elemento non è funzionante e può essere eliminato. Per creare una nuova applicazione, utilizzare ArcGIS Instant Apps, ArcGIS StoryMaps, ArcGIS Dashboards o ArcGIS Experience Builder.",
+      "webAppBuilder": "ArcGIS Web AppBuilder è stato dismesso in ArcGIS Enterprise. Questo elemento non è funzionante e può essere eliminato. Per creare una nuova applicazione, utilizza ArcGIS Experience Builder.",
+      "insights": "ArcGIS Insights è stato dismesso in ArcGIS Enterprise. Questo elemento non è funzionante e può essere eliminato.",
+      "bdfs": "Le condivisioni file Big Data sono state ritirate in ArcGIS Enterprise. Questo elemento non è funzionante e può essere eliminato."
+    }
+  },
+  "Public Data Collection": {
+    "title": "Raccolta dati pubblici",
+    "tooltip": "Approvato per la raccolta di dati pubblici."
+  },
+  "Solution": {
+    "title": "ArcGIS Solution",
+    "tooltip": "Soluzione supportata da Esri"
+  },
+  "Registered": {
+    "title": "OAuth 2.0",
+    "tooltip": {
+      "online": "Un'applicazione OAuth 2.0 registrata Si possono usare contenuti premium o per abbonati.",
+      "enterprise": "Un'applicazione OAuth 2.0 registrata"
+    }
+  },
+  "Registered API Key Credentials (Standard)": {
+    "title": {
+      "online": "Credenziali della chiave API",
+      "enterprise": "Credenziali della chiave API"
+    },
+    "tooltip": "Concede l'accesso ai servizi."
+  },
+  "Registered API Key Credentials (Personal)": {
+    "title": "Credenziali chiave API - Applicazione privata",
+    "tooltip": "Fornisce l'accesso ai token con privilegi per accedere a un ampio insieme di servizi ed elementi. Conservare questi token come i propri nome utente e password. Non incorporare in un'applicazione."
+  },
+  "Registered OAuth 2.0 Credentials (Standard)": {
+    "title": {
+      "online": "Credenziali OAuth 2.0",
+      "enterprise": "Credenziali OAuth 2.0"
+    },
+    "tooltip": "Concede l'accesso ai servizi."
+  },
+  "Registered OAuth 2.0 Credentials (Personal)": {
+    "title": "Credenziali OAuth 2.0 - Impersona il proprietario dell'elemento",
+    "tooltip": "Impersona il proprietario di questo elemento. Per ragioni di sicurezza, è necessario proteggere queste credenziali come si protegge il proprio nome utente/password."
+  },
+  "Registered Application": {
+    "title": "Applicazione OAuth 2.0",
+    "tooltip": "Un'applicazione OAuth 2.0 registrata"
+  },
+  "Personal credential": {
+    "title": "Personale",
+    "tooltip": "Si sta concedendo un privilegio personale a questa credenziale. Per ragioni di sicurezza, è necessario proteggere tutti i token creati con queste credenziali allo stesso modo del proprio nome utente/password. Revisionare le condizioni d'uso."
+  },
+  "loading": "Caricamento in corso..."
+}

@@ -1,0 +1,1 @@
+System.register([],function(r){return{execute:function(){r({_widgetLabel:"Infrastruktursn\xe4tverk \u2013 validera topologi",_widgetDescription:"Den h\xe4r widgeten m\xf6jligg\xf6r validering av felaktiga omr\xe5den i n\xe4tverkstopologin f\xf6r ett infrastruktursn\xe4tverk n\xe4r redigeringar har gjorts."})}}});

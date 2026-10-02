@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({dropdown:"Menu rozwijane",button:"Przycisk",configTip:"Przed u\u017cyciem tego wid\u017cetu skonfiguruj ustawienia j\u0119zyka na karcie <bold>Og\xf3lne</bold> kreatora."})}}});

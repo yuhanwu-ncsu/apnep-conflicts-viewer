@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Modifica tipo di accesso",
+  "chooseLoginType": "Scegliere il tipo di accesso",
+  "selectMembers": "Seleziona membri",
+  "userDetails": "Dettagli utente",
+  "reauth": "Autentica di nuovo",
+  "confirmComplete": "Conferma e completa",
+  "next": "Avanti",
+  "back": "Indietro",
+  "cancel": "Annulla",
+  "close": "Chiudi",
+  "changeLogins": "Cambia accessi",
+  "acknowledgeImpact": "Sono consapevole e comprendo l'impatto di questa modifica.",
+  "propertiesHeading": "Specificare nuovi dettagli di accesso per i seguenti membri",
+  "chooseFile": "Scegli un altro file",
+  "mustAcknowledge": "Prima di procedere, è necessario riconoscere l'impatto di questa modifica.",
+  "confirmLeave": {
+    "title": "Annulla modifiche",
+    "message1": "Sono disponibili modifiche non salvate.",
+    "message2": "Annullare le modifiche?",
+    "remain": "Continua a modificare",
+    "leave": "Uscire senza salvare"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Accesso ad ArcGIS",
+    "chooseLoginModify": "Scegliere come modificare gli accessi",
+    "changeType": "Modifica tipo di accesso",
+    "selectType": "Selezionare il tipo di accesso corrente con cui lavorare",
+    "changeTypeDescription": "Cambia gli ID specifici dell'organizzazione tra accessi OpenID Connect, SAML o ArcGIS.",
+    "keepType": "Mantieni il tipo di accesso",
+    "keepTypeDescription": "Aggiorna un ID OpenID Connect o SAML e un indirizzo e-mail senza modificare il tipo di accesso.",
+    "currentType": "Tipo di accesso corrente",
+    "newType": "Nuovo tipo di accesso",
+    "select": "Seleziona",
+    "samlLogin": "{name} (accesso a SAML)",
+    "oidcLogin": "{name} (accesso a OpenID Connect)",
+    "oldSaml": "Accesso SAML precedente",
+    "oldOidc": "Accesso OIDC precedente",
+    "enterpriseOverwrite": "A seconda delle impostazioni del provider di accesso aziendale, l'indirizzo e-mail potrebbe essere sovrascritto con il valore del proprio provider di identità.",
+    "generateMissingPasswords": "Quando si passa all'accesso ArcGIS, vengono generate automaticamente password temporanee se non sono state specificate. Verranno visualizzate nel passaggio dei dati dell'utente.",
+    "errors": {
+      "loginTypes": "È necessario selezionare sia il tipo di accesso attuale che quello nuovo.",
+      "currentLoginType": "Il tipo di accesso corrente è obbligatorio e deve essere selezionato.",
+      "sameLoginType": "Il nuovo tipo di accesso deve essere diverso dal tipo di accesso attuale."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metodo di selezione dei membri",
+    "howToSelect": "In che modo selezionare i membri?",
+    "bulkUpload": "Caricamento in blocco (CSV)",
+    "chooseAFile": "Scegliere un file da caricare nel prossimo passaggio.",
+    "manualSelection": "Selezione manuale",
+    "selectMembers": "Selezionare i membri da un elenco nel prossimo passaggio.",
+    "selectFromFile": "Selezionare i membri da un file CSV",
+    "dragDrop": "Trascinare e rilasciare il file o selezionare dal dispositivo",
+    "headerInstructions": "L'intestazione (prima riga) deve contenere esattamente i nomi dei campi visualizzati di seguito.",
+    "fieldOrder": "L'ordine dei campi potrebbe variare.",
+    "yourDevice": "Il dispositivo",
+    "downloadTemplate": "Scarica modello CSV",
+    "requiredFields": "Campi obbligatori",
+    "optionalFields": "Campi facoltativi",
+    "passwordTooltip": "Verrà generata automaticamente una password temporanea se non ne viene fornita una.",
+    "excessTitleCsv": "Il CSV supera il limite di 5.000 membri",
+    "excessBatchLimit": "È possibile caricare i tipi di accesso per un massimo di 5.000 membri alla volta.",
+    "excessBodyCsv": "Per elaborare più di 5.000 membri, dividere il CSV in più file più piccoli e caricarli separatamente.",
+    "learnMore": "Ulteriori informazioni",
+    "errors": {
+      "fileType": "Tipo di file non valido. Si prega di caricare un file CSV.",
+      "fileSize": "La dimensione del file supera i 500 KB e potrebbe non essere elaborato efficientemente.",
+      "noMembers": "Nessun membro selezionato. Selezionare i membri o caricare un file CSV per continuare.",
+      "tooManyMembers": "La selezione supera il limite di 5.000 membri."
+    }
+  },
+  "fieldNames": {
+    "email": "E-mail",
+    "username": "Nome utente ArcGIS",
+    "password": "Password temporanea",
+    "samlId": "ID SAML",
+    "oidcId": "ID OIDC",
+    "oldSamlId": "ID SAML precedente",
+    "oldOidcId": "ID OIDC precedente",
+    "success": "Operazione riuscita",
+    "error": "Errore",
+    "fromLoginType": "Tipo di accesso iniziale",
+    "toLoginType": "Nuovo tipo di accesso"
+  },
+  "authentication": {
+    "header": "Nuova autenticazione richiesta",
+    "reauthSteps": "Passaggi per la nuova autenticazione",
+    "step1_label": "Passaggio 1: effettuare l'accesso (nuova finestra)",
+    "step1_desc": "Comparirà una nuova finestra da cui effettuare l'accesso.",
+    "step2_label": "Passaggio 2: copiare la chiave di autenticazione",
+    "step2_desc": "Sarà fornita una chiave di autenticazione da copiare.",
+    "step3_label": "Passaggio 3: incollare la chiave di autenticazione",
+    "step3_desc": "Immettere la chiave di autenticazione per continuare.",
+    "openWindow": "Aprire una nuova finestra per autenticare di nuovo",
+    "authKey": "Chiave di autenticazione",
+    "paste": "Incolla",
+    "getNewKey": "Genere nuova chiave",
+    "hide": "Nascondi",
+    "show": "Mostra",
+    "errors": {
+      "clipboard": "Impossibile leggere dagli appunti",
+      "authKey": "È richiesta una chiave di autenticazione valida"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabetico",
+    "desc": "Alfabetico inverso",
+    "sortBy": "Ordina per",
+    "sortDirection": "Direzione di ordinamento",
+    "searchMembers": "Cerca membri in questo elenco",
+    "memberDetails": "Dettagli del membro per l'operazione di modifica del provider di accesso",
+    "optional": "(facoltativo)",
+    "fieldErrors": "Errori di campo",
+    "noErrors": "Nessun errore",
+    "noData": "Dati non disponibili",
+    "noMembersMatch": "Nessun membro corrisponde ai criteri selezionati",
+    "togglePassword": "Attiva/disattiva visibilità password",
+    "memberCount": "{start} - {end} di {total}",
+    "errors": {
+      "email": "Indirizzo e-mail obbligatorio",
+      "username": "Nome utente ArcGIS obbligatorio",
+      "password": "Password temporanea obbligatoria",
+      "samlId": "ID SAML obbligatorio",
+      "oidcId": "ID OIDC obbligatorio"
+    }
+  },
+  "review": {
+    "heading": "Esamina le modifiche",
+    "loginsWillChange": "I seguenti account cambieranno da {fromLogin} a {toLogin}",
+    "downloadCsv": "Scarica un CSV delle modifiche",
+    "providerTypes": {
+      "saml": "Accessi SAML",
+      "oidc": "Accessi OpenID Connect",
+      "arcgis": "Accessi account ArcGIS"
+    },
+    "missingRequired": "Mancano informazioni obbligatorie. Inserisci le informazioni mancanti prima di procedere."
+  },
+  "progress": {
+    "processing": "Elaborazione in corso... {current} su {total} utenti.",
+    "percentComplete": "Percentuale completamento",
+    "doNotClose": "Si prega di non chiudere il browser.",
+    "extendedTime": "Potrebbero essere necessari fino a 10 minuti, si prega di attendere.",
+    "extendedTime10": "Potrebbero essere necessari più di 10 minuti, si prega di attendere.",
+    "extendedTime15": "Potrebbero essere necessari più di 15 minuti, si prega di attendere.",
+    "label": "Indicatore di avanzamento per la modifica dei tipi di accesso",
+    "errors": {
+      "authkey": {
+        "title": "Chiave di autenticazione non valida",
+        "body1": "La chiave di autenticazione immessa non è valida.",
+        "body2": "Inserire di nuovo una chiave di autenticazione valida.",
+        "action": "Inserire di nuovo la chiave di autenticazione",
+        "cancel": "Annulla"
+      },
+      "unknown": "Si è verificato un errore durante il processo di modifica del provider. Riprovare o contattare l'assistenza se il problema persiste.",
+      "userNotFound": "Nome utente non trovato",
+      "idpUsernameNotMatching": "Il nome utente non corrisponde",
+      "providerNotMatching": "Impossibile modificare l'accesso"
+    }
+  }
+}

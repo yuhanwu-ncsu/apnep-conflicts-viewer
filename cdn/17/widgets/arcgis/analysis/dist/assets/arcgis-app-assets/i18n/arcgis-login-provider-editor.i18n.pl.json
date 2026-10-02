@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Zmień typ logowania",
+  "chooseLoginType": "Wybierz typ logowania",
+  "selectMembers": "Wybierz członków",
+  "userDetails": "Szczegóły użytkownika",
+  "reauth": "Uwierzytelnij ponownie",
+  "confirmComplete": "Potwierdź i zakończ",
+  "next": "Dalej",
+  "back": "Wstecz",
+  "cancel": "Anuluj",
+  "close": "Zamknij",
+  "changeLogins": "Zmień loginy",
+  "acknowledgeImpact": "Potwierdzam, że rozumiem skutki tej zmiany.",
+  "propertiesHeading": "Określ nowe dane logowania dla następujących członków",
+  "chooseFile": "Wybierz inny plik",
+  "mustAcknowledge": "Przed kontynuowaniem musisz potwierdzić, że rozumiesz skutki tej zmiany.",
+  "confirmLeave": {
+    "title": "Anuluj zmiany",
+    "message1": "Istnieją niezapisane zmiany.",
+    "message2": "Czy na pewno anulować zmiany?",
+    "remain": "Kontynuuj edycję",
+    "leave": "Zakończ bez zapisania"
+  },
+  "methodSelection": {
+    "arcgisLogin": "Login ArcGIS",
+    "chooseLoginModify": "Wybierz metodę zmiany loginów",
+    "changeType": "Zmień typ logowania",
+    "selectType": "Wybierz bieżący typ logowania do pracy",
+    "changeTypeDescription": "Zmień identyfikatory specyficzne dla instytucji na loginy OpenID Connect, SAML lub ArcGIS.",
+    "keepType": "Zachowaj typ logowania",
+    "keepTypeDescription": "Zaktualizuj identyfikator OpenID Connect lub SAML oraz adres e-mail bez zmiany typu logowania.",
+    "currentType": "Bieżący typ logowania",
+    "newType": "Nowy typ logowania",
+    "select": "Wybierz",
+    "samlLogin": "{name} (login SAML)",
+    "oidcLogin": "{name} (login OpenID Connect)",
+    "oldSaml": "Poprzedni login SAML",
+    "oldOidc": "Poprzedni login OIDC",
+    "enterpriseOverwrite": "W zależności od ustawień dostawcy loginu korporacyjnego adres e-mail może zostać zastąpiony wartością od dostawcy tożsamości.",
+    "generateMissingPasswords": "Podczas zmiany na login ArcGIS hasła tymczasowe będą generowane automatycznie, jeśli nie zostały określone. Będą one wyświetlane podczas etapu podawania danych użytkownika.",
+    "errors": {
+      "loginTypes": "Należy wybrać zarówno obecny, jak i nowy typ logowania.",
+      "currentLoginType": "Bieżący typ logowania jest wymagany i jego wybór jest konieczny.",
+      "sameLoginType": "Nowy typ loginu musi się różnić od bieżącego typu loginu."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metoda wyboru członków",
+    "howToSelect": "Jak chcesz wybierać członków?",
+    "bulkUpload": "Przesyłanie zbiorcze (CSV)",
+    "chooseAFile": "W kolejnym kroku wybierz plik do przesłania.",
+    "manualSelection": "Wybór ręczny",
+    "selectMembers": "W kolejnym kroku wybierz członków z listy.",
+    "selectFromFile": "Wybierz członków z pliku CSV.",
+    "dragDrop": "Przeciągnij i upuść plik lub wybierz go z urządzenia.",
+    "headerInstructions": "Nagłówek (pierwszy wiersz) powinien zawierać nazwy pól dokładnie takie jak wyświetlone poniżej.",
+    "fieldOrder": "Kolejność pól może być różna.",
+    "yourDevice": "Twoje urządzenie",
+    "downloadTemplate": "Pobierz szablon CSV",
+    "requiredFields": "Wymagane pola",
+    "optionalFields": "Pola opcjonalne",
+    "passwordTooltip": "Jeśli hasło nie zostanie podane, automatycznie wygenerowane zostanie tymczasowe.",
+    "excessTitleCsv": "W pliku CVS przekroczono limit 5000 członków",
+    "excessBatchLimit": "Możesz zaktualizować typy logowania dla maksymalnie 5000 członków w jednej partii.",
+    "excessBodyCsv": "Aby przetworzyć ponad 5000 członków, podziel plik CSV na kilka mniejszych plików i prześlij je osobno.",
+    "learnMore": "Dowiedz się więcej",
+    "errors": {
+      "fileType": "Nieprawidłowy typ pliku. Proszę wczytać plik CSV.",
+      "fileSize": "Rozmiar pliku przekracza 500 KB i nie można go skutecznie przetworzyć.",
+      "noMembers": "Nie wybrano członków. Wybierz członków lub wczytaj plik CSV, aby kontynuować.",
+      "tooManyMembers": "Wybór przekracza limit 5000 członków."
+    }
+  },
+  "fieldNames": {
+    "email": "E-mail",
+    "username": "Nazwa użytkownika ArcGIS",
+    "password": "Hasło tymczasowe",
+    "samlId": "Identyfikator SAML",
+    "oidcId": "Identyfikator OIDC",
+    "oldSamlId": "Poprzedni identyfikator SAML",
+    "oldOidcId": "Poprzedni identyfikator OIDC",
+    "success": "Sukces",
+    "error": "Błąd",
+    "fromLoginType": "Początkowy typ logowania",
+    "toLoginType": "Nowy typ logowania"
+  },
+  "authentication": {
+    "header": "Wymagane ponowne uwierzytelnienie",
+    "reauthSteps": "Etapy ponownego uwierzytelnienia",
+    "step1_label": "Etap 1: Zaloguj się (nowe okno)",
+    "step1_desc": "Wyświetlone zostanie nowe okno do zalogowania.",
+    "step2_label": "Etap 2: Skopiuj klucz uwierzytelniania",
+    "step2_desc": "Otrzymasz klucz uwierzytelniania do skopiowania.",
+    "step3_label": "Etap 3: Wklej klucz uwierzytelniania",
+    "step3_desc": "Wprowadź klucz uwierzytelniania, aby kontynuować.",
+    "openWindow": "Otwórz nowe okno, aby uwierzytelnić ponownie",
+    "authKey": "Klucz uwierzytelniania",
+    "paste": "Wklej",
+    "getNewKey": "Wygeneruj nowy klucz",
+    "hide": "Ukryj",
+    "show": "Pokaż",
+    "errors": {
+      "clipboard": "Nie można odczytać ze schowka",
+      "authKey": "Wymagany jest prawidłowy klucz uwierzytelniający"
+    }
+  },
+  "usersTable": {
+    "asc": "Alfabetycznie",
+    "desc": "W odwrotnej kolejności alfabetycznej",
+    "sortBy": "Sortuj według",
+    "sortDirection": "Kierunek sortowania",
+    "searchMembers": "Wyszukaj członków na tej liście",
+    "memberDetails": "Szczegóły członka do zmiany dostawcy loginów",
+    "optional": "(opcjonalnie)",
+    "fieldErrors": "Błędy pól",
+    "noErrors": "Brak błędów",
+    "noData": "Brak danych",
+    "noMembersMatch": "Żaden członek nie spełnia kryteriów wyszukiwania",
+    "togglePassword": "Przełącz widoczność hasła",
+    "memberCount": "{start} - {end} z {total}",
+    "errors": {
+      "email": "Wymagany jest adres e-mail",
+      "username": "Wymagana jest nazwa użytkownika ArcGIS",
+      "password": "Wymagane jest hasło tymczasowe",
+      "samlId": "Wymagany jest identyfikator SAML",
+      "oidcId": "Wymagany jest identyfikator OIDC"
+    }
+  },
+  "review": {
+    "heading": "Sprawdź zmiany",
+    "loginsWillChange": "Następujące konta zmienią się z {fromLogin} na {toLogin}",
+    "downloadCsv": "Pobierz plik CSV ze zmianami",
+    "providerTypes": {
+      "saml": "Loginy SAML",
+      "oidc": "Loginy OpenID Connect",
+      "arcgis": "Loginy do konta ArcGIS"
+    },
+    "missingRequired": "Brak wymaganych informacji. Przed kontynuowaniem uzupełnij brakujące informacje."
+  },
+  "progress": {
+    "processing": "Przetwarzanie... {current} z {total} użytkowników.",
+    "percentComplete": "Procent ukończenia",
+    "doNotClose": "Nie zamykaj przeglądarki.",
+    "extendedTime": "Może to potrwać do 10 minut, prosimy o cierpliwość.",
+    "extendedTime10": "Może to potrwać ponad 10 minut, prosimy o cierpliwość.",
+    "extendedTime15": "Może to potrwać ponad 15 minut, prosimy o cierpliwość.",
+    "label": "Wskaźnik postępu zmiany typu logowania",
+    "errors": {
+      "authkey": {
+        "title": "Nieprawidłowy klucz uwierzytelniania",
+        "body1": "Wprowadzony klucz uwierzytelniania jest nieprawidłowy.",
+        "body2": "Wprowadź ponownie prawidłowy klucz uwierzytelniania.",
+        "action": "Wprowadź ponownie klucz uwierzytelniania",
+        "cancel": "Anuluj"
+      },
+      "unknown": "Wystąpił błąd podczas procesu zmiany dostawcy. Spróbuj ponownie, a jeśli problem nie ustąpi, skontaktuj się z działem wsparcia.",
+      "userNotFound": "Nie znaleziono nazwy użytkownika",
+      "idpUsernameNotMatching": "Nazwa użytkownika jest niezgodna",
+      "providerNotMatching": "Nie można zmienić loginu"
+    }
+  }
+}

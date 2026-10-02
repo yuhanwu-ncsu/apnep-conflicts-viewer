@@ -1,0 +1,24 @@
+{
+  "expandAll": "Visa alla",
+  "collapseAll": "Dölj alla",
+  "categoryItem": {
+    "expand": "Expandera",
+    "collapse": "Dölj",
+    "editCategory": "Redigera kategori",
+    "deleteCategory": "Ta bort kategori",
+    "addSubcategory": "Lägg till underkategori",
+    "addCategory": "Lägg till kategori",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "missingTitleMessage": "Kategorititel krävs.",
+    "errors": {
+      "generic": "Det uppstod ett fel. Försök igen senare.",
+      "maxDepthExceeded": "Du kan inte koppla kategorier som har fler än två nivåer.",
+      "destinationHasSameName": "Det finns redan en kategori med samma namn i destinationskategorin.",
+      "emptyTitle": "Kategorititeln får inte vara tom.",
+      "noSchema": "Objektschema hittades inte för användare.",
+      "maxCharacter": "Kategorinamnet överskrider den tillåtna teckengränsen."
+    },
+    "dragHandleLabel": "Dra för att ändra ordning."
+  }
+}

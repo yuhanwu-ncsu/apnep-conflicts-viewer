@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Validar topolog\xeda de red de servicios",_widgetDescription:"Este widget permite validar \xe1reas sin validar en la topolog\xeda de red de una red de servicios despu\xe9s de haber realizado ediciones."})}}});

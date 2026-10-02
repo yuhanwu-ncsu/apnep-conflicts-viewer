@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({dropdown:"A\xe7\u0131l\u0131r Liste",button:"Buton",configTip:"Bu arac\u0131 kullanmadan \xf6nce l\xfctfen olu\u015fturucunun <bold>Genel</bold> sekmesinde dil ayarlar\u0131n\u0131 yap\u0131land\u0131r\u0131n."})}}});

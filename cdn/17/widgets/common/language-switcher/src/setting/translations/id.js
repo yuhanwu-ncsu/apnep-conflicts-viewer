@@ -1,0 +1,1 @@
+System.register([],function(n){return{execute:function(){n({dropdown:"Tarik Turun",button:"Tombol",configTip:"Konfigurasikan pengaturan bahasa di tab <bold>Umum</bold> pada builder sebelum menggunakan widget ini."})}}});

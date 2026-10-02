@@ -1,0 +1,16 @@
+{
+  "point": "Punktikiht",
+  "line": "Joonekiht",
+  "polygon": "Polügoonikiht",
+  "multipatch": "Ruumilise geomeetria kiht",
+  "multipoint": "Mitmikpunktikiht",
+  "table": "Tabel",
+  "annotation": "Annotatsioonikiht",
+  "catalog": "Kataloogikiht",
+  "dimension": "Dimensioonikiht",
+  "oriented imagery": "Orienteeritud piltide kiht",
+  "parcel": "Pakendikanga kiht",
+  "utility network": "Utility networki kiht",
+  "topology": "Topoloogiakiht",
+  "trace network": "Trace networki kiht"
+}

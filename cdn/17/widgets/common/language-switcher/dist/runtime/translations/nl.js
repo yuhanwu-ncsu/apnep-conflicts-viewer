@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Taalwisselaar",previewTip:"Dit werkt alleen in Voorbeeld of in gepubliceerde apps."})}}});

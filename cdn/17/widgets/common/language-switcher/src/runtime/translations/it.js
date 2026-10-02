@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Selettore lingua",previewTip:"Funziona solo nelle app in anteprima o pubblicate."})}}});

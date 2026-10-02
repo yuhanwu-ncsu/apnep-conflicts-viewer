@@ -1,0 +1,1 @@
+{"start":"開始","end":"終了","startDate":"開始日","endDate":"終了日","startTime":"開始時間","endTime":"終了時間","layerVisibilityPeriod":"レイヤーの表示設定の期間","timeBasedLayerVisibility":"時間ベースのレイヤー表示設定","info":"情報","infoMessage":"時間ベースのレイヤー表示設定をオンにして、特定の期間のみのレイヤーを表示します。","startWarning":"開始日時は必須です。","endWarning":"終了日時は必須です。","rangeWarning":"開始日時は、終了日時より前の日時にする必要があります。"}

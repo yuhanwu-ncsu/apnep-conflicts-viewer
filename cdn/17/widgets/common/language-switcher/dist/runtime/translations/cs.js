@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"P\u0159ep\xedna\u010d jazyk\u016f",previewTip:"Toto funguje pouze v n\xe1hledu nebo v publikovan\xfdch aplikac\xedch."})}}});

@@ -1,0 +1,162 @@
+{
+  "dialogHeading": "Promenite tip prijavljivanja",
+  "chooseLoginType": "Izaberite tip prijavljivanja",
+  "selectMembers": "Izaberite članove",
+  "userDetails": "Detalji o korisniku",
+  "reauth": "Ponovo autentifikujte",
+  "confirmComplete": "Potvrdite i završite",
+  "next": "Sledeće",
+  "back": "Nazad",
+  "cancel": "Otkaži",
+  "close": "Zatvori",
+  "changeLogins": "Promenite prijavljivanja",
+  "acknowledgeImpact": "Potvrđujem i razumem uticaj ove promene.",
+  "propertiesHeading": "Navedite nove detalje za prijavljivanje za sledeće članove",
+  "chooseFile": "Odaberite drugu datoteku",
+  "mustAcknowledge": "Morate da potvrdite uticaj ove promene pre nego što nastavite.",
+  "confirmLeave": {
+    "title": "Otkaži promene",
+    "message1": "Imate promene koje nisu sačuvane.",
+    "message2": "Da li ste sigurni da želite da otkažete promene?",
+    "remain": "Nastavi uređivanje",
+    "leave": "Izlaz bez čuvanja"
+  },
+  "methodSelection": {
+    "arcgisLogin": "ArcGIS prijava",
+    "chooseLoginModify": "Izaberite kako da modifikujete prijavljivanja",
+    "changeType": "Promenite tip prijavljivanja",
+    "selectType": "Izaberite trenutni tip prijavljivanja sa kojim ćete da radite",
+    "changeTypeDescription": "Promenite ID-ove specifične za organizaciju, birajući između OpenID Connect, SAML ili ArcGIS prijavljivanja.",
+    "keepType": "Zadržite tip prijavljivanja",
+    "keepTypeDescription": "Ažurirajte OpenID Connect ili SAML ID i adresu e-pošte bez promene tipa prijavljivanja.",
+    "currentType": "Trenutni tip prijavljivanja",
+    "newType": "Novi tip prijavljivanja",
+    "select": "Selektujte",
+    "samlLogin": "{name} (SAML prijava)",
+    "oidcLogin": "{name} (OpenID Connect prijava)",
+    "oldSaml": "Prethodno SAML prijavljivanje",
+    "oldOidc": "Prethodno OIDC prijavljivanje",
+    "enterpriseOverwrite": "U zavisnosti od postavki vašeg pružaoca usluga prijave preduzeća, adresa e-pošte može da bude zamenjena vrednošću koju je naveo vaš dobavljač identiteta.",
+    "generateMissingPasswords": "Kada se prelazi na ArcGIS prijavljivanje, privremene lozinke će biti automatski generisane ako nisu navedene. Te lozinke će biti prikazane u koraku koji se odnosi na detalje o korisniku.",
+    "errors": {
+      "loginTypes": "Moraju da budu izabrani i tranutni i novi tip prijavljivanja.",
+      "currentLoginType": "Trenutni tip prijavljivanja je obavezan i mora da bude izabran.",
+      "sameLoginType": "Novi tip prijavljivanja mora da se razlikuje od trenutnog tipa prijavljivanja."
+    }
+  },
+  "memberSelection": {
+    "selectionMethod": "Metod izbora članova",
+    "howToSelect": "Kako želite da izaberete članove?",
+    "bulkUpload": "Grupno otpremanje (CSV)",
+    "chooseAFile": "U sledećem koraku izaberite datoteku za otpremanje.",
+    "manualSelection": "Ručni izbor",
+    "selectMembers": "U sledećem koraku izaberite članove sa liste.",
+    "selectFromFile": "Izaberite članove iz CSV datoteke",
+    "dragDrop": "Prevucite i otpustite svoju datoteku ili je izaberite sa svog uređaja.",
+    "headerInstructions": "Zaglavlje (prvi red) treba da sadrži nazive polja u istom obliku u kom se pojavljuju u nastavku.",
+    "fieldOrder": "Redosled polja može da bude različit.",
+    "yourDevice": "Vaš uređaj",
+    "downloadTemplate": "Preuzmi CSV šablon",
+    "requiredFields": "Obavezna polja",
+    "optionalFields": "Opciona polja",
+    "passwordTooltip": "Privremena lozinka će biti automatski generisana ako lozinka nije navedena.",
+    "excessTitleCsv": "CSV prekoračuje ograničenje od 5.000 članova",
+    "excessBatchLimit": "Možete da ažurirate tipove prijavljivanja za do 5.000 članova po grupi.",
+    "excessBodyCsv": "Da biste obradili više od 5.000 članova, podelite svoju CSV datoteku u više manjih datoteka i zasebno ih otpremite.",
+    "learnMore": "Saznajte više",
+    "errors": {
+      "fileType": "Nevažeći tip datoteke. Otpremite CSV datoteku.",
+      "fileSize": "Datoteka je veća od 500 KB i možda neće biti efikasno obrađena.",
+      "noMembers": "Nije izabran nijedan član Izaberite članove ili otpremite CSV da biste nastavili.",
+      "tooManyMembers": "Izbor prekoračuje ograničenje od 5.000 članova."
+    }
+  },
+  "fieldNames": {
+    "email": "Adresa e-pošte",
+    "username": "ArcGIS korisničko ime",
+    "password": "Privremena lozinka",
+    "samlId": "SAML ID",
+    "oidcId": "OIDC ID",
+    "oldSamlId": "Prethodni SAML ID",
+    "oldOidcId": "Prethodni OIDC ID",
+    "success": "Uspešno",
+    "error": "Greška",
+    "fromLoginType": "Početni tip prijavljivanja",
+    "toLoginType": "Novi tip prijavljivanja"
+  },
+  "authentication": {
+    "header": "Potrebna je ponovna autentifikacija",
+    "reauthSteps": "Koraci ponovne autentifikacije",
+    "step1_label": "Korak 1: Prijava (novi prozor)",
+    "step1_desc": "Pojaviće se novi prozor da biste se u njemu prijavili.",
+    "step2_label": "Korak 2: Korak 2: Kopirajte ključ za autentifikaciju",
+    "step2_desc": "Dobićete ključ za autentifikaciju koji ćete kopirati.",
+    "step3_label": "Korak 3: Nalepite ključ za autentifikaciju",
+    "step3_desc": "Unesite ključ za autentifikaciju da biste nastavili.",
+    "openWindow": "Otvorite novi prozor za ponovnu autentifikaciju",
+    "authKey": "Ključ za autentifikaciju",
+    "paste": "Nalepi",
+    "getNewKey": "Generiši novi ključ",
+    "hide": "Sakrij",
+    "show": "Prikaži",
+    "errors": {
+      "clipboard": "Čitanje iz ostave nije uspelo",
+      "authKey": "Potreban je važeći ključ za autentifikaciju"
+    }
+  },
+  "usersTable": {
+    "asc": "Abecedno",
+    "desc": "Obrnuti alfabet",
+    "sortBy": "Sortiraj prema",
+    "sortDirection": "Smer sortiranja",
+    "searchMembers": "Pretražite članove na ovoj listi",
+    "memberDetails": "Detalji o članovima za promenu operacije prijavljivanja pružaoca usluga",
+    "optional": "(opciono)",
+    "fieldErrors": "Greške u vezi sa poljem",
+    "noErrors": "Nema grešaka",
+    "noData": "Nema dostupnih podataka",
+    "noMembersMatch": "Nijedan član se ne podudara sa vašim kriterijumima pretrage",
+    "togglePassword": "Uključi/isključi vidljivost lozinke",
+    "memberCount": "{start} - {end} od {total}",
+    "errors": {
+      "email": "Adresa e-pošte je obavezna",
+      "username": "Potrebno je ArcGIS korisničko ime",
+      "password": "Potrebna je privremena lozinka",
+      "samlId": "Potreban je SAML ID",
+      "oidcId": "Potreban je OIDC ID"
+    }
+  },
+  "review": {
+    "heading": "Pregledajte promene",
+    "loginsWillChange": "Sledeći nalozi će biti promenjeni iz {fromLogin} u {toLogin}",
+    "downloadCsv": "Preuzmite CSV datoteku sa navedenim promenama",
+    "providerTypes": {
+      "saml": "SAML prijavljivanja",
+      "oidc": "OpenID Connect prijavljivanja",
+      "arcgis": "Prijavljivanja na ArcGIS nalog"
+    },
+    "missingRequired": "Obavezne informacije nedostaju. Popunite nedostajuće informacije pre nego što nastavite."
+  },
+  "progress": {
+    "processing": "Obrada... {current} od {total} korisnika.",
+    "percentComplete": "Procenata završeno",
+    "doNotClose": "Ne zatvarajte pregledač.",
+    "extendedTime": "Ovo može da potraje do 10 minuta, budite strpljivi.",
+    "extendedTime10": "Ovo može da potraje više od 10 minuta, budite strpljivi.",
+    "extendedTime15": "Ovo može da potraje više od 15 minuta, budite strpljivi.",
+    "label": "Indikator napretka za menjanje tipova prijavljivanja",
+    "errors": {
+      "authkey": {
+        "title": "Nevažeći ključ za autentifikaciju",
+        "body1": "Ključ za autentifikaciju koji ste uneli je nevažeći.",
+        "body2": "Ponovo unesite važeći ključ za autentifikaciju.",
+        "action": "Ponovo unesite ključ za autentifikaciju",
+        "cancel": "Otkaži"
+      },
+      "unknown": "Došlo je do greške prilikom procesa promene pružaoca usluga. Pokušajte ponovo ili se obratite podršci ako problem i dalje bude postojao.",
+      "userNotFound": "Korisničko ime nije pronađeno",
+      "idpUsernameNotMatching": "Korisničko ime se ne podudara",
+      "providerNotMatching": "Nije moguće promeniti prijavljivanje"
+    }
+  }
+}

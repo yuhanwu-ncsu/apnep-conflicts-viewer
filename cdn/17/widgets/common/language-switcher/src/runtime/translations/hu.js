@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({_widgetLabel:"Nyelvv\xe1lt\xf3",previewTip:"Ez csak el\u0151n\xe9zetben vagy k\xf6zz\xe9tett alkalmaz\xe1sokban m\u0171k\xf6dik."})}}});

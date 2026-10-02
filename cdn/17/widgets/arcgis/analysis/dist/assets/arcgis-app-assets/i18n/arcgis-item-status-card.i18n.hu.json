@@ -1,0 +1,27 @@
+{
+  "status": {
+    "noPermission": {
+      "notice": "Nincs jogosultsága az elem megosztásának módosítására.",
+      "panel": "Nincs jogosultsága az elem megosztásának módosítására. Előfordulhat, hogy ez az elem nem látható mások számára, mert másképp van megosztva."
+    },
+    "pdc": {
+      "notice": "A réteg nyilvánossággal való megosztása előtt engedélyezze a Nyilvános adatok gyűjtése beállítást.",
+      "panel": "A réteg nyilvánossággal való megosztása előtt engedélyezze a Nyilvános adatok gyűjtése beállítást. Az optimális teljesítmény és az adatok integritásának megőrzése érdekében célszerű letiltani a szerkesztést, vagy nem szerkeszthető réteget használni.",
+      "learnMore": "További információk a nyilvános rétegek szerkesztésének engedélyezéséről."
+    },
+    "premium": {
+      "notice": "Előfordulhat, hogy a prémium és az előfizetői tartalmak megtekintéséhez be kell jelentkezni.",
+      "panel": "Előfordulhat, hogy a prémium és az előfizetői tartalmak megtekintéséhez be kell jelentkezni.",
+      "learnMore": "További információ az előfizetői vagy prémium tartalom megosztásáról."
+    },
+    "sharingPDCEnabled": {
+      "notice": "E szerkeszthető réteg nyilvános megosztása bárki számára lehetővé teszi a réteg szerkesztését.",
+      "panel": "E szerkeszthető réteg nyilvános megosztása bárki számára lehetővé teszi a réteg szerkesztését. Az optimális teljesítmény és az adatok integritásának megőrzése érdekében célszerű letiltani a szerkesztést, vagy nem szerkeszthető réteget használni."
+    },
+    "needsAuthentication": {
+      "notice": "Hitelesítés szükséges.",
+      "panel": "Ez az elem nem biztos, hogy mások számára hozzáférhető, mivel olyan helymeghatározási szolgáltatásokat tartalmaz, amelyek hitelesítést igényelnek az elemet megjelenítő alkalmazásokban."
+    }
+  },
+  "goToItem": "Összes részlet megtekintése"
+}
