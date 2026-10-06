@@ -11,7 +11,7 @@ Developer reference: [Experience Builder guide](https://developers.arcgis.com/ex
 ## What's in this repo
 
 - `index.html` — the app entry point. It is the file Experience Builder exports, kept as-is except for a small script at the end that reloads the page if a chunk file fails to load during startup.
-- `cdn/15/` — the exported app itself (compiled widgets and assets). The number changes with each deploy; older folders are deleted once the new build is confirmed.
+- `cdn/18/` — the exported app itself (compiled widgets and assets). The number changes with each deploy; older folders are deleted once the new build is confirmed.
 - `.github/workflows/deploy.yml` — publishes the site to GitHub Pages whenever `cdn/` or `index.html` changes. Commits that only touch docs (like this README) do not trigger a new deploy.
 
 The site is served straight from the repo root, so `index.html` and `cdn/` stay at the top level.
@@ -20,5 +20,5 @@ The site is served straight from the repo root, so `index.html` and `cdn/` stay 
 
 1. Test the changes in Experience Builder Developer Edition (`localhost:3001`, app `0`). Note: both `server/public/apps/0/config.json` and `server/public/apps/0/resources/config/config.json` hold the app config and must stay in sync.
 2. Export the app from the Dev Edition server (`/download/0`), unzip it, and move the build into `cdn/<N>`.
-3. Replace the repo's `index.html` with the export's copy, then paste in the reload script from the bottom of the old file. (The export also ships `service-worker.js` and `web.config` for self-hosting; those are skipped here because GitHub Pages doesn't use them.)
+3. Replace the repo's `index.html` with the export's copy, then paste in the reload script from the bottom of the old file. Renumber it for the new folder: the export writes `<base href="./cdn/16/">` and `"buildNumber": "16"` — change both to `<N>`, or the app hangs on the loading screen forever. (The export also ships `service-worker.js` and `web.config` for self-hosting; those are skipped here because GitHub Pages doesn't use them.)
 4. Delete the old `cdn/` folder, commit, and push to `main`. The deploy workflow publishes the site automatically.
