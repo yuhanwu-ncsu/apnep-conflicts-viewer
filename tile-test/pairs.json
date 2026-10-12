@@ -1,0 +1,51 @@
+[
+  {
+    "pair": "Vessel Count x Submerged Aquatic Vegetation",
+    "label": "Vessel Count x Submerged Aquatic Vegetation",
+    "file": "data/vessel-sav.geojson",
+    "count": 2174,
+    "title": "Boat Traffic vs. SAV"
+  },
+  {
+    "pair": "Fishing x Nursery Areas",
+    "label": "Fishing x Nursery Areas",
+    "file": "data/fishing-nursery.geojson",
+    "count": 1747,
+    "title": "Fishing vs. Closures or Energy Development"
+  },
+  {
+    "pair": "Sea Level Rise x Ferry Route",
+    "label": "Sea Level Rise x Ferry Route",
+    "file": "data/slr-ferry.geojson",
+    "count": 1443,
+    "title": "Roads and Ferries vs. Flooding"
+  },
+  {
+    "pair": "Shoreline Erosion x Wetland Potential",
+    "label": "Shoreline Erosion x Wetland Potential",
+    "file": "data/erosion-wetland.geojson",
+    "count": 9373,
+    "title": "Shoreline Protection vs. Wetland Migration"
+  },
+  {
+    "pair": "Community Vulnerability x Tourism",
+    "label": "Community Vulnerability x Tourism",
+    "file": "data/vulnerability-tourism.geojson",
+    "count": 11905,
+    "title": "Tourism vs. Resident Access"
+  },
+  {
+    "pair": "Agriculture x Salinity",
+    "label": "Salinity x Agriculture",
+    "file": "data/agriculture-salinity.geojson",
+    "count": 10651,
+    "title": "Agriculture vs. Saltwater Intrusion"
+  },
+  {
+    "pair": "Community Vulnerability x Conservation",
+    "label": "Community Vulnerability x Conservation",
+    "file": "data/vulnerability-conservation.geojson",
+    "count": 11984,
+    "title": "Conservation vs. Tribal / Local Access"
+  }
+]

@@ -1,0 +1,40 @@
+name: Build APNEP vector tile test
+
+on:
+  push:
+    branches: [codex/tippecanoe-test]
+    paths:
+      - 'tile-test/**'
+      - '.github/workflows/tile-test.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-tiles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build Tippecanoe
+        run: |
+          git clone --depth 1 https://github.com/felt/tippecanoe.git "$RUNNER_TEMP/tippecanoe"
+          make -C "$RUNNER_TEMP/tippecanoe" -j2
+      - name: Generate static vector tiles
+        run: |
+          mkdir -p tile-test/site/data
+          cp tile-test/index.html tile-test/site/index.html
+          cp tile-test/pairs.json tile-test/site/data/pairs.json
+          "$RUNNER_TEMP/tippecanoe/tippecanoe" \
+            --output-to-directory=tile-test/site/tiles \
+            --layer=conflict_hexes \
+            --minimum-zoom=6 --maximum-zoom=12 \
+            --no-tile-compression --no-feature-limit --no-tile-size-limit \
+            tile-test/all_pairs.geojson.gz
+      - name: Validate and measure tiles
+        run: python tile-test/check_tiles.py
+      - name: Upload test site
+        uses: actions/upload-artifact@v4
+        with:
+          name: apnep-vector-tile-test
+          path: tile-test/site/

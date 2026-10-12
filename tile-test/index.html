@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>APNEP conflict viewer — open source prototype</title>
+  <link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet">
+  <style>
+    html, body { margin: 0; height: 100%; font: 15px system-ui, sans-serif; color: #18304b; }
+    body { display: grid; grid-template-rows: auto 1fr; }
+    header { padding: 12px 18px; background: #f5f7fb; border-bottom: 1px solid #cad4e7; }
+    h1 { margin: 0 0 4px; font-size: 20px; }
+    p { margin: 0; }
+    main { display: grid; grid-template-columns: minmax(220px, 270px) 1fr; min-height: 0; }
+    aside { padding: 16px; overflow: auto; background: #fff; border-right: 1px solid #cad4e7; }
+    #map { min-height: 360px; }
+    fieldset { border: 0; padding: 0; margin: 16px 0; }
+    legend { font-weight: 700; margin-bottom: 8px; }
+    label { display: block; margin: 9px 0; cursor: pointer; }
+    select { width: 100%; margin: 8px 0 4px; padding: 8px; border: 1px solid #9aa7b5; border-radius: 6px; background: white; }
+    input { margin-right: 7px; }
+    .matrix { display: grid; grid-template-columns: repeat(3, 33px); gap: 3px; margin: 8px 0 5px; }
+    .matrix span { height: 27px; border: 1px solid #9aa7b5; }
+    .note { color: #52677c; font-size: 13px; line-height: 1.4; margin-top: 12px; }
+    #status { color: #52677c; font-size: 13px; margin-top: 14px; }
+    @media (max-width: 650px) { main { grid-template-columns: 1fr; grid-template-rows: auto 1fr; } aside { border-right: 0; border-bottom: 1px solid #cad4e7; } }
+  </style>
+</head>
+<body>
+  <header><h1>APNEP conflict viewer</h1><p>Open source prototype from the local AGOL upload kit</p></header>
+  <main>
+    <aside>
+      <label for="pair"><strong>Conflict pair</strong></label>
+      <select id="pair" aria-label="Conflict pair"></select>
+      <p id="pair-detail" class="note"></p>
+      <fieldset>
+        <legend>Show cells</legend>
+        <label><input type="radio" name="filter" value="all" checked>All classified cells</label>
+        <label><input type="radio" name="filter" value="pressure">High pressure</label>
+        <label><input type="radio" name="filter" value="resource">High resources</label>
+        <label><input type="radio" name="filter" value="conflict">High conflict zones</label>
+      </fieldset>
+      <strong>Pressure → · Resource ↑</strong>
+      <div class="matrix" id="matrix" aria-label="Bivariate color legend"></div>
+      <p class="note">Upper right: both high. Click a hex for its classes and values.</p>
+      <p id="status" role="status">Loading data…</p>
+    </aside>
+    <div id="map" aria-label="Map of conflict hexagons"></div>
+  </main>
+  <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+  <script>
+    // Colors copied from the public ArcGIS web map's 3 × 3 bivariate renderer.
+    const colors = {
+      LL: '#f2f2f2', LM: '#ced996', LH: '#a9bf39',
+      ML: '#dbb6e8', MM: '#ad9d91', MH: '#7d926d',
+      HL: '#c47add', HM: '#7b72ab', HH: '#5064a0'
+    };
+    const classCode = ['L', 'M', 'H'];
+    const palette = ['LH', 'MH', 'HH', 'LM', 'MM', 'HM', 'LL', 'ML', 'HL'];
+    document.getElementById('matrix').innerHTML = palette.map(key =>
+      `<span style="background:${colors[key]}" title="${key}" aria-label="${key}"></span>`).join('');
+
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: {
+        version: 8,
+        sources: { osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, attribution: '© OpenStreetMap contributors' } },
+        layers: [{ id: 'basemap', type: 'raster', source: 'osm' }]
+      },
+      center: [-76.25, 35.55], zoom: 7
+    });
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+    const status = document.getElementById('status');
+    const tileTemplate = new URLSearchParams(location.search).get('tiles') || './tiles/{z}/{x}/{y}.pbf';
+    const pairSelect = document.getElementById('pair');
+    let currentPair = null;
+    let loadSequence = 0;
+    const colorExpression = ['match', ['get', 'biv_class'],
+      ...Object.keys(colors).flatMap(key => [
+        (classCode.indexOf(key[0]) * 3) + classCode.indexOf(key[1]) + 1, colors[key]
+      ]), '#cccccc'];
+
+    function applyFilter() {
+      if (!map.getLayer('conflicts') || !currentPair) return;
+      const mode = document.querySelector('input[name="filter"]:checked').value;
+      const filters = {
+        all: ['==', ['get', 'pair'], currentPair.pair],
+        pressure: ['all', ['==', ['get', 'pair'], currentPair.pair], ['==', ['get', 'Pressure_Level'], 3]],
+        resource: ['all', ['==', ['get', 'pair'], currentPair.pair], ['==', ['get', 'Resource_Level'], 3]],
+        conflict: ['all', ['==', ['get', 'pair'], currentPair.pair], ['==', ['get', 'biv_class'], 9]]
+      };
+      map.setFilter('conflicts', filters[mode]);
+    }
+
+    async function showPair(pair) {
+      currentPair = pair;
+      document.getElementById('pair-detail').textContent = `${pair.count.toLocaleString()} classified hexes`;
+      applyFilter();
+      if (tileTemplate) {
+        status.textContent = `Showing ${pair.count.toLocaleString()} cells from static vector tiles`;
+        return;
+      }
+      const sequence = ++loadSequence;
+      status.textContent = `Loading ${pair.label}…`;
+      try {
+        const response = await fetch('./' + pair.file);
+        if (!response.ok) throw new Error(`GeoJSON HTTP ${response.status}`);
+        const data = await response.json();
+        if (sequence !== loadSequence) return;
+        map.getSource('hexes').setData(data);
+        status.textContent = `${data.features.length.toLocaleString()} hexes loaded from static GeoJSON`;
+        const bounds = new maplibregl.LngLatBounds();
+        data.features.forEach(feature => feature.geometry.coordinates[0].forEach(point => bounds.extend(point)));
+        if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 35, maxZoom: 9 });
+      } catch (error) {
+        status.textContent = `Could not load map data: ${error.message}`;
+      }
+    }
+
+    map.on('load', async () => {
+      try {
+        const response = await fetch('./data/pairs.json');
+        if (!response.ok) throw new Error(`Pair list HTTP ${response.status}`);
+        const pairs = await response.json();
+        pairSelect.replaceChildren(...pairs.map((pair, index) => {
+          const option = document.createElement('option');
+          option.value = String(index);
+          option.textContent = pair.label;
+          return option;
+        }));
+        let sourceLayer;
+        if (tileTemplate) {
+          map.addSource('hexes', { type: 'vector', tiles: [new URL(tileTemplate, location.href).href], minzoom: 0, maxzoom: 12 });
+          sourceLayer = 'conflict_hexes';
+        } else {
+          map.addSource('hexes', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+        }
+        const layerOptions = sourceLayer ? { 'source-layer': sourceLayer } : {};
+        map.addLayer({ id: 'conflicts', type: 'fill', source: 'hexes', ...layerOptions,
+          paint: { 'fill-color': colorExpression, 'fill-opacity': 0.82,
+            'fill-outline-color': 'rgba(60,70,80,0.35)' } });
+        map.on('click', 'conflicts', event => {
+          const p = event.features[0].properties;
+          new maplibregl.Popup().setLngLat(event.lngLat).setText(
+            `${p.biv_label || 'Conflict cell'} · pressure ${p.pressure ?? '—'} · resource ${p.resource ?? '—'}`
+          ).addTo(map);
+        });
+        map.on('mouseenter', 'conflicts', () => map.getCanvas().style.cursor = 'pointer');
+        map.on('mouseleave', 'conflicts', () => map.getCanvas().style.cursor = '');
+        document.querySelectorAll('input[name="filter"]').forEach(input => input.addEventListener('change', applyFilter));
+        pairSelect.addEventListener('change', () => showPair(pairs[Number(pairSelect.value)]));
+        await showPair(pairs[0]);
+      } catch (error) {
+        status.textContent = `Could not load map data: ${error.message}`;
+      }
+    });
+  </script>
+</body>
+</html>
