@@ -1289,40 +1289,30 @@
       document
         .getElementById("popup-tab")
         .addEventListener("click", () => showDetailTab("popup"));
-      document
-        .getElementById("panel-toggle")
-        .addEventListener("click", (event) => {
-          const panel = document.getElementById("details-panel");
-          const collapsed = document
-            .getElementById("panel-drawer")
-            .classList.toggle("collapsed");
-          panel.querySelector(".details-panel-body").inert = collapsed;
-          document
-            .querySelector(".map-shell")
-            .classList.toggle("panel-collapsed", collapsed);
-          event.currentTarget.setAttribute("aria-expanded", String(!collapsed));
-          event.currentTarget.setAttribute(
-            "aria-label",
-            collapsed ? "Expand side panel" : "Collapse side panel",
-          );
-          event.currentTarget.title = collapsed
-            ? "Expand side panel"
-            : "Collapse side panel";
-          event.currentTarget.textContent = collapsed ? "›" : "‹";
-          requestAnimationFrame(() => map.resize());
-        });
-      if (matchMedia("(max-width: 620px)").matches) {
-        document.getElementById("panel-drawer").classList.add("collapsed");
-        document.querySelector(".details-panel-body").inert = true;
-        document.querySelector(".map-shell").classList.add("panel-collapsed");
+      function setPanelCollapsed(collapsed) {
+        const panel = document.getElementById("details-panel");
         document
-          .getElementById("panel-toggle")
-          .setAttribute("aria-expanded", "false");
+          .getElementById("panel-drawer")
+          .classList.toggle("collapsed", collapsed);
+        panel.querySelector(".details-panel-body").inert = collapsed;
         document
-          .getElementById("panel-toggle")
-          .setAttribute("aria-label", "Expand side panel");
-        document.getElementById("panel-toggle").textContent = "›";
+          .querySelector(".map-shell")
+          .classList.toggle("panel-collapsed", collapsed);
+        const toggle = document.getElementById("panel-toggle");
+        toggle.setAttribute("aria-expanded", String(!collapsed));
+        toggle.setAttribute(
+          "aria-label",
+          collapsed ? "Expand side panel" : "Collapse side panel",
+        );
+        toggle.title = collapsed ? "Expand side panel" : "Collapse side panel";
+        toggle.textContent = collapsed ? "›" : "‹";
+        requestAnimationFrame(() => map.resize());
       }
+      document.getElementById("panel-toggle").addEventListener("click", () => {
+        setPanelCollapsed(
+          !document.getElementById("panel-drawer").classList.contains("collapsed"),
+        );
+      });
       function addText(parent, tag, value) {
         const el = document.createElement(tag);
         el.textContent = value ?? "";
@@ -1714,6 +1704,7 @@
           ],
         },
       });
+      if (matchMedia("(max-width: 620px)").matches) setPanelCollapsed(true);
       new ResizeObserver(() => map.resize()).observe(
         document.getElementById("map"),
       );
@@ -2015,6 +2006,7 @@
       map.on("click", "conflicts", (event) => {
         clearCellHover();
         renderSelectedFeature(event.features[0].properties);
+        setPanelCollapsed(false);
       });
       map.on("click", (event) => {
         if (
