@@ -32,12 +32,7 @@
       }
     },
     "interpretation": "only a few cells combine high activity with nursery coverage — the closure system is largely working. Watch the band of activity pressed against nursery boundaries.",
-    "stats": [
-      13.7,
-      27.9,
-      8.2,
-      0.2
-    ],
+    "stats": [13.7, 27.9, 8.2, 0.2],
     "pressureUnit": "density class",
     "resourceUnit": "% of cell",
     "max": {
@@ -84,12 +79,7 @@
       }
     },
     "interpretation": "the darkest cells mark shipping lanes and ferry corridors crossing SAV beds — priority zones for speed restrictions, signage, or channel review.",
-    "stats": [
-      17.7,
-      31.5,
-      4.5,
-      0.1
-    ],
+    "stats": [17.7, 31.5, 4.5, 0.1],
     "pressureUnit": "transit counts",
     "resourceUnit": "% of cell",
     "max": {
@@ -136,12 +126,7 @@
       }
     },
     "interpretation": "the darkest cells are vulnerable communities with heavy tourist access — congestion and displacement hotspots. High vulnerability with few access points marks the resident-access gap.",
-    "stats": [
-      93.6,
-      33.6,
-      0.5,
-      0.1
-    ],
+    "stats": [93.6, 33.6, 0.5, 0.1],
     "pressureUnit": "SVI percentile",
     "resourceUnit": "access points",
     "max": {
@@ -188,12 +173,7 @@
       }
     },
     "interpretation": "the darkest cells are eroding shorefront backed by high wetland-migration potential — priority candidates for living shorelines and shoreline-hardening policy review.",
-    "stats": [
-      73.7,
-      0.8,
-      33.2,
-      0.7
-    ],
+    "stats": [73.7, 0.8, 33.2, 0.7],
     "pressureUnit": "eroding km",
     "resourceUnit": "wetness score",
     "max": {
@@ -240,12 +220,7 @@
       }
     },
     "interpretation": "the darkest cells are the salt front pressing against farmland — where intrusion risk to agriculture is highest.",
-    "stats": [
-      83.8,
-      6,
-      30.6,
-      0.2
-    ],
+    "stats": [83.8, 6, 30.6, 0.2],
     "pressureUnit": "shoreline km",
     "resourceUnit": "% of cell",
     "max": {
@@ -292,12 +267,7 @@
       }
     },
     "interpretation": "the darkest cells mark ferry corridors crossing inundation footprints — priorities for terminal elevation, docking retrofit, and service contingency planning.",
-    "stats": [
-      11.3,
-      31,
-      2.5,
-      0.1
-    ],
+    "stats": [11.3, 31, 2.5, 0.1],
     "pressureUnit": "% of cell",
     "resourceUnit": "route km",
     "max": {
@@ -344,12 +314,7 @@
       }
     },
     "interpretation": "the darkest cells are protected lands overlapping high-vulnerability communities — the engagement priority list for access agreements, stewardship, and Tribal / local consultation.",
-    "stats": [
-      94.1,
-      33.4,
-      13.8,
-      5.4
-    ],
+    "stats": [94.1, 33.4, 13.8, 5.4],
     "pressureUnit": "SVI percentile",
     "resourceUnit": "% of cell",
     "max": {
@@ -362,5 +327,6 @@
       "resource_break_low": 3.3357716971371443,
       "resource_break_high": 29.42570964837024
     }
-  }
+  },
+  "__apnepRegionPath": "M 104.1 0.0 L 106.2 1.8 L 106.8 3.6 L 110.2 4.1 L 111.7 5.3 L 113.7 3.7 L 113.9 1.9 L 114.9 3.1 L 115.7 2.6 L 118.1 5.1 L 119.5 4.8 L 119.3 5.4 L 120.5 5.5 L 121.9 7.4 L 122.8 7.6 L 124.0 11.5 L 122.7 14.0 L 123.3 16.7 L 121.9 18.9 L 121.9 20.6 L 121.1 21.0 L 122.6 23.1 L 124.2 23.4 L 124.6 25.0 L 127.4 25.1 L 129.4 24.0 L 129.8 22.3 L 131.0 21.8 L 130.6 20.1 L 131.5 19.8 L 134.9 20.6 L 136.8 23.3 L 141.5 24.9 L 142.4 22.7 L 141.9 20.4 L 143.2 18.5 L 143.8 18.0 L 144.6 18.7 L 147.2 18.7 L 148.1 17.7 L 148.9 18.2 L 150.0 16.5 L 153.8 27.7 L 157.8 43.1 L 169.7 68.4 L 170.4 73.0 L 168.8 86.9 L 168.3 88.6 L 167.6 87.9 L 165.9 88.0 L 159.4 90.5 L 153.9 93.5 L 151.3 96.4 L 148.8 97.3 L 138.0 108.4 L 133.9 114.4 L 132.5 118.0 L 131.7 116.4 L 131.9 115.8 L 132.0 116.6 L 132.7 116.5 L 132.1 115.3 L 127.2 113.1 L 120.4 113.5 L 111.2 115.9 L 111.7 114.7 L 111.1 114.4 L 111.4 112.7 L 110.6 110.7 L 108.8 109.6 L 108.0 108.4 L 108.5 107.2 L 107.7 107.3 L 107.0 105.0 L 105.2 103.2 L 103.0 102.7 L 101.6 103.9 L 96.6 101.4 L 91.6 100.8 L 90.2 101.4 L 87.7 99.2 L 88.0 98.2 L 87.3 97.8 L 87.8 96.1 L 86.8 93.5 L 81.7 90.1 L 78.1 89.7 L 77.7 90.5 L 76.2 90.6 L 74.9 92.7 L 74.1 91.3 L 72.0 90.5 L 70.1 90.9 L 66.1 87.7 L 63.9 89.2 L 60.1 88.7 L 58.9 87.2 L 60.5 85.0 L 58.3 84.2 L 57.6 81.2 L 56.0 81.1 L 54.1 78.4 L 51.2 76.8 L 49.9 74.2 L 47.7 73.9 L 47.1 72.5 L 47.9 70.6 L 47.1 68.1 L 47.5 66.4 L 46.4 64.1 L 47.5 63.0 L 46.7 59.8 L 47.6 58.2 L 43.1 54.8 L 38.9 55.5 L 38.7 54.6 L 36.8 55.3 L 35.6 54.4 L 34.5 54.8 L 33.5 52.8 L 34.5 51.0 L 34.3 46.3 L 37.1 46.0 L 37.3 43.5 L 39.9 41.4 L 41.5 38.3 L 42.4 39.3 L 44.0 38.5 L 44.5 39.4 L 45.7 39.6 L 47.8 37.0 L 50.2 37.7 L 50.8 37.3 L 51.6 38.4 L 55.1 39.6 L 56.9 38.9 L 58.2 39.1 L 59.2 40.3 L 61.5 40.2 L 62.8 41.6 L 65.5 39.9 L 65.4 38.8 L 67.3 37.1 L 71.1 35.9 L 73.1 36.5 L 75.4 35.9 L 78.0 37.1 L 79.7 36.1 L 85.2 38.2 L 87.3 35.1 L 89.5 34.7 L 89.2 32.9 L 86.8 32.1 L 86.0 32.6 L 84.0 31.5 L 84.1 30.2 L 82.6 28.8 L 79.4 28.4 L 78.0 26.2 L 74.3 25.5 L 70.8 21.4 L 67.9 21.5 L 63.2 19.4 L 61.9 20.0 L 61.7 19.4 L 60.4 19.5 L 58.5 15.4 L 59.8 14.6 L 60.2 7.7 L 62.6 7.8 L 64.6 6.7 L 65.9 6.8 L 66.2 5.2 L 67.9 4.4 L 69.0 2.6 L 72.3 2.8 L 77.3 7.8 L 80.4 5.4 L 86.3 4.8 L 90.8 3.1 L 92.1 1.7 L 94.8 3.2 L 97.8 3.2 L 101.8 0.6 L 102.5 1.0 L 103.1 0.0 L 104.1 0.0 Z"
 }

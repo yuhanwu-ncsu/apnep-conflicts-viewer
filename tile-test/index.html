@@ -124,10 +124,18 @@
         position: relative;
         overflow: hidden;
         min-height: 0;
+        --details-panel-width: 370px;
+        --map-inset-left: var(--details-panel-width);
+      }
+      .map-shell.panel-collapsed {
+        --map-inset-left: 42px;
       }
       #map {
         position: absolute;
-        inset: 0;
+        top: 0;
+        bottom: 0;
+        left: var(--map-inset-left);
+        width: calc(100% - var(--map-inset-left));
         background: #e4e9eb;
       }
       .legend-card {
@@ -146,14 +154,12 @@
       .details-panel {
         position: absolute;
         z-index: 5;
-        top: 14px;
-        bottom: 75px;
-        left: 14px;
-        width: 370px;
+        inset: 0 auto 0 0;
+        width: var(--details-panel-width);
         transition: transform 180ms ease;
         background: rgba(255, 255, 255, 0.98);
-        border-radius: 10px;
-        box-shadow: 0 5px 22px #0004;
+        border-right: 1px solid #d9dee5;
+        box-shadow: 2px 0 12px #0002;
       }
       .details-panel.collapsed {
         transform: translateX(calc(-100% + 42px));
@@ -161,7 +167,7 @@
       .details-panel-body {
         height: 100%;
         overflow: auto;
-        padding: 17px 24px 20px 17px;
+        padding: 18px 47px 18px 22px;
       }
       .panel-toggle {
         position: absolute;
@@ -176,20 +182,6 @@
         color: #173f5f;
         font-size: 24px;
         line-height: 1;
-      }
-      .panel-heading {
-        padding-right: 28px;
-      }
-      .panel-heading h2 {
-        margin: 0 0 6px;
-        font-size: 18px;
-      }
-      .panel-heading .legend-stat {
-        margin-bottom: 11px;
-      }
-      #pair-title {
-        margin: 0 0 6px;
-        font-size: 18px;
       }
       #pair-sources {
         padding-right: 3px;
@@ -214,63 +206,265 @@
         border-bottom-color: #0066b4;
       }
       .detail-section {
-        border-top: 1px solid #e1e5e9;
-        padding: 10px 0;
+        margin: 9px 0;
       }
-      .detail-section h3 {
-        margin: 0 0 5px;
+      .detail-pill {
+        display: inline-flex;
+        align-items: center;
+        max-width: 100%;
+        border: 0;
+        border-radius: 999px;
+        padding: 5px 13px;
+        color: #fff;
         font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+        list-style: none;
       }
-      .detail-section p,
-      .detail-section li {
-        font-size: 13px;
-        line-height: 1.4;
-        color: #45515b;
+      .detail-pill::-webkit-details-marker {
+        display: none;
       }
-      .detail-section p {
+      .detail-pill::after {
+        content: "+";
+        margin-left: 9px;
+        opacity: 0.9;
+      }
+      details[open] > .detail-pill::after {
+        content: "−";
+      }
+      .detail-section-content {
+        padding: 8px 10px 2px;
+      }
+      .detail-section-content p {
         margin: 4px 0;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #333;
       }
-      .detail-section a {
-        color: #0066a6;
+      .source-links {
+        margin-top: 7px !important;
       }
-      .stats-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+      .source-link {
+        color: #858585 !important;
+        text-decoration: underline;
+        white-space: nowrap;
+      }
+      .source-link:hover {
+        color: #34445a !important;
+      }
+      .source-link + .source-link {
+        margin-left: 8px;
+      }
+      .profile-layout {
+        display: flex;
         gap: 8px;
-        margin: 8px 0;
+        align-items: flex-start;
+        margin-top: 8px;
       }
-      .stat-box {
-        background: #eef3f7;
-        padding: 8px;
-        border-radius: 6px;
+      .profile-map {
+        flex: 1;
+        min-width: 0;
       }
-      .stat-box b {
+      .profile-map svg {
         display: block;
-        font-size: 18px;
-        color: #173f5f;
+        width: 100%;
       }
-      .stat-box span {
+      .profile-map-output {
+        margin-top: 4px;
         font-size: 11px;
-        color: #53616c;
+        font-weight: 800;
+        color: #64748b;
       }
-      .popup-value {
-        margin: 8px 0;
-        padding: 9px;
-        background: #f1f4f6;
-        border-radius: 6px;
-        font-size: 13px;
+      .profile-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        flex: none;
       }
-      .popup-bar {
-        height: 7px;
-        background: #d8dee4;
-        border-radius: 5px;
+      .profile-button {
+        border: 0;
+        border-radius: 999px;
+        padding: 4px 9px;
+        font: inherit;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 10.5px;
+        font-weight: 700;
+        color: #334155;
+        background: #eef2f6;
+        text-align: left;
+      }
+      .profile-button[aria-pressed="true"] {
+        color: #fff;
+      }
+      .scale-row {
+        margin: 10px 0;
+      }
+      .scale-label {
+        color: #94a3b8;
+        font-size: 10px;
+        font-weight: 600;
+      }
+      .scale-bar {
+        display: flex;
+        gap: 2px;
+        height: 8px;
+        margin-top: 4px;
+      }
+      .scale-bar i {
+        min-width: 0;
+        border: 1px solid #d5dde6;
+        border-radius: 2px;
+      }
+      .scale-captions {
+        margin-top: 4px;
+        color: #94a3b8;
+        font-size: 10px;
+      }
+      .scale-note {
+        margin-top: 10px;
+        color: #94a3b8;
+        font-size: 10px;
+        line-height: 1.5;
+      }
+      .popup-title {
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 1.3;
+      }
+      .popup-subtitle {
+        margin-top: 2px;
+        color: #64748b;
+        font-size: 11px;
+        line-height: 1.4;
+      }
+      .popup-matrix {
+        position: relative;
+        width: 68px;
+        height: 68px;
+        margin: 10px auto 0;
+      }
+      .popup-matrix i {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #d5dde6;
+        transform: rotate(45deg);
+        transition:
+          opacity 0.15s,
+          box-shadow 0.15s;
+      }
+      .popup-matrix i:not(.selected) {
+        opacity: 0.45;
+      }
+      .popup-matrix i.selected {
+        z-index: 1;
+        box-shadow:
+          0 0 0 1.5px #fff,
+          0 0 7px 2px #53657a66;
+      }
+      .popup-divider {
+        height: 1px;
+        background: #e2e8f0;
+        margin: 10px 0;
+      }
+      .popup-measure {
+        padding: 0 2px;
+      }
+      .popup-measure-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+      }
+      .popup-measure-name {
+        display: inline-block;
+        max-width: 68%;
         overflow: hidden;
-        margin: 4px 0 8px;
+        text-overflow: ellipsis;
+        background: #c57ade;
+        color: #fff;
+        border-radius: 12px;
+        padding: 2px 9px;
+        font-size: 10.5px;
+        font-weight: 700;
+        white-space: nowrap;
       }
-      .popup-bar i {
-        display: block;
+      .popup-measure-name.resource {
+        background: #a8be38;
+      }
+      .popup-measure-level {
+        color: #334155;
+        font-size: 11px;
+        white-space: nowrap;
+      }
+      .popup-measure-value {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        margin-top: 4px;
+        color: #1f2937;
+      }
+      .popup-measure-value strong {
+        font-size: 26px;
+        line-height: 1.15;
+      }
+      .popup-measure-unit {
+        color: #64748b;
+        font-size: 11px;
+      }
+      .popup-value-track {
+        position: relative;
+        height: 8px;
+        margin-top: 6px;
+        border-radius: 999px;
+        background: #eef2f6;
+        border: 1px solid #d5dde6;
+        overflow: hidden;
+      }
+      .popup-value-fill {
         height: 100%;
-        background: #0066b4;
+        border-radius: 999px 0 0 999px;
+      }
+      .popup-value-marker {
+        position: absolute;
+        top: -1px;
+        width: 10px;
+        height: 10px;
+        border: 1.5px solid #fff;
+        border-radius: 50%;
+      }
+      .popup-range {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4px;
+        color: #94a3b8;
+        font-size: 10px;
+      }
+      .popup-note {
+        color: #94a3b8;
+        font-size: 10px;
+        line-height: 1.5;
+      }
+      .popup-note strong {
+        color: #4e649e;
+      }
+      .profile-svg-track {
+        fill: #f1f5f9;
+        stroke: #94a3b8;
+        stroke-width: 0.8;
+      }
+      .profile-svg-fill {
+        opacity: 0.9;
+        transition:
+          y 0.2s,
+          height 0.2s,
+          fill 0.2s;
+      }
+      .profile-svg-outline {
+        fill: none;
+        stroke: #94a3b8;
+        stroke-width: 0.8;
       }
       .legend-card h2 {
         margin: 0 0 6px;
@@ -318,11 +512,11 @@
       }
       .diamond i.selected-class {
         z-index: 5;
-        transform: scale(1.28);
-        outline: 3px solid #fff;
+        transform: scale(1.08);
+        outline: 2px solid #fff;
         box-shadow:
-          0 0 0 6px #142b43,
-          0 2px 8px #0008;
+          0 0 0 3px #64748b99,
+          0 1px 7px #33415555;
       }
       #legend-selected {
         min-height: 18px;
@@ -355,7 +549,8 @@
         position: absolute;
         z-index: 3;
         bottom: 23px;
-        left: 22px;
+        left: calc(var(--details-panel-width) + 18px);
+        transition: left 180ms ease;
         display: flex;
         gap: 9px;
         padding: 7px;
@@ -536,6 +731,9 @@
         display: none;
       }
       @media (max-width: 900px) {
+        .map-shell {
+          --details-panel-width: 320px;
+        }
         body {
           grid-template-rows: 72px 129px minmax(0, 1fr) 30px;
         }
@@ -570,16 +768,12 @@
           padding: 12px;
           min-height: 0;
         }
-        .details-panel {
-          width: 320px;
-        }
         .diamond-wrap {
           transform: scale(0.85);
           transform-origin: top left;
           height: 148px;
         }
         .filters {
-          left: 8px;
           right: 66px;
           overflow-x: auto;
         }
@@ -592,11 +786,11 @@
         }
       }
       @media (max-width: 620px) {
-        .details-panel {
-          width: min(330px, calc(100% - 52px));
+        .map-shell {
+          --details-panel-width: min(330px, calc(100% - 52px));
         }
         .details-panel-body {
-          padding: 13px 22px 16px 13px;
+          padding: 13px 39px 16px 13px;
         }
         .legend-card {
           top: 10px;
@@ -617,6 +811,16 @@
           transform-origin: top left;
           height: 120px;
         }
+        .filters {
+          left: calc(var(--details-panel-width) + 8px);
+          right: 8px;
+        }
+        .map-shell.panel-collapsed .filters {
+          left: 54px;
+        }
+      }
+      .map-shell.panel-collapsed .filters {
+        left: 60px;
       }
     </style>
   </head>
@@ -684,16 +888,15 @@
             </button>
           </div>
           <div id="info-content" role="tabpanel">
-            <div class="panel-heading">
-              <h2 id="pair-title">Loading conflict pair…</h2>
-              <div class="legend-stat" id="pair-detail"></div>
-            </div>
             <div id="pair-sources"></div>
           </div>
           <div id="popup-content" role="tabpanel" hidden>
-            <h2 id="popup-title">Selected hexagon</h2>
-            <p class="hint" id="popup-empty">
-              Click a map cell to see its values and class.
+            <div class="popup-title" id="popup-pair-title"></div>
+            <div class="popup-subtitle" id="popup-title">
+              Click a cell on the map to see its attributes.
+            </div>
+            <p class="hint" id="popup-empty" hidden>
+              No feature at that location.
             </p>
             <div id="popup-details"></div>
           </div>
@@ -973,6 +1176,9 @@
         .addEventListener("click", (event) => {
           const panel = document.getElementById("details-panel");
           const collapsed = panel.classList.toggle("collapsed");
+          document
+            .querySelector(".map-shell")
+            .classList.toggle("panel-collapsed", collapsed);
           event.currentTarget.setAttribute("aria-expanded", String(!collapsed));
           event.currentTarget.setAttribute(
             "aria-label",
@@ -984,78 +1190,202 @@
           event.currentTarget.textContent = collapsed ? "›" : "‹";
           requestAnimationFrame(() => map.resize());
         });
+      if (matchMedia("(max-width: 620px)").matches) {
+        document.getElementById("details-panel").classList.add("collapsed");
+        document.querySelector(".map-shell").classList.add("panel-collapsed");
+        document
+          .getElementById("panel-toggle")
+          .setAttribute("aria-expanded", "false");
+        document
+          .getElementById("panel-toggle")
+          .setAttribute("aria-label", "Expand side panel");
+        document.getElementById("panel-toggle").textContent = "›";
+      }
       function addText(parent, tag, value) {
         const el = document.createElement(tag);
         el.textContent = value ?? "";
         parent.append(el);
         return el;
       }
+      function formatValue(value) {
+        return value == null || value === "" || Number.isNaN(Number(value))
+          ? "—"
+          : Number(value).toLocaleString("en-US", { maximumFractionDigits: 2 });
+      }
+      function formatPercent(value) {
+        return Number(value || 0)
+          .toFixed(1)
+          .replace(/\.0$/, "");
+      }
       function renderPairDetails() {
         const d = pairDetails[currentPair?.label];
         const target = document.getElementById("pair-sources");
         target.replaceChildren();
         if (!d) return;
+        const section = (label, color, open = false) => {
+          const details = document.createElement("details");
+          details.className = "detail-section";
+          details.open = open;
+          const summary = document.createElement("summary");
+          summary.className = "detail-pill";
+          summary.style.backgroundColor = color;
+          summary.textContent = label;
+          const content = document.createElement("div");
+          content.className = "detail-section-content";
+          details.append(summary, content);
+          target.append(details);
+          return content;
+        };
         for (const key of ["pressure", "resource"]) {
           const source = d.source?.[key];
           if (!source) continue;
-          const section = document.createElement("section");
-          section.className = "detail-section";
-          addText(section, "h3", source.label);
-          addText(section, "p", source.description);
-          const links = document.createElement("p");
-          (source.links || []).forEach((link, i) => {
-            if (i) links.append(" · ");
+          const content = section(
+            source.label,
+            key === "pressure" ? "#c57ade" : "#a8be38",
+            true,
+          );
+          addText(
+            content,
+            "p",
+            source.description.replace(/\s*↗(?:\s*·\s*↗)?\s*$/, ""),
+          );
+          const links = addText(content, "p", "");
+          links.className = "source-links";
+          (source.links || []).forEach((link) => {
             const a = document.createElement("a");
-            a.textContent = link.label;
+            a.className = "source-link";
+            a.textContent = `${link.label} ↗`;
             a.href = link.url;
             a.target = "_blank";
             a.rel = "noopener noreferrer";
             links.append(a);
           });
-          section.append(links);
-          target.append(section);
         }
-        const interpretation = document.createElement("section");
-        interpretation.className = "detail-section";
-        addText(interpretation, "h3", "Conflict Interpretation");
-        addText(interpretation, "p", d.interpretation);
-        target.append(interpretation);
-        const profile = document.createElement("section");
-        profile.className = "detail-section";
-        addText(profile, "h3", "Pair profile");
-        const grid = document.createElement("div");
-        grid.className = "stats-grid";
-        ["Data coverage", "High pressure", "High resource", "Conflict"].forEach(
-          (label, i) => {
-            const box = document.createElement("div");
-            box.className = "stat-box";
-            addText(box, "b", `${Number(d.stats?.[i] ?? 0).toFixed(1)}%`);
-            addText(box, "span", label);
-            grid.append(box);
-          },
-        );
-        profile.append(grid);
         addText(
-          profile,
+          section("Conflict Interpretation", "#5064a1", true),
           "p",
-          "Coverage is the share of region cells with data. Other percentages use mapped cells; region share equals the statistic multiplied by coverage.",
+          d.interpretation,
         );
-        target.append(profile);
-        const scales = document.createElement("section");
-        scales.className = "detail-section";
-        addText(scales, "h3", "Value scales");
+        const profile = section("Pair profile", "#94a3b8");
+        const metrics = [
+          { label: "Data coverage", color: "#64748b" },
+          { label: "High pressure", color: "#c57ade" },
+          { label: "High resource", color: "#a8be38" },
+          { label: "Conflict", color: "#4e649e" },
+        ];
+        const coverage = Number(d.stats?.[0] || 0);
+        const svgNs = "http://www.w3.org/2000/svg";
+        const svg = document.createElementNS(svgNs, "svg");
+        svg.setAttribute("viewBox", "0 0 204 118");
+        svg.setAttribute("role", "img");
+        svg.setAttribute(
+          "aria-label",
+          "APNEP region profile showing selected percentage",
+        );
+        const defs = document.createElementNS(svgNs, "defs");
+        const clip = document.createElementNS(svgNs, "clipPath");
+        clip.id = "apnep-profile-clip";
+        const clipPath = document.createElementNS(svgNs, "path");
+        clipPath.setAttribute("d", pairDetails.__apnepRegionPath);
+        clip.append(clipPath);
+        defs.append(clip);
+        svg.append(defs);
+        const silhouette = document.createElementNS(svgNs, "path");
+        silhouette.setAttribute("d", pairDetails.__apnepRegionPath);
+        silhouette.setAttribute("class", "profile-svg-track");
+        svg.append(silhouette);
+        const fill = document.createElementNS(svgNs, "rect");
+        fill.setAttribute("x", "33.5");
+        fill.setAttribute("width", "137");
+        fill.setAttribute("y", "118");
+        fill.setAttribute("height", "0");
+        fill.setAttribute("clip-path", "url(#apnep-profile-clip)");
+        fill.setAttribute("class", "profile-svg-fill");
+        svg.append(fill);
+        const outline = document.createElementNS(svgNs, "path");
+        outline.setAttribute("d", pairDetails.__apnepRegionPath);
+        outline.setAttribute("class", "profile-svg-outline");
+        svg.append(outline);
+        const profileLayout = document.createElement("div");
+        profileLayout.className = "profile-layout";
+        const profileMap = document.createElement("div");
+        profileMap.className = "profile-map";
+        profileMap.append(svg);
+        const output = addText(profileMap, "div", "");
+        output.className = "profile-map-output";
+        const buttons = document.createElement("div");
+        buttons.className = "profile-buttons";
+        const showMetric = (index, button) => {
+          const metric = metrics[index];
+          const value = Number(d.stats?.[index] || 0);
+          const regionShare = index === 0 ? coverage : (value * coverage) / 100;
+          const height = Math.max(0, Math.min(100, regionShare)) * 1.18;
+          fill.setAttribute("y", (118 - height).toFixed(1));
+          fill.setAttribute("height", height.toFixed(1));
+          fill.setAttribute("fill", metric.color);
+          output.textContent =
+            index === 0
+              ? `${formatPercent(coverage)}% of region cells`
+              : `${formatPercent(value)}% of mapped cells · ${regionShare >= 0.05 ? regionShare.toFixed(1) : "<0.1"}% of region`;
+          buttons.querySelectorAll("button").forEach((b) => {
+            const selected = b === button;
+            b.setAttribute("aria-pressed", String(selected));
+            b.style.backgroundColor = selected ? b.dataset.color : "#eef2f6";
+          });
+        };
+        metrics.forEach((metric, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "profile-button";
+          button.textContent = metric.label;
+          button.dataset.color = metric.color;
+          button.setAttribute("aria-pressed", "false");
+          button.addEventListener("click", () => showMetric(index, button));
+          buttons.append(button);
+        });
+        profileLayout.append(profileMap, buttons);
+        profile.append(profileLayout);
+        showMetric(0, buttons.firstElementChild);
+        const scales = section("Value scales", "#94a3b8");
         for (const key of ["pressure", "resource"]) {
           const low = Number(d.breaks?.[`${key}_break_low`]);
           const high = Number(d.breaks?.[`${key}_break_high`]);
           const max = Number(d.max?.[key]);
           const label = d.source?.[key]?.label || key;
+          const unit = key === "pressure" ? d.pressureUnit : d.resourceUnit;
+          const segments = [
+            Math.max(low, 0),
+            Math.max(high - low, 0),
+            Math.max(max - high, 0),
+          ];
+          const colors =
+            key === "pressure"
+              ? ["#f2f2f2", "#dab6e9", "#c579db"]
+              : ["#f2f2f2", "#ced995", "#a8be38"];
+          const row = document.createElement("div");
+          row.className = "scale-row";
+          addText(row, "div", label).className = "scale-label";
+          const bar = document.createElement("div");
+          bar.className = "scale-bar";
+          segments.forEach((segment, i) => {
+            const part = document.createElement("i");
+            part.style.flex = `${Math.max(segment, 0.01)} 1 0`;
+            part.style.backgroundColor = colors[i];
+            bar.append(part);
+          });
+          row.append(bar);
           addText(
-            scales,
-            "p",
-            `${label}: Low 0–${low.toPrecision(3)} · Medium ${low.toPrecision(3)}–${high.toPrecision(3)} · High ${high.toPrecision(3)}–${max.toPrecision(3)} (${key === "pressure" ? d.pressureUnit : d.resourceUnit}).`,
-          );
+            row,
+            "div",
+            `Low ≤ ${formatValue(low)} · Med ${formatValue(low)}–${formatValue(high)} · High > ${formatValue(high)} · max ${formatValue(max)} ${unit || ""}`,
+          ).className = "scale-captions";
+          scales.append(row);
         }
-        target.append(scales);
+        addText(
+          scales,
+          "div",
+          "The full 0-to-max value scale behind the conflict map, cut at the class breaks. Uneven segments reflect a skewed distribution: cells bunch at one end of the scale while a thin tail of extreme cells stretches the other; the popup bar zooms into a single class segment.",
+        ).className = "scale-note";
       }
       function renderSelectedFeature(p) {
         const d = pairDetails[currentPair.label];
@@ -1065,40 +1395,155 @@
         markLegendClass(p.biv_class);
         applyCellHighlight();
         document.getElementById("popup-empty").hidden = true;
+        document.getElementById("popup-pair-title").textContent =
+          currentPair.label;
         document.getElementById("popup-title").textContent =
-          p.biv_label || currentPair.label;
-        const details = [
-          [
-            d?.source?.pressure?.label || "Pressure",
-            p.pressure,
-            p.Pressure_Level,
-            d?.pressureUnit,
-          ],
-          [
-            d?.source?.resource?.label || "Resource",
-            p.resource,
-            p.Resource_Level,
-            d?.resourceUnit,
-          ],
+          p.biv_label && p.biv_label !== "No data"
+            ? p.biv_label
+            : "No data on either axis";
+        const matrix = document.createElement("div");
+        matrix.className = "popup-matrix";
+        const selectedClass = Number(p.biv_class);
+        for (let pressure = 2; pressure >= 0; pressure--)
+          for (let resource = 0; resource < 3; resource++) {
+            const n = pressure * 3 + resource + 1;
+            const cell = document.createElement("i");
+            cell.style.left = `${28 + 12.5 * (resource - pressure)}px`;
+            cell.style.top = `${28 + 12.5 * (2 - resource - pressure)}px`;
+            cell.style.backgroundColor =
+              colors[
+                n === 1
+                  ? "LL"
+                  : n === 2
+                    ? "LM"
+                    : n === 3
+                      ? "LH"
+                      : n === 4
+                        ? "ML"
+                        : n === 5
+                          ? "MM"
+                          : n === 6
+                            ? "MH"
+                            : n === 7
+                              ? "HL"
+                              : n === 8
+                                ? "HM"
+                                : "HH"
+              ];
+            cell.title = `Pressure ${["Low", "Med", "High"][pressure]}, resource ${["Low", "Med", "High"][resource]}`;
+            if (n === selectedClass) cell.classList.add("selected");
+            matrix.append(cell);
+          }
+        box.append(matrix);
+        addText(box, "div", "").className = "popup-divider";
+        const measures = [
+          {
+            key: "pressure",
+            label: `Pressure — ${p.pressure_name || d?.source?.pressure?.label?.replace(/^Pressure — /, "") || ""}`,
+            value: p.pressure,
+            level: p.Pressure_Level,
+            unit: d?.pressureUnit,
+            low: d?.breaks?.pressure_break_low,
+            high: d?.breaks?.pressure_break_high,
+            max: d?.max?.pressure,
+            colors: ["#cbd5e1", "#dab6e9", "#c579db"],
+            nameClass: "",
+          },
+          {
+            key: "resource",
+            label: `Resource — ${p.resource_name || d?.source?.resource?.label?.replace(/^Resource — /, "") || ""}`,
+            value: p.resource,
+            level: p.Resource_Level,
+            unit: d?.resourceUnit,
+            low: d?.breaks?.resource_break_low,
+            high: d?.breaks?.resource_break_high,
+            max: d?.max?.resource,
+            colors: ["#cbd5e1", "#ced995", "#a8be38"],
+            nameClass: "resource",
+          },
         ];
-        details.forEach(([label, value, level, unit]) => {
-          const section = document.createElement("div");
-          section.className = "popup-value";
-          addText(section, "strong", label);
-          addText(
-            section,
-            "div",
-            `${value ?? "No value"}${unit ? ` ${unit}` : ""} · ${["", "Low", "Medium", "High"][Number(level)] || "Unclassified"}`,
-          );
-          const bar = document.createElement("div");
-          bar.className = "popup-bar";
-          const fill = document.createElement("i");
-          fill.style.width = `${Math.max(0, Math.min(100, (Number(level || 0) / 3) * 100))}%`;
-          bar.append(fill);
-          section.append(bar);
+        measures.forEach((item, index) => {
+          if (index) addText(box, "div", "").className = "popup-divider";
+          const section = document.createElement("section");
+          section.className = "popup-measure";
+          const level = Number(item.level),
+            value = Number(item.value);
+          const levelText = ["", "Low", "Med", "High"][level] || "no data";
+          const levelColor = item.colors[level - 1] || "#94a3b8";
+          const head = document.createElement("div");
+          head.className = "popup-measure-head";
+          const name = addText(head, "span", item.label);
+          name.className = `popup-measure-name ${item.nameClass}`;
+          const levelLabel = addText(head, "span", "");
+          levelLabel.className = "popup-measure-level";
+          const dot = document.createElement("span");
+          dot.style.cssText = `display:inline-block;width:7px;height:7px;border-radius:50%;background:${levelColor};margin-right:5px;vertical-align:1px`;
+          levelLabel.append(dot, levelText);
+          section.append(head);
+          const valueRow = document.createElement("div");
+          valueRow.className = "popup-measure-value";
+          addText(valueRow, "strong", formatValue(item.value));
+          if (item.unit)
+            addText(valueRow, "span", item.unit).className =
+              "popup-measure-unit";
+          section.append(valueRow);
+          const start =
+            level === 1
+              ? 0
+              : level === 2
+                ? Number(item.low)
+                : Number(item.high);
+          const end =
+            level === 1
+              ? Number(item.low)
+              : level === 2
+                ? Number(item.high)
+                : Number(item.max);
+          const inRange =
+            Number.isFinite(value) &&
+            Number.isFinite(start) &&
+            Number.isFinite(end) &&
+            end > start;
+          if (inRange) {
+            const percent = Math.max(
+              0,
+              Math.min(100, (100 * (value - start)) / (end - start)),
+            );
+            const track = document.createElement("div");
+            track.className = "popup-value-track";
+            const fill = document.createElement("div");
+            fill.className = "popup-value-fill";
+            fill.style.width = `${percent}%`;
+            fill.style.backgroundColor = levelColor;
+            track.append(fill);
+            const marker = document.createElement("span");
+            marker.className = "popup-value-marker";
+            marker.style.left = `max(0px,min(calc(${percent}% - 5px),calc(100% - 10px)))`;
+            marker.style.backgroundColor = levelColor;
+            track.append(marker);
+            section.append(track);
+            const range = document.createElement("div");
+            range.className = "popup-range";
+            range.append(
+              addText(
+                document.createElement("span"),
+                "span",
+                formatValue(start),
+              ),
+              addText(document.createElement("span"), "span", formatValue(end)),
+            );
+            section.append(range);
+          }
           box.append(section);
         });
-        if (p.h3_index) addText(box, "p", `Hex: ${p.h3_index}`);
+        const note = document.createElement("div");
+        note.className = "popup-note";
+        note.append(
+          "Bars show position within the current class; the Value scales section (Info tab) holds the full range. ",
+        );
+        const dark = addText(note, "strong", "Dark indigo");
+        note.append(" marks the strongest conflict overlap.");
+        box.append(note);
         showDetailTab("popup");
       }
       const palette = ["HH", "MH", "LH", "HM", "MM", "LM", "HL", "ML", "LL"];
@@ -1215,8 +1660,10 @@
         selectedHexId = null;
         markLegendClass(null);
         showDetailTab("info");
-        document.getElementById("popup-title").textContent = "Selected hexagon";
-        document.getElementById("popup-empty").hidden = false;
+        document.getElementById("popup-pair-title").textContent = pair.label;
+        document.getElementById("popup-title").textContent =
+          "Click a cell on the map to see its attributes.";
+        document.getElementById("popup-empty").hidden = true;
         document.getElementById("popup-details").replaceChildren();
         renderNavigation();
         activeGroup = groups.findIndex((g) => g.pairs.includes(pair.label));
@@ -1262,9 +1709,10 @@
           "source-layer": "conflict_hexes",
           filter: ["==", ["get", "h3_index"], "__no_selection__"],
           paint: {
-            "line-color": "#10253b",
-            "line-width": 7,
-            "line-opacity": 0.95,
+            "line-color": "#f8fafc",
+            "line-width": 5,
+            "line-opacity": 0.88,
+            "line-blur": 0.45,
           },
         });
         map.addLayer({
@@ -1274,16 +1722,14 @@
           "source-layer": "conflict_hexes",
           filter: ["==", ["get", "h3_index"], "__no_selection__"],
           paint: {
-            "line-color": "#ffe044",
-            "line-width": 3.5,
-            "line-opacity": 1,
+            "line-color": "#425268",
+            "line-width": 2.25,
+            "line-opacity": 0.78,
+            "line-blur": 0.35,
           },
         });
         sourceReady = true;
-        document.getElementById("pair-title").textContent = pair.label;
         renderPairDetails();
-        document.getElementById("pair-detail").textContent =
-          `${pair.count.toLocaleString()} classified hexes · ${pair.title}`;
         document.getElementById("layer-count").textContent =
           pair.count.toLocaleString();
         status.textContent = `Showing ${pair.count.toLocaleString()} cells from static vector tiles`;
@@ -1431,6 +1877,23 @@
       map.on("click", "conflicts", (event) => {
         renderSelectedFeature(event.features[0].properties);
       });
+      map.on("click", (event) => {
+        if (
+          map.queryRenderedFeatures(event.point, { layers: ["conflicts"] })
+            .length
+        )
+          return;
+        selectedHexId = null;
+        markLegendClass(null);
+        applyCellHighlight();
+        document.getElementById("popup-details").replaceChildren();
+        document.getElementById("popup-pair-title").textContent =
+          currentPair?.label || "";
+        document.getElementById("popup-title").textContent =
+          "No feature at that location.";
+        document.getElementById("popup-empty").hidden = false;
+        showDetailTab("popup");
+      });
       map.on(
         "mouseenter",
         "conflicts",
@@ -1441,11 +1904,11 @@
         "conflicts",
         () => (map.getCanvas().style.cursor = ""),
       );
-      map.on("load", async () => {
+      map.on("style.load", async () => {
         try {
           const [response, detailResponse] = await Promise.all([
             fetch("./data/pairs.json"),
-            fetch("./data/pair-details.json"),
+            fetch("./data/pair-details.json", { cache: "no-store" }),
           ]);
           if (!response.ok)
             throw new Error(`Pair list HTTP ${response.status}`);
