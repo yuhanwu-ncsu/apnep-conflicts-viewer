@@ -22,7 +22,7 @@ jobs:
           make -C "$RUNNER_TEMP/tippecanoe" -j2
       - name: Generate static vector tiles
         run: |
-          mkdir -p tile-test/site/data
+          mkdir -p tile-test/site/data tile-test/site/tiles
           cp tile-test/index.html tile-test/site/index.html
           cp tile-test/pairs.json tile-test/site/data/pairs.json
           python tile-test/split_pairs.py
