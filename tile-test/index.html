@@ -1068,6 +1068,10 @@
       function selectPair(pair, updateUrl = true) {
         if (!pair) return;
         currentPair = pair;
+        showDetailTab("info");
+        document.getElementById("popup-title").textContent = "Selected hexagon";
+        document.getElementById("popup-empty").hidden = false;
+        document.getElementById("popup-details").replaceChildren();
         renderNavigation();
         activeGroup = groups.findIndex((g) => g.pairs.includes(pair.label));
         if (map.getLayer("conflicts")) map.removeLayer("conflicts");
