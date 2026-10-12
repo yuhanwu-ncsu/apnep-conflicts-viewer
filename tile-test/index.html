@@ -94,8 +94,17 @@
         padding: 9px 20px;
         white-space: nowrap;
         min-height: 36px;
+        cursor: pointer;
+        transition:
+          background-color 140ms ease,
+          color 140ms ease;
       }
-      .chip:hover,
+      .chip:not(.active):hover {
+        background: #dce5f1;
+      }
+      .chip.active:hover {
+        background: #1479bc;
+      }
       .chip:focus-visible {
         outline: 2px solid #0064b2;
         outline-offset: 2px;
@@ -163,6 +172,10 @@
       }
       .details-panel.collapsed {
         transform: translateX(calc(-100% + 42px));
+        pointer-events: none;
+      }
+      .details-panel.collapsed .panel-toggle {
+        pointer-events: auto;
       }
       .details-panel-body {
         height: 100%;
@@ -570,8 +583,35 @@
         font-size: 14px;
         box-shadow: 0 1px 8px #0002;
         white-space: nowrap;
+        cursor: pointer;
+        transition:
+          background-color 140ms ease,
+          color 140ms ease;
       }
-      .filter:hover,
+      .filter:not([aria-pressed="true"]):hover {
+        background: #eef2f6;
+      }
+      .filter[aria-pressed="true"][data-mode="pressure"] {
+        background: #c57ade;
+        color: #24152c;
+      }
+      .filter[aria-pressed="true"][data-mode="resource"] {
+        background: #a8be38;
+        color: #1c2410;
+      }
+      .filter[aria-pressed="true"][data-mode="conflict"] {
+        background: #4e649e;
+        color: #fff;
+      }
+      .filter[aria-pressed="true"][data-mode="pressure"]:hover {
+        background: #d392e7;
+      }
+      .filter[aria-pressed="true"][data-mode="resource"]:hover {
+        background: #b9cc5d;
+      }
+      .filter[aria-pressed="true"][data-mode="conflict"]:hover {
+        background: #6377ac;
+      }
       .filter:focus-visible {
         outline: 2px solid #66859a;
         outline-offset: 2px;
@@ -623,8 +663,8 @@
         transition: transform 0.15s;
       }
       .filter[aria-pressed="true"] .switch {
-        background: #0066b4;
-        border-color: #0066b4;
+        background: #0003;
+        border-color: #0005;
       }
       .filter[aria-pressed="true"] .switch::before {
         transform: translateX(12px);
@@ -1247,6 +1287,7 @@
         .addEventListener("click", (event) => {
           const panel = document.getElementById("details-panel");
           const collapsed = panel.classList.toggle("collapsed");
+          panel.querySelector(".details-panel-body").inert = collapsed;
           document
             .querySelector(".map-shell")
             .classList.toggle("panel-collapsed", collapsed);
@@ -1263,6 +1304,7 @@
         });
       if (matchMedia("(max-width: 620px)").matches) {
         document.getElementById("details-panel").classList.add("collapsed");
+        document.querySelector(".details-panel-body").inert = true;
         document.querySelector(".map-shell").classList.add("panel-collapsed");
         document
           .getElementById("panel-toggle")
