@@ -184,10 +184,11 @@
       }
       .panel-toggle {
         position: absolute;
+        z-index: 6;
         top: 50%;
-        right: -32px;
-        width: 32px;
-        height: 36px;
+        left: var(--details-panel-width);
+        width: 44px;
+        height: 56px;
         border: 1px solid #c7d0d8;
         border-radius: 0 7px 7px 0;
         background: #f4f7f9;
@@ -195,6 +196,9 @@
         font-size: 24px;
         line-height: 1;
         transform: translateY(-50%);
+      }
+      .map-shell.panel-collapsed .panel-toggle {
+        left: 0;
       }
       #pair-sources {
         padding-right: 3px;
@@ -966,16 +970,17 @@
           </div>
         </div>
         </aside>
-        <button
-          id="panel-toggle"
-          class="panel-toggle"
-          aria-expanded="true"
-          aria-label="Collapse side panel"
-          title="Collapse side panel"
-        >
-          ‹
-        </button>
       </div>
+      <button
+        id="panel-toggle"
+        class="panel-toggle"
+        type="button"
+        aria-expanded="true"
+        aria-label="Collapse side panel"
+        title="Collapse side panel"
+      >
+        ‹
+      </button>
       <section class="legend-card" aria-label="Bivariate map legend">
         <h2>Bivariate legend</h2>
         <div class="axis-row"><b>↖</b><span>Pressure level</span></div>
