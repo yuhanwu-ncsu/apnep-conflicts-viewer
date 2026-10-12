@@ -2,7 +2,7 @@ name: Build APNEP vector tile test
 
 on:
   push:
-    branches: [codex/tippecanoe-test]
+    branches: [ui/exb-conflict-viewer-parity]
     paths:
       - "tile-test/**"
       - ".github/workflows/tile-test.yml"
