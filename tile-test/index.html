@@ -174,9 +174,6 @@
         transform: translateX(-100%);
         pointer-events: none;
       }
-      .details-panel.collapsed .panel-toggle {
-        pointer-events: auto;
-      }
       .details-panel-body {
         height: 100%;
         overflow: auto;
@@ -184,22 +181,21 @@
       }
       .panel-toggle {
         position: absolute;
-        z-index: 2;
+        z-index: 6;
         top: 50%;
-        right: 7px;
+        left: var(--details-panel-width);
         width: 32px;
         height: 36px;
         border: 1px solid #c7d0d8;
-        border-radius: 5px;
+        border-radius: 0 7px 7px 0;
         background: #f4f7f9;
         color: #173f5f;
         font-size: 24px;
         line-height: 1;
         transform: translateY(-50%);
       }
-      .details-panel.collapsed .panel-toggle {
-        right: -32px;
-        border-radius: 0 7px 7px 0;
+      .map-shell.panel-collapsed .panel-toggle {
+        left: 0;
       }
       #pair-sources {
         padding-right: 3px;
@@ -936,15 +932,6 @@
         class="details-panel"
         aria-label="Conflict information side panel"
       >
-        <button
-          id="panel-toggle"
-          class="panel-toggle"
-          aria-expanded="true"
-          aria-label="Collapse side panel"
-          title="Collapse side panel"
-        >
-          ‹
-        </button>
         <div class="details-panel-body">
           <div class="detail-tabs" role="tablist" aria-label="Map side panel">
             <button
@@ -979,6 +966,15 @@
           </div>
         </div>
       </aside>
+      <button
+        id="panel-toggle"
+        class="panel-toggle"
+        aria-expanded="true"
+        aria-label="Collapse side panel"
+        title="Collapse side panel"
+      >
+        ‹
+      </button>
       <section class="legend-card" aria-label="Bivariate map legend">
         <h2>Bivariate legend</h2>
         <div class="axis-row"><b>↖</b><span>Pressure level</span></div>
