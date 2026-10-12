@@ -71,7 +71,6 @@
     });
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
     const status = document.getElementById('status');
-    const tileTemplate = './tiles/{pair}/{z}/{x}/{y}.pbf';
     const pairSelect = document.getElementById('pair');
     let currentPair = null;
     const colorExpression = ['match', ['get', 'biv_class'],
@@ -97,7 +96,7 @@
       if (map.getLayer('conflicts')) map.removeLayer('conflicts');
       if (map.getSource('hexes')) map.removeSource('hexes');
       const slug = pair.file.split('/').pop().replace(/\.geojson$/, '');
-      const tiles = new URL(tileTemplate.replace('{pair}', slug), location.href).href;
+      const tiles = new URL(`./tiles/${slug}/`, location.href).href + '{z}/{x}/{y}.pbf';
       map.addSource('hexes', { type: 'vector', tiles: [tiles], minzoom: 6, maxzoom: 12 });
       map.addLayer({ id: 'conflicts', type: 'fill', source: 'hexes', 'source-layer': 'conflict_hexes',
         paint: { 'fill-color': colorExpression, 'fill-opacity': 0.82,
