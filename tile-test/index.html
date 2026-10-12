@@ -137,7 +137,7 @@
         --map-inset-left: var(--details-panel-width);
       }
       .map-shell.panel-collapsed {
-        --map-inset-left: 42px;
+        --map-inset-left: 0px;
       }
       #map {
         position: absolute;
@@ -171,7 +171,7 @@
         box-shadow: 2px 0 12px #0002;
       }
       .details-panel.collapsed {
-        transform: translateX(calc(-100% + 42px));
+        transform: translateX(-100%);
         pointer-events: none;
       }
       .details-panel.collapsed .panel-toggle {
@@ -185,9 +185,9 @@
       .panel-toggle {
         position: absolute;
         z-index: 2;
-        top: 12px;
+        top: 50%;
         right: 7px;
-        width: 30px;
+        width: 32px;
         height: 36px;
         border: 1px solid #c7d0d8;
         border-radius: 5px;
@@ -195,6 +195,11 @@
         color: #173f5f;
         font-size: 24px;
         line-height: 1;
+        transform: translateY(-50%);
+      }
+      .details-panel.collapsed .panel-toggle {
+        right: -32px;
+        border-radius: 0 7px 7px 0;
       }
       #pair-sources {
         padding-right: 3px;

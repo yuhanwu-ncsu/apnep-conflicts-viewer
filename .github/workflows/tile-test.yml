@@ -1,11 +1,6 @@
 name: Build APNEP vector tile test
 
 on:
-  push:
-    branches: [ui/exb-conflict-viewer-parity]
-    paths:
-      - "tile-test/**"
-      - ".github/workflows/tile-test.yml"
   workflow_dispatch:
 
 permissions:
