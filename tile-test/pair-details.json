@@ -1,0 +1,366 @@
+{
+  "Fishing x Nursery Areas": {
+    "servicePair": "Fishing x Nursery Areas",
+    "source": {
+      "pressure": {
+        "label": "Pressure — Commercial Fishing",
+        "description": "VMS (Vessel Monitoring System — satellite tracking of commercial fishing vessels) density 2015–2019 (Northeast Ocean Data), mean density class per cell. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://services.northeastoceandata.org/arcgis1/rest/services/OceanUses/VMS_All2015to2019/MapServer"
+          },
+          {
+            "label": "Data",
+            "url": "https://services.northeastoceandata.org/arcgis1/rest/services/OceanUses/VMS_All2015to2019/MapServer"
+          }
+        ]
+      },
+      "resource": {
+        "label": "Resource — Nursery Areas",
+        "description": "NC Fishery Nursery Areas designation (NC Division of Marine Fisheries), % cell area covered. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://noaa.maps.arcgis.com/sharing/rest/content/items/671ea4b8ffc0456fa64b3d02d16e31fa/info/metadata/metadata.xml"
+          },
+          {
+            "label": "Data",
+            "url": "https://data-ncdenr.opendata.arcgis.com/datasets/ncdenr::fna-ncdmf/explore?location=34.803489%2C-76.689950%2C8.52"
+          }
+        ]
+      }
+    },
+    "interpretation": "only a few cells combine high activity with nursery coverage — the closure system is largely working. Watch the band of activity pressed against nursery boundaries.",
+    "stats": [
+      13.7,
+      27.9,
+      8.2,
+      0.2
+    ],
+    "pressureUnit": "density class",
+    "resourceUnit": "% of cell",
+    "max": {
+      "pressure": 4.5813,
+      "resource": 100.0
+    },
+    "breaks": {
+      "pressure_break_low": 1.5495327102803738,
+      "pressure_break_high": 2.817010309278351,
+      "resource_break_low": 3.163607096246837,
+      "resource_break_high": 16.20841558944115
+    }
+  },
+  "Vessel Count x Submerged Aquatic Vegetation": {
+    "servicePair": "Vessel Count x Submerged Aquatic Vegetation",
+    "source": {
+      "pressure": {
+        "label": "Pressure — Vessel Count",
+        "description": "AIS (Automatic Identification System — transponder tracking of vessels) transit counts 2025 (Northeast Ocean Data Portal), summed per cell. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://www.fisheries.noaa.gov/inport/item/79504/iso19115"
+          },
+          {
+            "label": "Data",
+            "url": "https://ocmgeodatastor1.blob.core.windows.net/marinecadastre/ais/aistrack/AISVesselTracks2025.zip"
+          }
+        ]
+      },
+      "resource": {
+        "label": "Resource — Submerged Aquatic Vegetation (SAV)",
+        "description": "SAV (submerged aquatic vegetation — underwater grass beds) mapping 2019–2020 (NC Dept. of Environmental Quality), % cell area covered. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://noaa.maps.arcgis.com/sharing/rest/content/items/c22775cb78ac4da6b02ade497c992570/info/metadata/metadata.xml"
+          },
+          {
+            "label": "Data",
+            "url": "https://data-ncdenr.opendata.arcgis.com/datasets/ncdenr::submerged-aquatic-vegetation-sav-2019-2020-mapping/explore"
+          }
+        ]
+      }
+    },
+    "interpretation": "the darkest cells mark shipping lanes and ferry corridors crossing SAV beds — priority zones for speed restrictions, signage, or channel review.",
+    "stats": [
+      17.7,
+      31.5,
+      4.5,
+      0.1
+    ],
+    "pressureUnit": "transit counts",
+    "resourceUnit": "% of cell",
+    "max": {
+      "pressure": 553145.0,
+      "resource": 94.3755
+    },
+    "breaks": {
+      "pressure_break_low": 452.0000000000001,
+      "pressure_break_high": 6257.333333333334,
+      "resource_break_low": 7.179655514143439,
+      "resource_break_high": 33.215049669207005
+    }
+  },
+  "Community Vulnerability x Tourism": {
+    "servicePair": "Community Vulnerability x Tourism",
+    "source": {
+      "pressure": {
+        "label": "Pressure — Community Vulnerability",
+        "description": "CDC/ATSDR Social Vulnerability Index (SVI) 2022, mean percentile per cell — the demand side. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://svi2.cdc.gov/webapi/documents/publication?filename=SVI2022Documentation_ZCTA"
+          },
+          {
+            "label": "Data",
+            "url": "https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html"
+          }
+        ]
+      },
+      "resource": {
+        "label": "Resource — Tourism",
+        "description": "NC beach and waterfront public access points, count per cell — the supply side. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://services2.arcgis.com/kCu40SDxsCGcuUWO/arcgis/rest/services/DCM_Beach_and_Waterfront_Access/FeatureServer/info/metadata"
+          },
+          {
+            "label": "Data",
+            "url": "https://data-ncdenr.opendata.arcgis.com/datasets/ncdenr::dcm-beach-and-waterfront-access/explore?location=35.107534%2C-75.987008%2C12.64"
+          }
+        ]
+      }
+    },
+    "interpretation": "the darkest cells are vulnerable communities with heavy tourist access — congestion and displacement hotspots. High vulnerability with few access points marks the resident-access gap.",
+    "stats": [
+      93.6,
+      33.6,
+      0.5,
+      0.1
+    ],
+    "pressureUnit": "SVI percentile",
+    "resourceUnit": "access points",
+    "max": {
+      "pressure": 99.8178,
+      "resource": 16.0
+    },
+    "breaks": {
+      "pressure_break_low": 49.62,
+      "pressure_break_high": 77.01,
+      "resource_break_low": 1.0,
+      "resource_break_high": 2.0
+    }
+  },
+  "Shoreline Erosion x Wetland Potential": {
+    "servicePair": "Shoreline Erosion x Wetland Potential",
+    "source": {
+      "pressure": {
+        "label": "Pressure — Shoreline Erosion",
+        "description": "NC oceanfront erosion rates 2020 (NC Division of Coastal Management), eroding shoreline km per cell. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://www.arcgis.com/sharing/rest/content/items/ae6f8c2d2e214e8a91a64d2b48f2d084/info/metadata/metadata.xml"
+          },
+          {
+            "label": "Data",
+            "url": "https://www.arcgis.com/home/item.html?id=ae6f8c2d2e214e8a91a64d2b48f2d084"
+          }
+        ]
+      },
+      "resource": {
+        "label": "Resource — Wetland Potential",
+        "description": "NOAA C-CAP (Coastal Change Analysis Program) wetland potential layer, land wetness likelihood 1–9 (open water excluded). ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://www.fisheries.noaa.gov/inport/item/48357/iso19115"
+          },
+          {
+            "label": "Data",
+            "url": "https://coast.noaa.gov/digitalcoast/data/ccapwetland.html"
+          }
+        ]
+      }
+    },
+    "interpretation": "the darkest cells are eroding shorefront backed by high wetland-migration potential — priority candidates for living shorelines and shoreline-hardening policy review.",
+    "stats": [
+      73.7,
+      0.8,
+      33.2,
+      0.7
+    ],
+    "pressureUnit": "eroding km",
+    "resourceUnit": "wetness score",
+    "max": {
+      "pressure": 22.8588,
+      "resource": 9.0
+    },
+    "breaks": {
+      "pressure_break_low": 1.396695708264614,
+      "pressure_break_high": 4.9451199261004275,
+      "resource_break_low": 4.086352065792051,
+      "resource_break_high": 6.008240705251054
+    }
+  },
+  "Salinity x Agriculture": {
+    "servicePair": "Agriculture x Salinity",
+    "source": {
+      "pressure": {
+        "label": "Pressure — Salinity",
+        "description": "Estuarine shoreline length per cell (NC DCM 2012), used as a proxy for the saltwater front. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://ncdenr.maps.arcgis.com/sharing/rest/content/items/479c57360c414ca4b824846d747cbbc9/info/metadata/metadata.xml"
+          },
+          {
+            "label": "Data",
+            "url": "https://ncdenr.maps.arcgis.com/home/item.html?id=24daa404e32342758d1c84947c1e3953"
+          }
+        ]
+      },
+      "resource": {
+        "label": "Resource — Agriculture",
+        "description": "NLCD (National Land Cover Database) 2025 cropland — pasture + cultivated crops, % cell area. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://www.mrlc.gov/downloads/sciweb1/shared/mrlc/metadata/Annual_NLCD_LndCov_2024_CU_C1V2.xml"
+          },
+          {
+            "label": "Data",
+            "url": "https://www.mrlc.gov/data/type/land-cover"
+          }
+        ]
+      }
+    },
+    "interpretation": "the darkest cells are the salt front pressing against farmland — where intrusion risk to agriculture is highest.",
+    "stats": [
+      83.8,
+      6,
+      30.6,
+      0.2
+    ],
+    "pressureUnit": "shoreline km",
+    "resourceUnit": "% of cell",
+    "max": {
+      "pressure": 64.6794,
+      "resource": 100.0
+    },
+    "breaks": {
+      "pressure_break_low": 2.749704296028948,
+      "pressure_break_high": 6.824809490559655,
+      "resource_break_low": 15.39086433314861,
+      "resource_break_high": 36.042078440981165
+    }
+  },
+  "Sea Level Rise x Ferry Route": {
+    "servicePair": "Sea Level Rise x Ferry Route",
+    "source": {
+      "pressure": {
+        "label": "Pressure — Sea Level Rise",
+        "description": "NOAA sea level rise inundation footprint (Northern + Middle 2 NC), % cell area covered. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://www.fisheries.noaa.gov/inport/item/48106/iso19115"
+          },
+          {
+            "label": "Data",
+            "url": "https://chs.coast.noaa.gov/htdata/Inundation/SLR/SLRdata/NC/NC_Northern_slr_data_dist.zip"
+          }
+        ]
+      },
+      "resource": {
+        "label": "Resource — Ferry Route",
+        "description": "U.S. DOT ferry routes + terminals, route length (km) and terminal count per cell. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://www.arcgis.com/sharing/rest/content/items/bc0f7dffb12d4ce9a47bf890d6c09804/info/metadata/metadata.xml"
+          },
+          {
+            "label": "Data",
+            "url": "https://data-usdot.opendata.arcgis.com/datasets/usdot::ferry-routes/explore"
+          }
+        ]
+      }
+    },
+    "interpretation": "the darkest cells mark ferry corridors crossing inundation footprints — priorities for terminal elevation, docking retrofit, and service contingency planning.",
+    "stats": [
+      11.3,
+      31,
+      2.5,
+      0.1
+    ],
+    "pressureUnit": "% of cell",
+    "resourceUnit": "route km",
+    "max": {
+      "pressure": 81.5707,
+      "resource": 1.3198
+    },
+    "breaks": {
+      "pressure_break_low": 0.49880913170748215,
+      "pressure_break_high": 2.307072138131107,
+      "resource_break_low": 0.22881811003156044,
+      "resource_break_high": 0.32652811596609654
+    }
+  },
+  "Community Vulnerability x Conservation": {
+    "servicePair": "Community Vulnerability x Conservation",
+    "source": {
+      "pressure": {
+        "label": "Pressure — Community Vulnerability",
+        "description": "CDC/ATSDR Social Vulnerability Index (SVI) 2022 — higher score means a more vulnerable community; mean percentile per cell. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://svi2.cdc.gov/webapi/documents/publication?filename=SVI2022Documentation_ZCTA"
+          },
+          {
+            "label": "Data",
+            "url": "https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html"
+          }
+        ]
+      },
+      "resource": {
+        "label": "Resource — Conservation",
+        "description": "PAD-US (Protected Areas Database of the U.S.) 4.1 protected lands (GAP 1–3), % cell area covered. ↗ · ↗",
+        "links": [
+          {
+            "label": "Metadata",
+            "url": "https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-download"
+          },
+          {
+            "label": "Data",
+            "url": "https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-download"
+          }
+        ]
+      }
+    },
+    "interpretation": "the darkest cells are protected lands overlapping high-vulnerability communities — the engagement priority list for access agreements, stewardship, and Tribal / local consultation.",
+    "stats": [
+      94.1,
+      33.4,
+      13.8,
+      5.4
+    ],
+    "pressureUnit": "SVI percentile",
+    "resourceUnit": "% of cell",
+    "max": {
+      "pressure": 99.8178,
+      "resource": 100.0
+    },
+    "breaks": {
+      "pressure_break_low": 49.62,
+      "pressure_break_high": 77.01,
+      "resource_break_low": 3.3357716971371443,
+      "resource_break_high": 29.42570964837024
+    }
+  }
+}

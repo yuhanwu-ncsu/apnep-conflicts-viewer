@@ -4,8 +4,8 @@ on:
   push:
     branches: [codex/tippecanoe-test]
     paths:
-      - 'tile-test/**'
-      - '.github/workflows/tile-test.yml'
+      - "tile-test/**"
+      - ".github/workflows/tile-test.yml"
   workflow_dispatch:
 
 permissions:
@@ -25,6 +25,7 @@ jobs:
           mkdir -p tile-test/site/data tile-test/site/tiles
           cp tile-test/index.html tile-test/site/index.html
           cp tile-test/pairs.json tile-test/site/data/pairs.json
+          cp tile-test/pair-details.json tile-test/site/data/pair-details.json
           python tile-test/split_pairs.py
           for input in tile-test/inputs/*.geojson.gz; do
             slug="$(basename "$input" .geojson.gz)"

@@ -1,136 +1,1291 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>APNEP conflict viewer — open source prototype</title>
-  <link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet">
-  <style>
-    html, body { margin: 0; height: 100%; font: 15px system-ui, sans-serif; color: #18304b; }
-    body { display: grid; grid-template-rows: auto 1fr; }
-    header { padding: 12px 18px; background: #f5f7fb; border-bottom: 1px solid #cad4e7; }
-    h1 { margin: 0 0 4px; font-size: 20px; }
-    p { margin: 0; }
-    main { display: grid; grid-template-columns: minmax(220px, 270px) 1fr; min-height: 0; }
-    aside { padding: 16px; overflow: auto; background: #fff; border-right: 1px solid #cad4e7; }
-    #map { min-height: 360px; }
-    fieldset { border: 0; padding: 0; margin: 16px 0; }
-    legend { font-weight: 700; margin-bottom: 8px; }
-    label { display: block; margin: 9px 0; cursor: pointer; }
-    select { width: 100%; margin: 8px 0 4px; padding: 8px; border: 1px solid #9aa7b5; border-radius: 6px; background: white; }
-    input { margin-right: 7px; }
-    .matrix { display: grid; grid-template-columns: repeat(3, 33px); gap: 3px; margin: 8px 0 5px; }
-    .matrix span { height: 27px; border: 1px solid #9aa7b5; }
-    .note { color: #52677c; font-size: 13px; line-height: 1.4; margin-top: 12px; }
-    #status { color: #52677c; font-size: 13px; margin-top: 14px; }
-    @media (max-width: 650px) { main { grid-template-columns: 1fr; grid-template-rows: auto 1fr; } aside { border-right: 0; border-bottom: 1px solid #cad4e7; } }
-  </style>
-</head>
-<body>
-  <header><h1>APNEP conflict viewer</h1><p>Open source prototype from the local AGOL upload kit</p></header>
-  <main>
-    <aside>
-      <label for="pair"><strong>Conflict pair</strong></label>
-      <select id="pair" aria-label="Conflict pair"></select>
-      <p id="pair-detail" class="note"></p>
-      <fieldset>
-        <legend>Show cells</legend>
-        <label><input type="radio" name="filter" value="all" checked>All classified cells</label>
-        <label><input type="radio" name="filter" value="pressure">High pressure</label>
-        <label><input type="radio" name="filter" value="resource">High resources</label>
-        <label><input type="radio" name="filter" value="conflict">High conflict zones</label>
-      </fieldset>
-      <strong>Pressure → · Resource ↑</strong>
-      <div class="matrix" id="matrix" aria-label="Bivariate color legend"></div>
-      <p class="note">Upper right: both high. Click a hex for its classes and values.</p>
-      <p id="status" role="status">Loading data…</p>
-    </aside>
-    <div id="map" aria-label="Map of conflict hexagons"></div>
-  </main>
-  <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
-  <script>
-    // Colors copied from the public ArcGIS web map's 3 × 3 bivariate renderer.
-    const colors = {
-      LL: '#f2f2f2', LM: '#ced996', LH: '#a9bf39',
-      ML: '#dbb6e8', MM: '#ad9d91', MH: '#7d926d',
-      HL: '#c47add', HM: '#7b72ab', HH: '#5064a0'
-    };
-    const classCode = ['L', 'M', 'H'];
-    const palette = ['LH', 'MH', 'HH', 'LM', 'MM', 'HM', 'LL', 'ML', 'HL'];
-    document.getElementById('matrix').innerHTML = palette.map(key =>
-      `<span style="background:${colors[key]}" title="${key}" aria-label="${key}"></span>`).join('');
-
-    const map = new maplibregl.Map({
-      container: 'map',
-      style: {
-        version: 8,
-        sources: { osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, attribution: '© OpenStreetMap contributors' } },
-        layers: [{ id: 'basemap', type: 'raster', source: 'osm' }]
-      },
-      center: [-76.25, 35.55], zoom: 7
-    });
-    map.addControl(new maplibregl.NavigationControl(), 'top-right');
-    const status = document.getElementById('status');
-    const pairSelect = document.getElementById('pair');
-    let currentPair = null;
-    const colorExpression = ['match', ['get', 'biv_class'],
-      ...Object.keys(colors).flatMap(key => [
-        (classCode.indexOf(key[0]) * 3) + classCode.indexOf(key[1]) + 1, colors[key]
-      ]), '#cccccc'];
-
-    function applyFilter() {
-      if (!map.getLayer('conflicts') || !currentPair) return;
-      const mode = document.querySelector('input[name="filter"]:checked').value;
-      const filters = {
-        all: ['==', ['get', 'pair'], currentPair.pair],
-        pressure: ['all', ['==', ['get', 'pair'], currentPair.pair], ['==', ['get', 'Pressure_Level'], 3]],
-        resource: ['all', ['==', ['get', 'pair'], currentPair.pair], ['==', ['get', 'Resource_Level'], 3]],
-        conflict: ['all', ['==', ['get', 'pair'], currentPair.pair], ['==', ['get', 'biv_class'], 9]]
-      };
-      map.setFilter('conflicts', filters[mode]);
-    }
-
-    function showPair(pair) {
-      currentPair = pair;
-      document.getElementById('pair-detail').textContent = `${pair.count.toLocaleString()} classified hexes`;
-      if (map.getLayer('conflicts')) map.removeLayer('conflicts');
-      if (map.getSource('hexes')) map.removeSource('hexes');
-      const slug = pair.file.split('/').pop().replace(/\.geojson$/, '');
-      const tiles = new URL(`./tiles/${slug}/`, location.href).href + '{z}/{x}/{y}.pbf';
-      map.addSource('hexes', { type: 'vector', tiles: [tiles], minzoom: 6, maxzoom: 12 });
-      map.addLayer({ id: 'conflicts', type: 'fill', source: 'hexes', 'source-layer': 'conflict_hexes',
-        paint: { 'fill-color': colorExpression, 'fill-opacity': 0.82,
-          'fill-outline-color': 'rgba(60,70,80,0.35)' } });
-      applyFilter();
-      status.textContent = `Showing ${pair.count.toLocaleString()} cells from static vector tiles`;
-    }
-
-    map.on('load', async () => {
-      try {
-        const response = await fetch('./data/pairs.json');
-        if (!response.ok) throw new Error(`Pair list HTTP ${response.status}`);
-        const pairs = await response.json();
-        pairSelect.replaceChildren(...pairs.map((pair, index) => {
-          const option = document.createElement('option');
-          option.value = String(index);
-          option.textContent = pair.label;
-          return option;
-        }));
-        showPair(pairs[0]);
-        map.on('click', 'conflicts', event => {
-          const p = event.features[0].properties;
-          new maplibregl.Popup().setLngLat(event.lngLat).setText(
-            `${p.biv_label || 'Conflict cell'} · pressure ${p.pressure ?? '—'} · resource ${p.resource ?? '—'}`
-          ).addTo(map);
-        });
-        map.on('mouseenter', 'conflicts', () => map.getCanvas().style.cursor = 'pointer');
-        map.on('mouseleave', 'conflicts', () => map.getCanvas().style.cursor = '');
-        document.querySelectorAll('input[name="filter"]').forEach(input => input.addEventListener('change', applyFilter));
-        pairSelect.addEventListener('change', () => showPair(pairs[Number(pairSelect.value)]));
-      } catch (error) {
-        status.textContent = `Could not load map data: ${error.message}`;
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>APNEP Data Inventory Conflicts Viewer — open source test</title>
+    <link
+      href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        font:
+          16px Calibri,
+          "Segoe UI",
+          Arial,
+          sans-serif;
+        color: #191d25;
       }
-    });
-  </script>
-</body>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        display: grid;
+        grid-template-rows: 92px 134px minmax(0, 1fr) 30px;
+        background: #f4f1f1;
+      }
+      button,
+      input {
+        font: inherit;
+      }
+      button {
+        cursor: pointer;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding: 12px 32px;
+        background: #fff;
+      }
+      .brand-logo {
+        width: 72px;
+        height: 68px;
+        object-fit: contain;
+      }
+      .brand strong {
+        font-size: 27px;
+        white-space: nowrap;
+      }
+      .brand span {
+        color: #676767;
+        font-size: 20px;
+      }
+      .navigation {
+        padding: 19px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+      }
+      .nav-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        min-width: 0;
+      }
+      .nav-label {
+        width: 125px;
+        flex: 0 0 125px;
+        color: #555;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+      .chip-list {
+        display: flex;
+        gap: 8px;
+        min-width: 0;
+        overflow-x: auto;
+        scrollbar-width: thin;
+      }
+      .chip {
+        border: 0;
+        border-radius: 24px;
+        background: #cbd6e9;
+        color: #111;
+        padding: 9px 20px;
+        white-space: nowrap;
+        min-height: 36px;
+      }
+      .chip:hover,
+      .chip:focus-visible {
+        outline: 2px solid #0064b2;
+        outline-offset: 2px;
+      }
+      .chip.active {
+        background: #0066b4;
+        color: white;
+        font-weight: 700;
+      }
+      .view-chip {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        min-height: 33px;
+      }
+      .info-button {
+        margin-left: auto;
+        min-width: 90px;
+        height: 38px;
+        border: 0;
+        border-radius: 22px;
+        background: #0066b4;
+        color: #fff;
+        font-size: 21px;
+      }
+      .map-shell {
+        position: relative;
+        overflow: hidden;
+        min-height: 0;
+      }
+      #map {
+        position: absolute;
+        inset: 0;
+        background: #e4e9eb;
+      }
+      .legend-card {
+        position: absolute;
+        z-index: 2;
+        top: 17px;
+        right: 92px;
+        width: 360px;
+        max-height: calc(100% - 34px);
+        overflow: auto;
+        padding: 17px 21px;
+        border-radius: 17px;
+        background: rgba(250, 250, 250, 0.95);
+        box-shadow: 0 4px 24px #0002;
+      }
+      .detail-tabs {
+        display: flex;
+        gap: 6px;
+        margin: 0 -4px 14px;
+        border-bottom: 1px solid #d7dce1;
+      }
+      .detail-tab {
+        flex: 1;
+        border: 0;
+        border-bottom: 3px solid transparent;
+        background: transparent;
+        padding: 9px 4px;
+        color: #52606b;
+        font-weight: 700;
+      }
+      .detail-tab.active {
+        color: #0066b4;
+        border-bottom-color: #0066b4;
+      }
+      .detail-section {
+        border-top: 1px solid #e1e5e9;
+        padding: 10px 0;
+      }
+      .detail-section h3 {
+        margin: 0 0 5px;
+        font-size: 14px;
+      }
+      .detail-section p,
+      .detail-section li {
+        font-size: 13px;
+        line-height: 1.4;
+        color: #45515b;
+      }
+      .detail-section p {
+        margin: 4px 0;
+      }
+      .detail-section a {
+        color: #0066a6;
+      }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin: 8px 0;
+      }
+      .stat-box {
+        background: #eef3f7;
+        padding: 8px;
+        border-radius: 6px;
+      }
+      .stat-box b {
+        display: block;
+        font-size: 18px;
+        color: #173f5f;
+      }
+      .stat-box span {
+        font-size: 11px;
+        color: #53616c;
+      }
+      .popup-value {
+        margin: 8px 0;
+        padding: 9px;
+        background: #f1f4f6;
+        border-radius: 6px;
+        font-size: 13px;
+      }
+      .popup-bar {
+        height: 7px;
+        background: #d8dee4;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 4px 0 8px;
+      }
+      .popup-bar i {
+        display: block;
+        height: 100%;
+        background: #0066b4;
+      }
+      .legend-card h2 {
+        margin: 0 0 6px;
+        font-size: 18px;
+      }
+      .legend-stat {
+        font-size: 12px;
+        color: #606770;
+      }
+      .axis-row {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        margin: 13px 0;
+        font-size: 14px;
+        color: #5e6267;
+      }
+      .axis-row b {
+        font-size: 26px;
+        font-weight: 400;
+      }
+      .diamond-wrap {
+        width: 245px;
+        height: 173px;
+        margin: 0 auto;
+        position: relative;
+        font-size: 13px;
+        color: #555;
+      }
+      .diamond {
+        position: absolute;
+        top: 41px;
+        left: 84px;
+        display: grid;
+        grid-template-columns: repeat(3, 27px);
+        grid-template-rows: repeat(3, 27px);
+        gap: 1px;
+        transform: rotate(45deg);
+      }
+      .diamond i {
+        display: block;
+      }
+      .diamond-wrap .top {
+        position: absolute;
+        top: 1px;
+        left: 93px;
+      }
+      .diamond-wrap .left {
+        position: absolute;
+        top: 91px;
+        left: 0;
+      }
+      .diamond-wrap .right {
+        position: absolute;
+        top: 91px;
+        right: 0;
+      }
+      .diamond-wrap .bottom {
+        position: absolute;
+        bottom: 1px;
+        left: 103px;
+      }
+      .filters {
+        position: absolute;
+        z-index: 3;
+        bottom: 23px;
+        left: 22px;
+        display: flex;
+        gap: 9px;
+        padding: 7px;
+        border-radius: 18px;
+        background: #fffd;
+        box-shadow: 0 2px 15px #0002;
+      }
+      .filter {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        border: 0;
+        border-radius: 16px;
+        padding: 7px 12px;
+        background: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        box-shadow: 0 1px 8px #0002;
+        white-space: nowrap;
+      }
+      .filter .switch {
+        width: 30px;
+        height: 18px;
+        border-radius: 10px;
+        border: 1px solid #aaa;
+        background: #fff;
+        position: relative;
+      }
+      .filter .switch::before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #111;
+        transition: transform 0.15s;
+      }
+      .filter[aria-pressed="true"] .switch {
+        background: #0066b4;
+        border-color: #0066b4;
+      }
+      .filter[aria-pressed="true"] .switch::before {
+        transform: translateX(12px);
+        background: #fff;
+      }
+      .tools {
+        position: absolute;
+        z-index: 3;
+        right: 18px;
+        top: 20px;
+        display: grid;
+        gap: 6px;
+      }
+      .tools.bottom {
+        top: auto;
+        bottom: 21px;
+      }
+      .tool {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #c8c9cb;
+        background: #fff;
+        box-shadow: 0 1px 5px #0002;
+        font-size: 22px;
+      }
+      .tool[aria-expanded="true"] {
+        background: #d6e9fa;
+      }
+      .panel {
+        position: absolute;
+        z-index: 4;
+        top: 17px;
+        right: 70px;
+        width: 285px;
+        max-height: calc(100% - 35px);
+        overflow: auto;
+        padding: 17px;
+        background: white;
+        box-shadow: 0 5px 22px #0004;
+        border-radius: 9px;
+      }
+      .panel[hidden],
+      .modal[hidden] {
+        display: none;
+      }
+      .panel-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+      }
+      .panel-head h2 {
+        margin: 0;
+        font-size: 18px;
+      }
+      .close {
+        border: 0;
+        background: transparent;
+        font-size: 23px;
+      }
+      .panel label {
+        display: block;
+        margin: 12px 0;
+      }
+      .panel input[type="search"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #aab3bd;
+        border-radius: 5px;
+      }
+      .panel input[type="range"] {
+        width: 100%;
+      }
+      .hint,
+      #status {
+        color: #586674;
+        font-size: 12px;
+        line-height: 1.4;
+      }
+      #status {
+        position: absolute;
+        z-index: 2;
+        bottom: 5px;
+        left: 26px;
+        padding: 2px 5px;
+        background: #fffc;
+      }
+      footer {
+        display: grid;
+        place-items: center;
+        padding: 3px 10px;
+        text-align: center;
+        font-size: 13px;
+      }
+      .modal {
+        position: fixed;
+        z-index: 10;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        padding: 20px;
+        background: #0008;
+      }
+      .modal article {
+        width: min(630px, 100%);
+        max-height: 90vh;
+        overflow: auto;
+        padding: 25px 30px;
+        background: #fff;
+        border-radius: 10px;
+        line-height: 1.55;
+      }
+      .modal h2 {
+        margin-top: 0;
+      }
+      .modal .close {
+        float: right;
+      }
+      .maplibregl-popup-content {
+        font-family: inherit;
+        font-size: 13px;
+        line-height: 1.5;
+      }
+      .maplibregl-popup-content strong {
+        font-size: 15px;
+      }
+      .maplibregl-ctrl {
+        font-family: inherit;
+      }
+      body.map-expanded {
+        grid-template-rows: 0 0 minmax(0, 1fr) 0;
+      }
+      body.map-expanded .brand,
+      body.map-expanded .navigation,
+      body.map-expanded footer {
+        display: none;
+      }
+      @media (max-width: 900px) {
+        body {
+          grid-template-rows: 72px 129px minmax(0, 1fr) 30px;
+        }
+        .brand {
+          padding: 10px;
+          gap: 10px;
+        }
+        .brand-logo {
+          width: 45px;
+          height: 52px;
+        }
+        .brand strong {
+          font-size: 19px;
+        }
+        .brand span {
+          font-size: 14px;
+        }
+        .navigation {
+          padding: 10px;
+        }
+        .nav-label {
+          width: 85px;
+          flex-basis: 85px;
+        }
+        .chip {
+          padding: 7px 12px;
+          font-size: 13px;
+        }
+        .legend-card {
+          width: 255px;
+          right: 65px;
+          padding: 12px;
+          min-height: 0;
+        }
+        .diamond-wrap {
+          transform: scale(0.85);
+          transform-origin: top left;
+          height: 148px;
+        }
+        .filters {
+          left: 8px;
+          right: 66px;
+          overflow-x: auto;
+        }
+        .filter {
+          font-size: 12px;
+          padding: 7px;
+        }
+        footer {
+          font-size: 11px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="brand">
+      <img
+        class="brand-logo"
+        alt="Albemarle-Pamlico National Estuary Partnership"
+        src="https://www.fws.gov/sites/default/files/styles/large/public/2020-09/APNEPLogo_Partnership.png?itok=aPSm3qG8"
+      />
+      <strong>SOUND Plan</strong
+      ><span>APNEP Data Inventory Conflicts Viewer</span>
+    </header>
+    <nav class="navigation" aria-label="Conflict views">
+      <div class="nav-row">
+        <span class="nav-label">CATEGORIES</span>
+        <div id="categories" class="chip-list"></div>
+        <button
+          id="info-open"
+          class="info-button"
+          aria-label="More information"
+          title="More information"
+        >
+          ⓘ
+        </button>
+      </div>
+      <div class="nav-row">
+        <span class="nav-label">VIEWS</span>
+        <div id="views" class="chip-list"></div>
+      </div>
+    </nav>
+    <main class="map-shell">
+      <div id="map" aria-label="Map of conflict hexagons"></div>
+      <section
+        class="legend-card"
+        aria-label="Map information and selected cell details"
+      >
+        <div class="detail-tabs" role="tablist" aria-label="Map side panel">
+          <button
+            class="detail-tab active"
+            id="info-tab"
+            role="tab"
+            aria-selected="true"
+          >
+            Info &amp; Sources
+          </button>
+          <button
+            class="detail-tab"
+            id="popup-tab"
+            role="tab"
+            aria-selected="false"
+          >
+            Popup
+          </button>
+        </div>
+        <div id="info-content" role="tabpanel">
+          <h2 id="pair-title">Loading conflict pair…</h2>
+          <div class="legend-stat" id="pair-detail"></div>
+          <div class="axis-row"><b>↖</b><span>Pressure level</span></div>
+          <div class="axis-row"><b>↗</b><span>Resource level</span></div>
+          <div class="diamond-wrap" aria-label="Nine class color legend">
+            <span class="top">High - High</span
+            ><span class="left">High - Low</span
+            ><span class="right">Low - High</span
+            ><span class="bottom">Low - Low</span>
+            <div id="diamond" class="diamond"></div>
+          </div>
+          <div id="pair-sources"></div>
+        </div>
+        <div id="popup-content" role="tabpanel" hidden>
+          <h2 id="popup-title">Selected hexagon</h2>
+          <p class="hint" id="popup-empty">
+            Click a map cell to see its values and class.
+          </p>
+          <div id="popup-details"></div>
+        </div>
+      </section>
+      <div class="filters" role="group" aria-label="Filter conflict cells">
+        <button class="filter" data-mode="pressure" aria-pressed="false">
+          ⚲ High Pressure
+          <span class="switch" aria-hidden="true"></span></button
+        ><button class="filter" data-mode="resource" aria-pressed="false">
+          ⚲ High Resources
+          <span class="switch" aria-hidden="true"></span></button
+        ><button class="filter" data-mode="conflict" aria-pressed="false">
+          ⚲ High Conflict Zones <span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="tools" aria-label="Map tools">
+        <button
+          class="tool"
+          data-panel="search"
+          aria-label="Search"
+          title="Search"
+        >
+          ⌕</button
+        ><button
+          class="tool"
+          data-panel="layers"
+          aria-label="Layers"
+          title="Layers"
+        >
+          ▱</button
+        ><button
+          class="tool"
+          data-panel="basemap"
+          aria-label="Basemap"
+          title="Basemap"
+        >
+          ▦</button
+        ><button
+          class="tool"
+          id="expand"
+          aria-label="Expand map"
+          title="Expand map"
+        >
+          ⛶
+        </button>
+      </div>
+      <div class="tools bottom" aria-label="Map navigation">
+        <button class="tool" id="zoom-in" aria-label="Zoom in" title="Zoom in">
+          +</button
+        ><button
+          class="tool"
+          id="zoom-out"
+          aria-label="Zoom out"
+          title="Zoom out"
+        >
+          −</button
+        ><button class="tool" id="home" aria-label="Home" title="Home">
+          ⌂
+        </button>
+      </div>
+      <section id="search-panel" class="panel" aria-label="Search" hidden>
+        <div class="panel-head">
+          <h2>Search places</h2>
+          <button class="close" aria-label="Close search">×</button>
+        </div>
+        <input
+          id="place-search"
+          type="search"
+          list="places"
+          placeholder="Town or sound name"
+          aria-label="Search place"
+        /><datalist id="places">
+          <option value="Pamlico Sound"></option>
+          <option value="Albemarle Sound"></option>
+          <option value="New Bern"></option>
+          <option value="Washington"></option>
+          <option value="Manteo"></option>
+          <option value="Raleigh"></option></datalist
+        ><button id="search-go" class="chip active">Go to place</button>
+        <p id="search-message" class="hint">
+          Try Pamlico Sound, New Bern, or Manteo.
+        </p>
+      </section>
+      <section id="layers-panel" class="panel" aria-label="Layers" hidden>
+        <div class="panel-head">
+          <h2>Layers</h2>
+          <button class="close" aria-label="Close layers">×</button>
+        </div>
+        <label
+          ><input id="hex-visible" type="checkbox" checked /> Conflict
+          hexagons</label
+        ><label for="hex-opacity">Hex opacity</label
+        ><input id="hex-opacity" type="range" min="20" max="100" value="82" />
+        <p class="hint">
+          The selected pair contains <span id="layer-count">—</span> classified
+          hexes.
+        </p>
+      </section>
+      <section id="basemap-panel" class="panel" aria-label="Basemap" hidden>
+        <div class="panel-head">
+          <h2>Basemap</h2>
+          <button class="close" aria-label="Close basemap">×</button>
+        </div>
+        <label
+          ><input type="radio" name="basemap" value="light" checked /> Light
+          gray</label
+        ><label
+          ><input type="radio" name="basemap" value="streets" /> OpenStreetMap
+          streets</label
+        ><label
+          ><input type="radio" name="basemap" value="dark" /> Dark gray</label
+        >
+        <p class="hint">All three styles use OpenStreetMap raster tiles.</p>
+      </section>
+      <div id="status" role="status">Loading map…</div>
+    </main>
+    <footer>
+      Pressure (purple) × Resource (green) — dark indigo marks conflict
+      hotspots. Use the map filters to isolate high pressure, high resource, or
+      conflict cells.
+    </footer>
+    <div
+      id="info-modal"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="info-title"
+      hidden
+    >
+      <article>
+        <button id="info-close" class="close" aria-label="Close information">
+          ×
+        </button>
+        <h2 id="info-title">How to use</h2>
+        <p>
+          Conflict pairs show the spatial overlap between human-use pressures
+          and ecological or community resources across the Albemarle-Pamlico
+          region on an approximately 5 km² hex grid.
+        </p>
+        <p>
+          <strong>Choose a category and view</strong> above the map. Each hex
+          receives a Low, Medium, or High class for pressure and resource. The
+          nine colors combine those two classes; dark indigo indicates both are
+          High.
+        </p>
+        <p>
+          <strong>Filter cells</strong> with the three switches at the bottom.
+          Choose one at a time, or click the active switch to show all
+          classified cells. Click a hex for its source values.
+        </p>
+        <p>
+          <strong>Explore the map</strong> with search, layers, basemap, zoom,
+          and home controls. The search in this test uses a short list of named
+          places; it does not provide address geocoding.
+        </p>
+        <p>
+          <strong>Data note:</strong> This test uses the local APNEP all_pairs
+          export rendered as static Tippecanoe vector tiles. It is an
+          independent preview and does not require ArcGIS Online at runtime.
+        </p>
+      </article>
+    </div>
+    <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+    <script>
+      const colors = {
+        LL: "#f2f2f2",
+        LM: "#ced996",
+        LH: "#a9bf39",
+        ML: "#dbb6e8",
+        MM: "#ad9d91",
+        MH: "#7d926d",
+        HL: "#c47add",
+        HM: "#7b72ab",
+        HH: "#5064a0",
+      };
+      const groups = [
+        {
+          name: "Fisheries & Vessels",
+          pairs: [
+            "Fishing x Nursery Areas",
+            "Vessel Count x Submerged Aquatic Vegetation",
+          ],
+        },
+        {
+          name: "Habitats & Community",
+          pairs: [
+            "Community Vulnerability x Conservation",
+            "Community Vulnerability x Tourism",
+          ],
+        },
+        {
+          name: "Coast & Climate",
+          pairs: [
+            "Shoreline Erosion x Wetland Potential",
+            "Salinity x Agriculture",
+            "Sea Level Rise x Ferry Route",
+          ],
+        },
+      ];
+      const places = {
+        "pamlico sound": [-76.55, 35.31],
+        "albemarle sound": [-76.27, 36.02],
+        "new bern": [-77.04, 35.11],
+        washington: [-77.05, 35.55],
+        manteo: [-75.67, 35.91],
+        raleigh: [-78.64, 35.78],
+      };
+      const homeView = { center: [-76.66, 35.28], zoom: 8.1 };
+      const status = document.getElementById("status");
+      let pairs = [],
+        pairDetails = {},
+        currentPair = null,
+        activeGroup = 0,
+        activeMode = "all",
+        activePanel = null,
+        sourceReady = false;
+      function showDetailTab(name) {
+        const info = name === "info";
+        document.getElementById("info-content").hidden = !info;
+        document.getElementById("popup-content").hidden = info;
+        document.getElementById("info-tab").classList.toggle("active", info);
+        document.getElementById("popup-tab").classList.toggle("active", !info);
+        document
+          .getElementById("info-tab")
+          .setAttribute("aria-selected", String(info));
+        document
+          .getElementById("popup-tab")
+          .setAttribute("aria-selected", String(!info));
+      }
+      document
+        .getElementById("info-tab")
+        .addEventListener("click", () => showDetailTab("info"));
+      document
+        .getElementById("popup-tab")
+        .addEventListener("click", () => showDetailTab("popup"));
+      function addText(parent, tag, value) {
+        const el = document.createElement(tag);
+        el.textContent = value ?? "";
+        parent.append(el);
+        return el;
+      }
+      function renderPairDetails() {
+        const d = pairDetails[currentPair?.label];
+        const target = document.getElementById("pair-sources");
+        target.replaceChildren();
+        if (!d) return;
+        for (const key of ["pressure", "resource"]) {
+          const source = d.source?.[key];
+          if (!source) continue;
+          const section = document.createElement("section");
+          section.className = "detail-section";
+          addText(section, "h3", source.label);
+          addText(section, "p", source.description);
+          const links = document.createElement("p");
+          (source.links || []).forEach((link, i) => {
+            if (i) links.append(" · ");
+            const a = document.createElement("a");
+            a.textContent = link.label;
+            a.href = link.url;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            links.append(a);
+          });
+          section.append(links);
+          target.append(section);
+        }
+        const interpretation = document.createElement("section");
+        interpretation.className = "detail-section";
+        addText(interpretation, "h3", "Conflict Interpretation");
+        addText(interpretation, "p", d.interpretation);
+        target.append(interpretation);
+        const profile = document.createElement("section");
+        profile.className = "detail-section";
+        addText(profile, "h3", "Pair profile");
+        const grid = document.createElement("div");
+        grid.className = "stats-grid";
+        ["Data coverage", "High pressure", "High resource", "Conflict"].forEach(
+          (label, i) => {
+            const box = document.createElement("div");
+            box.className = "stat-box";
+            addText(box, "b", `${Number(d.stats?.[i] ?? 0).toFixed(1)}%`);
+            addText(box, "span", label);
+            grid.append(box);
+          },
+        );
+        profile.append(grid);
+        addText(
+          profile,
+          "p",
+          "Coverage is the share of region cells with data. Other percentages use mapped cells; region share equals the statistic multiplied by coverage.",
+        );
+        target.append(profile);
+        const scales = document.createElement("section");
+        scales.className = "detail-section";
+        addText(scales, "h3", "Value scales");
+        for (const key of ["pressure", "resource"]) {
+          const low = Number(d.breaks?.[`${key}_break_low`]);
+          const high = Number(d.breaks?.[`${key}_break_high`]);
+          const max = Number(d.max?.[key]);
+          const label = d.source?.[key]?.label || key;
+          addText(
+            scales,
+            "p",
+            `${label}: Low 0–${low.toPrecision(3)} · Medium ${low.toPrecision(3)}–${high.toPrecision(3)} · High ${high.toPrecision(3)}–${max.toPrecision(3)} (${key === "pressure" ? d.pressureUnit : d.resourceUnit}).`,
+          );
+        }
+        target.append(scales);
+      }
+      function renderSelectedFeature(p) {
+        const d = pairDetails[currentPair.label];
+        const box = document.getElementById("popup-details");
+        box.replaceChildren();
+        document.getElementById("popup-empty").hidden = true;
+        document.getElementById("popup-title").textContent =
+          p.biv_label || currentPair.label;
+        const matrix = document.createElement("div");
+        matrix.className = "diamond-wrap";
+        matrix.setAttribute("aria-label", "Selected bivariate class");
+        const diamond = document.createElement("div");
+        diamond.className = "diamond";
+        const selected = Number(p.biv_class);
+        palette.forEach((key) => {
+          const cell = document.createElement("i");
+          cell.style.background = colors[key];
+          const index =
+            ["L", "M", "H"].indexOf(key[0]) * 3 +
+            ["L", "M", "H"].indexOf(key[1]) +
+            1;
+          if (index === selected) cell.style.outline = "3px solid #111";
+          diamond.append(cell);
+        });
+        matrix.append(diamond);
+        box.append(matrix);
+        const details = [
+          [
+            d?.source?.pressure?.label || "Pressure",
+            p.pressure,
+            p.Pressure_Level,
+            d?.pressureUnit,
+          ],
+          [
+            d?.source?.resource?.label || "Resource",
+            p.resource,
+            p.Resource_Level,
+            d?.resourceUnit,
+          ],
+        ];
+        details.forEach(([label, value, level, unit]) => {
+          const section = document.createElement("div");
+          section.className = "popup-value";
+          addText(section, "strong", label);
+          addText(
+            section,
+            "div",
+            `${value ?? "No value"}${unit ? ` ${unit}` : ""} · ${["", "Low", "Medium", "High"][Number(level)] || "Unclassified"}`,
+          );
+          const bar = document.createElement("div");
+          bar.className = "popup-bar";
+          const fill = document.createElement("i");
+          fill.style.width = `${Math.max(0, Math.min(100, (Number(level || 0) / 3) * 100))}%`;
+          bar.append(fill);
+          section.append(bar);
+          box.append(section);
+        });
+        if (p.h3_index) addText(box, "p", `Hex: ${p.h3_index}`);
+        showDetailTab("popup");
+      }
+      const palette = ["HH", "MH", "LH", "HM", "MM", "LM", "HL", "ML", "LL"];
+      document.getElementById("diamond").innerHTML = palette
+        .map(
+          (key) => `<i style="background:${colors[key]}" title="${key}"></i>`,
+        )
+        .join("");
+      const colorExpression = [
+        "match",
+        ["get", "biv_class"],
+        ...Object.keys(colors).flatMap((key) => [
+          ["L", "M", "H"].indexOf(key[0]) * 3 +
+            ["L", "M", "H"].indexOf(key[1]) +
+            1,
+          colors[key],
+        ]),
+        "#cccccc",
+      ];
+      const map = new maplibregl.Map({
+        container: "map",
+        center: homeView.center,
+        zoom: homeView.zoom,
+        style: {
+          version: 8,
+          sources: {
+            osm: {
+              type: "raster",
+              tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+              tileSize: 256,
+              attribution: "© OpenStreetMap contributors",
+            },
+          },
+          layers: [
+            {
+              id: "basemap",
+              type: "raster",
+              source: "osm",
+              paint: {
+                "raster-saturation": -1,
+                "raster-brightness-min": 0.32,
+                "raster-brightness-max": 1,
+              },
+            },
+          ],
+        },
+      });
+      new ResizeObserver(() => map.resize()).observe(
+        document.getElementById("map"),
+      );
+      function chip(text, active, onClick, extra = "") {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = `chip ${extra}${active ? " active" : ""}`;
+        b.textContent = text;
+        b.setAttribute("aria-pressed", String(active));
+        b.addEventListener("click", onClick);
+        return b;
+      }
+      function viewSlug(label) {
+        return label.replaceAll(" x ", "-x-").replaceAll(" ", "-");
+      }
+      function renderNavigation() {
+        document
+          .getElementById("categories")
+          .replaceChildren(
+            ...groups.map((g, i) =>
+              chip(g.name, i === activeGroup, () => selectGroup(i)),
+            ),
+          );
+        document
+          .getElementById("views")
+          .replaceChildren(
+            ...groups[activeGroup].pairs.map((label) =>
+              chip(
+                label,
+                currentPair?.label === label,
+                () => selectPair(pairs.find((p) => p.label === label)),
+                "view-chip",
+              ),
+            ),
+          );
+      }
+      function selectGroup(i) {
+        activeGroup = i;
+        selectPair(pairs.find((p) => p.label === groups[i].pairs[0]));
+      }
+      function filterExpression() {
+        const base = ["==", ["get", "pair"], currentPair.pair];
+        if (activeMode === "pressure")
+          return ["all", base, ["==", ["get", "Pressure_Level"], 3]];
+        if (activeMode === "resource")
+          return ["all", base, ["==", ["get", "Resource_Level"], 3]];
+        if (activeMode === "conflict")
+          return ["all", base, ["==", ["get", "biv_class"], 9]];
+        return base;
+      }
+      function applyFilter() {
+        if (!sourceReady || !currentPair) return;
+        map.setFilter("conflicts", filterExpression());
+        document
+          .querySelectorAll(".filter")
+          .forEach((b) =>
+            b.setAttribute(
+              "aria-pressed",
+              String(b.dataset.mode === activeMode),
+            ),
+          );
+      }
+      function selectPair(pair, updateUrl = true) {
+        if (!pair) return;
+        currentPair = pair;
+        renderNavigation();
+        activeGroup = groups.findIndex((g) => g.pairs.includes(pair.label));
+        if (map.getLayer("conflicts")) map.removeLayer("conflicts");
+        if (map.getSource("hexes")) map.removeSource("hexes");
+        const slug = pair.file
+          .split("/")
+          .pop()
+          .replace(/\.geojson$/, "");
+        const tiles =
+          new URL(`./tiles/${slug}/`, location.href).href + "{z}/{x}/{y}.pbf";
+        map.addSource("hexes", {
+          type: "vector",
+          tiles: [tiles],
+          minzoom: 6,
+          maxzoom: 12,
+        });
+        map.addLayer({
+          id: "conflicts",
+          type: "fill",
+          source: "hexes",
+          "source-layer": "conflict_hexes",
+          layout: {
+            visibility: document.getElementById("hex-visible").checked
+              ? "visible"
+              : "none",
+          },
+          paint: {
+            "fill-color": colorExpression,
+            "fill-opacity":
+              Number(document.getElementById("hex-opacity").value) / 100,
+            "fill-outline-color": "rgba(80,85,90,.2)",
+          },
+        });
+        sourceReady = true;
+        document.getElementById("pair-title").textContent = pair.label;
+        renderPairDetails();
+        document.getElementById("pair-detail").textContent =
+          `${pair.count.toLocaleString()} classified hexes · ${pair.title}`;
+        document.getElementById("layer-count").textContent =
+          pair.count.toLocaleString();
+        status.textContent = `Showing ${pair.count.toLocaleString()} cells from static vector tiles`;
+        applyFilter();
+        renderNavigation();
+        if (updateUrl) {
+          const url = new URL(location.href);
+          url.searchParams.set("views", viewSlug(pair.label));
+          history.replaceState(null, "", url);
+        }
+      }
+      function setPanel(name) {
+        activePanel = activePanel === name ? null : name;
+        for (const type of ["search", "layers", "basemap"])
+          document.getElementById(`${type}-panel`).hidden =
+            activePanel !== type;
+        document
+          .querySelectorAll("[data-panel]")
+          .forEach((b) =>
+            b.setAttribute(
+              "aria-expanded",
+              String(b.dataset.panel === activePanel),
+            ),
+          );
+        if (activePanel === "search")
+          document.getElementById("place-search").focus();
+      }
+      document.querySelectorAll(".filter").forEach((b) =>
+        b.addEventListener("click", () => {
+          activeMode = activeMode === b.dataset.mode ? "all" : b.dataset.mode;
+          applyFilter();
+        }),
+      );
+      document
+        .querySelectorAll("[data-panel]")
+        .forEach((b) =>
+          b.addEventListener("click", () => setPanel(b.dataset.panel)),
+        );
+      document
+        .querySelectorAll(".panel .close")
+        .forEach((b) =>
+          b.addEventListener("click", () => setPanel(activePanel)),
+        );
+      document
+        .getElementById("hex-visible")
+        .addEventListener("change", (e) =>
+          map.setLayoutProperty(
+            "conflicts",
+            "visibility",
+            e.target.checked ? "visible" : "none",
+          ),
+        );
+      document
+        .getElementById("hex-opacity")
+        .addEventListener("input", (e) =>
+          map.setPaintProperty(
+            "conflicts",
+            "fill-opacity",
+            Number(e.target.value) / 100,
+          ),
+        );
+      document.querySelectorAll("[name=basemap]").forEach((input) =>
+        input.addEventListener("change", () => {
+          const value = document.querySelector("[name=basemap]:checked").value;
+          const paint =
+            value === "streets"
+              ? {
+                  "raster-saturation": 0,
+                  "raster-brightness-min": 0,
+                  "raster-brightness-max": 1,
+                }
+              : value === "dark"
+                ? {
+                    "raster-saturation": -1,
+                    "raster-brightness-min": 0,
+                    "raster-brightness-max": 0.48,
+                  }
+                : {
+                    "raster-saturation": -1,
+                    "raster-brightness-min": 0.32,
+                    "raster-brightness-max": 1,
+                  };
+          for (const [key, val] of Object.entries(paint))
+            map.setPaintProperty("basemap", key, val);
+        }),
+      );
+      document
+        .getElementById("zoom-in")
+        .addEventListener("click", () => map.zoomIn());
+      document
+        .getElementById("zoom-out")
+        .addEventListener("click", () => map.zoomOut());
+      document
+        .getElementById("home")
+        .addEventListener("click", () => map.flyTo(homeView));
+      document.getElementById("expand").addEventListener("click", () => {
+        document.body.classList.toggle("map-expanded");
+        map.resize();
+        document
+          .getElementById("expand")
+          .setAttribute(
+            "aria-label",
+            document.body.classList.contains("map-expanded")
+              ? "Exit expanded map"
+              : "Expand map",
+          );
+      });
+      function searchPlace() {
+        const name = document.getElementById("place-search").value.trim(),
+          coordinates = places[name.toLowerCase()],
+          message = document.getElementById("search-message");
+        if (!coordinates) {
+          message.textContent =
+            "Choose a listed place. Address search is not available in this test.";
+          return;
+        }
+        map.flyTo({ center: coordinates, zoom: 10 });
+        message.textContent = `Map centered on ${name}.`;
+      }
+      document
+        .getElementById("search-go")
+        .addEventListener("click", searchPlace);
+      document
+        .getElementById("place-search")
+        .addEventListener("keydown", (e) => {
+          if (e.key === "Enter") searchPlace();
+        });
+      const modal = document.getElementById("info-modal");
+      document.getElementById("info-open").addEventListener("click", () => {
+        modal.hidden = false;
+        document.getElementById("info-close").focus();
+      });
+      document
+        .getElementById("info-close")
+        .addEventListener("click", () => (modal.hidden = true));
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) modal.hidden = true;
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          modal.hidden = true;
+          if (activePanel) setPanel(activePanel);
+        }
+      });
+      map.on("click", "conflicts", (event) => {
+        renderSelectedFeature(event.features[0].properties);
+      });
+      map.on(
+        "mouseenter",
+        "conflicts",
+        () => (map.getCanvas().style.cursor = "pointer"),
+      );
+      map.on(
+        "mouseleave",
+        "conflicts",
+        () => (map.getCanvas().style.cursor = ""),
+      );
+      map.on("load", async () => {
+        try {
+          const [response, detailResponse] = await Promise.all([
+            fetch("./data/pairs.json"),
+            fetch("./data/pair-details.json"),
+          ]);
+          if (!response.ok)
+            throw new Error(`Pair list HTTP ${response.status}`);
+          if (!detailResponse.ok)
+            throw new Error(`Pair details HTTP ${detailResponse.status}`);
+          [pairs, pairDetails] = await Promise.all([
+            response.json(),
+            detailResponse.json(),
+          ]);
+          const selected = new URL(location.href).searchParams.get("views");
+          const initial =
+            pairs.find((p) => viewSlug(p.label) === selected) ||
+            pairs.find((p) => p.label === groups[0].pairs[0]);
+          selectPair(initial, false);
+        } catch (error) {
+          status.textContent = `Could not load map data: ${error.message}`;
+        }
+      });
+    </script>
+  </body>
 </html>
