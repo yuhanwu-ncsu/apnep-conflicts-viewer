@@ -17,16 +17,21 @@ def main():
     assert len(features) == sum(pair["count"] for pair in manifest) == 49277
     assert len(manifest) == 7
     assert (SITE / "index.html").exists()
-    tiles = list(TILES.glob("*/*/*.pbf"))
+    tiles = list(TILES.glob("*/*/*/*.pbf"))
     assert tiles, "Tippecanoe produced no PBF tiles"
     sizes = defaultdict(lambda: {"count": 0, "bytes": 0})
+    pair_sizes = defaultdict(lambda: {"count": 0, "bytes": 0, "largest_tile_bytes": 0})
     largest = max(tiles, key=lambda path: path.stat().st_size)
     for path in tiles:
         with path.open("rb") as tile:
             assert tile.read(2) != b"\x1f\x8b", f"Compressed tile: {path}"
-        zoom = path.relative_to(TILES).parts[0]
+        slug, zoom = path.relative_to(TILES).parts[:2]
         sizes[zoom]["count"] += 1
         sizes[zoom]["bytes"] += path.stat().st_size
+        pair_sizes[slug]["count"] += 1
+        pair_sizes[slug]["bytes"] += path.stat().st_size
+        pair_sizes[slug]["largest_tile_bytes"] = max(pair_sizes[slug]["largest_tile_bytes"], path.stat().st_size)
+    assert set(pair_sizes) == {Path(pair["file"]).stem for pair in manifest}
     report = {
         "source_features": len(features), "pairs": len(manifest),
         "tile_count": len(tiles),
@@ -34,6 +39,7 @@ def main():
         "largest_tile": str(largest.relative_to(SITE)),
         "largest_tile_bytes": largest.stat().st_size,
         "zooms": dict(sorted(sizes.items(), key=lambda item: int(item[0]))),
+        "by_pair": dict(sorted(pair_sizes.items())),
     }
     (SITE / "tile-report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(json.dumps(report, indent=2))

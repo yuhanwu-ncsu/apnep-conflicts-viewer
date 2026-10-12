@@ -1,6 +1,6 @@
 # Tippecanoe test
 
-This isolated branch test uses the local APNEP `all_pairs.geojson` upload kit. It builds one MapLibre vector tileset with all 49,277 hexes and seven pairs, checks for uncompressed PBF tiles, and records tile count and sizes in `tile-report.json`. It uploads a runnable site as a GitHub Actions artifact. It does not deploy or replace the live Experience Builder page.
+This isolated branch test uses the local APNEP `all_pairs.geojson` upload kit. It builds seven MapLibre vector tilesets from all 49,277 hexes, one tileset per pair, so visitors load only their selected pair. It checks for uncompressed PBF tiles and records tile count and sizes in `tile-report.json`. It uploads a runnable site as a GitHub Actions artifact. It does not deploy or replace the live Experience Builder page.
 
 The checked-in `all_pairs.geojson.gz` contains only the eight fields needed for the map filters and popup. Regenerate it after the local source data changes with:
 

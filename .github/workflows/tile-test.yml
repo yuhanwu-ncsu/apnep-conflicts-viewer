@@ -25,12 +25,16 @@ jobs:
           mkdir -p tile-test/site/data
           cp tile-test/index.html tile-test/site/index.html
           cp tile-test/pairs.json tile-test/site/data/pairs.json
-          "$RUNNER_TEMP/tippecanoe/tippecanoe" \
-            --output-to-directory=tile-test/site/tiles \
-            --layer=conflict_hexes \
-            --minimum-zoom=6 --maximum-zoom=12 \
-            --no-tile-compression --no-feature-limit --no-tile-size-limit \
-            tile-test/all_pairs.geojson.gz
+          python tile-test/split_pairs.py
+          for input in tile-test/inputs/*.geojson.gz; do
+            slug="$(basename "$input" .geojson.gz)"
+            "$RUNNER_TEMP/tippecanoe/tippecanoe" \
+              --output-to-directory="tile-test/site/tiles/$slug" \
+              --layer=conflict_hexes \
+              --minimum-zoom=6 --maximum-zoom=12 \
+              --no-tile-compression --no-feature-limit --no-tile-size-limit \
+              "$input"
+          done
       - name: Validate and measure tiles
         run: python tile-test/check_tiles.py
       - name: Upload test site

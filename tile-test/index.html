@@ -71,10 +71,9 @@
     });
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
     const status = document.getElementById('status');
-    const tileTemplate = new URLSearchParams(location.search).get('tiles') || './tiles/{z}/{x}/{y}.pbf';
+    const tileTemplate = './tiles/{pair}/{z}/{x}/{y}.pbf';
     const pairSelect = document.getElementById('pair');
     let currentPair = null;
-    let loadSequence = 0;
     const colorExpression = ['match', ['get', 'biv_class'],
       ...Object.keys(colors).flatMap(key => [
         (classCode.indexOf(key[0]) * 3) + classCode.indexOf(key[1]) + 1, colors[key]
@@ -92,29 +91,19 @@
       map.setFilter('conflicts', filters[mode]);
     }
 
-    async function showPair(pair) {
+    function showPair(pair) {
       currentPair = pair;
       document.getElementById('pair-detail').textContent = `${pair.count.toLocaleString()} classified hexes`;
+      if (map.getLayer('conflicts')) map.removeLayer('conflicts');
+      if (map.getSource('hexes')) map.removeSource('hexes');
+      const slug = pair.file.split('/').pop().replace(/\.geojson$/, '');
+      const tiles = new URL(tileTemplate.replace('{pair}', slug), location.href).href;
+      map.addSource('hexes', { type: 'vector', tiles: [tiles], minzoom: 6, maxzoom: 12 });
+      map.addLayer({ id: 'conflicts', type: 'fill', source: 'hexes', 'source-layer': 'conflict_hexes',
+        paint: { 'fill-color': colorExpression, 'fill-opacity': 0.82,
+          'fill-outline-color': 'rgba(60,70,80,0.35)' } });
       applyFilter();
-      if (tileTemplate) {
-        status.textContent = `Showing ${pair.count.toLocaleString()} cells from static vector tiles`;
-        return;
-      }
-      const sequence = ++loadSequence;
-      status.textContent = `Loading ${pair.label}…`;
-      try {
-        const response = await fetch('./' + pair.file);
-        if (!response.ok) throw new Error(`GeoJSON HTTP ${response.status}`);
-        const data = await response.json();
-        if (sequence !== loadSequence) return;
-        map.getSource('hexes').setData(data);
-        status.textContent = `${data.features.length.toLocaleString()} hexes loaded from static GeoJSON`;
-        const bounds = new maplibregl.LngLatBounds();
-        data.features.forEach(feature => feature.geometry.coordinates[0].forEach(point => bounds.extend(point)));
-        if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 35, maxZoom: 9 });
-      } catch (error) {
-        status.textContent = `Could not load map data: ${error.message}`;
-      }
+      status.textContent = `Showing ${pair.count.toLocaleString()} cells from static vector tiles`;
     }
 
     map.on('load', async () => {
@@ -128,17 +117,7 @@
           option.textContent = pair.label;
           return option;
         }));
-        let sourceLayer;
-        if (tileTemplate) {
-          map.addSource('hexes', { type: 'vector', tiles: [new URL(tileTemplate, location.href).href], minzoom: 0, maxzoom: 12 });
-          sourceLayer = 'conflict_hexes';
-        } else {
-          map.addSource('hexes', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
-        }
-        const layerOptions = sourceLayer ? { 'source-layer': sourceLayer } : {};
-        map.addLayer({ id: 'conflicts', type: 'fill', source: 'hexes', ...layerOptions,
-          paint: { 'fill-color': colorExpression, 'fill-opacity': 0.82,
-            'fill-outline-color': 'rgba(60,70,80,0.35)' } });
+        showPair(pairs[0]);
         map.on('click', 'conflicts', event => {
           const p = event.features[0].properties;
           new maplibregl.Popup().setLngLat(event.lngLat).setText(
@@ -149,7 +128,6 @@
         map.on('mouseleave', 'conflicts', () => map.getCanvas().style.cursor = '');
         document.querySelectorAll('input[name="filter"]').forEach(input => input.addEventListener('change', applyFilter));
         pairSelect.addEventListener('change', () => showPair(pairs[Number(pairSelect.value)]));
-        await showPair(pairs[0]);
       } catch (error) {
         status.textContent = `Could not load map data: ${error.message}`;
       }
