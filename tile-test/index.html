@@ -571,6 +571,38 @@
         box-shadow: 0 1px 8px #0002;
         white-space: nowrap;
       }
+      .filter:hover,
+      .filter:focus-visible {
+        outline: 2px solid #66859a;
+        outline-offset: 2px;
+      }
+      .detail-pill:focus-visible,
+      .source-link:focus-visible {
+        outline: 2px solid #66859a;
+        outline-offset: 3px;
+      }
+      .cell-hover-popup {
+        pointer-events: none;
+      }
+      .cell-hover-popup .maplibregl-popup-content {
+        pointer-events: none;
+        border: 1px solid #ffffffd9;
+        border-radius: 8px;
+        padding: 8px 11px;
+        background: #263746ed;
+        box-shadow: 0 3px 12px #10212e45;
+        color: #fff;
+        font-family: Calibri, Arial, sans-serif;
+      }
+      .cell-hover-title {
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .cell-hover-hint {
+        margin-top: 2px;
+        color: #e0e8ed;
+        font-size: 11px;
+      }
       .filter .switch {
         width: 30px;
         height: 18px;
@@ -1129,7 +1161,14 @@
         activeMode = "all",
         activePanel = null,
         selectedHexId = null,
+        hoveredHexId = null,
         sourceReady = false;
+      const hoverPopup = new maplibregl.Popup({
+        closeButton: false,
+        closeOnClick: false,
+        offset: 12,
+        className: "cell-hover-popup",
+      });
       const classOrder = ["LL", "LM", "LH", "ML", "MM", "MH", "HL", "HM", "HH"];
       function markLegendClass(classNumber) {
         const selected = classOrder[Number(classNumber) - 1] || null;
@@ -1151,6 +1190,38 @@
           : ["==", ["get", "h3_index"], "__no_selection__"];
         for (const id of ["selected-cell-casing", "selected-cell-outline"])
           if (map.getLayer(id)) map.setFilter(id, filter);
+      }
+      function clearCellHover() {
+        hoveredHexId = null;
+        if (map.getLayer("hover-cell-outline"))
+          map.setFilter("hover-cell-outline", [
+            "==",
+            ["get", "h3_index"],
+            "__no_selection__",
+          ]);
+        hoverPopup.remove();
+      }
+      function showCellHover(event) {
+        const feature = event.features[0];
+        const id = feature.properties.h3_index;
+        if (!id) return;
+        map.getCanvas().style.cursor = "pointer";
+        if (id !== hoveredHexId) {
+          hoveredHexId = id;
+          map.setFilter("hover-cell-outline", ["==", ["get", "h3_index"], id]);
+          const card = document.createElement("div");
+          const title = addText(
+            card,
+            "div",
+            feature.properties.biv_label || "Conflict cell",
+          );
+          title.className = "cell-hover-title";
+          const hint = addText(card, "div", "Click to open cell details");
+          hint.className = "cell-hover-hint";
+          hoverPopup.setDOMContent(card);
+          if (!hoverPopup.isOpen()) hoverPopup.addTo(map);
+        }
+        hoverPopup.setLngLat(event.lngLat);
       }
       function showDetailTab(name) {
         const info = name === "info";
@@ -1656,6 +1727,7 @@
       }
       function selectPair(pair, updateUrl = true) {
         if (!pair) return;
+        clearCellHover();
         currentPair = pair;
         selectedHexId = null;
         markLegendClass(null);
@@ -1672,6 +1744,8 @@
           map.removeLayer("selected-cell-outline");
         if (map.getLayer("selected-cell-casing"))
           map.removeLayer("selected-cell-casing");
+        if (map.getLayer("hover-cell-outline"))
+          map.removeLayer("hover-cell-outline");
         if (map.getSource("hexes")) map.removeSource("hexes");
         const slug = pair.file
           .split("/")
@@ -1700,6 +1774,19 @@
             "fill-opacity":
               Number(document.getElementById("hex-opacity").value) / 100,
             "fill-outline-color": "rgba(80,85,90,.2)",
+          },
+        });
+        map.addLayer({
+          id: "hover-cell-outline",
+          type: "line",
+          source: "hexes",
+          "source-layer": "conflict_hexes",
+          filter: ["==", ["get", "h3_index"], "__no_selection__"],
+          paint: {
+            "line-color": "#f8fbfc",
+            "line-width": 3,
+            "line-opacity": 0.72,
+            "line-blur": 0.8,
           },
         });
         map.addLayer({
@@ -1875,6 +1962,7 @@
         }
       });
       map.on("click", "conflicts", (event) => {
+        clearCellHover();
         renderSelectedFeature(event.features[0].properties);
       });
       map.on("click", (event) => {
@@ -1883,6 +1971,7 @@
             .length
         )
           return;
+        clearCellHover();
         selectedHexId = null;
         markLegendClass(null);
         applyCellHighlight();
@@ -1894,17 +1983,15 @@
         document.getElementById("popup-empty").hidden = false;
         showDetailTab("popup");
       });
-      map.on(
-        "mouseenter",
-        "conflicts",
-        () => (map.getCanvas().style.cursor = "pointer"),
-      );
-      map.on(
-        "mouseleave",
-        "conflicts",
-        () => (map.getCanvas().style.cursor = ""),
-      );
-      map.on("style.load", async () => {
+      map.on("mousemove", "conflicts", showCellHover);
+      map.on("mouseleave", "conflicts", () => {
+        clearCellHover();
+        map.getCanvas().style.cursor = "";
+      });
+      let pairDataStarted = false;
+      async function initializePairs() {
+        if (pairDataStarted) return;
+        pairDataStarted = true;
         try {
           const [response, detailResponse] = await Promise.all([
             fetch("./data/pairs.json"),
@@ -1926,7 +2013,10 @@
         } catch (error) {
           status.textContent = `Could not load map data: ${error.message}`;
         }
-      });
+      }
+      map.on("style.load", initializePairs);
+      map.on("load", initializePairs);
+      if (map.isStyleLoaded()) initializePairs();
     </script>
   </body>
 </html>
