@@ -11,7 +11,7 @@ TILES = SITE / "tiles"
 
 
 def main():
-    with gzip.open(ROOT / "all_pairs.geojson.gz", encoding="utf-8") as source:
+    with gzip.open(ROOT / "all_pairs.geojson.gz", "rt", encoding="utf-8") as source:
         features = json.load(source)["features"]
     manifest = json.loads((SITE / "data/pairs.json").read_text(encoding="utf-8"))
     assert len(features) == sum(pair["count"] for pair in manifest) == 49277
