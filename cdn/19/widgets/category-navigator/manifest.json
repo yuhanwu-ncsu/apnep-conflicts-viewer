@@ -1,0 +1,27 @@
+{
+  "name": "category-navigator",
+  "label": "Category Navigator",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.21.0",
+  "author": "ywu223",
+  "description": "Two-level navigation widget: categories on the first level, section views on the second level.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "publishMessages": [
+    "VIEW_CHANGE"
+  ],
+  "properties": {
+    "hasSettingPage": true,
+    "coverLayoutBackground": true
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 60,
+    "autoHeight": true,
+    "autoWidth": true
+  }
+}

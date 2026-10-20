@@ -1,0 +1,26 @@
+{
+  "name": "panel-accordion",
+  "label": "Panel Accordion",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.21.0",
+  "author": "ywu223",
+  "description": "Accordion panel for conflict viewer info panels",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "publishMessages": [],
+  "messageActions": [],
+  "defaultSize": {
+    "width": 400,
+    "height": 400
+  },
+  "properties": {
+    "coverLayoutBackground": true,
+    "flipIcon": true,
+    "hasConfig": false
+  },
+  "dependency": "jimu-arcgis",
+  "translatedLocales": [
+    "en"
+  ]
+}
